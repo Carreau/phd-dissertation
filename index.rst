@@ -5,29 +5,31 @@ Contents
 This is the University of California, Davis Mechanical and Aerospace
 Engineering doctoral dissertation of Jason K. Moore.
 
-.. image:: figures/bear-6in.*
-   :align: center
-   :width: 600px
-   :target: _images/bear-6in.png
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   abstract
-   foreword
+   physicalparameters
+   spinning
+   doublets
+
+..   abstract
+..   foreword
    acknowledgements
    preface
    introduction
-   eom
-   extensions
-   physicalparameters
-   parameterstudy
-   delftbicycle
-   motioncapture
-   davisbicycle
-   control
-   systemidentification
-   zreferences
+..   eom
+..   extensions
+
+
+..   parameterstudy
+..   delftbicycle
+..   motioncapture
+..   davisbicycle
+..
+..   control
+..   systemidentification
+..   zreferences
 
 * :ref:`search`
 

@@ -30,6 +30,11 @@ extensions = ['sphinx.ext.todo', 'sphinx.ext.mathjax', 'sphinxcontrib.bibtex']
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+author_first = u'Matthias'
+author_last= u'Bussonnier'
+author_full = u' '.join([author_first,author_last])
+
+
 # The suffix of source filenames.
 source_suffix = '.rst'
 
@@ -40,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Human Control of a Bicycle'
-copyright = u'2012, Jason K. Moore'
+project = u'Actin gel dynamics'
+copyright = u'2014, '+author_full 
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -111,7 +116,7 @@ html_theme = 'haiku'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = project + ': Jason K. Moore'
+html_title = project + ':'+author_full
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -172,7 +177,7 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'HumanControlofaBicycledoc'
+htmlhelp_basename = 'actingeldynamics'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -186,8 +191,8 @@ latex_font_size = '10pt'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index-latex', 'HumanControlofaBicycle.tex', u'Human Control of a Bicycle',
-   u'Jason K. Moore', 'manual', False),
+  ('index-latex', 'actingeldynamics', u'Actin Gels dynamics',
+   author_full, 'manual', False),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -305,6 +310,6 @@ latex_elements = {'preamble': preamble,
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'humancontrolofabicycle', u'Human Control of a Bicycle Documentation',
-     [u'Jason K. Moore'], 1)
+    ('index', 'humancontrolofabicycle', u'Actin gels dynamics Documentation',
+     [author_full], 1)
 ]

@@ -1,11 +1,15 @@
 .. _physicalparameters:
 
-===================
-Physical Parameters
-===================
+==================
+Optical Trap Setup
+==================
 
 Preface
 =======
+
+In order to manipulate the polystyrene beads that are used in the different
+experiments, I worked on a already build setup with time shared optical trap
+
 
 My first concern with the physical parameters of the bicycle and rider occurred
 in my multi-body dynamics class project :cite:`Moore2006`. There I developed a
