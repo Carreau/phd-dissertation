@@ -11,75 +11,30 @@ In order to manipulate the polystyrene beads that are used in the different
 experiments, I worked on a already build setup with time shared optical trap
 
 
-My first concern with the physical parameters of the bicycle and rider occurred
-in my multi-body dynamics class project :cite:`Moore2006`. There I developed a
-method of estimating the parameter values using simply the geometry and mass of
-the bicycle and rider. It was eventually presented as part of a paper at the
-2008 ISEA conference in Biarritz, France :cite:`Moore2008`. This method served
-me well until more accurate estimates of the parameters were needed for the
-first instrumented bicycle I helped build at TU Delft, see Chapter
-:ref:`delftbicycle`. I signed on to the task of measuring the bike's physical
-parameters using the equipment and procedures developed in :cite:`Kooijman2006`
-and to combine the results with my basic human model from :cite:`Moore2008` for
-the estimation of the complete system parameters of the Whipple model. These
-first measurements and the details of the human model were eventually presented
-in :cite:`Moore2009a`. During this work, Dr. Hubbard encouraged me to think
-about the accuracy of the measurements in more detail, as some of the practices
-we were using were not as accurate as they could be. With that in mind and the
-fact that there was very little complete data available on the physical
-parameters of real bicycles, I decided to measure an assortment of bicycles we
-had available around the lab in Delft :cite:`Moore2010`. From this tedious task
-a rich data set was created and the measurement methodology tightened up
-considerably. Once I was back in Davis, we setup almost identical equipment to
-measure the two new bicycles we were constructing, see Chatper
-:ref:`davisbicycle`. Danique Fintelman helped us come up with a more accurate
-geometry measurement. Steven Yen also used the equipment to measure a
-children's bicycle with a gyro wheel. With one last improvement, we updated
-the human parameter estimates when Chris Dembia implemented Yeadon's human
-inertia model and it was combined with the accurate bicycle measurements. These
-final methods for both bicycle and rider are implemented in two open source
-software packages.
+To investigate the effect of different actin network on mechanics of cell
+behavior, Sykes team of curie institute is specialized in using biomimetics
+sytems. In particular, polystyrene actin bead covered with nucleator of actin
+polymerisation have been developped as a biomimetic system of listeria
+monocytogen. It is such a system that I have studied. 
+
+By growing actin network in controlled condition I was able to reproductibly
+determine mechanical properties.
+
+Choice of experimental tools
+============================
+
+
+The choice of experimental tools, and experimental conditions is important to
+determine in the range of properties and parameters you can access to.
+Previous and ongoing studies at the time were focused on the properties of dense
+gel in comets tails, as well as the one around the polystyrene beads, as well as the one on the surface before symetry breaking.
+
 
 .. _secBicycleParameters:
 
 Bicycle Parameters
 ==================
 
-Accurate measurements of a bicycle's physical parameters are required for
-realistic dynamic simulation and analysis. The most basic models require the
-geometry, mass, mass location, and mass distributions for the rigid bodies.
-More complex models require estimates of tire characteristics, human body
-segment inertial characteristics, friction, stiffness, damping, etc. In this
-chapter I present the measurement of the minimal bicycle/rider parameters
-required for the benchmark Whipple bicycle model presented in
-:cite:`Meijaard2007`. This model is composed of four rigid bodies, has ideal
-rolling and frictionless joints, and is laterally symmetric. A set of 25
-parameters describes the geometry, mass, mass location and mass distribution of
-each of the rigid bodies. The experimental methods used to estimate the
-parameters described herein are based primarily on the work done in
-:cite:`Kooijman2006`, :cite:`Kooijman2008` and :cite:`Moore2009a` but have been
-refined for improved accuracy and methodology.
-
-Koojiman's work was preceded by that of several others. Roland and Massing
-:cite:`Roland1971` measured the physical parameters of a bicycle in much the
-same way as is presented, including calculations of uncertainty from the
-indirect measurement techniques. :cite:`Zytveld1975` measured the inertial
-parameters of his robotic bicycle with a swing pendulum and a stop watch.
-Patterson :cite:`Patterson2004` used a swing to measure the roll inertia of
-recumbent bicycles with a rider. :cite:`Connors2009` and :cite:`Stevens2009`
-used a computer aided design package to estimate the parameters.
-:cite:`Escalona2010` measured a bicycle for his bicycle dynamics class in
-Spain. Also, some notable motorcycle and scooter measurements include
-:cite:`Dohring1953`, :cite:`Dohring1955`, :cite:`Singh1971`, :cite:`Eaton1973`,
-:cite:`Roland1973`, and :cite:`Sharp1997b`.
-
-Here is documented the indirect measurement of ten real bicycles' physical
-parameters. We improve upon previous methods by both increasing and reporting
-the accuracies of the measurements and by measuring the complete moments of
-inertia of the laterally symmetric frame and fork needed for analysis of the
-nonlinear model. Furthermore, very little data exists on the physical
-parameters of different types of bicycles and this work aims to provide a small
-sample of bicycles.
 
 We measured the physical characteristics of eleven different bicycles, three of
 which were set up in two different configurations. The first six bicycles,
@@ -1022,30 +977,6 @@ is the moment of inertia about the pendulum axis and is written explicitly as
    2s_{\beta i}c_{\beta i}I_{\mathrm{B}xz} +
    s^{2}_{\beta i}I_{\mathrm{B}zz}
 
-Similarly, calculating all three, or more, :math:`J_{\mathrm{B}i}` allows one
-to form
-
-.. math::
-   :label: eqInRel
-
-    \begin{bmatrix}
-        J_{\mathrm{B}1}\\
-        J_{\mathrm{B}2}\\
-        J_{\mathrm{B}3}\\
-        \vdots
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-        c_{\beta 1}^2 & -2s_{\beta 1}c_{\beta 1} & s_{\beta 1}^2\\
-        c_{\beta 2}^2 & -2s_{\beta 2}c_{\beta 2} & s_{\beta 2}^2\\
-        c_{\beta 3}^2 & -2s_{\beta 3}c_{\beta 3} & s_{\beta 3}^2\\
-        \vdots & \vdots & \vdots
-    \end{bmatrix}
-    \begin{bmatrix}
-        I_{\mathrm{B}xx}\\
-        I_{\mathrm{B}xz}\\
-        I_{\mathrm{B}zz}
-    \end{bmatrix}
 
 and the moments of inertia can be solved as a linear system or with least
 squares if it is over determined. The inertia of the frame about an axis normal

@@ -10,6 +10,7 @@ Engineering doctoral dissertation of Jason K. Moore.
    :maxdepth: 1
 
    physicalparameters
+   foo something
    spinning
    doublets
 

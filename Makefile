@@ -186,3 +186,7 @@ pushdata:
 	tar -cvjf dissertation-data.tar.bz2 figures/ data/ tables/
 	scp dissertation-data.tar.bz2 biosport@mae.ucdavis.edu:/home/grads/biosport/public_html/jkm/dissertation/
 	@echo "The dissertation data has been pushed to the mae server."
+
+
+livehtml: html
+	livereload -b $(BUILDDIR)/html
