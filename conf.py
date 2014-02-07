@@ -191,13 +191,13 @@ latex_font_size = '10pt'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index-latex', 'actingeldynamics', u'Actin Gels dynamics',
+  ('index-latex', 'actingeldynamics.tex', u'Actin Gels dynamics',
    author_full, 'manual', False),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = 'figures/bear-6in.png'
+# latex_logo = 'figures/bear-6in.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
