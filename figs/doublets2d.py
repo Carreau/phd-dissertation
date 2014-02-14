@@ -11,7 +11,7 @@ from d2d import model
 
 import matplotlib.pyplot as plt
 
-xtest = 45
+xtest = 145
 ytest = xtest
 xc = xtest //2
 yc = ytest //2
