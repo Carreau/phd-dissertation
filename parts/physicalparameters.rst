@@ -42,7 +42,7 @@ develop can allow the non-invasive measure of variation of tension on liposome.
 
 .. _figDoubletsSchema:
 
-.. figure:: figs/doublets-schema.png
+.. figure:: /figs/doublets-schema.png
     :alt: Formation doublet schema
 
 
@@ -113,7 +113,7 @@ In the case where the membrane is marked, the radius of liposome will be the med
 In the case of actin shell, when the thickness of the actin shell is bigger compared the resolution limit of our method, then the liposome radius should be taken as the inner raius of the ring
 
 
-.. figure:: figs/modl-2d-doublet.png
+.. figure:: /figs/modl-2d-doublet.png
     :alt: liposome Model
 
     Left : A simulation of liposome fluorescent of an uniform shell or
@@ -125,7 +125,7 @@ In the case of actin shell, when the thickness of the actin shell is bigger comp
 
 
 
-.. figure:: figs/corrfun-noise-.png
+.. figure:: /figs/corrfun-noise-.png
     :alt: liposome Model
 
 

@@ -11,5 +11,6 @@ server.watch('static/*.stylus', 'make static')
 # output stdout into a file
 server.watch('_build/html/*.html')#, shell('lessc style.less', output='style.css'))
 server.watch('*.rst', shell('make html'))
+server.watch('parts/*.rst', shell('make html'))
 
 server.serve()

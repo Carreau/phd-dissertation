@@ -238,38 +238,38 @@ if tags.has('latex-print'):
 """
 
 import codecs
-texts = ['abstract', 'foreword']
-tex = []
-for text in texts:
-    with open(text + '.rst') as f:
-        full = f.read()
-    if text == 'abstract':
-        rst = full.replace('========\nAbstract\n========\n\n', '')
-    elif text == 'foreword':
-        rst = full.replace('========\nForeword\n========\n\n', '')
-    else:
-        rst = full
-    with open(text + '-temp.rst', 'w') as f:
-        f.write(rst)
-    os.system('pandoc -o ' + text + '.tex ' + text + '-temp.rst')
-    os.remove(text + '-temp.rst')
-    with open(text + '.tex') as f:
-        tex.append(f.read())
-    os.remove(text + '.tex')
-
+# texts = ['abstract', 'foreword']
+# tex = []
+# for text in texts:
+#     with open(text + '.rst') as f:
+#         full = f.read()
+#     if text == 'abstract':
+#         rst = full.replace('========\nAbstract\n========\n\n', '')
+#     elif text == 'foreword':
+#         rst = full.replace('========\nForeword\n========\n\n', '')
+#     else:
+#         rst = full
+#     with open(text + '-temp.rst', 'w') as f:
+#         f.write(rst)
+#     os.system('pandoc -o ' + text + '.tex ' + text + '-temp.rst')
+#     os.remove(text + '-temp.rst')
+#     with open(text + '.tex') as f:
+#         tex.append(f.read())
+#     os.remove(text + '.tex')
+# 
 # This creates thw raw latex for the acknowledgements
-with open('acknowledgements.rst') as f:
-    acknowledgements = f.read().replace('=' * 16 + '\nAcknowledgements\n'
-        + '=' * 16 + '\n\n', '').replace(':cite:`Lange2011`',
-                '[DL11]')
-with open('acknowledgements-temp.rst', 'w') as f:
-    f.write(acknowledgements)
-del acknowledgements
-os.system('pandoc -o acknowledgements.tex acknowledgements-temp.rst')
-os.remove('acknowledgements-temp.rst')
-with codecs.open('acknowledgements.tex', encoding='utf-8') as f:
-    acknowledgements = f.read()
-os.remove('acknowledgements.tex')
+# with open('acknowledgements.rst') as f:
+#     acknowledgements = f.read().replace('=' * 16 + '\nAcknowledgements\n'
+#         + '=' * 16 + '\n\n', '').replace(':cite:`Lange2011`',
+#                 '[DL11]')
+# with open('acknowledgements-temp.rst', 'w') as f:
+#     f.write(acknowledgements)
+# del acknowledgements
+# os.system('pandoc -o acknowledgements.tex acknowledgements-temp.rst')
+# os.remove('acknowledgements-temp.rst')
+# with codecs.open('acknowledgements.tex', encoding='utf-8') as f:
+#     acknowledgements = f.read()
+# os.remove('acknowledgements.tex')
 
 toc = \
 """
@@ -282,7 +282,7 @@ toc = \
 %s
 \\chapter*{Acknowledgements}
 \\thispagestyle{frontmatter}
-%s
+--s
 \\tableofcontents
 \\cleardoublepage
 \\pagestyle{frontmatter}
@@ -294,7 +294,7 @@ toc = \
 \\cleardoublepage
 \\pagestyle{normal}
 \\pagenumbering{arabic}
-""" % (tex[0], tex[1], acknowledgements)
+"""# % (tex[0], tex[1])
 
 latex_elements = {'preamble': preamble,
                   'tableofcontents': toc}

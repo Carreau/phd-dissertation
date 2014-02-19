@@ -2,17 +2,17 @@
 Contents
 ========
 
-This is the University of California, Davis Mechanical and Aerospace
-Engineering doctoral dissertation of Jason K. Moore.
-
-
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   physicalparameters
-   foo something
-   spinning
-   doublets
+   parts/part1
+   parts/part2
+   parts/part3
+   parts/part4
+   parts/physicalparameters
+   parts/foo something
+   parts/spinning
+   parts/doublets
 
 ..   abstract
 ..   foreword
@@ -34,5 +34,12 @@ Engineering doctoral dissertation of Jason K. Moore.
 
 * :ref:`search`
 
-.. note:: `Download the latest pdf version of this
-   document <http://mae.ucdavis.edu/~biosport/jkm/dissertation/HumanControlofaBicycle.pdf>`_.
+.. note.:: `Download the latest pdf version of this
+.. document <http://mae.ucdavis.edu/~biosport/jkm/dissertation/HumanControlofaBicycle.pdf>`_.
+
+References
+==========
+
+.. bibliography:: library.bib
+   :encoding: latex+utf8
+   :style: alpha
