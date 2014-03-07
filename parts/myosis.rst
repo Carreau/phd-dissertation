@@ -1,7 +1,7 @@
 .. myosis
 
 Myosis
-======
+******
 
 
     - Asymetric division of oocyte, 

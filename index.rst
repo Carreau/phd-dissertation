@@ -3,7 +3,7 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    parts/part1
    parts/part2
@@ -13,24 +13,9 @@ Contents
    parts/foo something
    parts/spinning
    parts/doublets
-
-..   abstract
-..   foreword
    acknowledgements
    preface
    introduction
-..   eom
-..   extensions
-
-
-..   parameterstudy
-..   delftbicycle
-..   motioncapture
-..   davisbicycle
-..
-..   control
-..   systemidentification
-..   zreferences
 
 * :ref:`search`
 
@@ -42,4 +27,4 @@ References
 
 .. bibliography:: library.bib
    :encoding: latex+utf8
-.. :style: alpha
+   :style: alpha

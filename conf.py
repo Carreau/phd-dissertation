@@ -183,10 +183,10 @@ htmlhelp_basename = 'actingeldynamics'
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').
-latex_paper_size = 'letter'
+latex_paper_size = 'A4paper'
 
 # The font size ('10pt', '11pt' or '12pt').
-latex_font_size = '10pt'
+latex_font_size = '11pt'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
@@ -217,25 +217,25 @@ preamble = \
 """
 \\usepackage{pdfpages}
 \\setcounter{tocdepth}{2}
-\\makeatletter
-\\def\\cleardoublepage{
-\\clearpage\\if@twoside \\ifodd\\c@page\\else
-\\hbox{}
-\\vspace*{\\fill}
-\\vspace{\\fill}
-\\thispagestyle{empty}
-\\newpage
-\\if@twocolumn\\hbox{}\\newpage\\fi\\fi\\fi
-}
-\\makeatother
+% \\makeatletter
+% \\def\\cleardoublepage{
+% \\clearpage\\if@twoside \\ifodd\\c@page\\else
+% \\hbox{}
+% \\vspace*{\\fill}
+% \\vspace{\\fill}
+% \\thispagestyle{empty}
+% \\newpage
+% \\if@twocolumn\\hbox{}\\newpage\\fi\\fi\\fi
+% }
+% \\makeatother
 """
-if tags.has('latex-print'):
-    preamble += \
-"""
-\\definecolor{TitleColor}{rgb}{0,0,0}
-\\definecolor{InnerLinkColor}{rgb}{0,0,0}
-\\definecolor{OuterLinkColor}{rgb}{0,0,0.}
-"""
+#if tags.has('latex-print'):
+#    preamble += \
+#"""
+#\\definecolor{TitleColor}{rgb}{0,0,0}
+#\\definecolor{InnerLinkColor}{rgb}{0,0,0}
+#\\definecolor{OuterLinkColor}{rgb}{0,0,0.}
+#"""
 
 import codecs
 # texts = ['abstract', 'foreword']
@@ -272,29 +272,29 @@ import codecs
 # os.remove('acknowledgements.tex')
 
 toc = \
-"""
-\\pagestyle{frontmatter}
-\\chapter*{Abstract}
-\\thispagestyle{frontmatter}
-%s
-\\chapter*{Foreword}
-\\thispagestyle{frontmatter}
-%s
-\\chapter*{Acknowledgements}
-\\thispagestyle{frontmatter}
---s
-\\tableofcontents
-\\cleardoublepage
-\\pagestyle{frontmatter}
-\\addtocontents{toc}{\\protect\\thispagestyle{frontmatter}}
-\\listoffigures
-\\addtocontents{lof}{\\protect\\thispagestyle{frontmatter}}
-\\listoftables
-\\addtocontents{lot}{\\protect\\thispagestyle{frontmatter}}
-\\cleardoublepage
-\\pagestyle{normal}
-\\pagenumbering{arabic}
-"""# % (tex[0], tex[1])
+r"""
+% \\pagestyle{frontmatter}
+% \\chapter*{Abstract}
+% \\thispagestyle{frontmatter}
+% %s
+% \\chapter*{Foreword}
+% \\thispagestyle{frontmatter}
+% %s
+% \\chapter*{Acknowledgements}
+% \\thispagestyle{frontmatter}
+% --s
+\tableofcontents
+% \\cleardoublepage
+% \\pagestyle{frontmatter}
+% \\addtocontents{toc}{\\protect\\thispagestyle{frontmatter}}
+% \\listoffigures
+% \\addtocontents{lof}{\\protect\\thispagestyle{frontmatter}}
+% \\listoftables
+% \\addtocontents{lot}{\\protect\\thispagestyle{frontmatter}}
+\cleardoublepage
+\pagestyle{normal}
+\pagenumbering{arabic}
+ """# % (tex[0], tex[1])
 
 latex_elements = {'preamble': preamble,
                   'tableofcontents': toc}
@@ -305,11 +305,3 @@ latex_elements = {'preamble': preamble,
 # If false, no module index is generated.
 #latex_domain_indices = True
 
-# -- Options for manual page output --------------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    ('index', 'humancontrolofabicycle', u'Actin gels dynamics Documentation',
-     [author_full], 1)
-]

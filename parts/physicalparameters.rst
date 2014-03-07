@@ -1,11 +1,10 @@
 .. _physicalparameters:
 
-==================
 Optical Trap Setup
 ==================
 
 Preface
-=======
+-------
 
 In order to manipulate the polystyrene beads that are used in the different
 experiments, I worked on a already build setup with time shared optical trap
@@ -21,7 +20,7 @@ By growing actin network in controlled condition I was able to reproductibly
 determine mechanical properties.
 
 Choice of experimental tools
-============================
+----------------------------
 
 
 The choice of experimental tools, and experimental conditions is important to
@@ -30,9 +29,9 @@ Previous and ongoing studies at the time were focused on the properties of dense
 gel in comets tails, as well as the one around the polystyrene beads, as well as the one on the surface before symetry breaking.
 
 .. _sectionLiposomeDoublets
-==========================
+
 Liposome doublets
-==========================
+=================
 
 In this chapter we study the comportment of what we will refer as "Doublets";
 an biomimetic system that allow us to study quantitatively the tension on a
@@ -70,13 +69,13 @@ the interface was visible were analysed.
 
 
 Relating Doublets to Living cell
-================================
+--------------------------------
 
 Determining contact angle in cell is the often use methods to determine effective tension of membrane linked to cythoskeleton. :cite:Leon Maitre:
 
 
 Doublets geometric parameter
-============================
+----------------------------
 
 Using biomimetic system allow to more control over a system and decrease the
 number of parameter one have to study to better understand there influence.
@@ -132,7 +131,7 @@ In the case of actin shell, when the thickness of the actin shell is bigger comp
 .. .. _secBicycleParameters:
 .. 
 .. Bicycle Parameters
-.. ==================
+.. ------------------
 .. 
 .. 
 .. We measured the physical characteristics of eleven different bicycles, three of

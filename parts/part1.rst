@@ -1,18 +1,24 @@
 
 .. Part
 PART 1
-~~~~~~
+######
 
 Misc To say
------------
+***********
 
     - Even in mitosis for big cell, actin is needed to assemble chromosoms :cite:`Lenart2005`
     - Rapid change in actin structure :cite:`Vasilev2012`, timing is also important (exposition to inomycine disrupt cortex functionality)
+    - F-actin network cabable of supporting mechanical load :cite:`Feric2013` 
+    - Presence of f-Actin meshwork meshsize ~0.5µm :cite:`Feric2013` 
+    - This actin network can wistant repetitive compression :cite:`Feric2013` 
+    - F actin network might be linked to the lamin cortex around the nucleus :cite:`Feric2013` 
+    - Such a network woudl only need to sutain a pressure on the order od 0.01 PA :cite:`Feric2013`,
+      and is essential to fight agains gravity
 
 
 
 Introduction
-------------
+************
 
 Cells are the basic component of living organism, understanding their
 individual behavior and the way they function is a key step into understanding
@@ -70,7 +76,7 @@ unaccessible before.
 
 
 
-:cite:`...`  
+.. :cite:`...`  
 
 .. include:: cells.rst
 .. include:: cytoskeleton.rst

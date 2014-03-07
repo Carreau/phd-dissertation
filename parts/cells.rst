@@ -1,10 +1,7 @@
 .. Cells
 
-
-
 Cells
-=====
-
+*****
 
 Cells are the  smallest living component which are present from unicellular
 plants to multicellular animals. Thus, cells should cover a huge range of
@@ -54,7 +51,7 @@ Cell Motility
 Wether cells are part of multicellular or uni-cellular organism, they should
 be able to move in their environment.  Usually, cell movement is differentiated
 in two categories: when cells are placed on a two dimensional environment
-— which is often the case for epidermal cells, or a culture cells -, or a three
+— which is often the case for epidermal cells, or a culture cells –, or a three
 dimensional environment.
 
 .. 2D_motility
@@ -77,15 +74,15 @@ to the surface.
 Cell Division
 ~~~~~~~~~~~~~
 
-    We saw that cell phenotype was changing as a function of time.  In
-    particular, cell divide to and grow. The mechanism of cell division can be
-    quite different depending on the type of dividing cells. Bacteria, for
-    example, will replicate identically, giving birth to two identical daughter
-    cells. Somatic cells of most multicellular organism, will also divide
-    symmetrically leading to 2 daughter cells having the same genetic material,
-    than the mother cell.  On the other hand, Mouse OOcyte, will at some point
-    of their maturation — Meiosis — divide asymmetrically two time in a row,
-    leading to a mature OOcyte and 3 polar body.
+We saw that cell phenotype was changing as a function of time.  In
+particular, cell divide to and grow. The mechanism of cell division can be
+quite different depending on the type of dividing cells. Bacteria, for
+example, will replicate identically, giving birth to two identical daughter
+cells. Somatic cells of most multicellular organism, will also divide
+symmetrically leading to 2 daughter cells having the same genetic material,
+than the mother cell.  On the other hand, Mouse OOcyte, will at some point
+of their maturation — Meiosis — divide asymmetrically two time in a row,
+leading to a mature OOcyte and 3 polar body.
 
 
     Mitosis in normal cell, 
@@ -115,8 +112,6 @@ Cell Organelle
     Organelles are supported by 
 
 
-
-
 Description of cell : 
 
     - Unit of all living things
@@ -133,6 +128,5 @@ Description of cell :
         - translocation in locust
         
 
-We can see in plants that actin, also known as microfilement :cite:`Iwabuchi2010` is used to move nucleus away from 
-
+We can see in plants that actin, also known as microfilement :cite:`Iwabuchi2010` is used to move nucleus away from
 
