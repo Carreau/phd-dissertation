@@ -42,4 +42,4 @@ References
 
 .. bibliography:: library.bib
    :encoding: latex+utf8
-   :style: alpha
+.. :style: alpha
