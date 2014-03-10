@@ -13,9 +13,9 @@ Contents
    parts/foo something
    parts/spinning
    parts/doublets
-   acknowledgements
-   preface
-   introduction
+..   acknowledgements
+..   preface
+..   introduction
 
 * :ref:`search`
 

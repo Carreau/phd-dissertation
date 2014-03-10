@@ -3,12 +3,15 @@
 Cells
 *****
 
-Cells are the  smallest living component which are present from unicellular
+- cell will differentiate differently depending on the substract  :cite:`Discher2005` :cite:`Engler2006` :cite:`Saha2008`
+- give a standard size for a cell.
+
+Cells are the smallest living component which are present from unicellular
 plants to multicellular animals. Thus, cells should cover a huge range of
 behavior going from extremely specific on multicellular organism, to all the
 function that are needed to survive and reproduce for bacterial colony.
 Multicellular organism will grow specialized cell from neurone — for example
-responsible from propagating the electric signal along nerves —  that grow on
+responsible from propagating the electric signal along nerves — that grow on
 soft material, to osteoblast growing on stiff substrate and responsible to
 generate bone materials, going through germinal cells allowing the organism to
 reproduce. In the other hand, unicellular organisms are made of cell that are
@@ -24,11 +27,11 @@ organism :cite:`things on starfishes`.
 
 Nonetheless, even with all theses different behavior and phenotype, the cells
 all have a common structure. They are constituted by a membrane which is
-responsible form separating the cytoplasm from the outside of the cell.  The
+responsible form separating the cytoplasm from the outside of the cell. The
 cytoplasm contains organelles, genetic material, and lots of proteins that the
-cell use to accomplish its functions. Cells  are of course not completely
+cell use to accomplish its functions. Cells are of course not completely
 isolated, and have numbers of mechanism to exchange and communicate with the
-outside.  Communication with the outside can be with chemical signal, hence
+outside. Communication with the outside can be with chemical signal, hence
 cells have developed way of transporting or detecting proteins and ions through
 it's membrane. But it also need to change its mechanics. To do so, cells can
 for example change there osmotic pressure by varying their osmotic pressure,
@@ -39,7 +42,7 @@ of the cell that can support the forces transmitted by integrins.
 This structure, which is situated just below the cell membrane, is named the actin cortex, 
 
 
-    All the living kingdom is characterised by the fact that organism can reproduce,
+  All the living kingdom is characterised by the fact that organism can reproduce,
 And
 
 Cell Motility
@@ -49,7 +52,7 @@ Cell Motility
 .. general_motility
 
 Wether cells are part of multicellular or uni-cellular organism, they should
-be able to move in their environment.  Usually, cell movement is differentiated
+be able to move in their environment Usually, cell movement is differentiated
 in two categories: when cells are placed on a two dimensional environment
 — which is often the case for epidermal cells, or a culture cells –, or a three
 dimensional environment.
@@ -101,32 +104,32 @@ leading to a mature OOcyte and 3 polar body.
 Cell Organelle
 ~~~~~~~~~~~~~~
 
-    Mitoncondria, ER (made to produce proteins), also serve in lacust
-    nucleus en eucariotes cells, contains the chromosomes.
+    - Mitoncondria, ER (made to produce proteins), also serve in lacust
+    - nucleus en eucariotes cells, contains the chromosomes.
+    - Nucleus get moved by actin filement to the periclinal/anticlinal wall, 
+    - centromere centriole, 
+    - Organelles are supported by 
 
 
-    Nucleus get moved by actin filement to the periclinal/anticlinal wall, 
-
-    centromere centriole, 
-
-    Organelles are supported by 
-
-
-Description of cell : 
+Description of cell
+~~~~~~~~~~~~~~~~~~~
 
     - Unit of all living things
     - Move, divide, react to their environment, differentiate
     - divide
-        - spherical, cytokinetic ring, filopodia
-        - how force effect actin
+
+      - spherical, cytokinetic ring, filopodia
+      - how force effect actin
+
     - focal adhesion
     - that was mostly all of what was internal<-> external interaction there are also inner cell effect :
     - organelle, 
-        - nucleus/spindle positioning in division
-        - from OOcyte, diploid -> haploid
-        - Movement nucleus to periclinal/anticlinal wall away from UV. 
-        - translocation in locust
-        
+
+      - nucleus/spindle positioning in division
+      - from OOcyte, diploid -> haploid
+      - Movement nucleus to periclinal/anticlinal wall away from UV. 
+      - translocation in locust
+
 
 We can see in plants that actin, also known as microfilement :cite:`Iwabuchi2010` is used to move nucleus away from
 
