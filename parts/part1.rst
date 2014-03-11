@@ -3,17 +3,19 @@
 Background
 ##########
 
-Misc To say
-***********
 
-    - Even in mitosis for big cell, actin is needed to assemble chromosoms :cite:`Lenart2005`
-    - Rapid change in actin structure :cite:`Vasilev2012`, timing is also important (exposition to inomycine disrupt cortex functionality)
-    - F-actin network cabable of supporting mechanical load :cite:`Feric2013` 
-    - Presence of f-Actin meshwork meshsize ~0.5µm :cite:`Feric2013` 
-    - This actin network can wistant repetitive compression :cite:`Feric2013` 
-    - F actin network might be linked to the lamin (a kind of IF) cortex around the nucleus :cite:`Feric2013` 
-    - Such a network woudl only need to sutain a pressure on the order od 0.01 PA :cite:`Feric2013`,
-      and is essential to fight agains gravity
+.. todo::
+    Misc To say
+    ***********
+
+        - Even in mitosis for big cell, actin is needed to assemble chromosoms :cite:`Lenart2005`
+        - Rapid change in actin structure :cite:`Vasilev2012`, timing is also important (exposition to inomycine disrupt cortex functionality)
+        - F-actin network cabable of supporting mechanical load :cite:`Feric2013` 
+        - Presence of f-Actin meshwork meshsize ~0.5µm :cite:`Feric2013` 
+        - This actin network can wistant repetitive compression :cite:`Feric2013` 
+        - F actin network might be linked to the lamin (a kind of IF) cortex around the nucleus :cite:`Feric2013` 
+        - Such a network woudl only need to sutain a pressure on the order od 0.01 PA :cite:`Feric2013`,
+          and is essential to fight agains gravity
 
 
 
@@ -79,9 +81,31 @@ unaccessible before.
 .. :cite:`...`  
 
 .. include:: cells.rst
-.. include:: cytoskeleton.rst
-.. include:: myosis.rst
-.. include:: visocelastic.rst
-.. include:: membranephysics.rst
-.. include:: activepassive.rst
-.. include:: opticaltweezer.rst
+.. include:: roleofactin.rst
+
+In vitro reconstituted actin networks
+*************************************
+
+Actin networks as viscoelastic material
+***************************************
+
+Active and Passive microrheologie
+*********************************
+
+Optical tweezer
+***************
+
+Membrane Physics 
+*****************
+
+
+.. myosis
+
+Myosis (to move away)
+*********************
+
+.. todo::
+    - Asymetric division of oocyte, 
+    - from diploid, to haploid,
+      - spindle usually in mmithosis pulled by microtubule
+

@@ -1,5 +1,0 @@
-
-.. opticaltweezer
-
-Optical tweezer
-***************

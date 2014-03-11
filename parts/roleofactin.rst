@@ -1,7 +1,21 @@
-.. cytoskeleton
+.. role_of_actin
 
-Cytoskeleton
-************
+The Role Of Actin Cytoskeletton
+*******************************
+
+
+Cell Motility
+~~~~~~~~~~~~~
+
+The actin cortex
+~~~~~~~~~~~~~~~~
+
+Organelle Positioning (actin cloud) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nuclear positionning during miosis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 The cytoskeleton, literally skeleton of the cell, is the structure which give
 it shape to a cell.  As for other multicellular animals that possesses

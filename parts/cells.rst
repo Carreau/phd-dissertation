@@ -3,8 +3,33 @@
 Living Cells
 ************
 
-- cell will differentiate differently depending on the substract  :cite:`Discher2005` :cite:`Engler2006` :cite:`Saha2008`
-- give a standard size for a cell.
+
+.. Description of cell
+.. ~~~~~~~~~~~~~~~~~~~
+
+.. todo::
+
+    - cell will differentiate differently depending on the substract  :cite:`Discher2005` :cite:`Engler2006` :cite:`Saha2008`
+    - give a standard size for a cell.
+
+    - Unit of all living things
+    - Move, divide, react to their environment, differentiate
+    - divide
+
+      - spherical, cytokinetic ring, filopodia
+      - how force effect actin
+
+    - focal adhesion
+    - that was mostly all of what was internal<-> external interaction there are also inner cell effect :
+    - organelle, 
+
+      - nucleus/spindle positioning in division
+      - from OOcyte, diploid -> haploid
+      - Movement nucleus to periclinal/anticlinal wall away from UV. 
+      - translocation in locust
+
+
+We can see in plants that actin, also known as microfilement :cite:`Iwabuchi2010` is used to move nucleus away from
 
 Cells are the smallest living component which are present from unicellular
 plants to multicellular animals. Thus, cells should cover a huge range of
@@ -41,64 +66,68 @@ of the cell that can support the forces transmitted by integrins.
 
 This structure, which is situated just below the cell membrane, is named the actin cortex, 
 
+The Cell Cytoskeletton
+~~~~~~~~~~~~~~~~~~~~~~
+
 
   All the living kingdom is characterised by the fact that organism can reproduce,
 And
 
-Cell Motility
-~~~~~~~~~~~~~
-
-
-.. general_motility
-
-Wether cells are part of multicellular or uni-cellular organism, they should
-be able to move in their environment Usually, cell movement is differentiated
-in two categories: when cells are placed on a two dimensional environment
-— which is often the case for epidermal cells, or a culture cells –, or a three
-dimensional environment.
-
-.. 2D_motility
-
-Motility on a  two dimensional environment is called reptation. To move by
-reptation. Cells need to be spread on the surface, in the front of the cell can
-be seen a lamelipodia, a thin and wide protrusion of the cell that will
-progress forward, then the rear of the cell will detach, making the centroid of
-cell change position. On the edge of the lamelipodia is present tubular
-protrusion that will go father than the leading edge of the lamelipodia, attach
-to the surface.
-
-.. 3D_motility
-
-.. Mesenchimal
-
-.. Ameboid
-
-
-Cell Division
-~~~~~~~~~~~~~
-
-We saw that cell phenotype was changing as a function of time.  In
-particular, cell divide to and grow. The mechanism of cell division can be
-quite different depending on the type of dividing cells. Bacteria, for
-example, will replicate identically, giving birth to two identical daughter
-cells. Somatic cells of most multicellular organism, will also divide
-symmetrically leading to 2 daughter cells having the same genetic material,
-than the mother cell.  On the other hand, Mouse OOcyte, will at some point
-of their maturation — Meiosis — divide asymmetrically two time in a row,
-leading to a mature OOcyte and 3 polar body.
-
-
-    Mitosis in normal cell, 
-
-    - cell detach from surface,
-    - rounds up 
-    - nucleus center
-    - nuclear breakdown 
-    - chromosome forms, 
-    - actin pack chromosome, 
-    - microtubule fetch chromosome 
-    - spindel form and migrate to the centrosome, 
-    - cytokinetic actin ring contract. 
+.. Cell Motility (to move away)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+.. 
+.. 
+.. 
+.. .. general_motility
+.. 
+.. Wether cells are part of multicellular or uni-cellular organism, they should
+.. be able to move in their environment Usually, cell movement is differentiated
+.. in two categories: when cells are placed on a two dimensional environment
+.. — which is often the case for epidermal cells, or a culture cells –, or a three
+.. dimensional environment.
+.. 
+.. .. 2D_motility
+.. 
+.. Motility on a  two dimensional environment is called reptation. To move by
+.. reptation. Cells need to be spread on the surface, in the front of the cell can
+.. be seen a lamelipodia, a thin and wide protrusion of the cell that will
+.. progress forward, then the rear of the cell will detach, making the centroid of
+.. cell change position. On the edge of the lamelipodia is present tubular
+.. protrusion that will go father than the leading edge of the lamelipodia, attach
+.. to the surface.
+.. 
+.. .. 3D_motility
+.. 
+.. .. Mesenchimal
+.. 
+.. .. Ameboid
+.. 
+.. 
+.. Cell Division
+.. ~~~~~~~~~~~~~
+.. 
+.. We saw that cell phenotype was changing as a function of time.  In
+.. particular, cell divide to and grow. The mechanism of cell division can be
+.. quite different depending on the type of dividing cells. Bacteria, for
+.. example, will replicate identically, giving birth to two identical daughter
+.. cells. Somatic cells of most multicellular organism, will also divide
+.. symmetrically leading to 2 daughter cells having the same genetic material,
+.. than the mother cell.  On the other hand, Mouse OOcyte, will at some point
+.. of their maturation — Meiosis — divide asymmetrically two time in a row,
+.. leading to a mature OOcyte and 3 polar body.
+.. 
+.. 
+..     Mitosis in normal cell, 
+.. 
+..     - cell detach from surface,
+..     - rounds up 
+..     - nucleus center
+..     - nuclear breakdown 
+..     - chromosome forms, 
+..     - actin pack chromosome, 
+..     - microtubule fetch chromosome 
+..     - spindel form and migrate to the centrosome, 
+..     - cytokinetic actin ring contract. 
 
 
 Cell Organelle
@@ -111,25 +140,4 @@ Cell Organelle
     - Organelles are supported by 
 
 
-Description of cell
-~~~~~~~~~~~~~~~~~~~
-
-    - Unit of all living things
-    - Move, divide, react to their environment, differentiate
-    - divide
-
-      - spherical, cytokinetic ring, filopodia
-      - how force effect actin
-
-    - focal adhesion
-    - that was mostly all of what was internal<-> external interaction there are also inner cell effect :
-    - organelle, 
-
-      - nucleus/spindle positioning in division
-      - from OOcyte, diploid -> haploid
-      - Movement nucleus to periclinal/anticlinal wall away from UV. 
-      - translocation in locust
-
-
-We can see in plants that actin, also known as microfilement :cite:`Iwabuchi2010` is used to move nucleus away from
 
