@@ -1,7 +1,7 @@
 .. Cells
 
-Cells
-*****
+Living Cells
+************
 
 - cell will differentiate differently depending on the substract  :cite:`Discher2005` :cite:`Engler2006` :cite:`Saha2008`
 - give a standard size for a cell.
