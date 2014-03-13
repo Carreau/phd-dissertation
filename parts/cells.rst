@@ -159,9 +159,22 @@ barbed end, and the minus (`-`) or pointed end. The polarity of the actin
 filament is of importance as this give rise to a proved direction for most
 processes that can happen on the filament.
 
+
 The actin protein is highly conserved across species, and is know to directly
 interact with hundreds of proteins :cite:`DosRemedios2003`. As hint before it
 can in particular bind to ATP, that can hydrolyse into, ADP
+
+Single undecorated filament will behave at the scale of the cell as
+semi-flexible polymer with a persistence length in the order of 10 µm. When the
+assemble into different structure and network, or associate with other proteins
+and molecule the resulting mechanical and dynamic properties can be highly changed.
+
+.. todo:: 
+
+    Should I speak about single filament polymerisation dynamic that is blown
+    by force application, whereas branched network wil keep a constant velocity
+    ? 
+
 
 Dynamic of actin polymerisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -307,6 +320,8 @@ Molecular Motor
 Latranculine, 
 Caping, 
 
+TODO
+~~~~
 
 
 .. todo::
@@ -314,54 +329,40 @@ Caping,
   - more than 150 protein have been found to bind with actin.
   - Wave complex,
 
-    - Wasp, N-Wasp ( need to cite `Machesky1999` )
+    - Wasp, N-Wasp ( need to :cite:`Machesky1999` )
+
   - Not composed only by actin
+    -Should cite `Pollard2003`
+  - Some network need actin, some other do not. (Fletcher review 2010)
+  - NPF
+  - Polymerase, (depolymerase severing), 
+  - crosslinker
 
-    Should cite `Pollard2003`
+    - parallel like fascine
 
-    - Some network need actin, some other do not. (Fletcher review 2010)
-    - NPF
-    - Polymerase, (depolymerase severing), 
-    - crosslinker, 
-      - // like fascine
-        - rotate like alpha-actinin 
-        - effect of cross linking distance :cite:`Morse20..`
+      - rotate like alpha-actinin 
+      - effect of cross linking distance :cite:`Morse20..`
 
-    - stabilizing
-
-    - Molecular motors.
-      - can act as a crosslinker
-
-    - interphase, cellule prepare for division
-
-    - Mitosis : "DNA Segregating"
-
-
-    - need to describe actin, 
-
-      - depending on the length scale semi-flexible polymers.
-
-    - polymerisation barbed end pointed end, (directed)
-
-      - form microfilement
-
-    - cytoskeleton is dynamic
-
-    - formed under the plasme membrane
-    - ratchet nechanisme
-
-    - use of Arp2/3 to branch
-
-    - capping, protein,  formin (OOcyte)
-
-    - myosin, run on actin to barbed end/ processive/not processive.
-
-      - stress fibres
-
-    - troppomyosine
+  - stabilizing
+  - Molecular motors.
+    - can act as a crosslinker
+  - interphase, cellule prepare for division
+  - Mitosis : "DNA Segregating"
+  - need to describe actin, 
+    - depending on the length scale semi-flexible polymers.
+  - polymerisation barbed end pointed end, (directed)
+    - form microfilement
+  - cytoskeleton is dynamic
+  - formed under the plasme membrane
+  - ratchet nechanisme
+  - use of Arp2/3 to branch
+  - capping, protein,  formin (OOcyte)
+  - myosin, run on actin to barbed end/ processive/not processive.
+    - stress fibres
+  - troppomyosine
 
 
-  All the living kingdom is characterised by the fact that organism can reproduce,
+All the living kingdom is characterised by the fact that organism can reproduce,
 And
 
 .. Cell Motility (to move away)
