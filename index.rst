@@ -3,7 +3,7 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 6
 
    parts/part1
    parts/part2
@@ -19,8 +19,9 @@ Contents
 
 * :ref:`search`
 
-.. note.:: `Download the latest pdf version of this
-.. document <http://mae.ucdavis.edu/~biosport/jkm/dissertation/HumanControlofaBicycle.pdf>`_.
+.. note:: 
+    You can Download the latest pdf version of this 
+    `document <../latex/actingeldynamics.pdf>`_.
 
 References
 ==========

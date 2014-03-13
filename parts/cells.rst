@@ -205,8 +205,13 @@ consider the fact that ATP-bound actin will hydrolyse to ADP-Pi then release
 the inorganic phosphate, and thus with a rate that also depend on whether the
 monomer is part of a filament or in solution.
 
-It should be noted that the stationary state
-
+It should be noted that the in stationary state the length of each actin
+filaments statistically constant because the speed of polymerisation on the
+barbed end is compensated by the depolymerisation on the pointed end. The
+filament is hence in a threadmilling state. If we follow a single actin monomer
+bound to an ATP molecule, it will be incorporated at the `+` end of the
+filament and progressively move toward the minus end, eventually hydrolysing
+it's ATP into ADP before detecting from the filament on the pointed end.
 
 .. todo::
 
@@ -221,13 +226,49 @@ It should be noted that the stationary state
   - Loading history determines the velocity of actin-network growth
     :cite:`Parekh2005` hence network can record history, single filament
     cannot.
+
+Proteins influencing actin polymerisation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Despite the already complex process that is actin polymerisation and the
+numbers of parameter that we have already introduce, the formation of an actin
+network is a even more complex process that involve many other components.
+Especially, actin monomers and filament can interact with a high number of
+proteins that will effect previously established dynamics.  We will present
+some categories of such proteins.
+
+Polymerase family
+"""""""""""""""""
+
+The polymerase family as their name indicate will directly have effect on the
+polymerisation of actin. In the right condition, polymerase will increase the
+:math:`k_+` at one end of the actin filament for the same concentration of
+actin monomers. This can lead to an average longer filament length.
+
+
+`Formins` Are one of those polymerase proteins that will increase the
+polymerisation rate at the barbed end. It has the particularity of being
+processive, meeting that it will stay bound to the barbed and while catalysing
+the addition on new monomers. We will see that the processivity of formins also 
+
+
+Crosslinkers
+""""""""""""
+
+Stabilising proteins
+""""""""""""""""""""
+
+Capping Protein
+"""""""""""""""
+
+.. todo::
+
   - more than 150 protein have been found to bind with actin.
   - Wave complex,
 
     - Wasp, N-Wasp ( need to cite `Machesky1999` )
   - Not composed only by actin
 
-.. todo::
     Should cite `Pollard2003`
 
     - Some network need actin, some other do not. (Fletcher review 2010)
