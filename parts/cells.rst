@@ -160,7 +160,8 @@ filament is of importance as this give rise to a proved direction for most
 processes that can happen on the filament.
 
 The actin protein is highly conserved across species, and is know to directly
-interact with hundreds of proteins :cite:`DosRemedios2003`. As hint before it can in particular bind to ATP, that can hydrolyse into, 
+interact with hundreds of proteins :cite:`DosRemedios2003`. As hint before it
+can in particular bind to ATP, that can hydrolyse into, ADP
 
 Dynamic of actin polymerisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -235,31 +236,78 @@ numbers of parameter that we have already introduce, the formation of an actin
 network is a even more complex process that involve many other components.
 Especially, actin monomers and filament can interact with a high number of
 proteins that will effect previously established dynamics.  We will present
-some categories of such proteins.
+some categories of such protein
 
-Polymerase family
-"""""""""""""""""
+Polymerase and polymerase family
+""""""""""""""""""""""""""""""""
 
 The polymerase family as their name indicate will directly have effect on the
 polymerisation of actin. In the right condition, polymerase will increase the
-:math:`k_+` at one end of the actin filament for the same concentration of
+:math:`k_+` At one end of the actin filament for the same concentration of
 actin monomers. This can lead to an average longer filament length.
 
 
 `Formins` Are one of those polymerase proteins that will increase the
 polymerisation rate at the barbed end. It has the particularity of being
-processive, meeting that it will stay bound to the barbed and while catalysing
-the addition on new monomers. We will see that the processivity of formins also 
+processing, meaning that it will stay bound to the barbed and while catalysing
+the addition of new monomers. We will see that the processivity of formins also
+permit the control of the localisation of actin polymerisation where formin
+proteins are present, like the tip of filopodia. 
 
+
+Actin depolymerisation and severing
+"""""""""""""""""""""""""""""""""""
+
+Like polymerisation that can be enhanced by some proteins, depolymerisation can
+also be speed up by divers proteins. ADF/Cofilin is such a family of protein
+which is able to speedup the depolymerisation of actin either by increasing the
+off rate at the pointed end, or by actively severing the filament in different
+point, thus disassembling the formed network.
+
+It should be noted that depolymerisation can not only be  enhanced at the
+pointed end, indeed formin is also able to accelerate the detachment of actin
+monomers at the barbed end.
 
 Crosslinkers
 """"""""""""
 
-Stabilising proteins
-""""""""""""""""""""
+We have seen that some proteins were able to attach to actin filament, when
+such a protein is able to attach to many filament at once, it can act as an
+attachment point between the two filament, preventing them to move with respect
+one to the other. Such proteins, are referred to as crosslinkers.
+
+The amount of freedom in movement between the two filament is dependant of the
+used crosslinker. For example , α-actinin will allow rotation of the two
+filament at their anchoring point whereas crosslinker like fascine will prefer
+a parallel conformation of the filament and favor the formation of actin
+bundles.
+
+Stabilising actin filaments
+"""""""""""""""""""""""""""
+
+As actin network a dynamics construct that are changing shape and properties
+with time, it is convenient to be able to stabilize those network. Tropomyosins
+are proteins capable to bind on the side of actin filament to stabilise them.
+
+The use of phalloidin, a toxin extracted from fungus, is also common as by
+binding between F-actin subunits on the filament, it prevent it from
+depolymerising.  Though, it is known that stabilizing actin filaments with
+phalloidin will increase they persistence length which can change the
+mechanical properties of the formed actin network.
 
 Capping Protein
 """""""""""""""
+
+
+
+Molecular Motor
+"""""""""""""""
+
+
+Latranculine, 
+Caping, 
+
+
 
 .. todo::
 
@@ -272,23 +320,17 @@ Capping Protein
     Should cite `Pollard2003`
 
     - Some network need actin, some other do not. (Fletcher review 2010)
-
-    
     - NPF
-
     - Polymerase, (depolymerase severing), 
-
     - crosslinker, 
-
       - // like fascine
-
-        - rotate like alpha-acitinnin
-
+        - rotate like alpha-actinin 
         - effect of cross linking distance :cite:`Morse20..`
 
     - stabilizing
 
-    - Moleular motors.
+    - Molecular motors.
+      - can act as a crosslinker
 
     - interphase, cellule prepare for division
 
