@@ -4,6 +4,7 @@ Contents
 
 .. toctree::
    :maxdepth: 6
+   :numbered:
 
    parts/part1
    parts/part2

@@ -337,39 +337,39 @@ actin filament the processivity being statistically achieve by having  a high
 number of myosin filament bundled together. 
 
 
-Profilin
-""""""""
-
-Profiling is a protein that will bind to single monomers of actin in solution.
-By doing so it will first prevent the association of monomers into dimers and
-trimmers, thus preventing the nucleation of actin filament. It thus allow a
-better control of localisation of actin filament both in vivo and in vitro in
-the presence of actin seeds of actin nucleator.
-
-The second effect will be to decrease the concentration of monomers in
-solution, effectively decreasing the growing rate at the barbed end, and
-increasing depolymerisation rate at the pointed end.
-
-Describing the role on profiling alone on actin monomers and actin filament is
-not sufficient to understand it's role in cell, indeed profiling interact with
-formin giving and unsuspected result. In presence of profilin the effect of
-formin is exacerbated and the polymerisation (or depolymerisation) rate of
-actin is even more increased. This can be explain by the fact that the addition
-of actin monomers is a two step process where monomers will first attach to
-formin before being added to the actin filament. The constant rate of
-(at|de)ttachment is hight for the actin/profilin complex than with single actin
-monomer.
-
-We here start to understand why the complexity of a system increase quickly
-with the number of protein involve, the presence of both formins and profilin
-in a system will localise and increase actin polymerisation at the location of
-formins as well as prevent the polymerisation in area where no formin is
-present. This can for example happen between the leading edge of a cell where
-formins are attached and where the actin depolymerise in th cytoplasm. The
-increase polymerisation at the leading edge will also act toward the depletion
-of actin monomers in the cytoplasm exaggerating even more the depolymerisation
-rate at the far from the membrane. This leads to a higher turnover of actin
-networks.
+.. Profilin
+.. """"""""
+.. 
+.. Profiling is a protein that will bind to single monomers of actin in solution.
+.. By doing so it will first prevent the association of monomers into dimers and
+.. trimmers, thus preventing the nucleation of actin filament. It thus allow a
+.. better control of localisation of actin filament both in vivo and in vitro in
+.. the presence of actin seeds of actin nucleator.
+.. 
+.. The second effect will be to decrease the concentration of monomers in
+.. solution, effectively decreasing the growing rate at the barbed end, and
+.. increasing depolymerisation rate at the pointed end.
+.. 
+.. Describing the role on profilin alone on actin monomers and actin filament is
+.. not sufficient to understand it's role in cell, indeed profiling interact with
+.. formin giving and unsuspected result. In presence of profilin the effect of
+.. formin is exacerbated and the polymerisation (or depolymerisation) rate of
+.. actin is even more increased. This can be explain by the fact that the addition
+.. of actin monomers is a two step process where monomers will first attach to
+.. formin before being added to the actin filament. The constant rate of
+.. (at|de)ttachment is hight for the actin/profilin complex than with single actin
+.. monomer.
+.. 
+.. We here start to understand why the complexity of a system increase quickly
+.. with the number of protein involve, the presence of both formins and profilin
+.. in a system will localise and increase actin polymerisation at the location of
+.. formins as well as prevent the polymerisation in area where no formin is
+.. present. This can for example happen between the leading edge of a cell where
+.. formins are attached and where the actin depolymerise in th cytoplasm. The
+.. increase polymerisation at the leading edge will also act toward the depletion
+.. of actin monomers in the cytoplasm exaggerating even more the depolymerisation
+.. rate at the far from the membrane. This leads to a higher turnover of actin
+.. networks.
 
 Latranculine
 ^^^^^^^^^^^^
