@@ -1,8 +1,4 @@
-# these are folders that I don't want deleted when commit to the gh-pages
-# branch
-figures-hide/
-tables-hide/
-data-hide/
+_build/*
 
 # Python
 *.pyc
