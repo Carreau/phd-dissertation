@@ -281,6 +281,14 @@ It should be noted that depolymerisation can not only be  enhanced at the
 pointed end, indeed formin is also able to accelerate the detachment of actin
 monomers at the barbed end.
 
+Capping Protein
+"""""""""""""""
+
+If cell have possibility to increase of decrease polymerisation speed, they
+also need to be able to regulate the by decreasing the polymerisation speed. 
+To achieve this, some proteins will bind to the growing end of actin filament and prevent the addition of monomers on the filament. Such a family of protein are called the `capping protein` family with `Capping Protein` being one particular example that will specifically bind to the barbed end of a growing filament and  prevent here from growing.
+
+
 Crosslinkers
 """"""""""""
 
@@ -308,17 +316,85 @@ depolymerising.  Though, it is known that stabilizing actin filaments with
 phalloidin will increase they persistence length which can change the
 mechanical properties of the formed actin network.
 
-Capping Protein
-"""""""""""""""
-
-
-
 Molecular Motor
 """""""""""""""
 
+A particular kind of protein that can bind to cytoskeleton filament are
+molecular motors. Molecular motors are proteins that will consume energy source
+in the form of ATP, hydrolyse it to change conformation and produce forces.
 
-Latranculine, 
-Caping, 
+Different motors exist for each kinds of filament. The  one that walk on
+F-actin are part of the myosin family. Myosins head will bond on the side of
+F-actin filament and the hydrolysis on ATP into ADP will produce a power stroke
+that will make the myosin tail to move in the direction of the pointed. This
+will make myosin waling preferably toward the barbed end of actin filament,
+pulling anything being attached to its tail with it. The mechanism that allow
+myosin to reliably walk toward the right end of the actin filament will depend
+on the type of Myosins,  Myosins V for example will be processive and the
+single dimers with two head will be able to effect several step in a row.
+Whereas `Myosin II` is only able to effect one step before detaching from the
+actin filament the processivity being statistically achieve by having  a high
+number of myosin filament bundled together. 
+
+
+Profilin
+""""""""
+
+Profiling is a protein that will bind to single monomers of actin in solution.
+By doing so it will first prevent the association of monomers into dimers and
+trimmers, thus preventing the nucleation of actin filament. It thus allow a
+better control of localisation of actin filament both in vivo and in vitro in
+the presence of actin seeds of actin nucleator.
+
+The second effect will be to decrease the concentration of monomers in
+solution, effectively decreasing the growing rate at the barbed end, and
+increasing depolymerisation rate at the pointed end.
+
+Describing the role on profiling alone on actin monomers and actin filament is
+not sufficient to understand it's role in cell, indeed profiling interact with
+formin giving and unsuspected result. In presence of profilin the effect of
+formin is exacerbated and the polymerisation (or depolymerisation) rate of
+actin is even more increased. This can be explain by the fact that the addition
+of actin monomers is a two step process where monomers will first attach to
+formin before being added to the actin filament. The constant rate of
+(at|de)ttachment is hight for the actin/profilin complex than with single actin
+monomer.
+
+We here start to understand why the complexity of a system increase quickly
+with the number of protein involve, the presence of both formins and profilin
+in a system will localise and increase actin polymerisation at the location of
+formins as well as prevent the polymerisation in area where no formin is
+present. This can for example happen between the leading edge of a cell where
+formins are attached and where the actin depolymerise in th cytoplasm. The
+increase polymerisation at the leading edge will also act toward the depletion
+of actin monomers in the cytoplasm exaggerating even more the depolymerisation
+rate at the far from the membrane. This leads to a higher turnover of actin
+networks.
+
+Latranculine
+^^^^^^^^^^^^
+
+.. todo::
+
+   Write things on latA but I don't have the courage right now. 
+
+Nucleation promoting factory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Nucleation promoting factor, or NPF... 
+
+.. todo:: 
+   Write things on NPF.
+
+
+Branching Agent
+^^^^^^^^^^^^^^^
+
+Write things on ARP2/3
+
+
+
+
 
 TODO
 ~~~~
@@ -405,8 +481,8 @@ And
 .. cells. Somatic cells of most multicellular organism, will also divide
 .. symmetrically leading to 2 daughter cells having the same genetic material,
 .. than the mother cell.  On the other hand, Mouse OOcyte, will at some point
-.. of their maturation — Meiosis — divide asymmetrically two time in a row,
-.. leading to a mature OOcyte and 3 polar body.
+.. Of their maturation — Meiosis — divide asymmetrically two time in a row,
+.. leading to a mature Oocyte and 3 polar body.
 .. 
 .. 
 ..     Mitosis in normal cell, 
@@ -417,17 +493,32 @@ And
 ..     - nuclear breakdown 
 ..     - chromosome forms, 
 ..     - actin pack chromosome, 
-..     - microtubule fetch chromosome 
-..     - spindel form and migrate to the centrosome, 
+..     - microtubules fetch chromosome 
+..     - spindle form and migrate to the centrosome, 
 ..     - cytokinetic actin ring contract. 
 
 
 Cell Organelle
 ~~~~~~~~~~~~~~
 
-    - Mitoncondria, ER (made to produce proteins), also serve in lacust
-    - nucleus en eucariotes cells, contains the chromosomes.
-    - Nucleus get moved by actin filement to the periclinal/anticlinal wall, 
+Beyond the membrane , cytoplasm and cytoskeleton, cell have a number of
+structure that have different and specialised function. The position and
+state of each of theses structure is of great importance in order for the
+cell to achieve its function. Probably the most known of the organelles is
+the cell nucleus of eukaryotes cells that contain the genetic material of the
+cell. Attached to the nucleus is the endoplasmic reticulum (also know as ER)
+is the organelle that is responsible form translating RNA coming from to
+nucleus in to functional proteins that will be delivered across the cell
+after maturation through vesicles. Theses vesicles are transported across the
+cell by dyneins and kinesins, molecular motors, that walks along microtubules
+originating from the centrioles part of the centrosome. All of those process
+consume energy as the form of ATP, generated from with the mitocondria spread
+across the cytoplasm.
+
+
+    - Mitoncondria, ER (made to produce proteins), also serve in locust
+    - nucleus en eukaryotes cells, contains the chromosomes.
+    - Nucleus get moved by actin filament to the periclinal/anticlinal wall, 
     - centromere centriole, 
     - Organelles are supported by 
 
