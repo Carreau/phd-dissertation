@@ -8,14 +8,14 @@ Background
     Misc To say
     ***********
 
-        - Even in mitosis for big cell, actin is needed to assemble chromosoms :cite:`Lenart2005`
+        - Even in mitosis for big cell, actin is needed to assemble chromosomes :cite:`Lenart2005`
         - Rapid change in actin structure :cite:`Vasilev2012`, timing is also important (exposition to inomycine disrupt cortex functionality)
-        - F-actin network cabable of supporting mechanical load :cite:`Feric2013` 
-        - Presence of f-Actin meshwork meshsize ~0.5µm :cite:`Feric2013` 
-        - This actin network can wistant repetitive compression :cite:`Feric2013` 
+        - F-actin network capable of supporting mechanical load :cite:`Feric2013` 
+        - Presence of f-Actin mesh work mesh size ~0.5µm :cite:`Feric2013` 
+        - This actin network can wistand repetitive compression :cite:`Feric2013` 
         - F actin network might be linked to the lamin (a kind of IF) cortex around the nucleus :cite:`Feric2013` 
-        - Such a network woudl only need to sutain a pressure on the order od 0.01 PA :cite:`Feric2013`,
-          and is essential to fight agains gravity
+        - Such a network would only need to sustain a pressure on the order od 0.01 PA :cite:`Feric2013`,
+          and is essential to fight against gravity
 
 
 
