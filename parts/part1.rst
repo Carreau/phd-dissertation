@@ -86,11 +86,36 @@ unaccessible before.
 In vitro reconstituted actin networks
 *************************************
 
+.. todo::
+
+     - bead assay
+       - when it was designed
+       - mimic listeria motility 
+
+       - nucleation on the surface by Arp2/3 NPF, both mimicking the
+         nucleation at the membrane outside of bacteria (listeria) and inside
+         cell. 
+
+     - liposomes (GUV): 
+       - Giant unilamellar Vesicle
+     - controlled biochemical condition 
+     - bottom up approach  
+
+Liposomes
+#########
+
+A more advance system to reproduce a cell are Giant Unilamelar Vesicules
+(GUV) also referred to as liposomes. Liposomes are a lipid bilayer closed on
+itself into a spherical shape. Those represent a perfect first step into
+recreating the condition as, like a cell, it is a closed system, that
+separate its inside from its outside using lipids. 
+
+
 Actin networks as viscoelastic material
 ***************************************
 
-Active and Passive microrheologie
-*********************************
+Active and Passive microrheology 
+********************************
 
 Optical tweezer
 ***************
@@ -107,5 +132,5 @@ Myosis (to move away)
 .. todo::
     - Asymetric division of oocyte, 
     - from diploid, to haploid,
-      - spindle usually in mmithosis pulled by microtubule
+      - spindle usually in mitosis pulled by microtubule
 

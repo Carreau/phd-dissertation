@@ -1,5 +1,6 @@
 .. Cells
 
+ 
 Living Cells
 ************
 
@@ -260,12 +261,15 @@ polymerisation of actin. In the right condition, polymerase will increase the
 actin monomers. This can lead to an average longer filament length.
 
 
-`Formins` Are one of those polymerase proteins that will increase the
-polymerisation rate at the barbed end. It has the particularity of being
-processing, meaning that it will stay bound to the barbed and while catalysing
-the addition of new monomers. We will see that the processivity of formins also
-permit the control of the localisation of actin polymerisation where formin
-proteins are present, like the tip of filopodia. 
+`Formins` are one of those polymerase proteins that will increase the
+polymerisation rate  of actin filament by dimerising and binding to the barbed
+end. It has the particularity of being processive, meaning that it will stay
+bound to the barbed and while catalysing the addition of new monomers. We will
+see that the processivity of formins also permit the control of the
+localisation of actin polymerisation where formin proteins are present, like
+the tip of filopodia. `Formin` posses domains rich in proline capable of
+binding to profilin (`FH1`) which allow formin to elongate F-Actin using actin
+monomers bounds to profilin.
 
 
 Actin depolymerisation and severing
@@ -274,8 +278,8 @@ Actin depolymerisation and severing
 Like polymerisation that can be enhanced by some proteins, depolymerisation can
 also be speed up by divers proteins. ADF/Cofilin is such a family of protein
 which is able to speedup the depolymerisation of actin either by increasing the
-off rate at the pointed end, or by actively severing the filament in different
-point, thus disassembling the formed network.
+off rate at the pointed end :cite:`Carlier1997`, or by actively severing the
+filament in different point, thus disassembling the formed network.
 
 It should be noted that depolymerisation can not only be  enhanced at the
 pointed end, indeed formin is also able to accelerate the detachment of actin
@@ -285,8 +289,16 @@ Capping Protein
 """""""""""""""
 
 If cell have possibility to increase of decrease polymerisation speed, they
-also need to be able to regulate the by decreasing the polymerisation speed. 
-To achieve this, some proteins will bind to the growing end of actin filament and prevent the addition of monomers on the filament. Such a family of protein are called the `capping protein` family with `Capping Protein` being one particular example that will specifically bind to the barbed end of a growing filament and  prevent here from growing.
+also need to be able to regulate the by decreasing the polymerisation speed.
+To achieve this, some proteins will bind to the growing end of actin filament
+and prevent the addition of monomers on the filament. `Capping Protein` (CP)
+being one particular example that will specifically bind to the barbed end of a
+growing filament and  prevent here from growing. Capping protein are necessary
+to prevent circumvent the polymerisation of actin in undesired area and are
+essential for the structure and mechanical properties of actin gel
+:cite:`Kawska2012`. `Gelsoline` is another example of capping protein, that
+unlike CP can only attached to the barbed end of an actin filament after
+severing it. Gelsoline is hence both a severing and a capping protein.
 
 
 Crosslinkers
@@ -312,7 +324,7 @@ are proteins capable to bind on the side of actin filament to stabilise them.
 
 The use of phalloidin, a toxin extracted from fungus, is also common as by
 binding between F-actin subunits on the filament, it prevent it from
-depolymerising.  Though, it is known that stabilizing actin filaments with
+de polymerising.  Though, it is known that stabilizing actin filaments with
 phalloidin will increase they persistence length which can change the
 mechanical properties of the formed actin network.
 
@@ -337,39 +349,21 @@ actin filament the processivity being statistically achieve by having  a high
 number of myosin filament bundled together. 
 
 
-.. Profilin
-.. """"""""
-.. 
-.. Profiling is a protein that will bind to single monomers of actin in solution.
-.. By doing so it will first prevent the association of monomers into dimers and
-.. trimmers, thus preventing the nucleation of actin filament. It thus allow a
-.. better control of localisation of actin filament both in vivo and in vitro in
-.. the presence of actin seeds of actin nucleator.
-.. 
-.. The second effect will be to decrease the concentration of monomers in
-.. solution, effectively decreasing the growing rate at the barbed end, and
-.. increasing depolymerisation rate at the pointed end.
-.. 
-.. Describing the role on profilin alone on actin monomers and actin filament is
-.. not sufficient to understand it's role in cell, indeed profiling interact with
-.. formin giving and unsuspected result. In presence of profilin the effect of
-.. formin is exacerbated and the polymerisation (or depolymerisation) rate of
-.. actin is even more increased. This can be explain by the fact that the addition
-.. of actin monomers is a two step process where monomers will first attach to
-.. formin before being added to the actin filament. The constant rate of
-.. (at|de)ttachment is hight for the actin/profilin complex than with single actin
-.. monomer.
-.. 
-.. We here start to understand why the complexity of a system increase quickly
-.. with the number of protein involve, the presence of both formins and profilin
-.. in a system will localise and increase actin polymerisation at the location of
-.. formins as well as prevent the polymerisation in area where no formin is
-.. present. This can for example happen between the leading edge of a cell where
-.. formins are attached and where the actin depolymerise in th cytoplasm. The
-.. increase polymerisation at the leading edge will also act toward the depletion
-.. of actin monomers in the cytoplasm exaggerating even more the depolymerisation
-.. rate at the far from the membrane. This leads to a higher turnover of actin
-.. networks.
+Profilin
+""""""""
+
+Profiling is a protein that will bind to the barbed end of single monomers of
+actin in solution.  By doing so it will first prevent the association of
+monomers into dimers and trimmers, thus preventing the nucleation of actin
+filament. It thus allow a better control of localisation of actin filament
+both in vivo and in vitro in the presence of actin seeds of actin nucleator.
+
+Profilin as for a long time been believed to be only a sequestering protein
+that inhibit polymerisation :cite:`Yarmola2009`, though it has a more complex
+behavior, and if it prevent polymerisation of actin filaments by the pointed
+end, it can facilitate polymerisation. One of the cause of increase in
+polymerisation speed by profilin is the fact it binds preferably to ADP-Actin
+and increase the exchange rate of ADP into ATP. :cite:`probably something, look in Yarmola`.
 
 Latranculine
 ^^^^^^^^^^^^
@@ -390,7 +384,26 @@ Nucleation promoting factor, or NPF...
 Branching Agent
 ^^^^^^^^^^^^^^^
 
-Write things on ARP2/3
+We have seen previously that crosslinker were proteins capable on linking two
+or more actin filament together by binding on their side. Another mechanism
+involving binding on the side on actin filament is responsible for a closely
+related network, the branching mechanism. 
+
+The Arp2/3 complex is composed of seven subunits, two of which are highly
+similar with actin (Arp2 and Arp3 for Actin Related Proteins). Arp2/3 will bond
+on the side of a pre-existing actin filament, from which will grow a daughter
+filament that for an angle of 70° from the mother filament. The newly created
+daughter filament pointed end is terminated by the Arp2/3 complex that will
+stay attached to the mother filament, thus increasing the number of available
+barbed end, without changing the number of available pointed end.
+
+The network formed by Arp2/3 is called a branched network, and is in particular
+found at the leading edge of the cell, and it is such a network is present in
+the bead system we will study hereafter.
+
+When first binding to the actin filament the Arp2/3 complex is inactive, it
+needs the help of another protein to start the nucleation process. 
+
 
 
 
@@ -501,7 +514,7 @@ And
 Cell Organelle
 ~~~~~~~~~~~~~~
 
-Beyond the membrane , cytoplasm and cytoskeleton, cell have a number of
+Beyond the membrane, cytoplasm and cytoskeleton, cell have a number of
 structure that have different and specialised function. The position and
 state of each of theses structure is of great importance in order for the
 cell to achieve its function. Probably the most known of the organelles is
@@ -512,11 +525,45 @@ nucleus in to functional proteins that will be delivered across the cell
 after maturation through vesicles. Theses vesicles are transported across the
 cell by dyneins and kinesins, molecular motors, that walks along microtubules
 originating from the centrioles part of the centrosome. All of those process
-consume energy as the form of ATP, generated from with the mitocondria spread
+consume energy as the form of ATP, generated from with the mitocondrion spread
 across the cytoplasm.
 
+Like the cell is separated from the external environment by a lipid bilayer
+that form the cytoplasmic membrane, each of the organelles are separated from
+the cytosol by a membrane with a particular composition, properties and function.
 
-    - Mitoncondria, ER (made to produce proteins), also serve in locust
+
+Then positioning of organelle can be of high importance for the life of an
+organism.  During meiotic division of cell, for example, it has been seen that
+the positioning of the nucleus at the center of the cell in mouse oocyte happen
+before its migration closer to the cortex to expel the first polar body.
+Failure to do so result in a incorrect amount of DNA in germinal cell that can
+lead to infertility.
+
+Same goes with the centrosome which positions at two opposite point in the cell
+when it start to divide. Microtubules emanating from theses centriole will be
+used to fetch the correct chromosomes and pull them to each of the centrosome
+to get the same amount of DNA into each of the daughter cells.
+
+The position of the organelles can have more unexpected effect. In particular,
+some nocturnal locust adapt their vision depending on the light condition by
+modifying the properties of a part of their eye called the omatidium.  More
+specially, the refractive index if each organelle being slightly different, the
+reorganisation of the position on mitocondrion and endoplasmic reticulum inside
+the cell has been show to be droved by actin polymerisation and responsible
+from changed in optical properties in locust eye :cite:`Sturmer1995`.
+
+
+Movement of organelles is also crucial for plant biology, indeed, genetic
+material is sensitive to UV light, and protecting it is necessary for plant
+survival. Iwabuchi et al. have show that actin is responsible for the migration
+of the cell nucleus away from the part of the cell the more exposed to the
+damaging light :cite:`Iwabuchi2010`.
+
+
+
+.. todo::
+    - Mitoncondria, ER (made to produce proteins), also serve in locust (Sturmer1995)
     - nucleus en eukaryotes cells, contains the chromosomes.
     - Nucleus get moved by actin filament to the periclinal/anticlinal wall, 
     - centromere centriole, 

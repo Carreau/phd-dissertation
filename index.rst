@@ -3,17 +3,14 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 6
-   :numbered:
+   :maxdepth: 3
 
    parts/part1
    parts/part2
    parts/part3
    parts/part4
-   parts/physicalparameters
-   parts/foo something
-   parts/spinning
-   parts/doublets
+..  parts/spinning
+..   parts/doublets
 ..   acknowledgements
 ..   preface
 ..   introduction
