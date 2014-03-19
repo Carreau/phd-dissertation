@@ -348,6 +348,13 @@ Whereas `Myosin II` is only able to effect one step before detaching from the
 actin filament the processivity being statistically achieve by having  a high
 number of myosin filament bundled together. 
 
+Latrunculin
+"""""""""""
+
+Another toxin that act on actin is latrunculin, secreted by sponges,it bind to
+actin monomer preventing them to polymerise.  In presence of latrunculin, actin
+filament can though only depolymerise.
+
 
 Profilin
 """"""""
@@ -365,24 +372,20 @@ end, it can facilitate polymerisation. One of the cause of increase in
 polymerisation speed by profilin is the fact it binds preferably to ADP-Actin
 and increase the exchange rate of ADP into ATP. :cite:`probably something, look in Yarmola`.
 
-Latranculine
-^^^^^^^^^^^^
 
-.. todo::
 
-   Write things on latA but I don't have the courage right now. 
 
 Nucleation promoting factory
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""
 
 Nucleation promoting factor, or NPF... 
 
 .. todo:: 
-   Write things on NPF.
+   Write things on NPF, or should  I leave that as subpart like for ARP2/3
 
 
 Branching Agent
-^^^^^^^^^^^^^^^
+"""""""""""""""
 
 We have seen previously that crosslinker were proteins capable on linking two
 or more actin filament together by binding on their side. Another mechanism
@@ -390,19 +393,22 @@ involving binding on the side on actin filament is responsible for a closely
 related network, the branching mechanism. 
 
 The Arp2/3 complex is composed of seven subunits, two of which are highly
-similar with actin (Arp2 and Arp3 for Actin Related Proteins). Arp2/3 will bond
-on the side of a pre-existing actin filament, from which will grow a daughter
-filament that for an angle of 70° from the mother filament. The newly created
-daughter filament pointed end is terminated by the Arp2/3 complex that will
-stay attached to the mother filament, thus increasing the number of available
-barbed end, without changing the number of available pointed end.
+similar with actin, from Arp2 and Arp3 family for Actin Related Proteins,
+giving the complex its name. Arp2/3 will bond on the side of a pre-existing
+actin filament, from which will grow a daughter filament that for an angle of
+70° from the mother filament. The newly created daughter filament pointed end
+is terminated by the Arp2/3 complex that will stay attached to the mother
+filament, thus increasing the number of available barbed end, without changing
+the number of available pointed end. Cf Nature Review by Erin D. Goley and
+Matthew D. Welch :cite:`Goley2006` for  a longer nger review about the Arp2/3
+complex.
 
 The network formed by Arp2/3 is called a branched network, and is in particular
 found at the leading edge of the cell, and it is such a network is present in
 the bead system we will study hereafter.
 
-When first binding to the actin filament the Arp2/3 complex is inactive, it
-needs the help of another protein to start the nucleation process. 
+When first binding to the actin filament the Arp2/3 complex is initially inactive, it
+needs the help of another protein to start the nucleation actin nucleation process.
 
 
 
