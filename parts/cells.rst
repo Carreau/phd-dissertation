@@ -173,7 +173,7 @@ and molecule the resulting mechanical and dynamic properties can be highly chang
 .. todo:: 
 
     Should I speak about single filament polymerisation dynamic that is blown
-    by force application, whereas branched network wil keep a constant velocity
+    by force application, whereas dendritic network wil keep a constant velocity
     ? 
 
 
@@ -359,7 +359,7 @@ filament can though only depolymerise.
 Profilin
 """"""""
 
-Profiling is a protein that will bind to the barbed end of single monomers of
+Profilin is a protein that will bind to the barbed end of single monomers of
 actin in solution.  By doing so it will first prevent the association of
 monomers into dimers and trimmers, thus preventing the nucleation of actin
 filament. It thus allow a better control of localisation of actin filament
@@ -403,7 +403,7 @@ the number of available pointed end. Cf Nature Review by Erin D. Goley and
 Matthew D. Welch :cite:`Goley2006` for  a longer nger review about the Arp2/3
 complex.
 
-The network formed by Arp2/3 is called a branched network, and is in particular
+The network formed by Arp2/3 is called a dentritic network, and is in particular
 found at the leading edge of the cell, and it is such a network is present in
 the bead system we will study hereafter.
 
@@ -411,6 +411,26 @@ When first binding to the actin filament the Arp2/3 complex is initially inactiv
 needs the help of another protein to start the nucleation actin nucleation process.
 
 
+
+.. _actin-cycle:
+
+.. figure:: /figs/pollard2003-actin-cycle.jpg     
+    :alt: "Actin recycling at the leading edge of a cell"
+    :width: 70%
+
+    Adapted from :cite:`Pollard2000`, scheme recapitulating the formation of a
+    dendritic network at the leading edge of a cell were several of the
+    function of above described protein can be seen. An actin nucleation
+    promoting factor will activate Arp2/3 which will act both as a nucleation
+    factor and a branching agent. An from an activated Arp2/3 will grow –
+    toward the membrane – an additional daughter filament. Newly growing barbed
+    end can eventually be capped by capping protein which will terminate their
+    growth. Aging monomer in actin filament will slowly hydrolyse their ATP,
+    eventually releasing the inorganic phosphate before detaching from the
+    pointed end. Depolymerisation is helped by severing protein and Actin
+    Depolymerisation Factor. ADP-actin monomer will bind to profilin will will
+    increase the turn over rate to ATP-actin which will be reuse by the leading
+    edge of the cell.
 
 
 
@@ -421,6 +441,8 @@ TODO
 
 .. todo::
 
+  - structure of Arp2/3 branched network is the same on beads comes than on
+    lamelipode :cite:`Cameron2001` 
   - more than 150 protein have been found to bind with actin.
   - Wave complex,
 
