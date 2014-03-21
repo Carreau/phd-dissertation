@@ -207,8 +207,25 @@ The sheer modulus is it defined by :
 .. todo::
     Scheme for sheer modulus, shoudl we merge it with one where we explain Morse Paper with actin filament going throughthe cross section
 
+
+Viscosity
+=========
+
+Relatively short, compare to to E/G but for speed, value of visosity for different fluid ? 
+Quick reynolds equation ? In the condition we are interested in we are at extremely low reynolds, so no intertia involved ?
+
 Poisson Ratio
 =============
+
+Poisson ratio of 0 mean compress only in the direction we apply force. 0.5 conservation of volume.
+some value for tissues. Existence of  negative PR material we put everything in G, make it complex define the real and imaginary part as G' g'' 
+
+Frequency dependent value
+=========================
+
+ - Classical example of non Newtonian fluid (?), depend on frequency.
+ - decompose in pulsation, then miracle :math:`i\omega \simeq \frac{\partial}{\partial t}` 
+ - maxwell voight model, spring + dash pot
 
 Active and Passive microrheology 
 ********************************
