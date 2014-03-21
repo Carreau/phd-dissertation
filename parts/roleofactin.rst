@@ -5,7 +5,7 @@ The Role Of Actin Cytoskeletton
 
 
 Cell Motility
-~~~~~~~~~~~~~
+=============
 
 .. todo::
     
@@ -13,10 +13,28 @@ Cell Motility
     - mesenchymal
 
 The actin cortex
-~~~~~~~~~~~~~~~~
+================
+
+The actin cortex is a thin layer that can be found just underneath the plasma
+membrane of a cell and which is attached to it. The properties of the actin
+cortex made it a key component is diverse processes. Its capacity to to resit
+to, and transmit force made it indispensable to the locomotion of majority of
+cell by allowing the retraction of the rear of migrating cell. It structure is
+also essential for the cellular division as contractility is necessary to
+generate cortical tension and achieve the separation of the two daughter cells.
+
+
+The actin cortex  cortex measure from 50nm to around 1µm thickness and is
+constituted of actin filament that can be parallel or orthogonal to the
+membrane as one can see using electron microscopy on cells :cite:`Morone2006b`. 
+
+.. todo::
+       Should extract image of actin cortex from Morone2006 probably.
+
+
 
 Organelle Positioning (actin cloud) 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================
 
 We have previously seen that actin play a major role in cell motility and
 division. By opposition to the actin cortex is thin and dense network just
@@ -39,11 +57,22 @@ flow in the second one. It is a natural question to ask of whether or not,
 actin can have such effect by itself ?
 
 A beginning of answer to this question can be hinted by looking at drosophila
-nurses cell. 
+nurses cell. Indeed, during the phase where nurses cell expel their content
+into the oocyte, the nucleus have to be positioned not to obstruct the process.
+It was observed:cite:`Huelsmann2013` that the force exerted by polymerizing
+filament seem to be enough to displace the nucleus. More especially, while the
+polymerisation occurs at anchored points in the membrane, the actin filaments
+grows, moving the pointed end toward the nucleus, eventually pushing it away.
+
+.. todo::
+    
+    - speak about necessity of a soft actin cortex for spindle positioning in
+      oocyte ( Chaigne Sykes, Campillo) 
+    - :cite:`Azoury2011`  Symmetry Breaking in mouse Oocyte require transient F-Actin meshwork 
+    - :cite:`Lenart2005` A contractile nuclear actin network drives chromosome congression in oocytes.
 
 
-
-Nuclear positionning during meiosis
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Nuclear positioning during meiosis
+==================================
 
 

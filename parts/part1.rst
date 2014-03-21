@@ -30,11 +30,10 @@ across the species and play a important role in cell mechanics, from cell
 migration to cell differentiation and division. It plays also a non negligible
 in most mechanical properties of the cell and how it interacts with its
 environment. In particular actin is the main component of the actin cortex :
-the part of the cell cytoskeleton below the plasma membrane mostly responsible
-for cell mechanical properties. The properties of this actin cortex is drive by
-the mechanics of the properties of its main component : a dynamic actin
-network. Understanding this actin network is hence a key piece to learn how
-the actin cortex behave. 
+the part of the cell cytoskeleton responsible for cell mechanical properties.
+The properties of this actin cortex is drive by the mechanics of the properties
+of its main component : a dynamic actin network. Understanding this actin
+network is hence a key piece to learn how the actin cortex behave. 
 
 The properties of an actin network highly depend on it's structure. The
 structure itself depends on many parameters that influence how the network is
@@ -63,6 +62,9 @@ network polymerizing on optically trapped polystyrene beads. Such network was
 studied before :cite:`Kawska2012`  but have suspected to be highly inhomogeneous,
 the use of optical trap allowed to probe mechanics of part of the network
 unaccessible before.
+
+
+.. todo::
 
     - time resolution
     - network dynamics
@@ -102,7 +104,7 @@ In vitro reconstituted actin networks
      - bottom up approach  
 
 Liposomes
-#########
+^^^^^^^^^
 
 A more advance system to reproduce a cell are Giant Unilamelar Vesicules
 (GUV) also referred to as liposomes. Liposomes are a lipid bilayer closed on
@@ -113,6 +115,100 @@ separate its inside from its outside using lipids.
 
 Actin networks as viscoelastic material
 ***************************************
+
+To study the mechanical properties of an actin network it is important to
+describe the condition in which we study it to select the adequate models.
+
+We have seen previously that while polymerising, G-actin form F-actin filament
+with a characteristic called the persistence length (:math:`l_p`) which
+represent the length after which the bending of filament becomes
+non-negligible. For actin filament, the persistence length is in the order of
+10 µm. This mean that for scale much smaller, portion of actin filament can be
+considered as completely rigid, like in cell cortex where meshwork have a
+typical size smaller than 250 nm. In the other end, add length scale much
+bigger than :math:`l_p`, filament can be considered as fully flexible. Even if
+for typical cells, the length scale is rarely much bigger than the persistence
+length of actin, `Xenopus` eggs can be as big as 1 mm, so hundreds fold the
+persistence length.  In mouse oocyte that can go up to a 80µm  diameter – and
+on we will do some analysis – are hence slightly less than an order of
+magnitude bigger than the persistence length. Still For majority of cell, the
+typical size we are interested in is about the persistence length of an actin
+filament, making it neither purely rigid nor completely flexible. 
+
+For the above reasons, solution of actin are often compared to semi-flexible
+polymers, and models that predict comportment of actin network often take
+foundation on polymers physics :cite:`Morse1998` :cite:`Morse1998a`. Still, if
+theses models rely on local microscopic parameter, experimental methods only
+have access to bulk properties of the studies material, and it is from theses
+properties, and through the models that we can deduce possible values for the
+microscopic models.
+
+Elastics Modulus
+================
+
+The elastics Modulus are probably the one that seem to be the easiest to
+understand. They are characteristic of the material that will describe how a
+material will deform non permanently  when applied a force. The stiffer
+something is the higher its elastics modulus will be. There are two specific
+elastic modulus we will be interested in in the rest of this manuscript,
+`Young's Modulus` and `sheer modulus`. The first one describe more specially
+how material will react to it's compression or extension, While the second one
+describe how a material resist  sheering. in isotropic and homogeneous
+material, the Young modulus (noted E) and the sheer models (G) are linked
+together by the Poisson ratio (:math:`\nu`, with that we will see later by the
+following relation.
+
+.. math::
+    
+    G = \frac{E}{2(1+\nu)}
+
+
+Hence at fixed Poisson ratio, and as :math:`\nu` is usually around a value of
+:math:`0.5`, it is common to use G and E interchangeably and to just referee to
+it as "elastic modulus". Both G and E units are homogeneous to :math:`N/m^2`,
+so :math:`Pa` It is interesting to have an idea of the oder of magnitude of a
+few usual materials. Aluminum will have an elastic modulus :math:`G_{Al}\simeq
+70~GPa` while rubber will be more in the order of :math:`G_{rubber}\simeq
+0.1~GPa`. The elastic modulus of muscle is in the order of :math:`G_{muscle}
+\sim 10~kPa` and brain tissues around :math:`G_{braaiiin} \sim
+0.1~\text{to}~1~kPa`.
+
+
+For a  more accurate definition of the Young moduli, it is the ratio between
+the stress along the direction of the deformation by the relative elongation. 
+It is then proportional to the force by unit of surface applied divided by the relative elongation:
+
+.. math:: 
+    
+    E &= \frac{\sigma}{\epsilon} \\
+      & = \frac{   F/S }{   \Delta L / L_0        }
+
+
+.. figure:: /figs/youngm.png
+    :width: 70%
+    :alt: Definition of young modulus
+    
+    Schematic of Young Modulus definition. F, force applied to sample, S
+    surface of cross section when uncompressed, :math:`L_0`, length when no load
+    applied. For both compression and extension, in the regime of small
+    deformation, the relative change of length is proportional to the applied
+    force. Here, the material can be seen to expand/contract in the direction
+    orthogonal to the direction of application of the force, in the case of an
+    incompressible material (:math:`\nu \neq 0.5`) this con be seen as the
+    conservation of volume of the material.
+
+The sheer modulus is it defined by :
+
+.. math::
+
+   G &= \frac{\tau_{xy}}{\gamma{xy}} \\
+      & = \frac{   F/S }{   \Delta x / l        }
+
+.. todo::
+    Scheme for sheer modulus, shoudl we merge it with one where we explain Morse Paper with actin filament going throughthe cross section
+
+Poisson Ratio
+=============
 
 Active and Passive microrheology 
 ********************************

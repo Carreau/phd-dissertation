@@ -10,41 +10,17 @@ Living Cells
 
 .. todo::
 
-..    - cell will differentiate differently depending on the subtract
-      :cite:`Engler2006` :cite:`Saha2008`
-
-    - :cite:`Discher2005` cell react differently depending on substrates
-      - by adhesion complexes
-      - acto-myosin cytoskeleton
-    - give a standard size for a cell.
-
-..    - Unit of all living things
-..    - Move, divide, react to their environment, differentiate
-..    - divide
-
-      - spherical, cytokinetic ring, filopodia
-      - how force effect actin
-
+    - give a standard size for a cell. ?
+    - spherical, cytokinetic ring, filopodia
+    - how force effect actin
     - focal adhesion
-
-..    - that was mostly all of what was internal<-> external interaction there
-..      are also inner cell effect :
 
     - organelle, 
 
       - nucleus/spindle positioning in division
       - from oocyte, diploid -> haploid
 
-      - Movement nucleus to periclinal/anticlinal wall away from UV.
-        :cite:`Iwabuchi2010`
       
-      - translocation in locust
-
-
-.. todo::
-
-    We can see in plants that actin, also known as microfilament
-    :cite:`Iwabuchi2010` is used to move nucleus away from
 
 Cells are the smallest living component which are present from unicellular
 plants to multicellular animals. Thus, cells should cover a huge range of
@@ -89,7 +65,7 @@ actin cortex,
 
 
 The Cell Cytoskeleton
-~~~~~~~~~~~~~~~~~~~~~
+=====================
 
 The cytoskeleton, literally skeleton of the cell, is the structure which give
 it shape to a cell.  As for other multicellular animals that possesses
@@ -348,12 +324,12 @@ Whereas `Myosin II` is only able to effect one step before detaching from the
 actin filament the processivity being statistically achieve by having  a high
 number of myosin filament bundled together. 
 
-Latrunculin
-"""""""""""
-
-Another toxin that act on actin is latrunculin, secreted by sponges,it bind to
-actin monomer preventing them to polymerise.  In presence of latrunculin, actin
-filament can though only depolymerise.
+.. Latrunculin
+.. """""""""""
+.. 
+.. Another toxin that act on actin is latrunculin, secreted by sponges,it bind to
+.. actin monomer preventing them to polymerise.  In presence of latrunculin, actin
+.. filament can though only depolymerise.
 
 
 Profilin
@@ -436,7 +412,7 @@ needs the help of another protein to start the nucleation actin nucleation proce
 
 
 TODO
-~~~~
+====
 
 
 .. todo::
@@ -540,7 +516,7 @@ And
 
 
 Cell Organelle
-~~~~~~~~~~~~~~
+==============
 
 Beyond the membrane, cytoplasm and cytoskeleton, cell have a number of
 structure that have different and specialised function. The position and
