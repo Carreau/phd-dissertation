@@ -1,12 +1,14 @@
 
 .. Part
+
+
 Background
 ##########
 
 
 .. todo::
+
     Misc To say
-    ***********
 
         - Even in mitosis for big cell, actin is needed to assemble chromosomes :cite:`Lenart2005`
         - Rapid change in actin structure :cite:`Vasilev2012`, timing is also important (exposition to inomycine disrupt cortex functionality)
@@ -100,6 +102,7 @@ In vitro reconstituted actin networks
 
      - liposomes (GUV): 
        - Giant unilamellar Vesicle
+
      - controlled biochemical condition 
      - bottom up approach  
 
@@ -205,20 +208,110 @@ The sheer modulus is it defined by :
       & = \frac{   F/S }{   \Delta x / l        }
 
 .. todo::
-    Scheme for sheer modulus, shoudl we merge it with one where we explain Morse Paper with actin filament going throughthe cross section
+
+    Scheme for sheer modulus, shoudl we merge it with one where we explain
+    Morse Paper with actin filament going throughthe cross section
+
+Poisson Ratio
+=============
+
+We have just seen that the sheer modulus is linked to the Young modulus using
+the Poisson ratio.  The Poisson ration is another characteristic of a material
+that define how much a material will compress/expand in a direction
+orthogonal to its elongation.
+
+Typically, if one want to have volume conservation of material, one have to
+take a Poisson ratio of `0.5`.  A Poisson ratio lower that this value, will
+correspond to material expanding less than incompressible materials, with a
+critical value being 0, where the material only expand or contract in the
+direction of the main stress.  
+On the other end, material with a Poisson ratio superior than 0.5 would show a
+bigger deformation in the orthogonal direction than with a simply
+incompressible material. 
+
+.. todo::
+
+some value for tissues. Existence of  negative PR
+    material we put everything in G, make it complex define the real and imaginary
+    part as G' g'' 
 
 
 Viscosity
 =========
 
-Relatively short, compare to to E/G but for speed, value of visosity for different fluid ? 
-Quick reynolds equation ? In the condition we are interested in we are at extremely low reynolds, so no intertia involved ?
+Like elasticity, viscosity is something tangible we are used to work with in
+everyday life, the more viscous a material is the more difficult it is to move
+something in it at high speed. And indeed, viscosity is the pendant of Elastic
+modulus but when considering force induced by speed instead of displacement.
+The force exerted by the gradient a velocity, on a surface `S` or orthogonal to
+direction :math:`\vec z` will be written :
 
-Poisson Ratio
-=============
+.. math::
 
-Poisson ratio of 0 mean compress only in the direction we apply force. 0.5 conservation of volume.
-some value for tissues. Existence of  negative PR material we put everything in G, make it complex define the real and imaginary part as G' g'' 
+    F = \eta \frac{\partial v}{\partial z}
+
+Where :math:`\eta` is the viscosity, and is expressed in :math:`Pa.s`. We will
+also note that viscosity is often written :math:`\mu`, and can
+also while dividing by the fluid density (:math:`\rho`)  then being :math:`\nu = {\eta}/{\rho}`.
+
+At room temperature water have a viscosity of around 1 mPa.s, an honey have a viscosity of around 10 Pa.s
+
+
+.. todo::
+
+    Relatively short, compare to E/G but for speed, value of viscosity for
+    different fluid ?  Quick reynolds equation ? In the condition we are interested
+    in we are at extremely low reynolds, so no intertia involved ?
+
+Viscoelastic
+============
+
+Typically, no material are purely elastic or purely viscous. When glacier can
+seem purely solid at the time scale of a few days, observation on longer time
+scale ranging from month to years will convince you that ice is not only a
+solid but can also flow. Of course water in its solid form is not the only
+material which is both solid and viscous. For this reason models have been and
+are still developed, The Kelvin-Voight and Maxwell models are two and the
+simpler one. A thought experiment to represent both is to put a spring and a
+dash pot in parallel or series.  The resulting model will have a viscoelastic
+behavior. 
+
+
+.. figure:: /figs/MKV.png
+    :width: 70%    
+
+    Maxwell model schematic on the right and Kelvin-Voight model on the right.
+    Both are a simple approach to express the properties of a viscoelastic
+    model. The response to a creep compliance will deffer in both case. Maxwell
+    model will mostly behave like  a fluid with viscosity :math:`\eta` after a
+    long time, where the Kelvin-Voight model will mostly reflect the elastic
+    component at constant stress exerted. (Schematic in Public Domain, adapted
+    from Wikimedia).
+
+The idea for more complex models is the same, any material can be seen like an
+(infinite) combination of spring for elasticity, and dash-pot, for viscosity
+associated which each other.
+
+The generalised model can then be described using a unique parameter, we extend
+the Young and sheer modulus  with a imaginary part capturing the effect of
+viscosity. In addition to an imaginary part, we can introduce a dependency of G
+with a pulsation (:math:`\omega`) when working in the frequency plane.
+
+The real and imaginary part of :math:`G^*` are respectively called storage (:math:`G'`) and loss (:math:`G''`) modulus.
+We can then write the following :
+   
+.. math::
+    G^*(\omega) = G' (\omega) + i.G''(\omega)
+
+
+The star denoting the complex character of `G` is often dropped, as well as the explicit dependency with :math:`\omega`.
+
+
+The viscoelastic properties of a material are then fully characterized if one
+get the full expression for the storage and loss modulus as a function of the
+frequences
+
+
 
 Frequency dependent value
 =========================
