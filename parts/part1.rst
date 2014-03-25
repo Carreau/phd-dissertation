@@ -326,6 +326,105 @@ Active and Passive microrheology
 Optical tweezer
 ***************
 
+Optical tweezer, or optical trap are a technique that allow to trap object near
+the focal plane of microscope at the point where a high power laser is focused.
+It is a versatile technique that allow to trap both fabricated object and part
+of living cell an apply force up to a few tenth of pico newtons and detect
+displacement of a few hundreds of nanometers.
+
+To understand that light can trap an object, you should keep in mind that
+despite having no mass, light carry momentum, and as for any massive object,
+changing the trajectory require applying a force and this object. According to
+newton third law, if you apply a force on an object, the object exerted the
+opposite force. This will lead to object with higher refractive index being
+attracted by toward higher light intensity. In a parallel laser beam, with a Gaussian
+intensity profile, this will lead to  the object being attracted toward the
+center of the beam. 
+
+In addition to the lateral trapping, if the laser beam is focuses, this lead to
+another weaker intensity gradient along the direction of propagation of the
+beam, the intensity being at its highest at the laser waist. 
+
+A focused laser inside a laser into the microscope's objective then act as a
+three dimensional potential that keeps particle like hold in a tweezer. Usually
+the trapping in the observation plane is strong, while the stiffness of the
+trap in the direction of illumination is weak.
+
+It should be noted that if trapped particles are hold strongly near the laser
+focus, this does prevent the laser from exerting force on surrounding
+particles, usually slowly attracting floating object passing in the converging
+beam of light toward the plane of observation. The light also having a non
+negligible radiation  pressure, object in the second half cone of diverging
+light beyond the observation plane are often repel away from the trap.
+
+
+.. figure:: /figs/ot1.png
+    :alt: schematic of setup plus one
+    :width: 90%
+
+    Deflected light by a transparent bead change the momentum of light, so the
+    light is exerting a force on the bead. The bead will be attracted toward
+    the high intensity.  For a focused laser beam, the bead will be attracted
+    near the focus of the laser.
+
+
+In addition to allowing the object, to be hold in place, optical trap have the
+advantaged of allowing the high frequency measurement of the force exerted on a
+object as a function of time, though careful calibration of the trap is
+necessary, and different methods can be used to do such calibration
+:cite:`Jahnel2011`, :cite:`Vermeulen2006`. Indeed, as we saw previously, when
+the trapped particle is not in the trap center it though exert a force on the
+light beam, though slightly deflecting the light beam. Using optics and lenses
+correctly placed on the Fourier plane of the sample, it is hence possible to
+translate this change of orientation of the light  beam into a displacement of
+a light spot onto a photo detector with hight sensitivity to displacement.
+
+One of the quality of optical trap is that it often allow the multiplication of
+the number of trap. A simple method allowing the obtainment of two trap is to
+split the incoming light into two orthogonally polarized independent beam.
+Instead of sharing the laser power between the different trap using
+polarisation, one can use what is known as time sharing. By switching the laser
+rapidly between traps at a much faster time scale than the relevant time scale
+of the experiment, one is able to virtually achieve multiple traps on the same
+sample.
+
+In our case, the rapid switching is achieved using Accousto Optic Deflector
+(aka AODs).  ADO consists of a crystal in which propagate a high frequency
+sound-wave. The passing of the sound wave generate local change in the
+refractive index of the material which then act as a diffracting grating. In
+the right condition, the trapping laser passing through the same crystal will
+then be deflected by generated grating.
+
+In practice, rapidly controlling the frequency and amplitude of the generated
+wave into the crystal, allow direct adjustment of laser position of the trap
+position. Using AOD also have the advantage of allowing control not only of
+number and position of multiple traps, but also the individual power allocated
+to each trap and though stiffness of relevant trap.
+
+.. _ots:
+
+.. figure:: /figs/setup-plus-1.png
+    :alt: schematic of setup plus one
+    :width: 90%
+
+    A schematic of used setup. The following element can be distinguished. An
+    1064nm Laser will be used for trapping, it first pass through two AODs that
+    well respectively be responsible from moving the position of the trap in
+    the X ad Y direction.  The first couple of lenses between AODs are
+    responsible from having both AOD conjugated.  The second pair of lens will
+    allow to steer the beam and make sure that the AODs are  conjugated with
+    the back-focal plane of the first objective, putting then in the Fourier
+    plane of the sample. Thus a change of angle of the light beam induce by the
+    AOD in reflected into the objective by a change of position of the trap.
+    The trapping light is collected by a second objective, converging on a
+    Quadrant photodiode (QPD) conjugated with the back focal plane of the
+    collecting objective. By construction QPD and AODs should be conjugated, so
+    deviation of the light beam induced by one of the AODs is not supposed to
+    induce any change of position of the laser spot on the QPD. Additional
+    dichroics mirror allow to use bright field and epifluorescence at the same
+    time than using optical tweezer.
+
+
 Membrane Physics 
 *****************
 
