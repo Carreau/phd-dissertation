@@ -29,8 +29,8 @@ individual behavior and the way they function is a key step into understanding
 how they interact with their environment and other organism. One of the key
 component to most of organism is Actin, a protein which is highly conserved
 across the species and play a important role in cell mechanics, from cell
-migration to cell differentiation and division. It plays also a non negligible
-in most mechanical properties of the cell and how it interacts with its
+migration to cell differentiation and division. It plays also a non negligible role
+in most mechanical properties of the cell and its interactions with the
 environment. In particular actin is the main component of the actin cortex :
 the part of the cell cytoskeleton responsible for cell mechanical properties.
 The properties of this actin cortex is drive by the mechanics of the properties

@@ -50,6 +50,18 @@ sens their mechanical environment, cell use adhesion complexes to attach to the
 medium, and integrins as trans-membrane protein will transfer the force to the
 cell cytoskeleton situated inside the cell.
 
+.. _albertcell:
+
+.. figure:: /figs/figure-1-30.jpg
+    :alt: schematic of a cell
+    :width: 90%
+
+    Schematic of an eucariotic cell, adapted from `Molecular Biology of The
+    Cell`. One can see the many component that constitute majority of cells.
+
+
+
+
 .. _oocytewt:
 
 .. figure:: /figs/oocyte-wild-type.png     
