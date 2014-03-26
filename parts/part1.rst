@@ -424,6 +424,22 @@ to each trap and though stiffness of relevant trap.
     dichroics mirror allow to use bright field and epifluorescence at the same
     time than using optical tweezer.
 
+Determination of force and displacement on bead
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: /figs/bead_potential.png
+    :width: 100%
+    :alt: potential felt by a bead and force felt.
+
+    Left : scheme representing the potential felt by a bead along one axis,
+    near the minimum of the potential it can be approximated as an harmonic
+    potential, which correspond to a constant stiffness. Right: Deflection 
+    
+    Force exerted
+    by/on the bead as a function of distance from the center of the trap. It
+    also correspond to the displacement of the spot on the QPD. Near the 
+
+
 
 Membrane Physics 
 *****************
