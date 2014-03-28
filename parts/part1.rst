@@ -427,22 +427,51 @@ to each trap and though stiffness of relevant trap.
 Determination of force and displacement on bead
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Using optical tweezer to not only hold a particle in position, but also get
+quantitative measurement of its displacement and force exerted require
+calibrated probe. The use of polystyrene beads is one of the artificial probe
+that can be use to achieve such a goal.
+
+The use of polystyrene bead has multiple advantages, the first being that one
+can obtain mono-dispersed bead leading to reproducible and predictable trap
+stiffness. Secondly the theory :cite:`Mie scattering` can predict the shape of
+the potential felt by such a bead in a Gaussian beam.
+
 .. figure:: /figs/bead_potential.png
     :width: 100%
     :alt: potential felt by a bead and force felt.
 
     Left : scheme representing the potential felt by a bead along one axis,
     near the minimum of the potential it can be approximated as an harmonic
-    potential, which correspond to a constant stiffness. Right: Deflection 
+    potential, which correspond to a constant stiffness. Right: Deflection of
+    the light by an off centered bead in the trap. Also proportional to the
+    displacement of the spot on the QPD. With correct calibration of the trap
+    the displacement is also proportional the force exerted on the bead.
     
-    Force exerted
-    by/on the bead as a function of distance from the center of the trap. It
-    also correspond to the displacement of the spot on the QPD. Near the 
+The second advantage being that beads can be functionalised, allowing specific
+interaction to be controlled, both in vitro and in vivo. Of course, the
+calibration is essential for the correct measurement of mechanical property of
+different system, and the choice of the bead diameter have impact both on
+biological side and in the physics of the measurement. In particular, the
+linear regime for the  displacement-deflection can only be seen for beads that have a
+diameter which is not too close from the beam waist diameter. In such case a
+flattening on the curve prevent precise measurement.
 
+
+.. figure:: /figs/foo.png
+    :width: 80%
+    :alt: flattening of the displacement/deflection curve
+
+    Simulation of flattening of the curve near the center of the trap by
+    deriving the sum of two gaussians. One cannot make a linear approximation
+    near the center.
 
 
 Membrane Physics 
 *****************
+    
+    
+
 
 
 .. myosis
