@@ -91,14 +91,41 @@ To understand the reason, one need to get slightly back at the exact point
 where the bead is trapped in the Gaussian beam. Besides being attracted near
 the laser waist, the particle — here the bead — is affected by other forces
 that will affect it exact position of equilibrium. In our case, the particle
-is -------- by its weight and by the radiation pressure exrted by the laser.
+is affected by its weight and by the radiation pressure exerted by the laser.
 Both being different depending on the bead diameter, this will lead to bead of
 each diameter lying at equilibrium on a slightly different focus plane in the
 microscope chamber.
 
 The non-alignment of the bead in the same plane lead to the force between the
 two bead having a component along the direction of propagation of the light,
-which is the direction in which the trap stiffness is the weaker. Hence preventing then indentation exp
+which is the direction in which the trap stiffness is the weaker. Hence the use
+of bead of different size hinder the experiment by weakening the ability to
+hold both bead in the trap during the indentation experiment. Measuring the
+difference in distance in the Z direction (perpendicular to observation plane)
+is also challenging, which is another factor which would prevent the correct
+determination of the distance between bead center.
+
+For those reason we decided to use identical beads for actin growth and as probe bead. Only the surface treatment would differ to prevent actin polymerisation and sticking on probe bead.
+
+.. figure:: /figs/otm.png
+    :width: 70%
+
+    A bigger bead will be trapped higher in the optical tweezer. The forced
+    exerted between the two bead by the intermediate of the actin network
+    growing on the actin bead will be along the direction between the two
+    center. It decomposes along the observation plane (green arrows), direction
+    along which the trapping is strong, and along the orthogonal direction (red
+    arrow) along which the trapping is weak. Further approach of the two bead
+    would lead to one of the bead escaping the trap.
+
+
+Positioning of the bead in observation plane
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
 
 
 
