@@ -119,8 +119,74 @@ For those reason we decided to use identical beads for actin growth and as probe
     would lead to one of the bead escaping the trap.
 
 
-Positioning of the bead in observation plane
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Positioning and first trapping of bead
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once mixed in the microscope chamber, one bead of each kind need to be trapped.
+The solution chosen to be able to distinguish the probe bead from the actin
+bead was to use fluorescently labeled actin. A thin layer of actin network
+forming quickly on the surface covered with an activator of actin nucleation
+using epifluorescence the experimenter can quickly distinguish both kind.
+Bright field can be used when discriminating the beads is no longer necessary.
+
+It should be noted that long  exposition to fluorescence need to be avoided as
+an over exposition of fluorescent actin to UV light seem to deteriorate the
+network.
+
+In our particular case, because of the use of one accousto optic deflector for
+each of the direction, we decided to always perform the experiments with the
+two trap aligned along one of the two axis of the microscope to avoid the
+phenomenon of ghost trap due to the slight delay in position switching between
+the two AODs. The alternative would have been to decrease the laser power for a
+short amount of time between each  trap switching, which would have decrease
+the apparent maximal trap stiffness achievable for each of the tweezer.
+
+We then dispose of two traps, that are aligned along the X axis, at initial
+position they are separated from a sufficient distance for the probe bead to to
+already interact with the actin network polymerising on the actin bead. The
+actin bead can be discriminated from the probe bead by using fluorescent and
+lie in what will hereafter be the static trap wile the probe bead is stationed
+in what will be referred to as the moving trap.
+
+To check that the only force exerted on the trapped bead are from the tweezer
+themselves, the chamber is before each experiment moved in the three direction,
+and it should be checked that no important force are detected on each of the
+bead. It should be noted that especially at low capping concentration where
+long filament are supposed to escape from the actin-bead, the procedure lead to
+bead moving with the microscope stage, hinting for an adhesion between the
+actin bean and the chamber. In such a case the rest of the experiment was not
+performed and another couple of actin-bead/probe-bead was selected.
+
+Approach at constant speed
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+We are now certain that we are in presence of a actin bead trapped in the
+tweezer free from any other external forces, and a probe bead situated
+relatively far (~15-20µm) from the actin bead. 
+
+To probe the mechanical property we will now effectuate a indentation at
+constant speed, followed by a resting phase and finally a retraction. A few
+parameters can be varied fro theses 3 phases.
+
+    - initial distance between beads
+    - speed of the approach
+    - condition to stop the approach.
+    - Time for resting phase
+    - speed of retracting phase.
+
+Additionally we can wonder which of the two trap should be set in motion to
+perform the indentation protocol.
+
+
+To select the range of parameter we will use we should take into account a few
+considerations.
+
+    - The system is dynamic and polymerising, we should perform an indentation
+      experiment sufficiently fast  for the properties of the system not to
+      change during the probing.
+
+    - Ideally we would like to repeat the indentation a few times without the
+      properties of the system to change, to eventually
 
 
 
@@ -128,23 +194,7 @@ Positioning of the bead in observation plane
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.. 3D fitting
+.. fitting
 3D fitting
 **********
 
-.. ?? ?? ??
-?? ?? ??
-********
