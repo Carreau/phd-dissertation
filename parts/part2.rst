@@ -182,13 +182,55 @@ To select the range of parameter we will use we should take into account a few
 considerations.
 
     - The system is dynamic and polymerising, we should perform an indentation
-      experiment sufficiently fast  for the properties of the system not to
+      experiment sufficiently fast for the properties of the system not to
       change during the probing.
 
     - Ideally we would like to repeat the indentation a few times without the
-      properties of the system to change, to eventually
+      properties of the system to change to much, in order to get enough statistic.A
 
+    - The system is viscoelastic, the speed at which we indent will determine
+      wether the dominant effect we see is due to the elastic behavior, or
+      viscous behavior.
 
+As we like to effect many approach-retraction cycle to test the reproducibility
+of the indentation, it is important to keep the bead in the trap. As
+experimentally we found that force higher to 15-20 pN would lead to bead
+escaping the trap we need to choose the experiment parameter in order to avoid
+going over theses values. One possibility would be to fix the approach stopping
+condition using a force feedback with a given threshold, unfortunately, the
+increase of force if often too quick for our system, and using force feedback
+revel to be an unsuccessful methods, thus falling back to an stopping condition
+at a fixed distance between bead center.
+
+We choose to indent at a speed of 10 µm/s with a resting phase of 3s and a
+retraction to initial position at the same speed than the approach. Knowing
+that the initial distance between beads is between 15µm and 20µm, this lead to
+a duration of one approach-resting-retraction of 6 to 10 seconds allowing a few
+repetition of indent. 
+
+As for the condition, it was chosen on a per-cycle basis at the liberty of the
+experimenter, indeed as we will see in the result section, the growing on the
+dense gel on the bead surface is dependant both on time and biochemical
+condition. Practically, the minimal approach distance was set to 8-9 µm, an
+approach cycle done, and then minimal approach distance decrease stepwise by
+0.5 micron until the peak force near 15 pN, then approach cycle were repeated
+without decreasing the minimal approach distance. :num:`Fig #bead-move`.
+
+.. _bead-move:
+
+.. figure:: /figs/beed_move.png
+    :alt: indent experiement
+    :width: 50%
+
+    Schematic of indentation experiment. On the left is the actin-bead, covered
+    with actin, in the static trap, on the right the probe-bead in the mobile
+    trap. At the brining of experiment (A) the probe bead is situated far from
+    the actin bead. During the approach phase (I) the moving trap approach
+    toward the static trap at 10µm/sec until it reached the minimal approach
+    distance (B). The moving trap stay at the minimal approach distance for
+    3sec (II), which constitute the relaxation phase.C) The actin gel are
+    relaxed, the distance between bead is smaller than on B. III) the moving
+    trap retract at 10 µm/sec back to its initial position.
 
 
 

@@ -458,7 +458,7 @@ diameter which is not too close from the beam waist diameter. In such case a
 flattening on the curve prevent precise measurement.
 
 
-.. figure:: /figs/foo.png
+.. figure:: /figs/todo.png
     :width: 80%
     :alt: flattening of the displacement/deflection curve
 
