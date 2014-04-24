@@ -42,7 +42,7 @@ properties of substrate can govern the differentiation of cell
 Nonetheless, even with all theses different behavior and phenotype, the cells
 all have a common structure. They are constituted by a membrane which is
 responsible form separating the cytoplasm from the outside of the cell. The
-cytoplasm contains organelles, genetic material, and number of proteins that
+cytoplasm contains organelles, genetic material, and large number of proteins that
 the cell use to accomplish its functions. Cells are of course not completely
 isolated, and have numbers of mechanism to exchange and communicate with the
 outside. Communication with the outside are either chemical or mechanics.  To

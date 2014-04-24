@@ -1,6 +1,48 @@
+Preamble
+########
+
+
+During my PhD I decided to investigate the effect of actin network on the
+mechanical properties of cells. Indeed, mechanical properties of cell are a key
+parameter that has an crucial impact on cell and organism function. Being able
+to detect changes, and understand the mechanism that govern them is a important
+to be able to apprehend the behavior of cells, distinguish healthy from
+malignant cell and tissues in order to control them.
+
+During the last three years, I decided to focus on biomimetic system and
+establish characteristic of actin network. Actin is a highly conserved
+component across the living kingdom, and it plays a major role in cells
+mechanics. By interacting with a number of other component of the cell, actin
+is able to form a various number of network. It is on such network, and in
+controlled condition that I decided to focus my research. 
+
+Along this dissertation we will mainly focus on three system.
+
+On the first one, we reconstitute an already observed actin network on a
+biomimetic system, then show that from this network emanate a second sparse
+actin network previously unseen, and characterize its mechanical properties. We
+developed the idea that the effect of this second network cannot be neglected
+in cell and investigate a few of the phenomenon it can be involved in.
+
+As the effect of such a sparse actin has not been demonstrated we decided to
+investigate the effect of another sparse actin network on a living cell. In
+collaboration with College de France, we studied the mechanical properties
+inside mouse Oocyte. We see in this system that the actin related protein can
+have a hi impact on the structure and the mechanics both of the cell and the
+actin network in it. 
+
+As characterizing the dynamics of a network in a living cell is complex as we
+only have few control on the biochemical condition, the third system has been
+developed to allow to follow the modification of properties of actin network
+with time without perturbing it. By covering a doublet of two liposomes by an
+actin network and imaging it, we are able to deduce change in the network
+properties only by looking at the change in geometry. 
+
+.. todo:
+
+    recap the organisation of the PhD
 
 .. Part
-
 
 Background
 ##########
