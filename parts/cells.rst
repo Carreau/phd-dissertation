@@ -42,13 +42,14 @@ properties of substrate can govern the differentiation of cell
 Nonetheless, even with all theses different behavior and phenotype, the cells
 all have a common structure. They are constituted by a membrane which is
 responsible form separating the cytoplasm from the outside of the cell. The
-cytoplasm contains organelles, genetic material, and large number of proteins that
-the cell use to accomplish its functions. Cells are of course not completely
-isolated, and have numbers of mechanism to exchange and communicate with the
-outside. Communication with the outside are either chemical or mechanics.  To
-sens their mechanical environment, cell use adhesion complexes to attach to the
-medium, and integrins as trans-membrane protein will transfer the force to the
-cell cytoskeleton situated inside the cell.
+cytoplasm contains organelles, genetic material, and large number of proteins
+that the cell uses to accomplish its functions. Cells are of course not
+completely isolated, and have a series of mechanisms to exchange and
+communicate with the outside. This communication can be chemical but  mechanics
+is also known to participate in the process. To sens their mechanical
+environment, cell use adhesion complexes to attach to the medium, and integrins
+as trans-membrane protein will transfer the force to the cell cytoskeleton
+situated inside the cell.
 
 .. _albertcell:
 
