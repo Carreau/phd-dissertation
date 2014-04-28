@@ -26,11 +26,11 @@ Cells are the smallest living component which are present from unicellular
 plants to multicellular animals. Thus, cells should cover a huge range of
 behavior going from extremely specific on multicellular organism, to all the
 function that are needed to survive and reproduce for bacterial colony.
-Multicellular organism will grow specialized cell from neurone to osteoblast
+Multicellular organism will grow specialized cell from neuron to osteoblast
 going through germinal or muscle cells. In the other hand, unicellular
 organisms are made of cell that are responsible for all the function of the
 organism, from motility to reproduction, passing through absorption of
-nutriment to replication of the cell.
+nutriments to replication of the cell.
 
 Cell are hence able to adapt to their environment as a function of time, and
 also have function and behavior that depends on time, and a small change of
@@ -46,7 +46,7 @@ cytoplasm contains organelles, genetic material, and large number of proteins
 that the cell uses to accomplish its functions. Cells are of course not
 completely isolated, and have a series of mechanisms to exchange and
 communicate with the outside. This communication can be chemical but  mechanics
-is also known to participate in the process. To sens their mechanical
+is also known to participate in the process. To sense their mechanical
 environment, cells use adhesion complexes to attach to the substrate, and integrins
 as trans-membrane protein to transfer the force to the cell cytoskeleton
 situated inside the cell.
@@ -57,7 +57,7 @@ situated inside the cell.
     :alt: schematic of a cell
     :width: 90%
 
-    Schematic of an eucariotic cell, adapted from `Molecular Biology of The
+    Schematic of an eukariotic cell, adapted from `Molecular Biology of The
     Cell`. One can see the many component that constitute majority of cells.
 
 
@@ -135,7 +135,7 @@ of proteins and are non-polar.
 Actin, is the third component of the cytoskeleton, the one we will focus most
 of our effort. Actin monomers polymerises into actin filament, the thinest of
 the three kind that form the cytoskeleton. Actin is produced in the cell as a
-globular protein of ~40 kDa that once associated with ATP or ADP polymerise
+globular protein of ~40 kDa that once associated with ATP or ADP polymerises
 into helicoidal filament with a diameter between 7 and 9nm. The formed actin
 filament are polar, which both extremity respectively called the plus (`+`) or
 barbed end, and the minus (`-`) or pointed end. The polarity of the actin
@@ -155,7 +155,7 @@ and molecule the resulting mechanical and dynamic properties can be highly chang
 .. todo:: 
 
     Should I speak about single filament polymerisation dynamic that is blown
-    by force application, whereas dendritic network wil keep a constant velocity
+    by force application, whereas dendritic network will keep a constant velocity
     ? 
 
 
@@ -163,17 +163,22 @@ Dynamic of actin polymerisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The assembly mechanism that allow to go from singles monomers of actin (also
-refer to as G-actin in solution) to actin filament (also refer as F-actin)
-need to be well understood to explain the different structure of network actin
-filament can give once put in presence of other proteins.
+refer to as G-actin) to actin filament (also refer as F-actin)
+need to be well understood to explain the different networks structures actin
+filaments can create in presence of other proteins.
 
-The polymerisation of ATP/ADP actin monomer to form an actin filament need to go
-through the step of forming a actin proto-filament which is constituted of at
-least 3 actin monomers. This will most of the time be the kinetically limiting
-step. Once proto-filaments are present in solution, single monomers can be
-freely added or removed on both end of the filament.
+The polymerisation of ATP/ADP actin monomer to form an actin filament
+need to go through the step of forming an actin proto-filament which
+is constituted of at least 3 actin monomers. This will most of the
+time be the kinetically limiting step. Once proto-filaments are
+present in solution, single monomers can be freely added or removed on
+both ends of the filament.  The process of forming these
+proto-filament is called the nucleation and is the rate limiting factor
+to form actin filament from actin monomers. To circumvent this
+limitation experimentally one can use actin filament seed, or actin
+nucleator to direct the polymerisation on cell as cell does.
 
-We now need to distinguish between the dynamic of adding or removing on both
+We need to distinguish between the dynamics of adding or removing on both
 ends of the filament. Indeed it has been show that the association and
 dissociation rate are differing between the pointed (-) and barbed (+) end.
 More particularly, the association rate at the barbed rate is higher that on
@@ -190,11 +195,11 @@ The equations that drive the polymerisation can thus be written as follow
     \frac{dC_p}{dt} &= k_{+,p}.[monomers] - k_{-,p} \\
 
 Where `b` and `p` designate respectively the barbed and pointed end, and
-:math:`k_+` and :math:`k_-` are the polymerisation and depolymerisation rate.
+:math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation rate.
 The concentration in barbed and pointed end denoted by :math:`C_\_`. By
 assuming that the number of pointed end is equal to the number of barbed end,
 one can derive the steady state which give rise to the critical monomer
-concentration below which a actin filament cannot grow: :math:`[monomers]_c`.
+concentration below which an actin filament cannot grow: :math:`[monomers]_c`.
 
 The rate constant of elongation of actin have been determined to also depend of
 whether the monomer was bound to ADP or ATP :cite:`Pollard1986`. We should now
@@ -204,11 +209,11 @@ monomer is part of a filament or in solution.
 
 It should be noted that the in stationary state the length of each actin
 filaments statistically constant because the speed of polymerisation on the
-barbed end is compensated by the depolymerisation on the pointed end. The
-filament is hence in a threadmilling state. If we follow a single actin monomer
+barbed end is compensated by the de-polymerisation on the pointed end. The
+filament is hence in a treadmilling state. If we follow a single actin monomer
 bound to an ATP molecule, it will be incorporated at the `+` end of the
 filament and progressively move toward the minus end, eventually hydrolysing
-it's ATP into ADP before detecting from the filament on the pointed end.
+it ATP into ADP before detecting from the filament on the pointed end.
 
 .. todo::
 
@@ -248,22 +253,22 @@ polymerisation rate  of actin filament by dimerising and binding to the barbed
 end. It has the particularity of being processive, meaning that it will stay
 bound to the barbed and while catalysing the addition of new monomers. We will
 see that the processivity of formins also permit the control of the
-localisation of actin polymerisation where formin proteins are present, like
+localization of actin polymerisation where formin proteins are present, like
 the tip of filopodia. `Formin` posses domains rich in proline capable of
 binding to profilin (`FH1`) which allow formin to elongate F-Actin using actin
 monomers bounds to profilin.
 
 
-Actin depolymerisation and severing
+Actin depolymerization and severing
 """""""""""""""""""""""""""""""""""
 
-Like polymerisation that can be enhanced by some proteins, depolymerisation can
+Like polymerisation that can be enhanced by some proteins, depolymerization can
 also be speed up by divers proteins. ADF/Cofilin is such a family of protein
-which is able to speedup the depolymerisation of actin either by increasing the
+which is able to speedup the depolymerization of actin either by increasing the
 off rate at the pointed end :cite:`Carlier1997`, or by actively severing the
 filament in different point, thus disassembling the formed network.
 
-It should be noted that depolymerisation can not only be  enhanced at the
+It should be noted that depolymerization can not only be  enhanced at the
 pointed end, indeed formin is also able to accelerate the detachment of actin
 monomers at the barbed end.
 
@@ -283,26 +288,26 @@ unlike CP can only attached to the barbed end of an actin filament after
 severing it. Gelsoline is hence both a severing and a capping protein.
 
 
-Crosslinkers
+Cross-linkers
 """"""""""""
 
 We have seen that some proteins were able to attach to actin filament, when
 such a protein is able to attach to many filament at once, it can act as an
 attachment point between the two filament, preventing them to move with respect
-one to the other. Such proteins, are referred to as crosslinkers.
+one to the other. Such proteins, are referred to as cross-linkers.
 
-The amount of freedom in movement between the two filament is dependant of the
-used crosslinker. For example , α-actinin will allow rotation of the two
-filament at their anchoring point whereas crosslinker like fascine will prefer
+The amount of freedom in movement between the two filament is dependent of the
+used cross-linker. For example , α-actinin will allow rotation of the two
+filament at their anchoring point whereas cross-linker like fascine will prefer
 a parallel conformation of the filament and favor the formation of actin
 bundles.
 
-Stabilising actin filaments
+Stabilizing actin filaments
 """""""""""""""""""""""""""
 
 As actin network a dynamics construct that are changing shape and properties
 with time, it is convenient to be able to stabilize those network. Tropomyosins
-are proteins capable to bind on the side of actin filament to stabilise them.
+are proteins capable to bind on the side of actin filament to stabilize them.
 
 The use of phalloidin, a toxin extracted from fungus, is also common as by
 binding between F-actin subunits on the filament, it prevent it from
@@ -329,7 +334,7 @@ single dimers with two head will be able to effect several step in a row.
 Whereas `Myosin II` is only able to effect one step before detaching from the
 actin filament the processivity being statistically achieve by having  a high
 number of myosin filament bundled together. 
-
+ 
 .. Latrunculin
 .. """""""""""
 .. 
