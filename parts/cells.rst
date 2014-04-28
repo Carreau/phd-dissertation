@@ -47,8 +47,8 @@ that the cell uses to accomplish its functions. Cells are of course not
 completely isolated, and have a series of mechanisms to exchange and
 communicate with the outside. This communication can be chemical but  mechanics
 is also known to participate in the process. To sens their mechanical
-environment, cell use adhesion complexes to attach to the medium, and integrins
-as trans-membrane protein will transfer the force to the cell cytoskeleton
+environment, cells use adhesion complexes to attach to the substrate, and integrins
+as trans-membrane protein to transfer the force to the cell cytoskeleton
 situated inside the cell.
 
 .. _albertcell:
@@ -67,7 +67,7 @@ situated inside the cell.
 
 .. figure:: /figs/oocyte-wild-type.png     
     :alt: "Bright field image of an OOcyte"
-    :width: 70%
+    :width: 0%
 
     Bright field image of a mouse oocyte before meiosis. Cell diameter is 
     of 80 µm. The nucleus can be clearly seen at the center of the
@@ -106,9 +106,6 @@ microfilament.
 
 .. Microtubules
 
-Microtubules
-------------
-
 Microtubules are the wider with a diameter of 20nm and :cite:`un article où on
 voit le diameter` the stiffer of the three kinds of filament with a persistence
 length in the order of millimeter, which is much longer than the size of the
@@ -126,8 +123,6 @@ in this manuscript.
 
 .. Intermediate filament
 
-Intermediate filaments
-----------------------
 
 Intermediate filaments are of medium diameter in the order of around 10nm, in
 between actin and microtubules filament, hence their name.  Unlike microtubules
@@ -136,15 +131,13 @@ of proteins and are non-polar.
 
 .. Actin
 
-Actin
------
 
 Actin, is the third component of the cytoskeleton, the one we will focus most
-of our effort. Actin can forms actin filament, the thinest of the three kind
-that form the cytoskeleton. Actin is produced in the cell as a globular protein
-of ~40 kDa that once associated with ATP or ADP polymerise into helicoidal
-filament with a diameter between 7 and 9nm. The formed actin filament are
-polar, which both extremity respectively called the plus (`+`) or
+of our effort. Actin monomers polymerises into actin filament, the thinest of
+the three kind that form the cytoskeleton. Actin is produced in the cell as a
+globular protein of ~40 kDa that once associated with ATP or ADP polymerise
+into helicoidal filament with a diameter between 7 and 9nm. The formed actin
+filament are polar, which both extremity respectively called the plus (`+`) or
 barbed end, and the minus (`-`) or pointed end. The polarity of the actin
 filament is of importance as this give rise to a proved direction for most
 processes that can happen on the filament.

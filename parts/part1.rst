@@ -164,44 +164,45 @@ Actin networks as viscoelastic material
 To study the mechanical properties of an actin network it is important to
 describe the condition in which we study it to select the adequate models.
 
-We have seen previously that while polymerising, G-actin form F-actin filament
-with a characteristic called the persistence length (:math:`l_p`) which
-represent the length after which the bending of filament becomes
-non-negligible. For actin filament, the persistence length is in the order of
-10 µm. This mean that for scale much smaller, portion of actin filament can be
-considered as completely rigid, like in cell cortex where meshwork have a
-typical size smaller than 250 nm. In the other end, add length scale much
-bigger than :math:`l_p`, filament can be considered as fully flexible. Even if
-for typical cells, the length scale is rarely much bigger than the persistence
-length of actin, `Xenopus` eggs can be as big as 1 mm, so hundreds fold the
-persistence length.  In mouse oocyte that can go up to a 80µm  diameter – and
-on we will do some analysis – are hence slightly less than an order of
-magnitude bigger than the persistence length. Still For majority of cell, the
-typical size we are interested in is about the persistence length of an actin
-filament, making it neither purely rigid nor completely flexible. 
+We have seen previously that while polymerising, G-actin assemble into F-actin
+filaments.  The stiffness of filament can be measured by a characteristic number
+called the persistence length (:math:`l_p`) which represent the length after
+which the bending of filament becomes non-negligible. For actin filaments, the
+persistence length is in the order of 10 µm :cite:`Need a reference`. This means that for scales much
+smaller, the actin filament can be considered as rigid, like
+in cell cortex where meshwork have a typical size smaller than 250 nm. In the
+other end, add length scale much bigger than :math:`l_p`, filaments can be
+considered as flexible. Even if for typical cells, the length scale is
+rarely much bigger than the persistence length of actin, `Xenopus` eggs can be
+as big as 1 mm, so hundreds fold the persistence length.  In mouse oocyte that
+can go up to a 80µm  diameter – and on we will do some analysis – are hence
+ about an order of magnitude bigger than the persistence length.
+Still for the majority of cells, the typical size we are interested in is about the
+persistence length of an actin filament, making it neither purely rigid nor
+completely flexible. 
 
 For the above reasons, solution of actin are often compared to semi-flexible
 polymers, and models that predict comportment of actin network often take
-foundation on polymers physics :cite:`Morse1998` :cite:`Morse1998a`. Still, if
+foundation on polymers physics :cite:`Morse1998` :cite:`Morse1998a` . Still, if
 theses models rely on local microscopic parameter, experimental methods only
 have access to bulk properties of the studies material, and it is from theses
 properties, and through the models that we can deduce possible values for the
-microscopic models.
+microscopic models. :cite:`Isambert` :cite:`MacKintosh`
 
 Elastics Modulus
 ================
 
-The elastics Modulus are probably the one that seem to be the easiest to
+The elastics modulus are probably the one that seem to be the easiest to
 understand. They are characteristic of the material that will describe how a
 material will deform non permanently  when applied a force. The stiffer
 something is the higher its elastics modulus will be. There are two specific
 elastic modulus we will be interested in in the rest of this manuscript,
-`Young's Modulus` and `sheer modulus`. The first one describe more specially
-how material will react to it's compression or extension, While the second one
-describe how a material resist  sheering. in isotropic and homogeneous
-material, the Young modulus (noted E) and the sheer models (G) are linked
-together by the Poisson ratio (:math:`\nu`, with that we will see later by the
-following relation.
+`Young's Modulus` and `shear modulus`. The first one describe more specially
+how material will react to it's compression or extension, while the second
+describe how a material resists  shearing. In isotropic and homogeneous
+material, the Young modulus (noted E) and the shear models (G) are linked
+together through the Poisson ratio (:math:`\nu`) by the
+following relation:
 
 .. math::
     
@@ -214,8 +215,8 @@ it as "elastic modulus". Both G and E units are homogeneous to :math:`N/m^2`,
 so :math:`Pa` It is interesting to have an idea of the oder of magnitude of a
 few usual materials. Aluminum will have an elastic modulus :math:`G_{Al}\simeq
 70~GPa` while rubber will be more in the order of :math:`G_{rubber}\simeq
-0.1~GPa`. The elastic modulus of muscle is in the order of :math:`G_{muscle}
-\sim 10~kPa` and brain tissues around :math:`G_{braaiiin} \sim
+0.1~GPa`. The elastic modulus of muscle cell is in the order of :math:`G_{muscle}
+\sim 10~kPa` and brain tissues around :math:`G_{brain} \sim
 0.1~\text{to}~1~kPa`.
 
 
@@ -242,7 +243,7 @@ It is then proportional to the force by unit of surface applied divided by the r
     incompressible material (:math:`\nu \neq 0.5`) this con be seen as the
     conservation of volume of the material.
 
-The sheer modulus is it defined by :
+The shear modulus is it defined by :
 
 .. math::
 
@@ -251,13 +252,13 @@ The sheer modulus is it defined by :
 
 .. todo::
 
-    Scheme for sheer modulus, shoudl we merge it with one where we explain
-    Morse Paper with actin filament going throughthe cross section
+    Scheme for shear modulus, should we merge it with one where we explain
+    Morse Paper with actin filament going through the cross section
 
 Poisson Ratio
 =============
 
-We have just seen that the sheer modulus is linked to the Young modulus using
+We have just seen that the shear modulus is linked to the Young modulus using
 the Poisson ratio.  The Poisson ration is another characteristic of a material
 that define how much a material will compress/expand in a direction
 orthogonal to its elongation.
