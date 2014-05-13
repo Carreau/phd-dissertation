@@ -29,7 +29,6 @@ crosslinker
 fascine
 actinin
 phalloidin
-on
 cytoskeleton
 myosin
 Myosins
@@ -47,10 +46,6 @@ proline
 dimerising
 Gelsoline
 CP
-#RP3
-#RP2
-ARP2/!
-ARP3/!
 Arp3
 centriole
 centrosome
@@ -75,3 +70,6 @@ fluorescently
 accousto
 epifluorescence
 pN
+bean/!
+aligned
+streptavidine
