@@ -318,10 +318,10 @@ Actin depolymerization and severing
 """""""""""""""""""""""""""""""""""
 
 Like polymerisation that can be enhanced by some proteins, depolymerization can
-also be speed up by divers proteins. ADF/Cofilin is such a family of protein
+also be speed up by divers proteins. ADF/Cofilin is a protein
 which is able to speedup the depolymerization of actin either by increasing the
 off rate at the pointed end :cite:`Carlier1997`, or by actively severing the
-filament in different point, thus disassembling the formed network.
+filament in different point, thus disassembling the formed network :cite:`McCullough2011`.
 
 It should be noted that depolymerization can not only be  enhanced at the
 pointed end, indeed formin is also able to accelerate the detachment of actin
@@ -330,28 +330,32 @@ monomers at the barbed end.
 Capping Protein
 """""""""""""""
 
-If cell have possibility to increase of decrease polymerisation speed, they
-also need to be able to regulate the by decreasing the polymerisation speed.
-To achieve this, some proteins will bind to the growing end of actin filament
-and prevent the addition of monomers on the filament. `Capping Protein` (CP)
-being one particular example that will specifically bind to the barbed end of a
-growing filament and  prevent here from growing. Capping protein are necessary
-to prevent circumvent the polymerisation of actin in undesired area and are
-essential for the structure and mechanical properties of actin gel
+To regulate polymerisation, cells also have the possibility to reduce or stop
+the polymerisation. To achieve this, some proteins will bind to the growing end
+of actin filament and prevent the addition of new monomers.  `Capping Protein`
+(CP) being one particular example that will specifically bind to the barbed end
+of a growing filament and  prevent here from growing. Capping proteins are
+necessary to prevent polymerisation of actin in undesired area
+and are essential for the structure and mechanical properties of actin gel
 :cite:`Kawska2012`. `Gelsoline` is another example of capping protein, that
 unlike CP can only attached to the barbed end of an actin filament after
 severing it. Gelsoline is hence both a severing and a capping protein.
 
+.. todo:: 
+    refs look for a review
 
 Cross-linkers
 """"""""""""
 
-We have seen that some proteins were able to attach to actin filament, when
+We have seen that some proteins were able to attach to actin filaments. When
 such a protein is able to attach to many filament at once, it can act as an
 attachment point between the two filament, preventing them to move with respect
-one to the other. Such proteins, are referred to as cross-linkers.
+one to each other. Such proteins, are referred to as cross-linkers.
 
-The amount of freedom in movement between the two filament is dependent of the
+.. todo::
+    ref to review
+
+The amount of freedom in movement between the two filaments is dependant of the
 used cross-linker. For example , α-actinin will allow rotation of the two
 filament at their anchoring point whereas cross-linker like fascine will prefer
 a parallel conformation of the filament and favor the formation of actin
