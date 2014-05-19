@@ -71,13 +71,13 @@ individual behavior and the way they function is a key step into understanding
 how they interact with their environment and other organism. One of the key
 component to most of organism is Actin, a protein which is highly conserved
 across the species and play a important role in cell mechanics, from cell
-migration to cell differentiation and division. It plays also a non negligible role
-in most mechanical properties of the cell and its interactions with the
-environment. In particular actin is the main component of the actin cortex :
-the part of the cell cytoskeleton responsible for cell mechanical properties.
-The properties of this actin cortex is drive by the mechanics of the properties
-of its main component : a dynamic actin network. Understanding this actin
-network is hence a key piece to learn how the actin cortex behave. 
+migration to cell differentiation and division. It plays also a non negligible
+role in most mechanical properties of the cell and its interactions with the
+environment. Under the cell membrane is thin layer which properties control the
+cell mechanical properties : the actin cortex.  The properties of this actin
+cortex is driven by the mechanics of the properties of its main component : a
+dynamic actin network. Understanding this actin network is hence a key piece to
+learn how the actin cortex behave. 
 
 The properties of an actin network highly depend on it's structure. The
 structure itself depends on many parameters that influence how the network is
@@ -170,7 +170,7 @@ called the persistence length (:math:`l_p`) which represent the length after
 which the bending of filament becomes non-negligible. For actin filaments, the
 persistence length is in the order of 10 µm :cite:`Need a reference`. This means that for scales much
 smaller, the actin filament can be considered as rigid, like
-in cell cortex where meshwork have a typical size smaller than 250 nm. In the
+in cell cortex where meshwork have a typical size smaller than 250 nm. On the
 other end, add length scale much bigger than :math:`l_p`, filaments can be
 considered as flexible. Even if for typical cells, the length scale is
 rarely much bigger than the persistence length of actin, `Xenopus` eggs can be

@@ -20,17 +20,19 @@ Living Cells
       - nucleus/spindle positioning in division
       - from oocyte, diploid -> haploid
 
-      
 
-Cells are the smallest living component which are present from unicellular
-plants to multicellular animals. Thus, cells should cover a huge range of
-behavior going from extremely specific on multicellular organism, to all the
-function that are needed to survive and reproduce for bacterial colony.
-Multicellular organism will grow specialized cell from neuron to osteoblast
-going through germinal or muscle cells. In the other hand, unicellular
-organisms are made of cell that are responsible for all the function of the
-organism, from motility to reproduction, passing through absorption of
-nutriments to replication of the cell.
+
+Cell are the basic building block of life, all living are composed of cell(so)
+from unicellular organism to multicellular organism like us. When in
+unicellular organism the unique cell that compose it must accomplish all the
+organism functions, an multicellular organism cell differentiate in order to
+accomplish specialised task  often regrouped into organs, and each of these
+different task require different properties from the cells.
+
+.. todo::
+
+    This paragraph is a little too repetitive try to boil it down to 1-3 simple
+    phrases rethink what message you want transmit.
 
 Cell are hence able to adapt to their environment as a function of time, and
 also have function and behavior that depends on time, and a small change of
@@ -106,19 +108,33 @@ microfilament.
 
 .. Microtubules
 
-Microtubules are the wider with a diameter of 20nm and :cite:`un article où on
-voit le diameter` the stiffer of the three kinds of filament with a persistence
-length in the order of millimeter, which is much longer than the size of the
-usual cell. Microtubules are extensively studied :cite:`cite some reviews ...`.
-Microtubules form polar (oriented) filament that can be walked on by molecular
-motors that can be decomposed in two families – kinesins  and dyneins –
-depending on the end toward which the motor preferably walk. Microtubules are
-mostly known for their action during the cells mitosis where they will form
-majority of the mitotic spindle that drive the segregation of the chromosomes
-in two groups, each group ending in one of the daughter cells. 
+Microtubules are the wider with a diameter of 20nm and :num:`Fig #fig-mt` the
+stiffer of the three kinds of filament with a persistence length in the order
+of millimeter, which is much longer than the size of the usual cell.
+Microtubules are extensively studied :cite:`cite some reviews ...`.
+Microtubules are formed by the polymerisation of an heterodimer of tubuline
+that lead to the formation of polar (oriented) filament that can be walked on
+by molecular motors. These molecular motors can be decomposed in two families –
+kinesins and dyneins – depending on the end toward which the motor preferably
+walk.  Microtubules are mostly known for their action during the cells mitosis
+where they will form majority of the mitotic spindle that drive the segregation
+of the chromosomes in two groups, each group ending in one of the daughter
+cells. 
 
-We will not be interested directly into the effect and behavior of microtubules
-in this manuscript. 
+Microtubules have the characteristic of being highly dynamic by alternating between two state of rapid growth after what is called a `rescue` , and a rapid shrinkage after a `catastrophe`
+
+.. _fig-mt:
+
+.. figure:: /figs/microtubules-structure.mpg     
+    :alt: "Structures of Microtubules, schematic and electro microscopy"
+    :width: 70%
+
+    Structure of an heterodimer of tubuline and assembly into a microtubule.
+    Electron microscopy of a single microtubule filament. From `Molecular
+    Biology of the Cell`
+
+
+
 
 
 .. Intermediate filament
@@ -128,6 +144,13 @@ Intermediate filaments are of medium diameter in the order of around 10nm, in
 between actin and microtubules filament, hence their name.  Unlike microtubules
 and actin filament, intermediate filaments are composed by several sub-families
 of proteins and are non-polar.
+
+Intermediate filament have an important role in the mechanical properties of
+the cell due to the fact that they are particularly  resistant to stretching. 
+
+Unlike actin and microtubules, they are thought to be passive, with mechanical
+properties mainly deriving from how multiple filaments are linked together
+laterally.
 
 .. Actin
 
@@ -151,6 +174,15 @@ Single undecorated filament will behave at the scale of the cell as
 semi-flexible polymer with a persistence length in the order of 10 µm. When the
 assemble into different structure and network, or associate with other proteins
 and molecule the resulting mechanical and dynamic properties can be highly changed.
+
+.. _fig-actin:
+
+.. figure:: /figs/actin-structure.jpg     
+    :alt: "Structures of actin, schematic and electro microscopy"
+    :width: 70% 
+
+    Structure of a single monomer of actin, and electron microscopy snapshot.
+    — from Molecular Biology of the cell.
 
 .. todo:: 
 
