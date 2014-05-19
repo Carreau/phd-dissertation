@@ -385,21 +385,30 @@ Different motors exist for each kinds of filament. The  one that walk on
 F-actin are part of the myosin family. Myosins head will bond on the side of
 F-actin filament and the hydrolysis on ATP into ADP will produce a power stroke
 that will make the myosin tail to move in the direction of the pointed. This
-will make myosin waling preferably toward the barbed end of actin filament,
+will make myosin walking preferably toward the barbed end of actin filament,
 pulling anything being attached to its tail with it. The mechanism that allow
 myosin to reliably walk toward the right end of the actin filament will depend
-on the type of Myosins,  Myosins V for example will be processive and the
+on the type of Myosins, Myosins V for example will be processive and the
 single dimers with two head will be able to effect several step in a row.
 Whereas `Myosin II` is only able to effect one step before detaching from the
 actin filament the processivity being statistically achieve by having  a high
 number of myosin filament bundled together. 
+
+.. todo::
+
+    This need to be an expanded section with equal weight to ARP. Explain more
+    about its function and give a figure _________ get inspired by Alberts.
+
+    Important : Introduce minifilaments, make the difference between  head and
+    tail, _______ introduce the duty ratio, and the difference between Muscle
+    and Cell Myosine II.
  
 .. Latrunculin
 .. """""""""""
 .. 
 .. Another toxin that act on actin is latrunculin, secreted by sponges,it bind to
 .. actin monomer preventing them to polymerise.  In presence of latrunculin, actin
-.. filament can though only depolymerise.
+.. filament can though only depolymerize.
 
 
 Profilin
@@ -408,7 +417,7 @@ Profilin
 Profilin is a protein that will bind to the barbed end of single monomers of
 actin in solution.  By doing so it will first prevent the association of
 monomers into dimers and trimmers, thus preventing the nucleation of actin
-filament. It thus allow a better control of localisation of actin filament
+filament. It thus allows a better control of localisation of actin filament
 both in vivo and in vitro in the presence of actin seeds of actin nucleator.
 
 Profilin as for a long time been believed to be only a sequestering protein
@@ -455,6 +464,11 @@ the bead system we will study hereafter.
 
 When first binding to the actin filament the Arp2/3 complex is initially inactive, it
 needs the help of another protein to start the nucleation actin nucleation process.
+
+.. todo::
+
+    Very important : Talk about the activation of the ARP2/3 complex. Introduce
+    the activator and pVCA. Why do we use this peptide.
 
 
 
