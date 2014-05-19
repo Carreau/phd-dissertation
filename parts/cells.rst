@@ -125,7 +125,7 @@ Microtubules have the characteristic of being highly dynamic by alternating betw
 
 .. _fig-mt:
 
-.. figure:: /figs/microtubules-structure.mpg     
+.. figure:: /figs/microtubules-structure.png     
     :alt: "Structures of Microtubules, schematic and electro microscopy"
     :width: 70%
 
