@@ -194,7 +194,7 @@ and molecule the resulting mechanical and dynamic properties can be highly chang
 Dynamic of actin polymerisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The assembly mechanism that allow to go from singles monomers of actin (also
+The assembly mechanism that allow to go from single monomers of actin (also
 refer to as G-actin) to actin filament (also refer as F-actin)
 need to be well understood to explain the different networks structures actin
 filaments can create in presence of other proteins.
@@ -210,25 +210,38 @@ to form actin filament from actin monomers. To circumvent this
 limitation experimentally one can use actin filament seed, or actin
 nucleator to direct the polymerisation on cell as cell does.
 
-We need to distinguish between the dynamics of adding or removing on both
-ends of the filament. Indeed it has been show that the association and
-dissociation rate are differing between the pointed (-) and barbed (+) end.
-More particularly, the association rate at the barbed rate is higher that on
-the pointed end, and same goes for the dissociation rate which has a bigger
-constant on the minus end of actin filament. This lead to in imbalance of actin
-(de)-polymerisation on both ends, which leads to actin filament preferably
-growing on the barbed end and preferably shrinking from the pointed end.
+We need to distinguish between the dynamics of polymerisation and
+depolymerisation on both ends of the filament. Indeed it has been show that the
+association and dissociation rate are differing between the pointed (-) and
+barbed (+) end. The barbed end has a  higher dynamic that its pointed
+counterpart which is the reason that give it its (+) name. The dynamics of
+polymerisation  is higher both in he case of ATP and ADP, though the rate
+constant of association and dissociation differ for both kind of filaments.
 
-The equations that drive the polymerisation can thus be written as follow
+.. _fig-actin:
+
+.. figure:: /figs/elongation-rate-constant.png     
+    :alt: "Elongation rate constant of actin filament as measured by Pollard 2003"
+    :width: 25%
+
+    Association and dissociation rate of both ATP and ADP actin on pointed and
+    barbed end as measured in :cite:`pollard2003`. The difference of
+    equilibrium constant between the barbed end (bottom) in the presence of ATP
+    allow filament treadmilling.
+
+
+
+
+The equations that drive the polymerisation can be written as follow
 
 .. math::
 
-    \frac{dC_b}{dt} &= k_{+,b}.[monomers] - k_{-,b} \\
-    \frac{dC_p}{dt} &= k_{+,p}.[monomers] - k_{-,p} \\
+    \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[monomers] - k_{-,{barbed}} \\
+    \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[monomers] - k_{-,{pointed}} \\
 
-Where `b` and `p` designate respectively the barbed and pointed end, and
+Where `barbed` and `pointed` designate respectively the barbed and pointed end, and
 :math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation rate.
-The concentration in barbed and pointed end denoted by :math:`C_\_`. By
+The concentration in barbed and pointed end denoted by :math:`C_{{barbed}/{pointed}}`. By
 assuming that the number of pointed end is equal to the number of barbed end,
 one can derive the steady state which give rise to the critical monomer
 concentration below which an actin filament cannot grow: :math:`[monomers]_c`.
@@ -236,16 +249,32 @@ concentration below which an actin filament cannot grow: :math:`[monomers]_c`.
 The rate constant of elongation of actin have been determined to also depend of
 whether the monomer was bound to ADP or ATP :cite:`Pollard1986`. We should now
 consider the fact that ATP-bound actin will hydrolyse to ADP-Pi then release
-the inorganic phosphate, and thus with a rate that also depend on whether the
-monomer is part of a filament or in solution.
+the inorganic phosphate, and thus with a rate which also depend on whether the
+monomer is part of a filament or in solution. With the hydrolysis of ATP-bound
+actin into ADP bound actin in the filament, this lead to an imbalance of actin
+(de)-polymerisation on both ends, which leads to actin filament preferably
+growing on the barbed end and preferably shrinking from the pointed end.
 
-It should be noted that the in stationary state the length of each actin
-filaments statistically constant because the speed of polymerisation on the
-barbed end is compensated by the de-polymerisation on the pointed end. The
-filament is hence in a treadmilling state. If we follow a single actin monomer
-bound to an ATP molecule, it will be incorporated at the `+` end of the
-filament and progressively move toward the minus end, eventually hydrolysing
-it ATP into ADP before detecting from the filament on the pointed end.
+This will lead to a phenomenon known ad treadmilling where a single actin
+monomer bound to an ATP molecule, will be incorporated at the `+` end of the
+filament and progressively move toward the minus end, eventually hydrolysing it
+ATP into ADP before detaching from the filament on the pointed end. During this
+process the filament will grow / shrink until it reaches the stationary state
+where its length would stay constant but the treadmilling continues.
+
+Treadmilling require an imbalance in the global rate constant on the barbed and
+pointed end and an energy source, in the case of actin this is provided by the
+hydrolysis of ATP into ADP+Pi before releasing the inorganic phosphate, without
+whom treadmilling would not occurs.
+
+Practically this can be approximated by having only ATP monomers at the barbed
+end of actin filament wile pointed end is constituted only of ADP monomers,
+thus the critical concentration is lower at the  pointed end. The barbed end
+have a higher critical concentration. The growth speed of the filament depend
+on both end depends on the monomer concentration in solution and in between the
+critical concentration of both ends exist a concentration at which the
+polymerisation on (+) exactly compensate the depolymerisation on (-).
+
 
 .. todo::
 
@@ -261,34 +290,28 @@ it ATP into ADP before detecting from the filament on the pointed end.
     :cite:`Parekh2005` hence network can record history, single filament
     cannot.
 
-Proteins influencing actin polymerisation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Actin network can be controlled by a host of actin binding proteins
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Despite the already complex process that is actin polymerisation and the
-numbers of parameter that we have already introduce, the formation of an actin
-network is a even more complex process that involve many other components.
+numbers of parameter that we have already introduced, the formation of an actin
+network is an even more complex process that involve many other components.
 Especially, actin monomers and filament can interact with a high number of
-proteins that will effect previously established dynamics.  We will present
-some categories of such protein
+proteins that will affect the previously introduced dynamics.  We will present
+some categories of such protein in the following.
 
-Polymerase and polymerase family
-""""""""""""""""""""""""""""""""
+Formins
+"""""""
 
-The polymerase family as their name indicate will directly have effect on the
-polymerisation of actin. In the right condition, polymerase will increase the
-:math:`k_+` At one end of the actin filament for the same concentration of
-actin monomers. This can lead to an average longer filament length.
-
-
-`Formins` are one of those polymerase proteins that will increase the
-polymerisation rate  of actin filament by dimerising and binding to the barbed
-end. It has the particularity of being processive, meaning that it will stay
-bound to the barbed and while catalysing the addition of new monomers. We will
-see that the processivity of formins also permit the control of the
-localization of actin polymerisation where formin proteins are present, like
-the tip of filopodia. `Formin` posses domains rich in proline capable of
+`Formins` are polymerase proteins that will increase the polymerisation rate
+of actin filament by dimerising and binding to the barbed end. It has the
+particularity of being processive, meaning that it will stay bound to the
+barbed and while catalysing the addition of new monomers. The processivity of
+formins also permit the control of the localization of actin polymerisation
+where formin proteins are present, like the tip of filopodia :cite:`Faix2006`
+:cite:`Bornschlogl2013`. `Formin` posses domains rich in proline capable of
 binding to profilin (`FH1`) which allow formin to elongate F-Actin using actin
-monomers bounds to profilin.
+monomers bounds to profilin :cite:`Pruyne2002` :cite:`Pring2003a`.
 
 
 Actin depolymerization and severing
