@@ -22,11 +22,11 @@ Living Cells
 
 
 
-Cell are the basic building block of life, all living are composed of cell(so)
+Cell are the basic building block of life, all living are composed of cells,
 from unicellular organism to multicellular organism like us. When in
-unicellular organism the unique cell that compose it must accomplish all the
-organism functions, an multicellular organism cell differentiate in order to
-accomplish specialised task  often regrouped into organs, and each of these
+unicellular organism the unique cell must accomplish all the organism
+functions. In a multicellular organism cell are able to differentiate in order
+to accomplish specialised task  often regrouped into organs, and each of these
 different task require different properties from the cells.
 
 .. todo::
@@ -34,8 +34,8 @@ different task require different properties from the cells.
     This paragraph is a little too repetitive try to boil it down to 1-3 simple
     phrases rethink what message you want transmit.
 
-Cell are hence able to adapt to their environment as a function of time, and
-also have function and behavior that depends on time, and a small change of
+Cell are hence able to adapt to their environment and develop 
+function and behavior that will depends on time. A small change of
 timing and/or biochemical conditions can highly injure the development of an
 organism :cite:`Lenart2005`, it has also been observe that the mechanical
 properties of substrate can govern the differentiation of cell
@@ -68,7 +68,7 @@ situated inside the cell.
 .. _oocytewt:
 
 .. figure:: /figs/oocyte-wild-type.png     
-    :alt: "Bright field image of an OOcyte"
+    :alt: "Bright field image of an oocyte"
     :width: 0%
 
     Bright field image of a mouse oocyte before meiosis. Cell diameter is 
@@ -104,7 +104,7 @@ both mechanically and biochemically.
 
 The cytoskeleton is mainly composed of three type of filaments.  The
 microtubules, intermediate filament and actin filament, also known as
-microfilament.
+microfilaments.
 
 .. Microtubules
 
@@ -121,7 +121,9 @@ where they will form majority of the mitotic spindle that drive the segregation
 of the chromosomes in two groups, each group ending in one of the daughter
 cells. 
 
-Microtubules have the characteristic of being highly dynamic by alternating between two state of rapid growth after what is called a `rescue` , and a rapid shrinkage after a `catastrophe`
+Microtubules have the characteristic of being highly dynamic by alternating
+between two state of rapid growth after what is called a `rescue` , and a rapid
+shrinkage after a `catastrophe`
 
 .. _fig-mt:
 
@@ -183,12 +185,6 @@ and molecule the resulting mechanical and dynamic properties can be highly chang
 
     Structure of a single monomer of actin, and electron microscopy snapshot.
     — from Molecular Biology of the cell.
-
-.. todo:: 
-
-    Should I speak about single filament polymerisation dynamic that is blown
-    by force application, whereas dendritic network will keep a constant velocity
-    ? 
 
 
 Dynamic of actin polymerisation
@@ -304,7 +300,7 @@ Formins
 """""""
 
 `Formins` are polymerase proteins that will increase the polymerisation rate
-of actin filament by dimerising and binding to the barbed end. It has the
+of actin filament by dimerizing and binding to the barbed end. It has the
 particularity of being processive, meaning that it will stay bound to the
 barbed and while catalysing the addition of new monomers. The processivity of
 formins also permit the control of the localization of actin polymerisation
@@ -402,6 +398,103 @@ number of myosin filament bundled together.
     Important : Introduce minifilaments, make the difference between  head and
     tail, _______ introduce the duty ratio, and the difference between Muscle
     and Cell Myosine II.
+
+
+
+Molecular motors that binds on actin are regrouped under the myosin family.
+The Myosin family is subdivided in subfamilies each with their specificities.
+Each subfamily is numbered with the roman numeral. Despite the high number of
+myosin motors and family, they all share common characteristics. All Myosin are
+molecular motors that binds to actin and are able to convert the energy
+released by ATP to ADP hydrolysis to generate force. Except Myosin VI[How are
+the cellular functions of myosin VI regulated within the cell?] and IX 
+:cite:`Inoue2002`, all myosin walk on actin filament toward the  barbed end. 
+
+Myosin structure is composed of three part. The first part, the myosin head, is
+the par that bind to the actin filament and is responsible for the ATP
+hydrolysis and the "Power Stroke" that will generate the myosin motion. 
+The second part, called neck, is often responsible for regulatory structure for
+the myosin. It also act as a lever arm which will convert the conformational
+change of the bound myosin motor into a physical displacement of the cargo the
+myosin carries.
+The third part, also refer to as tail, is usually the part to which cargo
+attached, and the part that will allow different categories of myosin to
+dimerize or for minifilaments.
+
+
+.. figure:: /figs/figure-16-54a.jpg     
+    :alt: "Schematic of a myosin II motor"
+    :width: 70%
+
+    A schematic of a dimer of myosin motors with the example of Myosin II, also
+    known as muscle myosin. Each of the myosin monomer is colored in a
+    different shade of green. From Right to Left, the myosin head, with the N
+    terminal is the part of the myosin that binds to the actin filaments. The
+    neck region with the light chain act as a lever arm that linked to Myosin
+    tail, here constituted with coiled-coil alpha-helix.
+
+
+Myosin are part of molecular motors due to the fact that they can convert
+chemical energy (in the form of ATP hydrolysis) to motion. Lets describe the
+cycle that allow such phenomenon taking the example of Myosin II also known as
+muscle myosin. The cycle can be decomposed in 5 steps, last of which will be responsible for the forced exerted on the myosin cargo.
+
+    - The myosin start in the 'rigor' conformation where it is lightly bound to
+      the actin filament.
+
+    - An ATP molecule binds to the myosin head inducing the detachment of the
+      myosin from the actin filament.
+
+    - ATP molecule is hydrolysed into ADP+Pi, providing energy which is stored
+      into a conformational change of the myosin which effect a recovery
+      stroke. 
+
+    - Inorganic phosphate is released as the myosin head attaches to the actin
+      filament.
+
+    - The actin-bound myosin change conformation, applying forces on it's
+      cargo. This step is known as the power-stroke and is responsible for most
+      of the applied force or displacement of the myosin. During the
+      power-stroke the ADP bound to the myosin head is released, leading back
+      to first step of the cycle.
+
+
+Myosin motors can achieve relatively reliable transport of cargo along actin
+filament. But we saw in the description of myosin cycle that myosin heads spend
+a certain amount of time detached from microfilaments. Different type of myosin
+have developed different strategy to guaranty reliable motion to ward the barbed end of actin filament. 
+
+The first parameter which govern myosin behavior is name the duty-ratio. It is
+a measure of the amount of amount of time a myosin spend attached to its actin
+filament over the total time of a cycle.  By noting :math:`\tau_{on}` and
+:math:`\tau_{off}` the myosin head binding site respectively spend
+attached/detached from  the filament we can define the duty-ratio (also called
+duty-cycle) :
+
+.. math::
+    r = \frac{\tau_{on}}{\tau_{on}+\tau_{off}}
+
+The duty-ration is hence comprised between 0 and 1, with a value close to 1
+meaning that the myosin is most of the time bound to the actin filament, and a
+value close to 0, meaning that the myosin spend most of its time detached.  
+
+To achieve processivity, myosin can either target a high duty-ration and form
+dimers, or aggregate into mini filament which always are attached to their
+actin counterpart due to the number of head in them.
+
+Myosin V, which is found to be responsible for actin network dynamics and
+vesicle positioning :cite:`Holubcova2013`, achieve hi-processivity by forming
+dimer with a hi-duty ratio for each of the monomer. This will actually allow
+the dimer to "walk" along actin filament from the minus end to the pointed end.
+
+Myosin II has a similar structure to myosin V dimers, bus dimers can bundle
+themselves with the tails of other myosin II forming long bipolar
+minifilaments. The minifilaments have then high number of myosin head that can
+can attach to an actin bundle.
+
+These bipolar minifilaments is what are found in muscles sarcomere, by allowing
+actin filament to slide in opposite direction. Mechanism at the origin of
+muscle contraction. 
  
 .. Latrunculin
 .. """""""""""

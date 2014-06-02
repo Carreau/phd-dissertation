@@ -69,7 +69,7 @@ Introduction
 Cells are the basic component of living organism, understanding their
 individual behavior and the way they function is a key step into understanding
 how they interact with their environment and other organism. One of the key
-component to most of organism is Actin, a protein which is highly conserved
+component to most of organism is actin, a protein which is highly conserved
 across the species and play a important role in cell mechanics, from cell
 migration to cell differentiation and division. It plays also a non negligible
 role in most mechanical properties of the cell and its interactions with the
