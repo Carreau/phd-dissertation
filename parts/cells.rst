@@ -479,7 +479,7 @@ head.
 
 
 
-.. gigure:: /figs/figure-16-54a.jpg     
+.. figure:: /figs/figure-16-54a.jpg     
     :alt: "Schematic of a myosin II motor"
     :width: 70%
 
