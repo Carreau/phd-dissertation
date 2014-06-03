@@ -325,6 +325,8 @@ monomers at the barbed end.
 
 Capping Protein
 """""""""""""""
+.. 3
+
 
 To regulate polymerisation, cells also have the possibility to reduce or stop
 the polymerisation. To achieve this, some proteins will bind to the growing end
@@ -341,7 +343,9 @@ severing it. Gelsoline is hence both a severing and a capping protein.
     refs look for a review
 
 Cross-linkers
-""""""""""""
+"""""""""""""
+.. 3
+
 
 We have seen that some proteins were able to attach to actin filaments. When
 such a protein is able to attach to many filament at once, it can act as an
@@ -372,6 +376,8 @@ mechanical properties of the formed actin network.
 
 Molecular Motor
 """""""""""""""
+.. 3
+
 
 A particular kind of protein that can bind to cytoskeleton filament are
 molecular motors. Molecular motors are proteins that will consume energy source
