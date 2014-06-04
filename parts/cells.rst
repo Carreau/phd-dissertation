@@ -3,6 +3,7 @@
  
 Living Cells
 ************
+.. 2
 
 
 .. Description of cell
@@ -10,7 +11,6 @@ Living Cells
 
 .. todo::
 
-    - give a standard size for a cell. ?
     - spherical, cytokinetic ring, filopodia
     - how force effect actin
     - focal adhesion
@@ -81,6 +81,7 @@ actin cortex,
 
 The Cell Cytoskeleton
 =====================
+.. 3
 
 The cytoskeleton, literally skeleton of the cell, is the structure which give
 it shape to a cell.  As for other multicellular animals that possesses
@@ -98,6 +99,16 @@ of the body to another, the cell cytoskeleton is responsible to not only
 transmit the force the cell is exerting, but also to generate theses force.
 Thats through its cytoskeleton that a cell can be connected to its environment,
 both mechanically and biochemically.
+
+The cytoskeleton of the cell as though three main function, it connects the
+cell both physically and biochemically to the external environment, generate
+and coordinate the forces that give the cell its shape and allow it to move, it
+is also responsible for organising spatially  the cell content
+:cite:`Fletcher2010`. The cytoskeleton is also in particular sensitive to
+Spatial and temporal information that can affect cell fate and the assembly of
+cytoskeletal structure. This can be seen for example with the bud scar of
+budding yeast that persist after division.
+
 
 .. todo::
     trouver des ref pour ci dessous    
@@ -189,6 +200,7 @@ and molecule the resulting mechanical and dynamic properties can be highly chang
 
 Dynamic of actin polymerisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. 4 
 
 The assembly mechanism that allow to go from single monomers of actin (also
 refer to as G-actin) to actin filament (also refer as F-actin)
@@ -235,12 +247,13 @@ The equations that drive the polymerisation can be written as follow
     \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[monomers] - k_{-,{barbed}} \\
     \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[monomers] - k_{-,{pointed}} \\
 
-Where `barbed` and `pointed` designate respectively the barbed and pointed end, and
-:math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation rate.
-The concentration in barbed and pointed end denoted by :math:`C_{{barbed}/{pointed}}`. By
-assuming that the number of pointed end is equal to the number of barbed end,
-one can derive the steady state which give rise to the critical monomer
-concentration below which an actin filament cannot grow: :math:`[monomers]_c`.
+Where `barbed` and `pointed` designate respectively the barbed and pointed end,
+and :math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation
+rate.  The concentration in barbed and pointed end denoted by
+:math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointed end is
+equal to the number of barbed end, one can derive the steady state which give
+rise to the critical monomer concentration below which an actin filament cannot
+grow: :math:`[monomers]_c`.
 
 The rate constant of elongation of actin have been determined to also depend of
 whether the monomer was bound to ADP or ATP :cite:`Pollard1986`. We should now
@@ -274,20 +287,13 @@ polymerisation on (+) exactly compensate the depolymerisation on (-).
 
 .. todo::
 
-  - cf fletcher 2010 review :cite:`Fletcher2010` the cytoskeleton as 3 main
-    functions :
-
-    - organize cell in space
-    - connect cell to external environment (biochemical and mechanical) 
-    - generate and coordinate force to allow cell to change shape.
-    - some things on temporal and spacial effect of structures like "bud scar"
-    - schema of branched Arp2/3 actin factor
   - Loading history determines the velocity of actin-network growth
     :cite:`Parekh2005` hence network can record history, single filament
     cannot.
 
 Actin network can be controlled by a host of actin binding proteins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. 4
 
 Despite the already complex process that is actin polymerisation and the
 numbers of parameter that we have already introduced, the formation of an actin
@@ -298,6 +304,7 @@ some categories of such protein in the following.
 
 Formins
 """""""
+.. 5
 
 `Formins` are polymerase proteins that will increase the polymerisation rate
 of actin filament by dimerizing and binding to the barbed end. It has the
@@ -312,6 +319,7 @@ monomers bounds to profilin :cite:`Pruyne2002` :cite:`Pring2003a`.
 
 Actin depolymerization and severing
 """""""""""""""""""""""""""""""""""
+.. 5
 
 Like polymerisation that can be enhanced by some proteins, depolymerization can
 also be speed up by divers proteins. ADF/Cofilin is a protein
@@ -325,7 +333,7 @@ monomers at the barbed end.
 
 Capping Protein
 """""""""""""""
-.. 3
+.. 5
 
 
 To regulate polymerisation, cells also have the possibility to reduce or stop
@@ -344,7 +352,7 @@ severing it. Gelsoline is hence both a severing and a capping protein.
 
 Cross-linkers
 """""""""""""
-.. 3
+.. 5
 
 
 We have seen that some proteins were able to attach to actin filaments. When
@@ -363,6 +371,9 @@ bundles.
 
 Stabilizing actin filaments
 """""""""""""""""""""""""""
+.. 5
+
+
 
 As actin network a dynamics construct that are changing shape and properties
 with time, it is convenient to be able to stabilize those network. Tropomyosins
@@ -376,7 +387,7 @@ mechanical properties of the formed actin network.
 
 Molecular Motor
 """""""""""""""
-.. 3
+.. 5
 
 
 A particular kind of protein that can bind to cytoskeleton filament are
@@ -411,7 +422,7 @@ be responsible for actin network dynamics and vesicle positioning
 
 Myosin II
 ---------
-.. 4
+.. 6
 
 As stated before, the myosin II family both encompass conventional myosin ans
 well as Non-muscle myosin II (NMII). Both have a similar structure.
@@ -453,9 +464,13 @@ be noted :
 We will see in the following that the duty-ratio might have an important effect
 on the processivity of the myosin.
 
+Ti should be noted that as minifilaments can attach on actin filaments on both
+ends, they can also act as a bridge that hold two points close to each other,
+though having the properties of crosslinkers.
+
 Myosin V
 --------
-.. 4
+.. 6
 
 Myosin V is an unconventional myosin, unlike myosin II it does not aggregate
 into minifilaments.  Though, myosin V has a similar structure to myosin II but
@@ -481,7 +496,7 @@ head.
 
     Important : Introduce minifilaments, make the difference between  head and
     tail, _______ introduce the duty ratio, and the difference between Muscle
-    and Cell Myosine II.
+    and Cell Myosin II.
 
 
 
@@ -498,9 +513,10 @@ head.
     Adapted from Molecular Biology of the cell.
 
 
+
 Myosin cycle
 ------------
-.. 4
+.. 6
 
 We saw earlier that the duty ratio of myosin was the ratio of time the head of
 the myosin spent attached to the actin filament. Indeed, myosin can generate
@@ -568,17 +584,6 @@ polymerisation speed by profilin is the fact it binds preferably to ADP-Actin
 and increase the exchange rate of ADP into ATP. :cite:`probably something, look in Yarmola`.
 
 
-
-
-Nucleation promoting factory
-""""""""""""""""""""""""""""
-
-Nucleation promoting factor, or NPF... 
-
-.. todo:: 
-   Write things on NPF, or should  I leave that as subpart like for ARP2/3
-
-
 Branching Agent
 """""""""""""""
 
@@ -595,19 +600,38 @@ actin filament, from which will grow a daughter filament that for an angle of
 is terminated by the Arp2/3 complex that will stay attached to the mother
 filament, thus increasing the number of available barbed end, without changing
 the number of available pointed end. Cf Nature Review by Erin D. Goley and
-Matthew D. Welch :cite:`Goley2006` for  a longer nger review about the Arp2/3
+Matthew D. Welch :cite:`Goley2006` for  a longer review about the Arp2/3
 complex.
 
-The network formed by Arp2/3 is called a dentritic network, and is in particular
+In cells, the Arp2/3 complex need to be activated by a Nucleation Promoting
+Factor (NFP).  Among then are the  WASp protein (Wiskott-Aldrich Syndrome
+protein) and its neural homologue N-WASP which are from the same family as
+SCAR/WAVE :cite:`Machesky1999`.  All these activator of Arp2/3 have in common a WCA motif. The Wild
+type protein need to be activated in order to activate Arp. The activation is
+done by a change in conformation that expose the active region and provide the
+first actin monomer necessary for the nucleation of the daughter filament.  To
+circumvent the activation process activation process of these protein, we use a
+reconstructed version of the protein that cut all region before the
+poly-proline. The confer to pVCA the ability to be permanently active. This
+region can also be replaced by streptavidine in order to selectively bind pVCA
+to selected regions. Characterisation and more detailed description of pVCA can
+be found in :cite:`Noguerra2012`.
+
+Unlike Cells that are able to control the localisation of actin nucleation
+process thanks to activation of WASP and its homologue, the in vitro control
+of localisation of actin polymerisation is directly done by the localisation of
+pVCA.
+
+The network formed by Arp2/3 is called a dendritic network, and is in particular
 found at the leading edge of the cell, and it is such a network is present in
 the bead system we will study hereafter.
 
 When first binding to the actin filament the Arp2/3 complex is initially inactive, it
 needs the help of another protein to start the nucleation actin nucleation process.
 
-.. todo::
+.. todo:
 
-    Very important : Talk about the activation of the ARP2/3 complex. Introduce
+    Very important : Talk about the activation of the Arp2/3 complex. Introduce
     the activator and pVCA. Why do we use this peptide.
 
 
@@ -644,25 +668,27 @@ TODO
   - structure of Arp2/3 branched network is the same on beads comes than on
     lamelipode :cite:`Cameron2001` 
   - more than 150 protein have been found to bind with actin.
-  - Wave complex,
+  - [√] Wave complex,
 
-    - Wasp, N-Wasp ( need to :cite:`Machesky1999` )
+    - [√] Wasp, N-Wasp ( need to :cite:`Machesky1999` )
 
   - Not composed only by actin
     -Should cite `Pollard2003`
   - Some network need actin, some other do not. (Fletcher review 2010)
-  - NPF
-  - Polymerase, (depolymerase severing), 
-  - crosslinker
+  - [√] NPF
+  - [√] Polymerase, (depolymerase severing), 
+  - [√] crosslinker
 
-    - parallel like fascine
+    - [√] parallel like fascine
 
-      - rotate like alpha-actinin 
+      - [√] rotate like alpha-actinin 
       - effect of cross linking distance :cite:`Morse20..`
 
-  - stabilizing
-  - Molecular motors.
-    - can act as a crosslinker
+  - [√] stabilizing
+  - [√] Molecular motors.
+    - [√] can act as a crosslinker
+
+.. todo::
   - interphase, cellule prepare for division
   - Mitosis : "DNA Segregating"
   - need to describe actin, 
@@ -672,11 +698,11 @@ TODO
   - cytoskeleton is dynamic
   - formed under the plasme membrane
   - ratchet nechanisme
-  - use of Arp2/3 to branch
+  - [√] use of Arp2/3 to branch
   - capping, protein,  formin (OOcyte)
-  - myosin, run on actin to barbed end/ processive/not processive.
+  - [√]myosin, run on actin to barbed end/ processive/not processive.
     - stress fibres
-  - troppomyosine
+  - [√] troppomyosine
 
 
 All the living kingdom is characterised by the fact that organism can reproduce,
@@ -752,7 +778,7 @@ is the organelle that is responsible form translating RNA coming from to
 nucleus in to functional proteins that will be delivered across the cell
 after maturation through vesicles. Theses vesicles are transported across the
 cell by dyneins and kinesins, molecular motors, that walks along microtubules
-originating from the centrioles part of the centrosome. All of those process
+originating from the centriole part of the centrosome. All of those process
 consume energy as the form of ATP, generated from with the mitocondrion spread
 across the cytoplasm.
 

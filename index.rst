@@ -3,7 +3,7 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 6
 
    parts/part1
    parts/part2

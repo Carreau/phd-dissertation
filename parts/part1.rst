@@ -1,5 +1,6 @@
 Preamble
 ########
+.. 1
 
 
 During my PhD I decided to investigate the effect of actin network on the
@@ -46,6 +47,7 @@ properties only by looking at the change in geometry.
 
 Background
 ##########
+.. 1
 
 
 .. todo::
@@ -65,6 +67,7 @@ Background
 
 Introduction
 ************
+.. 2
 
 Cells are the basic component of living organism, understanding their
 individual behavior and the way they function is a key step into understanding
@@ -131,6 +134,8 @@ unaccessible before.
 
 In vitro reconstituted actin networks
 *************************************
+.. 2
+
 
 .. todo::
 
@@ -160,6 +165,8 @@ separate its inside from its outside using lipids.
 
 Actin networks as viscoelastic material
 ***************************************
+.. 2
+
 
 To study the mechanical properties of an actin network it is important to
 describe the condition in which we study it to select the adequate models.
@@ -191,6 +198,7 @@ microscopic models. :cite:`Isambert` :cite:`MacKintosh`
 
 Elastics Modulus
 ================
+.. 3
 
 The elastics modulus are probably the one that seem to be the easiest to
 understand. They are characteristic of the material that will describe how a
@@ -257,6 +265,7 @@ The shear modulus is it defined by :
 
 Poisson Ratio
 =============
+.. 3
 
 We have just seen that the shear modulus is linked to the Young modulus using
 the Poisson ratio.  The Poisson ration is another characteristic of a material
@@ -281,6 +290,7 @@ some value for tissues. Existence of  negative PR
 
 Viscosity
 =========
+.. 3
 
 Like elasticity, viscosity is something tangible we are used to work with in
 everyday life, the more viscous a material is the more difficult it is to move
@@ -308,6 +318,7 @@ At room temperature water have a viscosity of around 1 mPa.s, an honey have a vi
 
 Viscoelastic
 ============
+.. 3
 
 Typically, no material are purely elastic or purely viscous. When glacier can
 seem purely solid at the time scale of a few days, observation on longer time
@@ -358,16 +369,19 @@ frequences
 
 Frequency dependent value
 =========================
+.. 3
 
  - Classical example of non Newtonian fluid (?), depend on frequency.
  - decompose in pulsation, then miracle :math:`i\omega \simeq \frac{\partial}{\partial t}` 
  - maxwell voight model, spring + dash pot
 
 Active and Passive microrheology 
-********************************
+*********************************
+.. 2
 
 Optical tweezer
 ***************
+.. 2
 
 Optical tweezer, or optical trap are a technique that allow to trap object near
 the focal plane of microscope at the point where a high power laser is focused.
@@ -468,7 +482,8 @@ to each trap and though stiffness of relevant trap.
     time than using optical tweezer.
 
 Determination of force and displacement on bead
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===============================================
+.. 3
 
 Using optical tweezer to not only hold a particle in position, but also get
 quantitative measurement of its displacement and force exerted require
@@ -512,6 +527,7 @@ flattening on the curve prevent precise measurement.
 
 Membrane Physics 
 *****************
+.. 2
     
     
 
@@ -521,6 +537,7 @@ Membrane Physics
 
 Myosis (to move away)
 *********************
+.. 2
 
 .. todo::
     - Asymetric division of oocyte, 
