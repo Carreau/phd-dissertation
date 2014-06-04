@@ -668,25 +668,25 @@ TODO
   - structure of Arp2/3 branched network is the same on beads comes than on
     lamelipode :cite:`Cameron2001` 
   - more than 150 protein have been found to bind with actin.
-  - [√] Wave complex,
+  - [x] Wave complex,
 
-    - [√] Wasp, N-Wasp ( need to :cite:`Machesky1999` )
+    - [x] Wasp, N-Wasp ( need to :cite:`Machesky1999` )
 
   - Not composed only by actin
     -Should cite `Pollard2003`
   - Some network need actin, some other do not. (Fletcher review 2010)
-  - [√] NPF
-  - [√] Polymerase, (depolymerase severing), 
-  - [√] crosslinker
+  - [x] NPF
+  - [x] Polymerase, (depolymerase severing), 
+  - [x] crosslinker
 
-    - [√] parallel like fascine
+    - [x] parallel like fascine
 
-      - [√] rotate like alpha-actinin 
+      - [x] rotate like alpha-actinin 
       - effect of cross linking distance :cite:`Morse20..`
 
-  - [√] stabilizing
-  - [√] Molecular motors.
-    - [√] can act as a crosslinker
+  - [x] stabilizing
+  - [x] Molecular motors.
+    - [x] can act as a crosslinker
 
 .. todo::
   - interphase, cellule prepare for division
@@ -698,11 +698,11 @@ TODO
   - cytoskeleton is dynamic
   - formed under the plasme membrane
   - ratchet nechanisme
-  - [√] use of Arp2/3 to branch
+  - [x] use of Arp2/3 to branch
   - capping, protein,  formin (OOcyte)
-  - [√]myosin, run on actin to barbed end/ processive/not processive.
+  - [x]myosin, run on actin to barbed end/ processive/not processive.
     - stress fibres
-  - [√] troppomyosine
+  - [x] troppomyosine
 
 
 All the living kingdom is characterised by the fact that organism can reproduce,

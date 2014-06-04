@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Actin gel dynamics'
-copyright = u'2014, '+author_full 
+copyright = u'2014, '+author_full
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -105,7 +105,7 @@ pygments_style = 'sphinx'
 #modindex_common_prefix = []
 
 # Shows all todo listings
-todo_include_todos = True
+todo_include_todos = False
 
 
 # -- Options for HTML output ---------------------------------------------------
@@ -264,7 +264,7 @@ import codecs
 #     with open(text + '.tex') as f:
 #         tex.append(f.read())
 #     os.remove(text + '.tex')
-# 
+#
 # This creates thw raw latex for the acknowledgements
 # with open('acknowledgements.rst') as f:
 #     acknowledgements = f.read().replace('=' * 16 + '\nAcknowledgements\n'
