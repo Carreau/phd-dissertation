@@ -77,7 +77,7 @@ across the species and play a important role in cell mechanics, from cell
 migration to cell differentiation and division. It plays also a non negligible
 role in most mechanical properties of the cell and its interactions with the
 environment. Under the cell membrane is thin layer which properties control the
-cell mechanical properties : the actin cortex.  The properties of this actin
+cell mechanical properties : the actin cortex. The properties of this actin
 cortex is driven by the mechanics of the properties of its main component : a
 dynamic actin network. Understanding this actin network is hence a key piece to
 learn how the actin cortex behave. 
@@ -99,32 +99,21 @@ well controlled environment where biochemical condition can be well controlled
 both in space and time. Theses systems keep their biological relevance, as they
 can mimic *in vivo* phenomenon. Biomimetic systems are also well adapted to the
 tools available and the approach from a physics point of view. The optical trap
-will allow us to study local mechanical properties of actin  network  with a
+will allow us to study local mechanical properties of actin network with a
 high time resolution which could allow to get insight into the variation of
 theses properties as a function of time. 
 
 
 During my PhD, my work has mainly be to study the mechanics of branched actin
 network polymerizing on optically trapped polystyrene beads. Such network was
-studied before :cite:`Kawska2012`  but have suspected to be highly inhomogeneous,
-the use of optical trap allowed to probe mechanics of part of the network
-unaccessible before.
-
-
-.. todo::
-
-    - time resolution
-    - network dynamics
-    - Move to liposome, 
-    - study in OOCyte : 
-    - Basically from purely biiomimetic to real cells
-
-
-
-
-
-
-
+studied before :cite:`Kawska2012` but have suspected to be highly
+inhomogeneous, the use of optical trap allowed to probe mechanics of part of
+the network unaccessible before both because of their sensitivity and the
+ability to get hi time resolution. I further moved toward studying actin
+network on other biomimetic system constituted of liposomes, in order to better
+understand the effect on actin cortex polymerisation on membrane tension and
+characterize network dynamic through time. Finally I participated in a collaboration in
+order to understand the implication such actin network in living mouse Oocyte.
 
 
 .. :cite:`...`  
@@ -172,21 +161,21 @@ To study the mechanical properties of an actin network it is important to
 describe the condition in which we study it to select the adequate models.
 
 We have seen previously that while polymerising, G-actin assemble into F-actin
-filaments.  The stiffness of filament can be measured by a characteristic number
+filaments. The stiffness of filament can be measured by a characteristic number
 called the persistence length (:math:`l_p`) which represent the length after
 which the bending of filament becomes non-negligible. For actin filaments, the
-persistence length is in the order of 10 µm :cite:`Need a reference`. This means that for scales much
-smaller, the actin filament can be considered as rigid, like
-in cell cortex where meshwork have a typical size smaller than 250 nm. On the
-other end, add length scale much bigger than :math:`l_p`, filaments can be
-considered as flexible. Even if for typical cells, the length scale is
+persistence length is in the order of 10 µm :cite:`Isambert1996`. This means
+that for scales much smaller, the actin filament can be considered as rigid,
+like in cell cortex where meshwork have a typical size smaller than 250 nm. In
+the other extreme, at length scale much bigger than :math:`l_p`, filaments can
+be considered as flexible. Even if for typical cells, the length scale is
 rarely much bigger than the persistence length of actin, `Xenopus` eggs can be
-as big as 1 mm, so hundreds fold the persistence length.  In mouse oocyte that
-can go up to a 80µm  diameter – and on we will do some analysis – are hence
- about an order of magnitude bigger than the persistence length.
-Still for the majority of cells, the typical size we are interested in is about the
-persistence length of an actin filament, making it neither purely rigid nor
-completely flexible. 
+as big as 1 mm, so hundreds fold the persistence length. In mouse oocyte that
+can go up to a 80µm diameter – and on which we will do some analysis – actin
+filaments are hence about an order of magnitude bigger than the persistence
+length. Still for the majority of cells, the typical size we are interested in
+is about the persistence length of an actin filament, making it neither purely
+rigid nor completely flexible.
 
 For the above reasons, solution of actin are often compared to semi-flexible
 polymers, and models that predict comportment of actin network often take
@@ -195,6 +184,12 @@ theses models rely on local microscopic parameter, experimental methods only
 have access to bulk properties of the studies material, and it is from theses
 properties, and through the models that we can deduce possible values for the
 microscopic models. :cite:`Isambert` :cite:`MacKintosh`
+
+.. todo::
+    Fix Above citations
+
+.. todo:: 
+    Typically the persistence length is the length at which thermal fluctuation becomes  ...  `<\theta(0)\Theta(l)>` = exp(-l/lp)
 
 Elastics Modulus
 ================

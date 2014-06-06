@@ -1,23 +1,19 @@
-.. role_of_actin
+.. _role_of_actin:
 
 The Role And Composition Of Cytoskeleton
 ****************************************
 .. 2
 
-
-We have already introduced the cell cytoskeleton in a previous part,
-:ref:`into_cyto`, we will describe its component and function ality more in
-detail here.  The cytoskeleton of the cell as though three main function, it
-connects the cell both physically and biochemically to the external
-environment, generate and coordinate the forces that give the cell its shape
-and allow it to move, it is also responsible for organising spatially  the cell
-content :cite:`Fletcher2010`. The cytoskeleton is also in particular sensitive
-to Spatial and temporal information that can affect cell fate and the assembly
-of cytoskeletal structure. This can be seen for example with the bud scar of
+We have already introduced the cell cytoskeleton in a previous part, we will
+describe its component and function ality more in detail here.  The
+cytoskeleton of the cell as though three main function, it connects the cell
+both physically and biochemically to the external environment, generate and
+coordinate the forces that give the cell its shape and allow it to move, it is
+also responsible for organising spatially  the cell content
+:cite:`Fletcher2010`. The cytoskeleton is also in particular sensitive to
+Spatial and temporal information that can affect cell fate and the assembly of
+cytoskeletal structure. This can be seen for example with the bud scar of
 budding yeast that persist after division. 
-
-.. todo::
-    trouver des ref pour ci de sous    
 
 Composition of cell cytoskeleton
 ================================
@@ -33,7 +29,7 @@ microfilaments.
 Microtubules are the wider with a diameter of 20nm and :num:`Fig #fig-mt` the
 stiffer of the three kinds of filament with a persistence length in the order
 of millimeter, which is much longer than the size of the usual cell.
-Microtubules are extensively studied :cite:`cite some reviews ...`.
+Microtubules are extensively studied :cite:`Valiron2001`.
 Microtubules are formed by the polymerisation of an heterodimer of tubuline
 that lead to the formation of polar (oriented) filament that can be walked on
 by molecular motors. These molecular motors can be decomposed in two families –
@@ -111,20 +107,19 @@ Dynamic of actin polymerisation
 .. 4 
 
 The assembly mechanism that allow to go from single monomers of actin (also
-refer to as G-actin) to actin filament (also refer as F-actin)
-need to be well understood to explain the different networks structures actin
-filaments can create in presence of other proteins.
+refer to as G-actin) to actin filament (also refer as F-actin) need to be well
+understood to explain the different networks structures actin filaments can
+create in presence of other proteins.
 
-The polymerisation of ATP/ADP actin monomer to form an actin filament
-need to go through the step of forming an actin proto-filament which
-is constituted of at least 3 actin monomers. This will most of the
-time be the kinetically limiting step. Once proto-filaments are
-present in solution, single monomers can be freely added or removed on
-both ends of the filament.  The process of forming these
-proto-filament is called the nucleation and is the rate limiting factor
-to form actin filament from actin monomers. To circumvent this
-limitation experimentally one can use actin filament seed, or actin
-nucleator to direct the polymerisation on cell as cell does.
+The polymerisation of ATP/ADP actin monomer to form an actin filament need to
+go through the step of forming an actin proto-filament which is constituted of
+at least 3 actin monomers. This will most of the time be the kinetically
+limiting step. Once proto-filaments are present in solution, single monomers
+can be freely added or removed on both ends of the filament.  The process of
+forming these proto-filament is called the nucleation and is the rate limiting
+factor to form actin filament from actin monomers. To circumvent this
+limitation experimentally one can use actin filament seed, or actin nucleator
+to direct the polymerisation on cell as cell does.
 
 We need to distinguish between the dynamics of polymerisation and
 depolymerisation on both ends of the filament. Indeed it has been show that the
@@ -484,8 +479,7 @@ that inhibit polymerisation :cite:`Yarmola2009`, though it has a more complex
 behavior, and if it prevent polymerisation of actin filaments by the pointed
 end, it can facilitate polymerisation. One of the cause of increase in
 polymerisation speed by profilin is the fact it binds preferably to ADP-Actin
-and increase the exchange rate of ADP into ATP. :cite:`probably something, look in Yarmola`.
-
+and increase the exchange rate of ADP into ATP. 
 
 Branching Agent
 """""""""""""""
@@ -509,16 +503,16 @@ complex.
 In cells, the Arp2/3 complex need to be activated by a Nucleation Promoting
 Factor (NFP).  Among then are the  WASp protein (Wiskott-Aldrich Syndrome
 protein) and its neural homologue N-WASP which are from the same family as
-SCAR/WAVE :cite:`Machesky1999`.  All these activator of Arp2/3 have in common a WCA motif. The Wild
-type protein need to be activated in order to activate Arp. The activation is
-done by a change in conformation that expose the active region and provide the
-first actin monomer necessary for the nucleation of the daughter filament.  To
-circumvent the activation process activation process of these protein, we use a
-reconstructed version of the protein that cut all region before the
-poly-proline. The confer to pVCA the ability to be permanently active. This
-region can also be replaced by streptavidine in order to selectively bind pVCA
-to selected regions. Characterisation and more detailed description of pVCA can
-be found in :cite:`Noguerra2012`.
+SCAR/WAVE :cite:`Machesky1999`.  All these activator of Arp2/3 have in common a
+WCA motif. The Wild type protein need to be activated in order to activate Arp.
+The activation is done by a change in conformation that expose the active
+region and provide the first actin monomer necessary for the nucleation of the
+daughter filament.  To circumvent the activation process activation process of
+these protein, we use a reconstructed version of the protein that cut all
+region before the poly-proline. The confer to pVCA the ability to be
+permanently active. This region can also be replaced by streptavidine in order
+to selectively bind pVCA to selected regions. Characterisation and more
+detailed description of pVCA can be found in :cite:`Noguerra2012`.
 
 Unlike Cells that are able to control the localisation of actin nucleation
 process thanks to activation of WASP and its homologue, the in vitro control
@@ -588,9 +582,10 @@ orthogonal to the membrane as one can see using electron microscopy on cells
     bars are 100nm, inset 50 nm. Extracted from :cite:`Morone2006b`.
 
 We saw through the but scar of budding yeast that the full cytoskeleton could
-retain memory of past event. It is also the cse for simple actin network as
+retain memory of past event. It is also the case for simple actin network as
 show in :cite:`Parekh2005` who described how actin-network growth can be
-determined by network history, showing actin cortex could also act as a memory for cell.
+determined by network history, showing actin cortex could also act as a memory
+for cell.
 
 
 Cell Motility
@@ -623,8 +618,8 @@ displacement. Non the less, it does not diminish its importance in tissues
 behavior as all epithelial cell can be considered as moving on a 2D substrate.
 Beyond lamelipodia, structure that are responsible for cell motion are
 filopodia and pseudopodia. They mainly differs from lamelipodia by their shape
-and the organisation of the actin structure inside.
-Lamelipodia-based motion can move a cell up to a few micrometers per minute.
+and the organisation of the actin structure inside. Lamelipodia-based motion
+can move a cell up to a few micrometers per minute.
 
 The action necessary to move in an amoeboid way can be decomposed in three
 steps. First the cell need to grow a protrusion. Growing this protrusion is
@@ -644,9 +639,9 @@ fundamental role in the motion process of mesenchymal cells. While we can see
 that wit the lamelipodia, the same conclusion can be drawn from pseudopodia and
 filopodia. Indeed filopodia basically differ from lamelipodia by the fact that
 they are unidimensional at the scale of the cell and are host of an actin
-structure made of parallel  filaments and bundles. Pseudopod are the equivalent
+structure made of parallel filaments and bundles. Pseudopod are the equivalent
 of filopodia, except they are characteristic in motion in a 3D environment and
-are constituted by an actin gel more than parallel filaments.  
+are constituted by an actin gel more than parallel filaments.
 
 Blebbing base Motility
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -678,6 +673,8 @@ model in vivo.
     Extracted from :cite:`Charras2008`
 
 
+.. _organelle_positioning:
+
 Organelle Positioning (actin cloud) 
 ====================================
 .. 3
@@ -692,21 +689,53 @@ Organelle Positioning (actin cloud)
 .. todo:: 
     remove this paragraph
 
-We have previously seen that actin plays a major role in cell motility and
-division. By opposition to the actin cortex which is thin and dense network
-just under the membrane, we will interest here in different kind of structure
-formed by actin that have an as important role in the cells life cycle.
+We have seen previously that organelle positioning plays an important role in cell function.
+Several mechanism involving actin are at the origin of structure positioning in cell.
+
+    - We just saw actin cortex, 
+      - it has been shown in :cite:`Chaigne2013a` that
+      the elasticity of the actin cortex  during oocyte division 
+      need to get the right value in order to get spindle positioning. 
+      The correct spacial position of this spindle is necessary to perform
+      a viable division of the cell.
+
+.. todo::
+    - Mitoncondria, ER (made to produce proteins), also serve in locust (Sturmer1995)
+    - Organelles are supported by .. gravity thing
+    - :cite:`Azoury2011`  Symmetry Breaking in mouse Oocyte require transient F-Actin meshwork 
+    - :cite:`Lenart2005` A contractile nuclear actin network drives chromosome congression in oocytes.
+
+    - actin already play a role in motility
+    - positioning is crucial, 
+      - cell nucleus contain the genetic material, need to be protected.
+      - tan line 
+      - actin used to tranmit tension
+    - actin cortex is thin and dense, there exist more soft structure.
+      - this can be used to move nucleus.
+      - nurse cell
+
+    - the passage from cortex to cytosol is not well studied
+    - :cite:`Holubcova2013`. 
+
+
+.. We have previously seen that actin plays a major role in cell motility and
+.. division. By opposition to the actin cortex which is thin and dense network
+.. just under the membrane, we will interest here in different kind of structure
+.. formed by actin that have an as important role in the cells life cycle.
 
 In the same way that cells need to displace, or that components need to be
 transported between parts of the cell, the positioning of organelles in cells
-is crucial for development. The cell nucleus, essential to the cell replication
+is crucial for development. 
+The cell nucleus, essential to the cell replication
 as it contains most of the genetic material needs to be protected. It has been
 shown :cite:`Iwabuchi2010` that in plant cells, the nucleus is moved away from
 high energy light that could damage its DNA with a mechanism that involve
-actin. Wether the nucleus is actually sliding along actin bundles or anchored
+actin.
+Wether the nucleus is actually sliding along actin bundles or anchored
 to the filament while they are pull as not been addressed in for theses cells,
 is has been shown that in fibroblast, nuclear positioning is directly coupled
-to actin cable using TAN lines :cite:`Luxton2011`. Both of theses mechanism use
+to actin cable using TAN lines :cite:`Luxton2011`.
+Both of theses mechanism use
 actin as a scaffold to transmit the forces generated by other process to the
 targeted organelle. These other process are due to molecular motors in the
 cases of plant cell, and retrograde flow in the second one. It is a natural
@@ -720,12 +749,24 @@ filament seem to be enough to displace the nucleus. More especially, while the
 polymerisation occurs at anchored points in the membrane, the actin filaments
 grows, moving the pointed end toward the nucleus, eventually pushing it away.
 
-.. todo::
-    
-    - speak about necessity of a soft actin cortex for spindle positioning in
-      oocyte ( Chaigne Sykes, Campillo) :cite:`Chaigne2013a`
-    - :cite:`Azoury2011`  Symmetry Breaking in mouse Oocyte require transient F-Actin meshwork 
-    - :cite:`Lenart2005` A contractile nuclear actin network drives chromosome congression in oocytes.
+
+The position of the organelles can have more unexpected effects. In particular,
+some nocturnal locust adapt their vision depending on the light condition by
+modifying the properties of a part of their eye called the omatidium. More
+specially, the refractive index if each organelle being slightly different, the
+reorganisation of the position on mitocondrion and endoplasmic reticulum inside
+the cell has been show to be droved by actin polymerisation and responsible
+from changed in optical properties in locust eye :cite:`Sturmer1995`.
+
+
+Movement of organelles is also crucial for plant biology, indeed, genetic
+material is sensitive to UV light, and protecting it is necessary for plant
+survival. Iwabuchi et al. have show that actin is responsible for the migration
+of the cell nucleus away from the part of the cell the more exposed to the
+damaging light :cite:`Iwabuchi2010`.
+
+
+
 
 
 Nuclear positioning during meiosis
