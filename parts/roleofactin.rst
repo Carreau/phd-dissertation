@@ -496,10 +496,10 @@ involving binding on the side on actin filament is responsible for a closely
 related network, the branching mechanism. 
 
 The Arp2/3 complex is composed of seven subunits, two of which are highly
-similar with actin, from Arp2 and Arp3 family for Actin Related Proteins,
-giving the complex its name. Arp2/3 will bond on the side of a pre-existing
-actin filament, from which will grow a daughter filament that for an angle of
-70° from the mother filament. The newly created daughter filament pointed end
+similar to actin, from Arp2 and Arp3 family for Actin Related Proteins,
+giving the complex its name. Arp2/3 will bind on the side of a pre-existing
+actin filament, hence initiating the growth a daughter filament with an angle of
+70° to the mother filament. The newly created daughter filament pointed end
 is terminated by the Arp2/3 complex that will stay attached to the mother
 filament, thus increasing the number of available barbed end, without changing
 the number of available pointed end. Cf Nature Review by Erin D. Goley and
@@ -548,34 +548,36 @@ needs the help of another protein to start the nucleation actin nucleation proce
     Adapted from :cite:`Pollard2000`, scheme recapitulating the formation of a
     dendritic network at the leading edge of a cell were several of the
     function of above described protein can be seen. An actin nucleation
-    promoting factor will activate Arp2/3 which will act both as a nucleation
-    factor and a branching agent. An from an activated Arp2/3 will grow –
-    toward the membrane – an additional daughter filament. Newly growing barbed
-    end can eventually be capped by capping protein which will terminate their
-    growth. Aging monomer in actin filament will slowly hydrolyse their ATP,
-    eventually releasing the inorganic phosphate before detaching from the
-    pointed end. Depolymerisation is helped by severing protein and Actin
-    Depolymerisation Factor. ADP-actin monomer will bind to profilin will will
-    increase the turn over rate to ATP-actin which will be reuse by the leading
-    edge of the cell.
+    promoting factor will activate Arp2/3 which will act both as nucleation
+    factor and a branching agent. From an activated Arp2/3 will grow an actin
+    filament pointing toward the membrane. Newly growing barbed ends can
+    eventually be capped by capping proteins which will terminate their growth.
+    Aging monomers in actin filament will slowly hydrolyse their ATP, eventually
+    releasing the inorganic phosphate before detaching from the pointed end.
+    Depolymerisation is helped by severing protein and Actin Depolymerisation
+    Factor (ADF). ADP-actin monomer will bind to profilin will will increase the turn
+    over rate to ATP-actin which will be reuse by the leading edge of the cell.
+
+.. todo:: 
+    Generally : The Protein you use need to be better introduced than others
 
 The actin cortex
 ================
 .. 3
 
-The actin cortex is a thin layer that can be found just underneath the plasma
-membrane of a cell and which is attached to it. The properties of the actin
-cortex made it a key component is diverse processes. Its capacity to to resit
-to, and transmit force made it indispensable to the locomotion of majority of
-cell by allowing the retraction of the rear of migrating cell and will be
-describe in more detail in the next section. It structure is also essential for
-the cellular division as contractility is necessary to generate cortical
-tension and achieve the separation of the two daughter cells.
+The actin cortex is a thin layer — of between 200 to 500 nm —that can be found
+just underneath the plasma membrane of a cell. The properties of the actin
+cortex makes it a key component to diverse processes.  Its capacity to resit
+to, and transmit forces is indispensable for locomotion of many cell by
+allowing the retraction of the rear of the migrating cell and will be describe
+in more detail in the next section. Its structure is also essential for the
+cellular division as contractility is necessary to generate cortical tension
+and achieve the separation of the two daughter cells.
 
 
-The actin cortex measure from 50nm to around 1µm thickness and is
-constituted of actin filament that can be parallel or orthogonal to the
-membrane as one can see using electron microscopy on cells :cite:`Morone2006b`. 
+The actin cortex is constituted of actin filaments that can be parallel or
+orthogonal to the membrane as one can see using electron microscopy on cells
+:cite:`Morone2006b`. 
 
 .. figure:: /figs/Actin-Cortex-Moronne-2006.jpg
     :alt: "Electron microscope view of the actin cortex"
@@ -680,25 +682,35 @@ Organelle Positioning (actin cloud)
 ====================================
 .. 3
 
-We have previously seen that actin play a major role in cell motility and
-division. By opposition to the actin cortex is thin and dense network just
-under the membrane, we will interest here in different kind of structure formed
-by actin that have an as important role in the cells life cycle.
+.. todo::
 
-In the same way that cell need to displace, or that component need to be
-transported between part of the cell, the positioning of organelles in cells is
-crucial for development. The cell nucleus, essential to the cell replication as
-it contains most of the genetic material need to be protected. It has been
-shown :cite:`Iwabuchi2010` that in plant cell, the nucleus is moved away from
+    Maybe  change the structure a bit, Say beside the  –––––, –––––– –––––– –––
+    seen (sparse network) , additionally these seem to be –––––– in positioning.
+    Then give examples
+
+
+.. todo:: 
+    remove this paragraph
+
+We have previously seen that actin plays a major role in cell motility and
+division. By opposition to the actin cortex which is thin and dense network
+just under the membrane, we will interest here in different kind of structure
+formed by actin that have an as important role in the cells life cycle.
+
+In the same way that cells need to displace, or that components need to be
+transported between parts of the cell, the positioning of organelles in cells
+is crucial for development. The cell nucleus, essential to the cell replication
+as it contains most of the genetic material needs to be protected. It has been
+shown :cite:`Iwabuchi2010` that in plant cells, the nucleus is moved away from
 high energy light that could damage its DNA with a mechanism that involve
 actin. Wether the nucleus is actually sliding along actin bundles or anchored
 to the filament while they are pull as not been addressed in for theses cells,
 is has been shown that in fibroblast, nuclear positioning is directly coupled
 to actin cable using TAN lines :cite:`Luxton2011`. Both of theses mechanism use
 actin as a scaffold to transmit the forces generated by other process to the
-targeted organelle. Molecular motors in the cases of plant cell, and retrograde
-flow in the second one. It is a natural question to ask of whether or not,
-actin can have such effect by itself ?
+targeted organelle. These other process are due to molecular motors in the
+cases of plant cell, and retrograde flow in the second one. It is a natural
+question to ask of whether or not, actin can have such effect by itself ?
 
 A beginning of answer to this question can be hinted by looking at drosophila
 nurses cell. Indeed, during the phase where nurses cell expel their content
@@ -711,7 +723,7 @@ grows, moving the pointed end toward the nucleus, eventually pushing it away.
 .. todo::
     
     - speak about necessity of a soft actin cortex for spindle positioning in
-      oocyte ( Chaigne Sykes, Campillo) 
+      oocyte ( Chaigne Sykes, Campillo) :cite:`Chaigne2013a`
     - :cite:`Azoury2011`  Symmetry Breaking in mouse Oocyte require transient F-Actin meshwork 
     - :cite:`Lenart2005` A contractile nuclear actin network drives chromosome congression in oocytes.
 

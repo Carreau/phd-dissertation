@@ -209,41 +209,48 @@ And
 ..     - cytokinetic actin ring contract. 
 
 
-Cell Organelle
-==============
+Cell Organelles
+===============
+.. 3
 
-Beyond the membrane, cytoplasm and cytoskeleton, cell have a number of
-structure that have different and specialised function. The position and
-state of each of theses structure is of great importance in order for the
-cell to achieve its function. Probably the most known of the organelles is
-the cell nucleus of eukaryotes cells that contain the genetic material of the
-cell. Attached to the nucleus is the endoplasmic reticulum (also know as ER)
-is the organelle that is responsible form translating RNA coming from to
-nucleus in to functional proteins that will be delivered across the cell
-after maturation through vesicles. Theses vesicles are transported across the
-cell by dyneins and kinesins, molecular motors, that walks along microtubules
-originating from the centriole part of the centrosome. All of those process
+.. todo:: 
+
+    Maybe this should be before cytoskeleton. Here it is breaking the flow.
+    Also you may ------ -- ti 12. when you introduce the cell
+
+Beyond the membrane, cytoplasm and cytoskeleton, cells have a number of
+structures with different and specialised functions. The position and state of
+each of theses structure is of great importance for the cell to achieve its
+function. Probably the most known organelle is the cell nucleus of eukariotic
+cells that contains the genetic material of the cell. Attached to the nucleus
+is the endoplasmic reticulum (also know as ER) which is the organelle
+responsible form translating RNA coming from the nucleus into functional
+proteins that will be delivered across the cell after maturation through
+vesicles. Theses vesicles are transported across the cell both by dyneins and
+kinesins that walks along microtubules originating from the centriole part of
+the centrosome but also by myosin along actin filaments . All of those process
 consume energy as the form of ATP, generated from with the mitocondrion spread
 across the cytoplasm.
 
-Like the cell is separated from the external environment by a lipid bilayer
-that form the cytoplasmic membrane, each of the organelles are separated from
-the cytosol by a membrane with a particular composition, properties and function.
+The positioning of organelle is crucial for the life of an organism.  During
+meiotic division of cell, for example, it has been seen that the positioning of
+the nucleus at the center of the cell in mouse oocyte happen before its
+migration closer to the cortex to expel the first polar body.  Failure to do so
+result in a incorrect amount of DNA in germinal cell that can lead to
+infertility.
 
 
-Then positioning of organelle can be of high importance for the life of an
-organism.  During meiotic division of cell, for example, it has been seen that
-the positioning of the nucleus at the center of the cell in mouse oocyte happen
-before its migration closer to the cortex to expel the first polar body.
-Failure to do so result in a incorrect amount of DNA in germinal cell that can
-lead to infertility.
+.. todo::
 
-Same goes with the centrosome which positions at two opposite point in the cell
-when it start to divide. Microtubules emanating from theses centriole will be
+    Maybe mention that actin  is important in this positioning.
+
+
+Same goes with the centrosome which positions at two opposite points in the cell
+when it starts to divide. Microtubules emanating from theses centriole will be
 used to fetch the correct chromosomes and pull them to each of the centrosome
 to get the same amount of DNA into each of the daughter cells.
 
-The position of the organelles can have more unexpected effect. In particular,
+The position of the organelles can have more unexpected effects. In particular,
 some nocturnal locust adapt their vision depending on the light condition by
 modifying the properties of a part of their eye called the omatidium.  More
 specially, the refractive index if each organelle being slightly different, the
