@@ -681,35 +681,53 @@ Organelle Positioning (actin cloud)
 
 .. todo::
 
-    Maybe  change the structure a bit, Say beside the  –––––, –––––– –––––– –––
-    seen (sparse network) , additionally these seem to be –––––– in positioning.
+    Maybe  change the structure a bit, Say beside the cortex often actin structures
+    seen (sparse network), additionally these seem to be –––––– in positioning.
     Then give examples
 
 
-.. todo:: 
-    remove this paragraph
-
-We have seen previously that organelle positioning plays an important role in cell function.
-Several mechanism involving actin are at the origin of structure positioning in cell.
+We have seen previously that organelle positioning plays an important role in
+cell function.  Several mechanism involving actin are at the origin of
+structure positioning in cell. The positioning of organelles by actin  can have
+a wide range of impact from being necessary to the correct cell division, to
+allowing locust eyes to adapt in the dark by repositioning mitocondrion :cite:`Sturmer1995`.
 
     - We just saw actin cortex, 
-      - it has been shown in :cite:`Chaigne2013a` that
-      the elasticity of the actin cortex  during oocyte division 
-      need to get the right value in order to get spindle positioning. 
-      The correct spacial position of this spindle is necessary to perform
-      a viable division of the cell.
+
+      - it has been shown in :cite:`Chaigne2013a` that the elasticity of the
+        actin cortex  during oocyte division need to get the right value in
+        order to get spindle positioning.  The correct spacial position of this
+        spindle is necessary to perform a viable division of the cell.
+
+    - Actin also play role in other part of Cellular division
+
+      - The structure and the time evolution of the actin network in mouse oocyte is
+        necessary for the correct symmetry breaking in oocyte and expulsion of
+        polar body :cite:`Azoury2011`
+
+      - Later actin is necessary for the de capture of Chromosomes in order to
+        achieve correct haploid division :cite:`Lenart2005`.
+
+    - Beyond division actin as a few other role in positioning organelles. 
+
+      - Positioning of the nucleus which contain genetic material, not only
+        during division, but  in general, for example to protect the genetic
+        material.  This is true in plants :cite:`Iwabuchi2010`, where it has
+        been show that nucleus is moved form toward the wall of the cell the
+        less exposed to high energy light  that have high chance of damaging
+        the DNA with an actin-dependant mechanisme.  Tan Line
+        :cite:`Luxton2011` is another actin-related mechanism, that allow to
+        transmit forces to the nucleus in order to position it at the rear of
+        cells before migration.
+
+    - Unlike, the cortex
+
 
 .. todo::
     - Mitoncondria, ER (made to produce proteins), also serve in locust (Sturmer1995)
     - Organelles are supported by .. gravity thing
-    - :cite:`Azoury2011`  Symmetry Breaking in mouse Oocyte require transient F-Actin meshwork 
-    - :cite:`Lenart2005` A contractile nuclear actin network drives chromosome congression in oocytes.
 
     - actin already play a role in motility
-    - positioning is crucial, 
-      - cell nucleus contain the genetic material, need to be protected.
-      - tan line 
-      - actin used to tranmit tension
     - actin cortex is thin and dense, there exist more soft structure.
       - this can be used to move nucleus.
       - nurse cell
