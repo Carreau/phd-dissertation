@@ -679,7 +679,7 @@ Organelle Positioning (actin cloud)
 ====================================
 .. 3
 
-.. todo::
+.. Dodo::
 
     Maybe  change the structure a bit, Say beside the cortex often actin structures
     seen (sparse network), additionally these seem to be –––––– in positioning.
@@ -690,47 +690,98 @@ We have seen previously that organelle positioning plays an important role in
 cell function.  Several mechanism involving actin are at the origin of
 structure positioning in cell. The positioning of organelles by actin  can have
 a wide range of impact from being necessary to the correct cell division, to
-allowing locust eyes to adapt in the dark by repositioning mitocondrion :cite:`Sturmer1995`.
+allowing locust eyes to adapt in the dark by repositioning mitocondrion
+:cite:`Sturmer1995`.
 
-    - We just saw actin cortex, 
+We already know that the actin cortex is a necessary element in cell
+motility. It also plays a determinant  role in organelle
+positioning. It has been shown in :cite:`Chaigne2013a` that the correct range
+of elasticity of the actin cortex during oocyte division is need to get spindle
+positioning.  The correct spacial position of this spindle is necessary to
+perform a viable division of the cell.
 
-      - it has been shown in :cite:`Chaigne2013a` that the elasticity of the
-        actin cortex  during oocyte division need to get the right value in
-        order to get spindle positioning.  The correct spacial position of this
-        spindle is necessary to perform a viable division of the cell.
+Though, the actin cortex is a thin and dense actin structure, and beside this
+kind of network exist a range sparse and softer actin network that have
+crucial roles in organelles positioning.
 
-    - Actin also play role in other part of Cellular division
+If we keep the example of cell division,  we can find a few stage where actin
+structure is crucial. It has been show in :cite:`Azoury2011` that the expulsion
+of polar body during oocyte asymmetric division is  strongly dependant on the
+time evolution of a sparse actin network that can be found in the cell. Actin
+structure is also required at a later stage to permit the correct capture of
+chromosomes by microtubules and achieve correct haploid division.
+:cite:`Schuh2008` also show that a similar sparse actin networks contracted by
+myosins is necessary for the spindle migration.
 
-      - The structure and the time evolution of the actin network in mouse oocyte is
-        necessary for the correct symmetry breaking in oocyte and expulsion of
-        polar body :cite:`Azoury2011`
+Especially in oocyte that are typically large, the effect of gravity is not
+negligible. The presence of a sparse "actin scfold" is discussed in
+:cite:`Feric2013`, where is is found that an actin network is present to
+balance the gravitational force.
 
-      - Later actin is necessary for the de capture of Chromosomes in order to
-        achieve correct haploid division :cite:`Lenart2005`.
+In drosophila, nurses cell need to expel their content in oocyte. It has been
+observed in :cite:`Huelsmann2013` that during this phase, nurse's cells nucleus
+is push away from the dumping canal due to single actin filaments polymerising
+from the membrane and forming a soft and sparse actin network.
 
-    - Beyond division actin as a few other role in positioning organelles. 
-
-      - Positioning of the nucleus which contain genetic material, not only
-        during division, but  in general, for example to protect the genetic
-        material.  This is true in plants :cite:`Iwabuchi2010`, where it has
-        been show that nucleus is moved form toward the wall of the cell the
-        less exposed to high energy light  that have high chance of damaging
-        the DNA with an actin-dependant mechanisme.  Tan Line
-        :cite:`Luxton2011` is another actin-related mechanism, that allow to
-        transmit forces to the nucleus in order to position it at the rear of
-        cells before migration.
-
-    - Unlike, the cortex
+There are than a few studies that show the importance of sparse actin network
+inside cells, but theses networks are not extensively studied. Especially the
+transition from the thin and dense actin cortex near the membrane to the softer
+and sparser actin inside the cytosol. This is such a transition that the
+biomimetic system that I use in my PhD are mimicking.
 
 
-.. todo::
+
+
+
+
+.. - We just saw actin cortex, 
+
+..       - it has been shown in :cite:`Chaigne2013a` that the elasticity of the
+..         actin cortex  during oocyte division need to get the right value in
+..         order to get spindle positioning. The correct spacial position of this
+..         spindle is necessary to perform a viable division of the cell.
+
+..     - Actin also play role in other part of Cellular division
+.. 
+..       - The structure and the time evolution of the actin network in mouse
+..         oocyte is necessary for the correct symmetry breaking in oocyte and
+..         expulsion of polar body :cite:`Azoury2011`
+.. 
+..       - Later actin is necessary for the de capture of Chromosomes in order to
+..         achieve correct haploid division :cite:`Lenart2005`.
+
+..     - Beyond division actin as a few other role in positioning organelles. 
+.. 
+..       - Positioning of the nucleus which contain genetic material, not only
+..         during division, but in general, for example to protect the genetic
+..         material. This is true in plants :cite:`Iwabuchi2010`, where it has
+..         been show that nucleus is moved form toward the wall of the cell the
+..         less exposed to high energy light that have high chance of damaging the
+..         DNA with an actin-dependant mechanism. Tan Line :cite:`Luxton2011` is
+..         another actin-related mechanism, that allow to transmit forces to the
+..         nucleus in order to position it at the rear of cells before migration.
+.. 
+..    - Unlike, the cortex which is thin and dense soften and sparse actin
+..      structure exist in cells and are crucial to organelles positioning.
+
+..         - during the phase where nurses cell expel their content into the
+..           oocyte, the nucleus have to be positioned not to obstruct the
+..           process. It was observed :cite:`Huelsmann2013` that the force exerted
+..           by polymerizing filament seem to be enough to displace the nucleus.
+.. 
+..         - :cite:`Schuh2008` show that a sparse actin network contracted by
+..           myosin that like the cortex to the spindle is necessary for its
+..           migration. 
+.. 
+..         - Organelles are supported by .. gravity thing :cite:`Feric2013`
+.. 
+..         - The passage from the thin an thick actin cortex to such sparser and
+..           softer is not well studied, the capacity of such for to
+..           generate/sustain forces neither.
+
+
+.. todo:
     - Mitoncondria, ER (made to produce proteins), also serve in locust (Sturmer1995)
-    - Organelles are supported by .. gravity thing
-
-    - actin already play a role in motility
-    - actin cortex is thin and dense, there exist more soft structure.
-      - this can be used to move nucleus.
-      - nurse cell
 
     - the passage from cortex to cytosol is not well studied
     - :cite:`Holubcova2013`. 
@@ -741,53 +792,106 @@ allowing locust eyes to adapt in the dark by repositioning mitocondrion :cite:`S
 .. just under the membrane, we will interest here in different kind of structure
 .. formed by actin that have an as important role in the cells life cycle.
 
-In the same way that cells need to displace, or that components need to be
-transported between parts of the cell, the positioning of organelles in cells
-is crucial for development. 
-The cell nucleus, essential to the cell replication
-as it contains most of the genetic material needs to be protected. It has been
-shown :cite:`Iwabuchi2010` that in plant cells, the nucleus is moved away from
-high energy light that could damage its DNA with a mechanism that involve
-actin.
-Wether the nucleus is actually sliding along actin bundles or anchored
-to the filament while they are pull as not been addressed in for theses cells,
-is has been shown that in fibroblast, nuclear positioning is directly coupled
-to actin cable using TAN lines :cite:`Luxton2011`.
-Both of theses mechanism use
-actin as a scaffold to transmit the forces generated by other process to the
-targeted organelle. These other process are due to molecular motors in the
-cases of plant cell, and retrograde flow in the second one. It is a natural
-question to ask of whether or not, actin can have such effect by itself ?
-
-A beginning of answer to this question can be hinted by looking at drosophila
-nurses cell. Indeed, during the phase where nurses cell expel their content
-into the oocyte, the nucleus have to be positioned not to obstruct the process.
-It was observed:cite:`Huelsmann2013` that the force exerted by polymerizing
-filament seem to be enough to displace the nucleus. More especially, while the
-polymerisation occurs at anchored points in the membrane, the actin filaments
-grows, moving the pointed end toward the nucleus, eventually pushing it away.
-
-
-The position of the organelles can have more unexpected effects. In particular,
-some nocturnal locust adapt their vision depending on the light condition by
-modifying the properties of a part of their eye called the omatidium. More
-specially, the refractive index if each organelle being slightly different, the
-reorganisation of the position on mitocondrion and endoplasmic reticulum inside
-the cell has been show to be droved by actin polymerisation and responsible
-from changed in optical properties in locust eye :cite:`Sturmer1995`.
-
-
-Movement of organelles is also crucial for plant biology, indeed, genetic
-material is sensitive to UV light, and protecting it is necessary for plant
-survival. Iwabuchi et al. have show that actin is responsible for the migration
-of the cell nucleus away from the part of the cell the more exposed to the
-damaging light :cite:`Iwabuchi2010`.
-
-
+.. In the same way that cells need to displace, or that components need to be
+.. transported between parts of the cell, the positioning of organelles in cells
+.. is crucial for development. 
+.. The cell nucleus, essential to the cell replication
+.. as it contains most of the genetic material needs to be protected. It has been
+.. shown :cite:`Iwabuchi2010` that in plant cells, the nucleus is moved away from
+.. high energy light that could damage its DNA with a mechanism that involve
+.. actin.
+.. Wether the nucleus is actually sliding along actin bundles or anchored
+.. to the filament while they are pull as not been addressed in for theses cells,
+.. is has been shown that in fibroblast, nuclear positioning is directly coupled
+.. to actin cable using TAN lines :cite:`Luxton2011`.
+.. Both of theses mechanism use
+.. actin as a scaffold to transmit the forces generated by other process to the
+.. targeted organelle. These other process are due to molecular motors in the
+.. cases of plant cell, and retrograde flow in the second one. It is a natural
+.. question to ask of whether or not, actin can have such effect by itself ?
+.. 
+.. A beginning of answer to this question can be hinted by looking at drosophila
+.. nurses cell. Indeed, during the phase where nurses cell expel their content
+.. into the oocyte, the nucleus have to be positioned not to obstruct the process.
+.. It was observed :cite:`Huelsmann2013` that the force exerted by polymerizing
+.. filament seem to be enough to displace the nucleus. More especially, while the
+.. polymerisation occurs at anchored points in the membrane, the actin filaments
+.. grows, moving the pointed end toward the nucleus, eventually pushing it away.
+.. 
+.. 
+.. The position of the organelles can have more unexpected effects. In particular,
+.. some nocturnal locust adapt their vision depending on the light condition by
+.. modifying the properties of a part of their eye called the omatidium. More
+.. specially, the refractive index if each organelle being slightly different, the
+.. reorganisation of the position on mitocondrion and endoplasmic reticulum inside
+.. the cell has been show to be droved by actin polymerisation and responsible
+.. from changed in optical properties in locust eye :cite:`Sturmer1995`.
+.. 
+.. 
+.. Movement of organelles is also crucial for plant biology, indeed, genetic
+.. material is sensitive to UV light, and protecting it is necessary for plant
+.. survival. Iwabuchi et al. have show that actin is responsible for the migration
+.. of the cell nucleus away from the part of the cell the more exposed to the
+.. damaging light :cite:`Iwabuchi2010`.
 
 
 
-Nuclear positioning during meiosis
-==================================
+
+
+Oocyte division
+===============
+.. 3
+
+Oocyte are female germinal cell in the process of gametogenesis. Unlike somatic
+cell that undergoes symmetric division via mitosis  which will lead to two
+identical cells sharing the same genetic material, oocyte undergo a different
+process called meiosis.  Meiosis in oocyte is a highly asymmetric process
+necessary for the specificity of the oocyte which are large haploid cells.
+
+The exact process of formation of oocyte can vary among species, we will
+describe the main mechanisms.
+
+The complete process of egg maturation start with Primordial germ cell which
+will undergo mitosis to replicate until it enter the first meiosis (Meiosis I)
+at which state it is now called Primary oocyte and is still diploid. 
+
+The primary oocyte will start maturation and growth, then undergo a first
+asymmetric division just after prophase I.  This first division is asymmetric
+both in  the genetic material separation and in the unequal size of the formed
+daughter cell. Indeed, the primary oocyte will divide into a secondary oocyte
+and a polar body. Both secondary oocyte and polar body ware haploid and contain
+only half of the genetic material of the primary oocyte.  The secondary oocyte
+can go through Meiosis II in which it incur a second asymmetric division
+expulsion a second polar body. The polar bodies will eventually degenerate.
+
+During meiosis, the process of cell division also differ from mitosis. Instead
+of separating into two identically sized cell through the formation of a
+cytokinetic ring, the primary oocyte will become the secondary oocyte by
+expulsion a polar body. The formation expulsion of the polar body require
+precise positioning of the cells organelles. During prophase I the nucleus of
+oocyte is carefully centered, undergo nuclear breakdown and formation of
+spindle. The first meiotic spindle will migrate toward the oocyte cortex along
+its major axis. Once at the cortex half of the genetic material of the spindle
+will be exposed through the membrane forming the first polar body of much
+smaller size than second oocyte.
+
+.. todo:: 
+    describe figure below, adapt to have a band on the left with Meiosis I/ Meiosis II on the left.
+
+.. figure:: /figs/oocyte-polar.png
+    :alt: asymetric division of oocyte
+    :width: 80%
+
+    Asymmetric division of oocyte into polar bodies. The Primary oocyte
+    asymmetrically divide into a secondary oocyte and a smaller polar body each
+    containing half the DNA of the mother cell. The secondary oocyte will
+    divide asymmetrically a second time to become the mature ovum while
+    expulsion a polar body. This asymmetric   division process allow the
+    formation of a large haploid cell. {Adapted from Wikipedia – Gray's
+    Anatomy – and Molecular Biology of the cell}
+
+    
+
+
 
 
