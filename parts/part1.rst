@@ -112,8 +112,9 @@ the network unaccessible before both because of their sensitivity and the
 ability to get hi time resolution. I further moved toward studying actin
 network on other biomimetic system constituted of liposomes, in order to better
 understand the effect on actin cortex polymerisation on membrane tension and
-characterize network dynamic through time. Finally I participated in a collaboration in
-order to understand the implication such actin network in living mouse Oocyte.
+characterize network dynamic through time. Finally I participated in a
+collaboration in order to understand the implication such actin network in
+living mouse Oocyte.
 
 
 .. :cite:`...`  
@@ -124,6 +125,78 @@ order to understand the implication such actin network in living mouse Oocyte.
 In vitro reconstituted actin networks
 *************************************
 .. 2
+
+Living cells are complex organism, for which each function may require a number
+of interacting proteins and components. To understand the action of each
+individual component it is needed to isolate of modify their actin
+independently.
+
+In order to achieve the  precise tuning of each component independently two
+approach are envisageable. An approach referred to  as "Top-Down" where
+starting from the full system — in our case the cell — we will modify or remove
+each of the component and study the global change of behavior. It is a complex
+process that might be difficult to interpret as biological system have often
+multiple pathways and feedback loop to regulate each of their process. With the
+large number of component that constitute a living cell, it is also relatively
+difficult to come up with the minimal system necessary to replicate a behavior.
+
+The other approach, also referred to as the  bottom-up approach, require to
+reconstitute the system  component by component until it replicate the expected
+behavior. It is also a complex process, as there are a large of component to
+chose from that can potentially be added to the reconstituted system, but often
+lead to a wider range for the testable parameter as well as minimal number of
+interacting component. This allow for a deeper understanding of the governing
+principle of the system, and often permit access to a wider off accessible
+conditions and individual tweaking of component.
+
+In our lab we are mainly interested in the bottom-up approach and the use of
+biomimetic system. We try to reconstitute biologically relevant behavior with
+the minimal system constituted from pure protein components.
+
+In particular in this manuscript we are interested in the mimicking the process
+by which the listeria is able to hijack cellular mechanism, recruit proteins
+responsible for actin polymerisation at the leading edge of the cell, and use
+them to polymerize actin on its back. This is what allow the listeria to
+propel itself fast enough (1.5 to 2 µm /sec) :cite:`Dabiri1990` to be able to
+pass through cell membrane from one cell to the other.
+
+The bead motility system is the minimal in-vitro system capable of replicating
+the listeria motility.
+
+Bead motility assay
+===================
+.. 3
+
+Listeria  is 1.5 to 5 micrometer cylindrical bacteria that hijack cell
+polymerisation machinery. It does so by the recruitment of single protein to
+its read end : ActA. ActA activate the Arp2/3 complex. From the recruited
+Arp2/3 will grow a dense branched and entangle actin network that will for a
+comet behind the bacteria propelling the bacteria at the speed of actin comet
+polymerisation. Listeria comets are composed of a wide range of protein, it has
+though been shown :cite:`Loisel1999` that the number of required component can
+be highly reduced.
+
+
+The simpler system that can replicate the listeria motility is the bead
+motility assay, it consist of a micrometer-sized bead covered with a nucleation
+promoting factor that will activate Arp2/3 present in solution.  This NPF can
+be ActA as in the case of listeria, but one can use other NPF like N-WASp or
+pVCA as we will do in the rest of this manuscript. In the solution is also
+present G-Actin, and Capping Protein to prevent the polymerisation from
+happening away from the bead surface as well as the component necessary for
+actin polymerisation (ATP, Salt...) 
+
+Due to the presence of Capping Protein in solution and NPF on the surface of
+the bead, the polymerisation of actin will happened only on the surface on the
+bead forming a thin and dens gel capable of sustaining stress depending on on
+the different protein concentration. Unlike in the case of listeria which
+control on which if its side the nucleation process happens, this is not
+controlled on bead motility assay. In the right condition :cite:`Kawska2012`
+the dense actin gel formed on the bead surface can accumulate stress induce by
+polymerisation of inner layer until symmetry breaking occurs. The gels ruptures
+on one of the side of he bead, leading to the formation on a comet on the
+opposite side.
+    
 
 
 .. todo::
