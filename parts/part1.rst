@@ -188,18 +188,66 @@ actin polymerisation (ATP, Salt...)
 
 Due to the presence of Capping Protein in solution and NPF on the surface of
 the bead, the polymerisation of actin will happened only on the surface on the
-bead forming a thin and dens gel capable of sustaining stress depending on on
-the different protein concentration. Unlike in the case of listeria which
+bead forming a thin and dens actin gel capable of sustaining stress depending
+on on the different protein concentration. Unlike in the case of listeria which
 control on which if its side the nucleation process happens, this is not
-controlled on bead motility assay. In the right condition :cite:`Kawska2012`
-the dense actin gel formed on the bead surface can accumulate stress induce by
-polymerisation of inner layer until symmetry breaking occurs. The gels ruptures
-on one of the side of he bead, leading to the formation on a comet on the
-opposite side.
-    
-
+controlled on bead motility assay. Though, in the right condition
+:cite:`Kawska2012` the dense actin gel formed on the bead surface can
+accumulate stress induce by polymerisation of inner layer until symmetry
+breaking occurs. The gels ruptures on one of the side of he bead, leading to
+the formation on a comet on the opposite side.
 
 .. todo::
+    Figure with symetry breaking grap scheme from Berlin Presentation, 
+
+The further polymerisation of the actin network on the surface of the bead will
+make the comet grow, propelling the bead forward. This is what make the bead
+system a biomimetic system replicating the listeria motion.
+
+It should be noted that during the evolution of this system, two phases can be
+distinguished. In the first phase, the system present a spherical symmetry with
+an homogeneous actin  network around the bead. The gel is growing from the
+surface and is accumulating stress due to the polymerisation of inner layers.
+
+If the gel is able of accumulating sufficient stress, and the polymerisation to
+produce enough,  the symmetry breaking event happens, and the system enters in
+a second phase with the formation of a comet. 
+
+The condition that lead to symmetry breaking are investigated in
+:cite:`Kawska2012`. In the absence of capping, the actin polymerisation seem
+not to be restricted enough on near the surface of the bead, and the formed
+network is not able to generate or sustain enough stress to achieve symmetry
+breaking. At high capping concentration, the growth of the gel is too impaired
+to also permit symmetry breaking. The concentration of Arp2/3 is also critical
+as Arp form branched network, and these branched network are primordial for the
+ability to sustain stress.
+
+
+.. _phase-diag:
+
+.. figure:: /figs/symmetry-breaking-phase-diagram.png
+    :alt: Symetry breaking phase diagram
+    :width: 70% 
+
+    Phase diagram showing symmetry breaking in bead motility assay as a
+    function of concentration of Arp2/3 and Capping Protein. Symmetry breaking
+    only occurs inside the area delimited by dashed line. Experiments are
+    displayed as inverted fluorescence image. Adapted from :cite:`Kawska2012`
+
+In the rest of this manuscript we use the bead motility system bu only consider
+it during the first phase, where the symmetry breaking has not yet occurred, or
+in condition where it should not occur. In particular we will investigate
+condition at 25 Nm Arp2/3 and concentration of Capping Protein varying from 0
+to 50 nM. This correspond in :num:`Fig #phase-diag` to both condition where no
+symmetry breaking can occurs, but also to condition to which symmetry occurs
+happens with the highest probability. This first phase where the gel is still
+homogeneous around the bead has already been studied in :cite:`Pujol2012`, who
+measure the stiffness of the thin actin gels that form near the surface of the
+bead.We focus on fixed system where we will do further study on still
+polymerising system.
+
+
+.. todo:
 
      - bead assay
        - when it was designed
@@ -208,21 +256,63 @@ opposite side.
        - nucleation on the surface by Arp2/3 NPF, both mimicking the
          nucleation at the membrane outside of bacteria (listeria) and inside
          cell. 
-
-     - liposomes (GUV): 
-       - Giant unilamellar Vesicle
-
      - controlled biochemical condition 
      - bottom up approach  
 
-Liposomes
-^^^^^^^^^
+.. todo::
+     - liposomes (UV): 
+       - Giant unilamellar Vesicle
 
-A more advance system to reproduce a cell are Giant Unilamelar Vesicules
-(GUV) also referred to as liposomes. Liposomes are a lipid bilayer closed on
-itself into a spherical shape. Those represent a perfect first step into
-recreating the condition as, like a cell, it is a closed system, that
-separate its inside from its outside using lipids. 
+
+Liposomes
+=========
+.. 3
+
+Bead are a model biomimetic system that replicate the polymerisation mechanism
+that happened on the leading edge of the cell. Because of their composition and
+rigidity phenomenon observed on bead cannot reproduce all the interaction and
+process that take place on cell membrane. Cells are finite compartment with a
+limited amount of actin that act on the dynamic of polymerisation.  The fact
+that cell size is in the order of the persistence length of actin filament
+also play a role on the structure of actin network . Indeed at these scale as a
+single filament can never reach the length at which is can be considers a fully
+flexible.
+
+Liposomes are one of the biomimetic system that are capable of capturing these
+interaction between cell membrane. Liposomes are lipid bilayers that imprison
+an aqueous compartment and exhibit many extra characteristic similar to cells.
+The inside of liposomes can act as a biochemical reactor of limited size with
+the lipid bilayer actin as a separation with the outside, like the cell
+membrane. The composition of the lipid layer can be varied in order to reflect
+the composition of cell membrane. In particular it is possible to attach
+protein to the liposomes membrane. Finally the size of the liposomes can be
+varied, leading to actin network of size and shape similar to those found in
+cells.
+
+
+It is possible to mimic the cell actin cortex using liposomes, and especially
+its contractility. A crosslinked actin network, can be formed and attached to
+the outer leaflet of liposomes, and contractility can be trigged by injecting
+molecular motors. The behavior of the system will depend on the attachment
+between the reconstituted actin cortex and liposomes membrane.  Week attachment
+lead to a favorable rupture of the actin cortex during the increase of tension,
+implying a symmetry breaking as in bead system.  In the case of strong
+attachment the liposomes actin cortex will accumulate tension until it has
+enough force to crush the supporting lipid layer thus collapsing the liposomes
+:cite:`Carvalho2013`. This system also allow the observation of the system
+through time giving extra insight into the dynamic of actin network.
+
+
+
+.. todo::
+    figure peeling crushing. 
+
+    
+Membrane Physics 
+****************
+.. 2
+
+Cells and their liposomes biomimetic counterpart are constituted of lipid bilayers with physical properties. Understanding the mechanics of these membranes is crucial to understand the behavior of the system.
 
 
 Actin networks as viscoelastic material
@@ -593,9 +683,6 @@ flattening on the curve prevent precise measurement.
     near the center.
 
 
-Membrane Physics 
-*****************
-.. 2
     
     
 
