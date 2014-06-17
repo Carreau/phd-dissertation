@@ -156,7 +156,7 @@ behavior. It is also a complex process, as there are a large of component to
 chose from that can potentially be added to the reconstituted system, but often
 lead to a wider range for the testable parameter as well as minimal number of
 interacting component. This allow for a deeper understanding of the governing
-principle of the system, and often permit access to a wider off accessible
+principle of the system, and often permit access to a wider range of accessible
 conditions and individual tweaking of component.
 
 In our lab we are mainly interested in the bottom-up approach and the use of
@@ -177,24 +177,24 @@ Bead motility assay
 ===================
 .. 3
 
-Listeria  is 1.5 to 5 micrometer cylindrical bacteria that hijack cell
-polymerisation machinery. It does so by the recruitment of single protein to
-its read end : ActA. ActA activate the Arp2/3 complex. From the recruited
-Arp2/3 will grow a dense branched and entangle actin network that will for a
-comet behind the bacteria propelling the bacteria at the speed of actin comet
-polymerisation. Listeria comets are composed of a wide range of protein, it has
-though been shown :cite:`Loisel1999` that the number of required component can
-be highly reduced.
+Listeria is 1.5 to 5 micrometer cylindrical bacteria that enter cells, hijack
+its actin polymerisation machinery to propel itself and infect neighbourers
+cells. It does so by the recruitment of single protein to its read end : ActA.
+ActA activate the Arp2/3 complex. From the recruited Arp2/3 will grow a dense
+branched and entangle actin network that will for a comet behind the bacteria
+propelling the bacteria at the speed of actin comet polymerisation. Listeria
+comets are composed of a wide range of protein, it has though been shown
+:cite:`Loisel1999` that the number of required component can be highly reduced.
 
 
 The simpler system that can replicate the listeria motility is the bead
 motility assay, it consist of a micrometer-sized bead covered with a nucleation
 promoting factor that will activate Arp2/3 present in solution.  This NPF can
 be ActA as in the case of listeria, but one can use other NPF like N-WASp or
-pVCA as we will do in the rest of this manuscript. In the solution is also
-present G-Actin, and Capping Protein to prevent the polymerisation from
-happening away from the bead surface as well as the component necessary for
-actin polymerisation (ATP, Salt...) 
+pVCA as we will do in the rest of this manuscript. The NPF covered bead is in a
+solution where G-Actin is present. Capping Protein is added to prevent the
+polymerisation from happening away from the bead surface as well as the
+component necessary for actin polymerisation (ATP, Salt...) 
 
 Due to the presence of Capping Protein in solution and NPF on the surface of
 the bead, the polymerisation of actin will happened only on the surface on the
@@ -207,8 +207,15 @@ accumulate stress induce by polymerisation of inner layer until symmetry
 breaking occurs. The gels ruptures on one of the side of he bead, leading to
 the formation on a comet on the opposite side.
 
-.. todo::
-    Figure with symetry breaking grap scheme from Berlin Presentation, 
+.. figure:: /figs/Plastino-Sykes-2005.png 
+    :width: 60% 
+    
+    Scheme of bead motility assay. The NPF (yellow stars) will localize the
+    actin polymerisation on the surface of the bead thus increasing stress on
+    the outer actin layers. At a sufficient level of stress, the outer layer
+    ruptures, leading to symmetry breaking, formation of a comet, and
+    propulsion of the bead. Adapted from :cite:`Plastino2005`
+
 
 The further polymerisation of the actin network on the surface of the bead will
 make the comet grow, propelling the bead forward. This is what make the bead
@@ -280,7 +287,7 @@ rigidity phenomenon observed on bead cannot reproduce all the interaction and
 process that take place on cell membrane. Cells are finite compartment with a
 limited amount of actin that act on the dynamic of polymerisation.  The fact
 that cell size is in the order of the persistence length of actin filament
-also play a role on the structure of actin network . Indeed at these scale as a
+also play a role on the structure of actin network. Indeed at these scale as a
 single filament can never reach the length at which is can be considers a fully
 flexible.
 
@@ -337,7 +344,7 @@ Membrane Physics
 The membrane of living cell is a complex, being the host a large number of
 interacting proteins and lipids each with their own dynamics. Though at the
 scale of cell and liposomes it is interest to model the membrane as a surface
-(IE without thickness) characterized by global mechanical properties.
+(that is to say without thickness) characterized by global mechanical properties.
 
 In the case of closed lipid bilayers, the mechanical property we are interested
 in resume to the expansion modulus :math:`K_a` and the bending modulus
@@ -349,7 +356,7 @@ bilayer.
 The expansion modulus :math:`K_a` express how much energy need to by used to
 expand the surface of the lipid bilayer and is due to the exposition of more
 hydrophobic surface to water when expanding it. :math:`K_a` is expressed in
-`J.m^{-2}`, or `N/m` and is close to 2 time the surface tension between the
+:math:`J.m^{-2}`, or :math:`N/m` and is close to 2 time the surface tension between the
 lipids and water.
 
 Thus the formalism of surface tension is often used  as physical models in cell
@@ -357,7 +364,7 @@ and liposomes. This allow to link the difference of pressure between two side
 of a membrane to the membrane tension and its curvature; also known as Laplace Law : 
 
 .. math::
-    \Delta P = \gamma (\frac{1}{R_1}+\frac{1}{R_2})
+    \Delta P = \gamma \left(\frac{1}{R_1}+\frac{1}{R_2}\right)
 
 Where :math:`{R_1}` and :math:`{R_2}` are the principal curvatures radius which
 are equal in the case of sphere. This technique allow for the measure of tension on liposome or cortical tension of cell using aspiration :cite:`Chaigne2013a`. 
@@ -529,6 +536,7 @@ direction :math:`\vec z` will be written :
     F = \eta \frac{\partial v}{\partial z}
 
 Where :math:`\eta` is the viscosity, and is expressed in :math:`Pa.s`.
+
 .. We will
 .. also note that viscosity is often written :math:`\mu`, and can
 .. also while dividing by the fluid density (:math:`\rho`)  then being :math:`\nu = {\eta}/{\rho}`.
@@ -537,7 +545,7 @@ At room temperature water have a viscosity of around 1 mPa.s, an honey have a
 viscosity of around 10 Pa.s. The consideration of viscosity in problems will
 often depend on the timescale at which the problem is considers, where at short
 timescale tissues will behave elastically, whereas at long timescale the effect
-of viscosity will be seen :Thoumine1997:. In actin network, the effect of
+of viscosity will be seen :cite:`Thoumine1997`. In actin network, the effect of
 viscosity at short time scale can be as high as elasticity :cite:`Gardel`. 
 
 
@@ -584,7 +592,7 @@ The idea for more complex models is the same, any material can be seen like an
 (infinite) combination of springs (for elasticity), and dash-pot, (for viscosity).
 
 The generalised model can then be described using a unique parameter, we extend
-the shear modulus with a imaginary part (becoming `G^*`), thus capturing the effect of
+the shear modulus with a imaginary part (becoming :math:`G^*`), thus capturing the effect of
 viscosity. In addition to an imaginary part, we introduce a dependency of `G`
 with a pulsation (:math:`\omega`).
 
@@ -592,7 +600,7 @@ The real and imaginary part of :math:`G^*` are respectively called storage
 (:math:`G'`) and loss (:math:`G"`) modulus.  We can then write the following :
    
 .. math::
-    G^*(\omega) = G' (\omega) + i.G''(\omega)
+    G^*(\omega) = G' (\omega) + i.G"(\omega)
 
 Where :math:`i` is the imaginary unit.  The star denoting the complex character
 of `G` can be dropped, as well as the explicit dependency with :math:`\omega`.
@@ -753,4 +761,51 @@ flattening on the curve prevent precise measurement.
 ..    near the center.
 
 
-    
+Oocyte division
+***************
+.. 2
+
+Oocyte are female germinal cell in the process of gametogenesis. Unlike somatic
+cell that undergoes symmetric division via mitosis  which will lead to two
+identical cells sharing the same genetic material, oocyte undergo a different
+process called meiosis.  Meiosis in oocyte is a highly asymmetric process
+necessary for the specificity of the oocyte which are large haploid cells.
+
+The exact process of formation of oocyte can vary among species, we will
+describe the main mechanisms.
+
+The complete process of egg maturation start with Primordial germ cell which
+will undergo mitosis to replicate until it enter the first meiosis (Meiosis I)
+at which state it is now called Primary oocyte and is still diploid. 
+
+The primary oocyte will start maturation and growth, then undergo a first
+asymmetric division just after prophase I.  This first division is asymmetric
+both in  the genetic material separation and in the unequal size of the formed
+daughter cell. Indeed, the primary oocyte will divide into a secondary oocyte
+and a polar body. Both secondary oocyte and polar body are haploid and contain
+only half of the genetic material of the primary oocyte.  The secondary oocyte
+can go through Meiosis II in which it incur a second asymmetric division
+expulsion a second polar body. The polar bodies will eventually degenerate.
+
+During meiosis, the process of cell division also differ from mitosis. Instead
+of separating into two identically sized cell through the formation of a
+cytokinetic ring, the primary oocyte will become the secondary oocyte by
+expulsion a polar body. The formation expulsion of the polar body require
+precise positioning of the cells organelles. During prophase I the nucleus of
+oocyte is carefully centered, undergo nuclear breakdown and formation of
+spindle. The first meiotic spindle will migrate toward the oocyte cortex along
+its major axis. Once at the cortex half of the genetic material of the spindle
+will be exposed through the membrane forming the first polar body of much
+smaller size than second oocyte.
+
+.. figure:: /figs/oocyte-polar.png
+    :alt: asymmetric division of oocyte
+    :width: 80%
+
+    Asymmetric division of oocyte into polar bodies. The Primary oocyte
+    asymmetrically divide into a secondary oocyte and a smaller polar body each
+    containing half the DNA of the mother cell. The secondary oocyte will
+    divide asymmetrically a second time to become the mature ovum while
+    expulsion a polar body. This asymmetric division process allow the
+    formation of a large haploid cell. Adapted from Wikipedia – Gray's
+    Anatomy – and :cite:`Alberts2008`. 

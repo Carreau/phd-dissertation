@@ -75,35 +75,19 @@ way of the cell to impart and export protein and chemical through its membrane.
 
 
 
-.. _oocytewt:
-
-.. figure:: /figs/oocyte-wild-type.png     
-    :alt: "Bright field image of an oocyte"
-    :width: 70%
-
-    Bright field image of a mouse oocyte before meiosis. Cell diameter is of
-    80µm. The nucleus can be clearly seen at the center of the cell. Oocyte
-    represent a good reference system  by their symmetry and their sufficient
-    size that help measuring spatial variation of mechanical properties.  Image
-    Credit to Maria Almonacid from Collège de France.
  
 
 
 .. todo:
-
   - structure of Arp2/3 branched network is the same on beads comets than on
     lamelipode :cite:`Cameron2001` 
   - more than 150 protein have been found to bind with actin.
   - [x] Wave complex,
-
     - [x] Wasp, N-Wasp ( need to :cite:`Machesky1999` )
-
   - Some network need actin, some other do not. (Fletcher review 2010)
   - [x] Polymerase, (depolymerase severing), 
   - [x] crosslinker
-
     - [x] parallel like fascine
-
       - [x] rotate like alpha-actinin 
       - effect of cross linking distance :cite:`Morse20..`
 
@@ -133,18 +117,20 @@ Cell Organelles
     Maybe this should be before cytoskeleton. Here it is breaking the flow.
     Also you may ------ -- ti 12. when you introduce the cell
 
-Cells have a number of structures with different and specialised functions. The
-position and state of each of theses structure is of great importance for the
-cell to achieve its function. Probably the most known organelle is the cell
-nucleus of eukariotic cells that contains the genetic material. Attached to the
-nucleus is the endoplasmic reticulum (also know as ER) which is the organelle
-responsible form translating RNA coming from the nucleus into functional
-proteins that will be delivered across the cell after maturation through
-vesicles. Theses vesicles are transported across the cell both by dyneins and
-kinesins — molecular motors — that walks along microtubules originating from
-the centriole part of the centrosome but also by myosin along actin filaments.
-All of those process consume energy as the form of ATP, generated from with the
-mitocondrion spread across the cytoplasm.
+Inside the cytoplasm, cells have a number of structures with different and
+specialised functions which are called organelles. The position and state of
+organelles is of great importance for the cell to achieve its functions.
+Probably the most known organelle is the cell nucleus of eukariotic cells that
+contains the genetic material. Attached to the nucleus is the endoplasmic
+reticulum (also know as ER) which is the organelle responsible form translating
+RNA coming from the nucleus into functional proteins that will be delivered
+across the cell after maturation through vesicles. Theses vesicles are
+transported across the cell both by dyneins and kinesins — molecular motors —
+that walks along microtubules originating from the centriole part of the
+centrosome but also by myosin along actin filaments.  All of those process
+consume energy as the form of ATP, generated from with the mitocondrion spread
+across the cytoplasm. A schematic of the cell with some organelles can be seen
+on :num:`Figure #albertcell`
 
 The positioning of organelle is crucial for the life of an organism. During
 meiotic division of cell, for example, it has been seen that the positioning of
@@ -161,14 +147,30 @@ cell having the same amount of DNA.
 
 Actin plays also an as determinant role in the organelle positioning process,
 like in drosophila's oocyte maturation where it positions the nurses cell away
-from the dumping canal :cite:`Huelsmann2013`. In a later part
-(:ref:`Organelle Positionning <organelle_positioning>`) we will develop a few keys points where actin
-is indispensable in organelle positioning and how this relate to the biomimetic
-actin networks we reconstitute.
+from the dumping canal :cite:`Huelsmann2013`. In a later part (:ref:`Organelle
+Positionning <organelle_positioning>`) we will develop a few keys points where
+actin is indispensable in organelle positioning and how this relate to the
+biomimetic actin networks we reconstitute. :num:`Figure #oocytewt` show a mouse
+oocyte where the nucleus can be seen positioned at the center of the cell.
 
 .. todo:
 
     Maybe mention that actin is important in this positioning.
+
+.. _oocytewt:
+
+.. figure:: /figs/oocyte-wild-type.png     
+    :alt: "Bright field image of an oocyte"
+    :width: 60%
+
+    Bright field image of a mouse oocyte before meiosis. Cell diameter is of
+    80µm. The nucleus can be clearly seen at the center of the cell. The
+    nucleus is positioned at the center of the oocyte during Meiosis I by the
+    help of the actin network. The positioning is a crucial factor for the
+    normal division of the oocyte.  Oocytes are a good reference system  by
+    their symmetry and their sufficient size that help measuring spatial
+    variation of mechanical properties.  Image Credit to Maria Almonacid from
+    Collège de France.
 
 
 .. _intro-cyto:
@@ -194,5 +196,5 @@ Thats through its cytoskeleton that a cell can be connected to its environment,
 both mechanically and biochemically.
 
 We will consecrate a longer part to describe the cytoskeleton in the later part 
-:ref:`The Role And Composition Of Cytoskeleton <role_of_actin>`.
+:ref:`role_of_actin`.
 
