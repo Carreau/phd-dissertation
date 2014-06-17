@@ -9,7 +9,7 @@ Living Cells
 .. Description of cell
 .. ~~~~~~~~~~~~~~~~~~~
 
-.. todo::
+.. todo:
 
     - spherical, cytokinetic ring, filopodia
     - how force effect actin
@@ -23,27 +23,31 @@ Living Cells
 
 
 Cell are the basic building block of life, all living things are composed of
-cells, from unicellular organism to multicellular organism like us. When in
-unicellular organism the unique cell must accomplish all the organism
-functions. In a multicellular organism cell are able to differentiate in order
-to accomplish specialised task often regrouped into organs, and each of these
-different task require different properties from the cells.
+cells, from unicellular organism to multicellular organism like us. Unicellular
+organism must accomplish all the organism functions. At the other end,
+multicellular organism cell differentiate in order to accomplish specialised
+task often by regrouping into organs. Despite sharing the same genetic
+material, and each cell accomplish a different task require different
+mechanical properties from the cells. The variation of elasticity and other
+mechanical properties of cells derive from the structure they are composed of.
 
 .. todo:
 
     This paragraph is a little too repetitive try to boil it down to 1-3 simple
     phrases rethink what message you want transmit.
 
-Cell are hence able to adapt to their environment and develop 
-function and behavior that will depends on time. A small change of
-timing and/or biochemical conditions can highly injure the development of an
-organism :cite:`Lenart2005`, it has also been observe that the mechanical
-properties of substrate can govern the differentiation of cell
-:cite:`Engler2006` .
+Cell are hence able to adapt to their environment and develop function and
+behavior that will depends on time. A small change of timing and/or biochemical
+conditions can highly injure the development of an organism : modification of
+the actin network at the right time of the cell cycle prevent symetric division
+:cite:`Lenart2005`, :cite:`Vasilev2012`. Mechanical properties of substrate can
+govern the differentiation of cell : Soft substrate will favor brain-tissue
+cell, where stiff one increase the appearance of muscle cells
+:cite:`Engler2006`.
 
 .. _albertcell:
 
-.. figure:: /figs/figure-1-30.jpg
+.. Figure:: /figs/figure-1-30.jpg
     :alt: schematic of a cell
     :width: 90%
 
@@ -54,16 +58,18 @@ properties of substrate can govern the differentiation of cell
     centimeters long.
 
 Nonetheless, even with all theses different behavior and phenotype, the cells
-all have a common structure. They are constituted by a membrane which is
-responsible form separating the cytoplasm from the outside of the cell. The
-cytoplasm contains organelles, genetic material, and large number of proteins
-that the cell uses to accomplish its functions. Cells are of course not
-completely isolated, and have a series of mechanisms to exchange and
-communicate with the outside. This communication can be chemical but  mechanics
-is also known to participate in the process. To sense their mechanical
-environment, cells use adhesion complexes to attach to the substrate, and integrins
-as trans-membrane protein to transfer the force to the cell cytoskeleton
-situated inside the cell.
+all have a common structure. The exterior of the cell is separated from the
+inside by a membrane. The interior of the cell is filled with the cytoplasm
+which contain diverse structures known as organelles, genetic material, and
+large number of proteins that the cell uses to accomplish its functions. To
+communicate with the outside cells have a series of mechanism that allow signal
+and cargo to go through the membrane. This communication can be chemical but
+mechanics is also known to participate in the process. To sense their
+mechanical environment, cells use adhesion complexes to attach to the
+substrate, and integrins as trans-membrane protein to transfer the force to the
+cell cytoskeleton situated inside the cell. Chemical signal can either cross
+the membrane through trans-membrane proteins, endocytosis and exocytosis are
+way of the cell to impart and export protein and chemical through its membrane. 
 
 
 
@@ -82,11 +88,8 @@ situated inside the cell.
     Credit to Maria Almonacid from Collège de France.
  
 
-TODO
-====
 
-
-.. todo::
+.. todo:
 
   - structure of Arp2/3 branched network is the same on beads comets than on
     lamelipode :cite:`Cameron2001` 
@@ -104,7 +107,7 @@ TODO
       - [x] rotate like alpha-actinin 
       - effect of cross linking distance :cite:`Morse20..`
 
-.. todo::
+.. todo:
   - interphase, cellule prepare for division
   - Mitosis : "DNA Segregating"
   - need to describe actin, 
@@ -119,63 +122,6 @@ TODO
   - [x]myosin, run on actin to barbed end/ processive/not processive.
     - stress fibres
   - [x] troppomyosine
-
-
-.. Cell Motility (to move away)
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-.. 
-.. 
-.. 
-.. .. general_motility
-.. 
-.. Wether cells are part of multicellular or uni-cellular organism, they should
-.. be able to move in their environment Usually, cell movement is differentiated
-.. in two categories: when cells are placed on a two dimensional environment
-.. — which is often the case for epidermal cells, or a culture cells –, or a three
-.. dimensional environment.
-.. 
-.. .. 2D_motility
-.. 
-.. Motility on a  two dimensional environment is called reptation. To move by
-.. reptation. Cells need to be spread on the surface, in the front of the cell can
-.. be seen a lamelipodia, a thin and wide protrusion of the cell that will
-.. progress forward, then the rear of the cell will detach, making the centroid of
-.. cell change position. On the edge of the lamelipodia is present tubular
-.. protrusion that will go father than the leading edge of the lamelipodia, attach
-.. to the surface.
-.. 
-.. .. 3D_motility
-.. 
-.. .. Mesenchimal
-.. 
-.. .. Ameboid
-.. 
-.. 
-.. Cell Division
-.. ~~~~~~~~~~~~~
-.. 
-.. We saw that cell phenotype was changing as a function of time.  In
-.. particular, cell divide to and grow. The mechanism of cell division can be
-.. quite different depending on the type of dividing cells. Bacteria, for
-.. example, will replicate identically, giving birth to two identical daughter
-.. cells. Somatic cells of most multicellular organism, will also divide
-.. symmetrically leading to 2 daughter cells having the same genetic material,
-.. than the mother cell.  On the other hand, Mouse OOcyte, will at some point
-.. Of their maturation — Meiosis — divide asymmetrically two time in a row,
-.. leading to a mature Oocyte and 3 polar body.
-.. 
-.. 
-..     Mitosis in normal cell, 
-.. 
-..     - cell detach from surface,
-..     - rounds up 
-..     - nucleus center
-..     - nuclear breakdown 
-..     - chromosome forms, 
-..     - actin pack chromosome, 
-..     - microtubules fetch chromosome 
-..     - spindle form and migrate to the centrosome, 
-..     - cytokinetic actin ring contract. 
 
 
 Cell Organelles

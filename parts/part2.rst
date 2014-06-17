@@ -104,7 +104,7 @@ The sequence can then be repeated a few time on the same bead couple.
 It should be noted that this system have several particularly: The measurement
 are effectuated on a dynamic system, while the actin network on the actin bead
 is polymerising. It has been show previously that only  in the right conditions
-of Arp2/3 and CP concentration :cite:`kawska2012` a dense gel is formed around
+of Arp2/3 and CP concentration :cite:`Kawska2012` a dense gel is formed around
 the bead and is both able to generate and accumulate enough stress for a
 certain time until symmetry is broken. As it is such condition that are mostly
 relevant I choose to do experiment only near theses condition. 

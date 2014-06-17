@@ -136,7 +136,7 @@ constant of association and dissociation differ for both kind of filaments.
     :width: 25%
 
     Association and dissociation rate of both ATP and ADP actin on pointed and
-    barbed end as measured in :cite:`pollard2003`. The difference of
+    barbed end as measured in :cite:`Pollard2003`. The difference of
     equilibrium constant between the barbed end (bottom) in the presence of ATP
     allow filament treadmilling.
 
@@ -245,7 +245,7 @@ and are essential for the structure and mechanical properties of actin gel
 unlike CP can only attached to the barbed end of an actin filament after
 severing it. Gelsoline is hence both a severing and a capping protein.
 
-.. todo:: 
+.. todo:
     refs look for a review
 
 Cross-linkers
@@ -258,7 +258,7 @@ such a protein is able to attach to many filament at once, it can act as an
 attachment point between the two filament, preventing them to move with respect
 one to each other. Such proteins, are referred to as cross-linkers.
 
-.. todo::
+.. todo:
     ref to review
 
 The amount of freedom in movement between the two filaments is dependant of the
@@ -305,7 +305,7 @@ conventional myosin for historical reason as being the first discovered. Non
 muscle  myosin are also referred to as unconventional myosin or Non-muscle
 myosin.
 
-Myosin motors seem to be shared among all the living kingdom, hinting for an
+Myosin motors seem to be shared among all the living domain, hinting for an
 early emerging of myosin in the evolution. All the myosin motors move on actin
 filament toward the barbed end, with the exception of myosin VI which moves
 toward the pointed end :cite:`Buss2008`.
@@ -512,7 +512,7 @@ these protein, we use a reconstructed version of the protein that cut all
 region before the poly-proline. The confer to pVCA the ability to be
 permanently active. This region can also be replaced by streptavidine in order
 to selectively bind pVCA to selected regions. Characterisation and more
-detailed description of pVCA can be found in :cite:`Noguerra2012`.
+detailed description of pVCA can be found in :cite:`Noguera2012`.
 
 Unlike Cells that are able to control the localisation of actin nucleation
 process thanks to activation of WASP and its homologue, the in vitro control
@@ -552,7 +552,7 @@ needs the help of another protein to start the nucleation actin nucleation proce
     Factor (ADF). ADP-actin monomer will bind to profilin will will increase the turn
     over rate to ATP-actin which will be reuse by the leading edge of the cell.
 
-.. todo:: 
+.. todo:
     Generally : The Protein you use need to be better introduced than others
 
 The actin cortex
@@ -675,11 +675,11 @@ model in vivo.
 
 .. _organelle_positioning:
 
-Organelle Positioning (actin cloud) 
-====================================
+Organelle Positioning
+=====================
 .. 3
 
-.. Dodo::
+.. todo:
 
     Maybe  change the structure a bit, Say beside the cortex often actin structures
     seen (sparse network), additionally these seem to be –––––– in positioning.
@@ -714,7 +714,7 @@ chromosomes by microtubules and achieve correct haploid division.
 myosins is necessary for the spindle migration.
 
 Especially in oocyte that are typically large, the effect of gravity is not
-negligible. The presence of a sparse "actin scfold" is discussed in
+negligible. The presence of a sparse "actin scaffold" is discussed in
 :cite:`Feric2013`, where is is found that an actin network is present to
 balance the gravitational force.
 
@@ -875,9 +875,6 @@ its major axis. Once at the cortex half of the genetic material of the spindle
 will be exposed through the membrane forming the first polar body of much
 smaller size than second oocyte.
 
-.. todo:: 
-    describe figure below, adapt to have a band on the left with Meiosis I/ Meiosis II on the left.
-
 .. figure:: /figs/oocyte-polar.png
     :alt: asymetric division of oocyte
     :width: 80%
@@ -886,9 +883,9 @@ smaller size than second oocyte.
     asymmetrically divide into a secondary oocyte and a smaller polar body each
     containing half the DNA of the mother cell. The secondary oocyte will
     divide asymmetrically a second time to become the mature ovum while
-    expulsion a polar body. This asymmetric   division process allow the
-    formation of a large haploid cell. {Adapted from Wikipedia – Gray's
-    Anatomy – and Molecular Biology of the cell}
+    expulsion a polar body. This asymmetric division process allow the
+    formation of a large haploid cell. Adapted from Wikipedia – Gray's
+    Anatomy – and Molecular Biology of the cell.
 
     
 
