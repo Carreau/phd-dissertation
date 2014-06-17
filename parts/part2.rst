@@ -2,24 +2,104 @@
 
 Materials and methods
 #####################
+.. 1
 
-.. Actin
+Buffers
+*******
+.. 2
+
+G Buffer
+========
+.. 3
+
+G-Buffer is used to conserved actin in monomeric form. Actin in diluted in
+G-Buffer and kept on ice for at least 12 hours before further use, stored at
+-20°C unfrozen and conserved at 4°C or on ice for weekly use, never refrozen.
+pH is adjusted between 7 and 8.
+
+Composition of G-Buffer:
+     
+    - 0.2 mM :math:`CaCl_2`
+    - 0.5 mM DTT
+    - 2 mM Tris
+    - 0.2 mM ATP
+
+Polymerisation Buffer
+=====================
+.. 3
+
+Polymerisation buffer or X-Buffer is used for polymerisation of actin gel on
+beads. As well as bead dilution and cleaning.  It is conserved at -20°C and
+stored at 4°C or on ice for weekly use, never refrozen.
+
+Composition of X-Buffer :
+
+    10 mM Hepes
+    0.1 M :math:`KCl`
+    1 mM :math:`MgCl_2`
+    1 mM Atp
+    0.1 mM CaCl2
+
+
+X Buffer with BSA
+=================
+.. 3
+
+Same as X-Buffer with the addition of 1% BSA (10 mg/ml). BSA is used to prevent
+non specific adsorption. Xb-BSA Buffer is used  in place of X-Buffer for
+conservation of probe bead.
+
+
+Protein preparation
+*******************
+.. 2
+
+PWA
+===
+
 Actin
-*****
+=====
+.. 3
 
-.. Profiline
-Profiline
-*********
+profiline
+=========
+.. 3
 
-.. Arp2/3
 Arp2/3
-******
+======
+.. 3
 
 cf :cite:`Foley`
+
+Capping protein
+=================
+.. 3
+
+fluorescencent actin
+====================
+.. 3
+
+
+Vesicle preparation
+*******************
+.. 2
+Oocyte preparation
+******************
+.. 2
+Force indentation experiments
+*****************************
+.. 2
+Passive Microrheology
+*********************
+.. 2
+Active Microrheology
+********************
+.. 2
 
 
 Bead Coating
 ************
+.. 2
 
 Carboxylated polystyrene beads (Polysciences, Philadelphia, PA) of 4.34 ± 0.239
 μm (Standard deviation) diameter were used from for actin and probe-beads.
@@ -38,12 +118,9 @@ of Arp2/3 complex and various concentration of CP (0 to 50 nM) in the working
 buffer. 15 μL of this mix is sealed between coverslips.
 
 
-.. Bead Motility
-Bead Motility
-*************
-
 Indentation experiment
 **********************
+.. 2
 
 To determine the mechanical properties of an actin gel growing on bead as used
 in motility assay, I used an indentation assay close to what can be done using
