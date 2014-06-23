@@ -1,5 +1,7 @@
 .. part2
 
+.. _m_et_m:
+
 Materials and methods
 #####################
 .. 1
@@ -48,6 +50,8 @@ X Buffer with BSA
 Same as X-Buffer with the addition of 1% BSA (10 mg/ml). BSA is used to prevent
 non specific adsorption. Xb-BSA Buffer is used  in place of X-Buffer for
 conservation of probe bead.
+
+.. _atp_mix_buffer:
 
 ATP Mix Buffer
 ==============
@@ -143,6 +147,9 @@ Vesicle preparation
 .. 2
 
 
+
+.. _bead_preparation:
+
 Bead Preparation
 ****************
 .. 2
@@ -174,6 +181,8 @@ Probe Bead Preparation
 Above cleaned polystyrene beads are incubated under agitation
 with 10 mg/ml BSA at room temperature for 30 minutes. Passivated beads are then centrifuged, separated from supernatant and pellet resuspended in Xb-BSA then stored at 4°C for weekly use.
 
+
+.. _force-indentation-experiments:
 
 Force indentation experiments
 *****************************

@@ -79,12 +79,170 @@ How does the external part of the gel which is below the half fluorescent intens
 if the gel is elastic or 
 
 
-.. figure:: /figs/intensity_profile_25nM_Arp_20nM_CP_09min.png 
+.. figure:: /figs/intensity_profile_25nM_Arp_20nM_CP_09min.pdf
     :width: 100%
 
-.. figure:: /figs/intensity_profile_25nM_Arp_0nM_CP_30min.png 
+    Upper Left : Epifluorescence image of polystyrene bead with a growing actin gel in
+    presence of 25 nM of Arp2/3 and 25 nM of Capping Protein scale bar is 5 µm.
+    Upper Right : Normalized intensity profile of fluorescence image with thickness of the gel shown
+    with dashed line as defined in :cite:`Kawska2012` : Distance between
+    maximum intensity and half-maximum intensity.
+    Lower Left: Epifluorescence image of log(intensity).
+
+.. figure:: /figs/intensity_profile_25nM_Arp_0nM_CP_30min.pdf
     :width: 100%
 
+    Upper Left : Epifluorescence image of polystyrene bead with a growing actin
+    gel in presence of 25 nM of Arp2/3 and absence of Capping Protein scale bar
+    is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image with
+    thickness of the gel shown with dashed line as defined in
+    :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
+    intensity.  Lower Left: Epifluorescence image of log(intensity). In the
+    absence of Capping Protein the growth of filament is not prevented away
+    from the bead surface
+
+.. todo:: scheme of experimental setup.
+
+Actin-Bead System
+*****************
+.. 2
+
+To reproduce the actin cortex and study the mechanics of actin structure
+emanating from it `we prepare polystyrene bead <bead_preparation>` of 4.3 µm
+diameter coated with a nucleation promoting factor. Theses bead are placed in
+the `ATP mix Buffer <atp_mix_buffer>` in presence of 25µm of Arp2/3 complex,
+4µm of monomeric actin 20% fluorescent 12 µM of Profilin and a varying amount
+of Capping Protein. `Cf Material and Methods <m_et_m>`. These beads are
+referred to as actin-bead.
+
+These condition are chosen in order to grow a dense network on the surface of
+actin-bead as in :cite:`Kawska2012`. We place ourself at 25nM ATP and a varying
+amount of capping protein concentrating in order to cover condition where the
+dense gel that form on the actin-bead is able to accumulate sufficient stress
+to lead to symmetry breaking (CP between 12  and 35 nM ). We also investigate
+condition where the amount of Capping Protein is to low (< 15nM) or to high
+(>35 nM) to permit symmetry breaking.
+
+We select a bead diameter of 4.3 µm in order to get a characteristic symmetry
+breaking time of 20 to 40 minutes, leaving enough time to proceed with the
+experiments before symmetry breaking occurs.  A smaller bead radius imply a
+faster increase of stress and a shorter symmetry breaking time. 
+
+All measured on actin bead were made on an actively growing actin network which
+was not stabilized unlike in :cite:`Pujol2012`, and before symmetry breaking
+occur for capping concentration in the range 15 to 35 nM.
+
+Probe Bead System
+*****************
+.. 2
+
+To indent the network formed on actin-bead we used polystyrene bead passivated
+with BSA referred to as probe-bead.  The size of probe-bead have to be chosen
+to be the same of actin-bead in order to achieve optical trapping of both actin
+and probe bead. In the case of bead with different diameter the forced exerted
+between the two bead during the indentation process has a non-negligible
+component along the z-axis which is the axis with the weaker trapping stiffness
+leading to bead escaping the traps.
+
+
+
+Experimental description
+************************
+.. 2
+
+To probe the actin network growing on bead we trap an actin-bead with a growing
+actin-network and a probe-bead using time-shared optical trap and measure force
+on the actin-bead using a QPD placed in the back focal plane of the condenser.
+
+To avoid systematic error  on force measurement on displacing trap all the
+force recording is made on the static bead, that is to say in our case on the
+actin bead.
+
+
+The indentation is a three step process :ref:`fig_indent`.
+
+Approach Phase
+==============
+.. 3
+
+The approach of the probe-trap at constant speed (10 µm/s), as seen in
+:num:`Fig #figindent` for :math:`t < t_1`. During the approach the actin bead
+will repel the probe bead due the actin network growing on it. The force felt
+by the actin bead will progressively increase as the probe bead approach
+eventually reaching the maximum as the probe-trap reach its closest position
+from the actin trap. Note that during this process as both bead fell the force
+exerted in-between them they move away from the traps center. Though the trap
+stiffness of :math:`>20 pN/µm` and the maximum for measured of :math:`~20 pN`
+insure the displacement of the beads in the trap are small compared to the
+distance between the two beads.
+
+
+Relaxation Phase
+================
+.. 3
+
+After the approach phase is a 3 seconds resting phase during which the probe
+and actin-trap remain static. The relaxation phase start at :math:`t_1` and
+finish at :math:`t_3`. The duration of the relaxation phase is long enough to
+allow the relaxation of the actin cloud to happen, and sufficiently short for
+the actin polymerisation not to change the properties of the network as well as
+allow repetitive indentation to be done :ref:`ref repetitive figure`.
+
+While the actin network relaxes, the forces between the two beads will slowly
+decrease thus leading to the bead getting closer to their trap center and
+closer to each other. The decrease in distance during the relaxation phase is
+small compared to the distance between beads. The decrease of force as well as
+the minimal change in distance between the two bead can be seen on :num:`Fig
+#figindent` in the middle part.
+
+.. _figindent:
+
+.. figure:: /figs/force_time.png
+    :width: 100%
+
+
+Retraction part
+===============
+.. 3
+
+
+After the three seconds of the retraction phase, the probe trap return to it's
+initial position at 10 µm/s (:math:`t > t_2`). During this phase, the force
+exerted between the two beads decrease, becomes negative, reach a minimum, and
+eventually reaching zero asymptotically as the probe bead recover its initial
+position.
+
+Reconstitution of Force-distance-curve
+======================================
+.. 3
+
+From the position of he trap with time and the signal measured by the QPD the
+position of bead in the trap as well as the forced exerted on each bead can be
+calculated we can then recover the distance between beads center as a function
+for time. Note that the displacement of bead from their respective trap center
+is small compared to the distance between bead center and thickness of the
+actin gel, thus the distance between beads center could be approximated as the
+distance between traps without change of the overall further results.  The
+force-distance curve curve representing the force exerted by the probe bead on
+the actin bead as a function of the distance can be computed :num:`Fig
+#force-distance`. 
+
+
+.. _force-distance:
+
+.. figure:: /figs/force-distance.png
+    :width: 100%
+
+.. figure:: /figs/reproc-time.png
+    :width: 100%
+
+
+
+
+.. figure:: /figs/reproc.png
+    :width: 80%
+
+    Figure showing the reproducibility of indentation process on a bead with 25nM Arp2/3 and 10nM CP
 
 Results
 *******
