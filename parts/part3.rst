@@ -1,4 +1,5 @@
-.. Actin Cloud
+.. Actin Cloud:
+
 Actin Cloud
 ###########
 .. 1
@@ -159,14 +160,14 @@ force recording is made on the static bead, that is to say in our case on the
 actin bead.
 
 
-The indentation is a three step process :ref:`fig_indent`.
+The indentation is a three step process :num:`Fig #figindent-time`.
 
 Approach Phase
 ==============
 .. 3
-
+ 
 The approach of the probe-trap at constant speed (10 µm/s), as seen in
-:num:`Fig #figindent` for :math:`t < t_1`. During the approach the actin bead
+:num:`Fig #figindent-time` for :math:`t < t_1`. During the approach the actin bead
 will repel the probe bead due the actin network growing on it. The force felt
 by the actin bead will progressively increase as the probe bead approach
 eventually reaching the maximum as the probe-trap reach its closest position
@@ -192,13 +193,21 @@ While the actin network relaxes, the forces between the two beads will slowly
 decrease thus leading to the bead getting closer to their trap center and
 closer to each other. The decrease in distance during the relaxation phase is
 small compared to the distance between beads. The decrease of force as well as
-the minimal change in distance between the two bead can be seen on :num:`Fig
-#figindent` in the middle part.
+the minimal change in distance between the two bead can be seen on :num:`Fig #figindent-time`
+in the middle part.
 
-.. _figindent:
+.. _figindent-time:
 
 .. figure:: /figs/force_time.png
-    :width: 100%
+    :width: 80%
+    
+    Upper graph : Force as a function of time on the actin-bead.  Lower graph :
+    distance between beads (distance between traps + displacement of bead from
+    the trap center) as a function of time. First part of each graph (green
+    curve, yellow back) represent the approach phase. Middle part (orange on
+    white) is the relaxation phase, and right part (blue on pale yellow) is the
+    retraction.  Shown data is a subsample of around 1 every 1000 points of
+    acquired data.
 
 
 Retraction part
@@ -224,8 +233,7 @@ is small compared to the distance between bead center and thickness of the
 actin gel, thus the distance between beads center could be approximated as the
 distance between traps without change of the overall further results.  The
 force-distance curve curve representing the force exerted by the probe bead on
-the actin bead as a function of the distance can be computed :num:`Fig
-#force-distance`. 
+the actin bead as a function of the distance can be computed :num:`Fig #force-distance`. 
 
 
 .. _force-distance:
@@ -233,16 +241,67 @@ the actin bead as a function of the distance can be computed :num:`Fig
 .. figure:: /figs/force-distance.png
     :width: 100%
 
+    Force exerted on the actin bead as a function of the distance between the
+    two beads center. Color and data are the same as in :num:`Fig
+    #figindent-time`. The probe bead start from the far right, and get closer
+    while the force get higher (green upper part of the curve), reach a
+    maximum, and enter the relaxation phase (orange part) where the force
+    between the probe and actin bead decrease, while the distance slightly
+    decrease. During the retraction part (Blue) the force decrease, reaches
+    negative value while the bead return to its initial position. Shown data is
+    a subsample of around 1 every 1000 points of acquired data.
+
+
+Repetitive indent
+=================
+.. 3
+
+To check for reproducibility and non-plastic deformation of the network after
+indentation, the indentation cycle can be reputed several time at a few seconds
+intervals. As the network is constantly growing during the measurement, this
+also allow to check for the change of network properties due to actin
+polymerisation.
+
+
+.. _reproc-time:
+
 .. figure:: /figs/reproc-time.png
     :width: 100%
 
+    Force exerted on actin bead as a function of time for ten repetitive
+    indent at a few seconds of interval. In one of the cycle a sticking event
+    can be seen in the retraction phase 6 seconds after the beginning of the
+    cycle.
 
 
+.. _reproc:
 
 .. figure:: /figs/reproc.png
     :width: 80%
 
-    Figure showing the reproducibility of indentation process on a bead with 25nM Arp2/3 and 10nM CP
+    Figure showing the reproducibility of indentation process on a bead with
+    25nM Arp2/3 and 10nM CP Subset of data from :num:`Fig #reproc-time` shown
+    with different color to represent evolution of indentation curve with time.
+
+Effect of approach speed
+========================
+.. 3
+
+:cite:`Gardel2003` suggest that for frequency higher than 0.1 Hz, the effect of
+force due to the viscous part of actin network can be in the same order of the
+force dur to the elastic component.  It is though important to check the effect
+of the approach speed on the force measurement. We check in :num:`Fig
+#many-speed` how the indentation speed affect the measurement by varying the
+approach speed from 10 to 30 µm/s onthe same actin bead.
+
+
+.. _many-speed:
+
+.. figure:: /figs/many_speed.png
+    :width: 80%
+
+    Aproach phase of repetitive indent at multiple speed on the same actin-bead
+
 
 Results
 *******
@@ -254,11 +313,13 @@ Discussion
 
 
 
-.. Doublets
+.. Doublets:
+
 Doublets
 ********
 
-.. Oocytes
+.. Oocytes:
+
 Oocytes
 *******
 
