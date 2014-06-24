@@ -236,6 +236,10 @@ force-distance curve curve representing the force exerted by the probe bead on
 the actin bead as a function of the distance can be computed :num:`Fig #force-distance`. 
 
 
+.. todo::
+
+    Correct Figure, Bead diameter removed or not
+
 .. _force-distance:
 
 .. figure:: /figs/force-distance.png
@@ -249,7 +253,8 @@ the actin bead as a function of the distance can be computed :num:`Fig #force-di
     between the probe and actin bead decrease, while the distance slightly
     decrease. During the retraction part (Blue) the force decrease, reaches
     negative value while the bead return to its initial position. Shown data is
-    a subsample of around 1 every 1000 points of acquired data.
+    a subsample of around 1 every 1000 points of acquired data. Shaded region
+    represent area where the two polystyrene bead would interpenetrate.
 
 
 Repetitive indent
@@ -301,6 +306,144 @@ approach speed from 10 to 30 µm/s onthe same actin bead.
     :width: 80%
 
     Aproach phase of repetitive indent at multiple speed on the same actin-bead
+
+
+
+Experimental observation
+************************
+.. 3
+
+Using the bead system, we are able to reconstruct actin cortices `in vitro` and
+
+we are able to investigate mechanical properties inaccessible to other
+microscopy techniques like TIRF. Beyond the visible actin cortex we can detect
+the presence of a actin structure that have mechanical effects far beyond the
+thickness that has been measured for the biomimetically reconstructed actin
+cortices (less than the µm). :num:`Fig #cloud-repelling` show qualitatively
+that the actin cloud growing on actin beads is able to repel free floating
+probe beads before they reach the visible reconstituted cortex. 
+
+
+To quantify the distance at which the probe bead are affect by the actin-cloud
+we measure the experimental noise by looking at the fluctuation of trapped probe bead.
+
+During the indentation we defined :math:`d_0` as the distance at which the
+average force felt by the probe bead is higher than the experimental noise.
+
+ 
+ 
+.. _cloud-repelling: 
+
+.. figure:: /figs/cloud-repelling.png
+    :width: 100%
+
+    Chronophotography representing the displacement back and forth of a trap
+    actin bead in a solution with probe bead. During this experiment, the actin
+    bead is keep static in the optical trap while the stage is moved. Up until
+    frame 70, the stage is moved down in the Y direction (South), then up
+    again. The 11 first frame show an average of the frame indicated as
+    suptitle of each. frame 12 show a maximum projection of the all movie.
+    Scale bar is 5 micrometers.
+
+
+.. figure:: /figs/d0_violin.png
+    :width: 80%
+
+    Repartition of the bead-center distance at which the actin cloud exert a
+    force higher than the noise (:math:`d_0`) on probe bead, as a function of
+    capping protein. Red line represent position of bead surface (4.34 µm) and
+    purple line represent bead surface+1µm (upper bound for the in vitro
+    reformed actin cortex). We see in this graph that for symmetry breaking
+    condition (CP 10 nM and 30 nM) the distance at which the actin cloud apply
+    force on the probe bead is large compare to the thickness of the actin
+    cortex. The distance at which the probe bead is able to detect the presence
+    of the actin cloud decrease with the increase concentration in capping
+    protein that restrict  actin filament growth. The condition in the absence
+    of capping protein are a particular case as no dense actin network do for
+    on the surface of the actin bead. The structure of the actin network on the
+    actin bead can then be really different for this value.
+
+Approach phase modeling
+=======================
+.. 3
+
+To extract mechanical properties using the three phase of the indentation I
+decided to model each part independently. In particular, I decided to fit
+force-distance curve of the approach phase using a power law with 3 fit
+parameters :math:`\alpha, \beta, \delta`:
+
+.. math::
+
+    F(d) = \beta \times \left(d-\delta\right)^\alpha
+
+In which :math:`F` represent the force exerted on the probe bead, and :math:`d`
+is the distance between bead center. The powerlaw exponent :math:`\alpha` is
+expected to be negative as the force decreases with the distance :math:`d`, and
+characterize how fast the steepness of the curve force increase as the two
+beads approaches. The prefactor :math:`\beta` act as a scaling factor of the
+force. The offset parameter :math:`\delta` shifts the curve on the distance
+axis. The model has the particularity that the force on the probe bead tends to
+:math:`+\infty` when the distance :math:`d` get close to :math:`\delta`. 
+
+The offset distance :math:`\delta` practically describe the distance at which
+the optical trap are not able to indent the network anymore. In the case of
+hard sphere the value of :math:`\alpha` would tend toward :math:`-\infty`
+leading to a infinite force increase at the contact between the two hard-sphere
+of same diameter and a value of :math:`\delta` equal to the diameter of the
+hard sphere. 
+
+The optical tweezer we use are in the order can apply force in the order of 20
+pN, and the bead we use expos a surface of roughly :math:`(2µm)^2`. Before
+entering non-linear regime and escaping the trap, the probe bead can move up to
+1µm off from the trap center. For a material of typical size in the order of
+tens of µm,  this lead to a maximum Young's Modulus of the indented material in
+the order of 100 Pa. Any material with a Stiffness much higher than 100 Pa can
+be considered as infinitively rigid.
+
+In our experiments, the polystyrene beads have a average diameter
+of 4.34 µm, thus we expect :math:`\delta` to be higher than the bead diameter.
+
+While there is a certain variation for individual diameter, data giving a
+:math:`\delta` value smaller than bead diameter will be considered as
+non-physical.
+
+The elasticity of dense actin gels around polystyrene beads has been measured
+in :cite:`Pujol2012` and found to be in the order of kPa. It then shouldn't be
+surprising  not to be able to probe the mechanics of the dense gel on the
+surface of the bead and found a value of :math:`\delta` higher than 4.34 µm.
+
+The model can be fitted using-least squares independently on each experimental
+approach phase. An example of such a model adjusted is shown on figure :num:`Fig #force-distance-fit`
+
+.. _force-distance-fit:
+.. figure:: /figs/force-distance-fit.png
+    :width: 100%
+
+    Power law model fitted on approach phase data for one experiment in the presence
+    of [CP]=10nM, with the particular values found for the fit parameters.  The
+    vertical line represent the point at which the model diverges and the force
+    goes to infinity, that is to say :math:`\delta`. The shaded region
+    correspond to the distance at which the two bead would interpenetrates.
+
+
+The approach phase data can be corrected for the distance offset :math:`\delta`
+and plot in a log-log scale allowing for a better appreciation of the fit
+result.
+
+
+.. _force-distance-log-log:
+.. figure:: /figs/force-distance-fit-loglog.png
+    :width: 80%
+
+    Power law model and approach phase data after correction of the offset
+    distance plotted on a log-log scale. Same data as :num:`Fig
+    #force-distance` but showing only approach phase. 
+
+
+
+:math:`\alpha, \beta` and :math:`\gamma` 
+
+
 
 
 Results
