@@ -9,6 +9,7 @@ Contents
    parts/part2
    parts/part3
    parts/part4
+   parts/extra
 ..  parts/spinning
 ..   parts/doublets
 ..   acknowledgements

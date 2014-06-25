@@ -413,7 +413,10 @@ surprising  not to be able to probe the mechanics of the dense gel on the
 surface of the bead and found a value of :math:`\delta` higher than 4.34 µm.
 
 The model can be fitted using-least squares independently on each experimental
-approach phase. An example of such a model adjusted is shown on figure :num:`Fig #force-distance-fit`
+approach phase. An example of such a model adjusted is shown on figure
+:num:`Fig #force-distance-fit` and quality of fit can can be measure by the
+coefficient of determination :math:`R^2` which as a media value of `0.97`
+across all fits.
 
 .. _force-distance-fit:
 .. figure:: /figs/force-distance-fit.png
@@ -428,20 +431,125 @@ approach phase. An example of such a model adjusted is shown on figure :num:`Fig
 
 The approach phase data can be corrected for the distance offset :math:`\delta`
 and plot in a log-log scale allowing for a better appreciation of the fit
-result.
+result. The corrected distance is noted with  `c` indices :math:`d_c = d-
+\delta` 
+
+
 
 
 .. _force-distance-log-log:
 .. figure:: /figs/force-distance-fit-loglog.png
     :width: 80%
 
-    Power law model and approach phase data after correction of the offset
-    distance plotted on a log-log scale. Same data as :num:`Fig
+    Force on actin bead as a function of bead distance minus distance offset
+    :math:`\delta` plotted on a log-log scale. black line represent the power
+    law model with  correction of the offset distance. Same data as :num:`Fig
     #force-distance` but showing only approach phase. 
 
 
+Data with :math:`\delta`
+values lower than 4.34 µm (21 out of 127) are considered as unphysical and
+removed from further analysis.
+
+As expected we find a negative values for :math:`alpha`, but surprisingly the
+value of alpha does not vary significantly across the amount of capping protein
+and stay close to -1, with a mean value of -1.10, and a standard deviation of
+0.38. The distribution of power law exponent can be seen on :num:`Fig #power-law-exponent`
+
+.. _power-law-exponent:
+.. figure:: /figs/alpha_violin.png
+    :width: 90%
+
+    Violin plot showing the repartition of power law exponent with the
+    concentration of capping protein.
+
+
+Due to the scale invariance of the inverse power law we find above we, all the
+approach phases data can be rescaled into a single master-curve. This is done
+by dividing the force by the maximum force :math:`F_{max}` reached during the
+approach and rescaling the distance by the minimum approach distance from which
+:math:`\delta` is subtracted. 
+
+.. figure:: /figs/rescaled_powerlaw.png
+    :width: 80%
+
+    Representation of rescale approach data on a log-log scale.  Red and green
+    cross correspond to average values. Blue area correspond to average +/-
+    standard deviation for each average bin. Red dot in the upper right corner
+    correspond to the point (1,1) with respect to which all data has been
+    rescaled.
+
+    Blue dashed line correspond to fit to the average data for
+    :math:`d_c/d_{c,min} < 10` (red cross), fitted slope is :math:`-1.06`. 
+    As an eye guide, slope of `-1` and `-1.5` have been represented. 
+ 
+
+
+The rescaled data confirm an average power law exponent of :math:`\sim -1`, the
+breakdown of the average exponent beyond :math:`d_c/d_{c,min}=10` can be
+explained by the statistical effect of having less data for long distance.
+
 
 :math:`\alpha, \beta` and :math:`\gamma` 
+
+
+.. todo:: 
+    Zero of force is determined by average force on large distance. // bead <Left Mouse>
+
+
+Variation of parameters with Capping Protein
+============================================
+.. 3
+
+At the chosen concentration of Arp2/3 the bead system can show symmetry
+breaking in the correct range of concentration of capping protein. In absence
+of capping protein the dense dendritic network does not form on the surface. At
+low concentration it seem not able to generate enough stress to rupture, and at
+too high concentration (>35nM) the visible gel is thin and do not break
+symmetry either. I then investigated the variation of each of the fit
+parameters for concentrating of capping protein ranging from 0 to 50 nM.
+
+
+We have already seen previously that the powerlaw exponent factor didn't had a
+significant variation with the amount of capping protein in solution (:num:`Fig
+#power-law-exponent`). The two other parameter that can be investigated are the
+prefactor :math:`\beta`. At for the same value of :math:`\alpha` and
+:math:`\delta`, the higher :math:`\beta` is the stronger the interacting
+between the two beads for the same distance between bead center. We can see on
+:num:`Figure #beta-violin`) that the average value for the prefactor decrease
+with increase of capping protein concentration. 
+
+.. _beta-violin:
+.. figure:: /figs/beta_violin.png
+    :width: 80% 
+
+    Violin plot showing the repartition of prefactor with the quantity of
+    Capping Protein. Decrease of prefactor with increasing amount of Capping
+    Protein indicate a lower force between the probe bead and the actin bead
+    for the same corrected distance between bead centers 
+
+The last parameter of our model is :math:`\delta`, distance at which the force
+diverges.   It can be seen in :num:`Figure #delta-violin` that at the exception
+of absence of capping protein, the distance at which the model diverge get
+closer to the diameter of the polystyrene bead as the concentration of capping
+protein in the medium increases. It interesting to see that the distance offset
+is the closer from the bead diameter in the absence of capping protein, when no
+biomimetic actin cortices forms.  
+
+.. _delta-violin:
+.. figure:: /figs/delta_violin.png
+    :width: 80% 
+
+    Violin plot showing the variation of the offset distance :math:`\delta`
+    with the quantity of capping protein. The shaded region represent the
+    non-physical region which would correspond to a diverging force beyond the
+    contact of the two polystyrene bead. Experimental data with :math:`\delta`
+    value in this regions have been excluded from further analysis.
+
+
+Determination of Young Modulus
+==============================
+.. 3
 
 
 
