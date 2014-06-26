@@ -552,6 +552,184 @@ Determination of Young Modulus
 .. 3
 
 
+.. |E| replace:: :math:`E`
+
+.. |dc| replace:: :math:`d_c`
+
+.. |delta| replace:: :math:`\delta`
+.. |alpha| replace:: :math:`\alpha`
+.. |beta| replace:: :math:`\beta`
+
+.. |E0| replace:: :math:`E_0`
+
+To determine the mechanical properties of he gel between the actin and the
+probe bead, we model it as a purely elastic material. The viscous effect are
+neglected in the approach part as the approach at different speed show now
+clear effect on the approach curves (Cf :num:`Figure #many-speed`). We consider
+the compression of the material between the two probe bead between two surface
+that are the projected surfaces of the bead on the direction of compression.
+The thickness of the compressed material is taken as being the distance between
+bead center corrected by the distance offset |delta|.
+
+The stress exerted onto the material projected onto the bead surface or radius :math:`R` can be written : 
+
+.. math::
+    
+    \sigma = \frac{F}{\pi R^2}
+
+For small defmation the local strain of the material :math:`u` can be written as a function of the
+corrected bead position |dc| and the considered location along the axis between the two bead center `x` : 
+
+.. math::
+
+    u(x)= \frac{d_c-x}{d_c}
+
+
+We can express the local differential strain around the position |dc| of the
+bead : :math:`\partial u = -\partial x/d_c` in which the minus sign reflect the
+choice of the coordinate system: a decrease in :math:`x` with a positive
+Young's modulus |E| should lead to an increase of the exerted force. The local felt young modulus when the probe bead has been approached from its initial position to the distance |dc| is then  
+
+.. _eq-E:
+.. math::
+
+    E(d_c) = \left.\frac{\partial\sigma}{\partial u}\right|_{d_c}
+
+By injecting the expression of :math:`u` and :math:`\sigma` this lead to :
+
+.. math:: 
+
+    E(d_c) &= -\frac{d_c}{\pi R^2}\times \Big(\frac{dF}{dx}\Big) \Big|_{x=d_c}\\
+         &= E_0 d_c^\alpha
+
+In which the value of |E0| can be expressed as function of the power law exponent |alpha| and the prefactor |beta| :
+
+.. math::
+    
+    E_0 = - \frac{\alpha\beta}{\pi R^2}
+
+Experimentally, the probed young modulus correspond to the average mechanical
+properties of the actin cloud between the surface of the actin bead and the
+surface of the probe bead and do not reflect the variation of the mechanical
+properties of the uncompressed actin cloud with position. The geometry of hte
+system and the fluorescence signal suggest a decrease of the density of the
+actin cloud with the distance to the actin-bead center. All reported values
+reported later represent estimation of elasticity of an effective young
+modulus. The Effective young modulus values found are 3 orders of magnitude
+smaller than know elasticity of dendritic gel formed on bead that are in the
+order of kPa :cite:`Marcy2004`. 
+
+This difference in elasticity might explain why this actin cloud as not been
+seen mechanically before in other measurement like micro pipettes aspiration,
+micro needle deformation or Atomic Force Microscopy indentation that have
+sensitivity in the order of nN while the forces exerted by this actin network 
+are in the order of the pN.
+
+Nonetheless, :cite:`Gardel2003` show that such low moduli can be obtain using
+sparse entangle actin network, and confirm the idea that the actin-cloud the
+optical-tweezer indent experiment has a fundamentally different structure that
+the dense dendritic network that what can be seen on the actin bead surface
+using fluorescence.
+
+.. _E0-violin:
+.. figure:: /figs/E0_violin.png
+    :width: 80% 
+
+    Young Modulus Prefactor as a function of capping protein. Similar to the
+    graph of |beta| on :num:`Fig #beta-violin` as |E0| is proportionnal to
+    |alpha|, which is alway close to -1 and |beta| .
+
+
+To further understand the observed powerlaw we can model the actin cloud 
+
+Interpretation 
+==============
+.. 3
+
+The data collected and the results of data analysis lead to the conclusion that
+on the surface of the actin bead is polymerized a dense actin gel of elasticity
+close to ~1kPa, and which act as the scale of force of the optical tweezer can
+apply to an infinitely rigid material that cannot be indented. Beyond this
+dense gel a soft actin cloud with an effective Elastic modulus up to thousand
+time softer  is present and extend on distance that are several time bigger
+than the thickness of the reconstituted actin cortex. The structure structure
+of this actin cloud is expected to be quite different from the dendritic gel
+and could be mostly constituted of loosely entangle actin filaments. 
+
+To investigate further this hypothesis, and the mechanical properties of the
+network that should arise from a :math:`\alpha = -1` power law, we model the
+deformation of the actin cloud by the theory of semi-flexible entangled polymer
+network (:cite:`Isambert1996`, :cite:`MacKintosh1995`, :cite:`Morse1998a`).
+
+
+The Young's modulus of semiflexible filaments in a 3D environment can be
+expressed as a function of filament contour length density :math:`\rho` and the
+entanglement length :math:`L_e` as :cite:`Morse1998b`:
+
+.. math::
+    
+    E= \frac{2.(1+\nu).7.k_BT \rho}{5L_e}
+
+.. |nu| replace:: :math:`\nu`
+
+In which |nu| is the Poisson ratio and allow the conversion from shear to
+elastic modulus. Previous study have investigated the non-linear stiffening of
+such actin network for large deformation :cite:`Semmrich2008` and found that in
+our condition, the linear description of theses networks holds to describe the
+actin-cloud.
+
+Using :cite:`Morse1998a` allow us to express the entanglement length as a
+function of other parameters : :math:`L_e\approx L_p^{1/5} \rho^{-2/5}`. We can
+reduce the expression of the young modulus to a function of the following
+parameters : 
+
+    - The Poisson Ratio |nu|, 
+    - The persistence lenght of actin filaments :math:`L_p`
+    - The mesh size of the network :math:`\xi_0`
+    - The "size" of the cloud, for which we use the distance at which the force
+      is first significant :math:`d_0`
+
+We need also the consideration that for a general compressible material, the
+only variable that can change during compression is the density :math:`\rho`
+which could be made to depend on the corrected distance :math:`\rho \to
+\rho(d_c)`
+
+Thus leading to :
+
+
+.. _eq-A:
+.. math::
+
+    E(d_c)=\frac{ (1+\nu).14.k_BT}{5L_p^{1/5}}\times \rho(d_c)^{7/5}
+
+
+The scaling exponent of |E| in `Eq #eq-A` with |dc| should match the exponent
+of the experimentally found power law |alpha|. Thus the density can be
+expressed in the following form : 
+
+.. _eq-rho:
+.. math::
+
+    \rho(d_c)=\rho_0(d_c/d_0)^{5/7\times\alpha}
+
+By the definition of :math:`\rho` in :cite:`Morse1998a` which is
+the filament contour length per unit volume, we can determine the 
+mesh-size :math:`\xi_0` of the undeformed network (average value) of :math:`\xi_0 = 1/√\rho_0`
+
+
+By identifying to the phenomenological model we can thus express the Elastic
+modulus as a function of the distance and the mesh size as a function of the
+fit parameters and  characteristic scales of the system.
+
+
+.. math::
+         E(d_c)     &=  \frac{(1+\nu).14.k_BT}{5L_p^{1/5}\xi_0^{14/5} \left.d_0\right.^{\alpha}}\times \left.d_c\right.^{\alpha}.\\
+                    &=  E_0' \times \left.d_c\right.^{\alpha}
+
+
+.. math::
+        \xi_0=\left(-\frac{({2-\frac{5}{7}\alpha)}.k_BT\pi R^2}{5\alpha \beta L_p^{\frac{1}{5}}\left.d_0\right.^{\alpha}}\right)^{\frac{5}{14}}
+
 
 
 Results
