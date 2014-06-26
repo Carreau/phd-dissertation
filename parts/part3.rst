@@ -640,7 +640,6 @@ using fluorescence.
     |alpha|, which is alway close to -1 and |beta| .
 
 
-To further understand the observed powerlaw we can model the actin cloud 
 
 Interpretation 
 ==============
@@ -697,8 +696,8 @@ which could be made to depend on the corrected distance :math:`\rho \to
 Thus leading to :
 
 
-.. _eq-A:
 .. math::
+    :label: eqa
 
     E(d_c)=\frac{ (1+\nu).14.k_BT}{5L_p^{1/5}}\times \rho(d_c)^{7/5}
 
@@ -707,14 +706,14 @@ The scaling exponent of |E| in `Eq #eq-A` with |dc| should match the exponent
 of the experimentally found power law |alpha|. Thus the density can be
 expressed in the following form : 
 
-.. _eq-rho:
 .. math::
+    :label: eq-rho
 
     \rho(d_c)=\rho_0(d_c/d_0)^{5/7\times\alpha}
 
 By the definition of :math:`\rho` in :cite:`Morse1998a` which is
 the filament contour length per unit volume, we can determine the 
-mesh-size :math:`\xi_0` of the undeformed network (average value) of :math:`\xi_0 = 1/√\rho_0`
+mesh-size :math:`\xi_0` of the undeformed network (average value) of :math:`\xi_0 = 1/\sqrt\rho_0`
 
 
 By identifying to the phenomenological model we can thus express the Elastic
@@ -726,11 +725,48 @@ fit parameters and  characteristic scales of the system.
          E(d_c)     &=  \frac{(1+\nu).14.k_BT}{5L_p^{1/5}\xi_0^{14/5} \left.d_0\right.^{\alpha}}\times \left.d_c\right.^{\alpha}.\\
                     &=  E_0' \times \left.d_c\right.^{\alpha}
 
+:math:`E_0'` can be identified as |E0| in :eq:`eqa` to extract the closed form solution for the meshsize :math:`\xi_0` :
 
 .. math::
         \xi_0=\left(-\frac{({2-\frac{5}{7}\alpha)}.k_BT\pi R^2}{5\alpha \beta L_p^{\frac{1}{5}}\left.d_0\right.^{\alpha}}\right)^{\frac{5}{14}}
 
 
+The found mesh size is in the order of 0.3 to 0.4 µm which is consistent which
+what has been found  previously :cite:`Morse1998`. The variation of the
+meshsize can be seen on :num:`Fig #xi-violin` and does not seem to have a
+correlation with the concentration of capping protein. 
+
+
+.. _xi-violin:
+.. figure:: /figs/xi_violin.png
+    :width: 80%
+
+    meshsize vs capping.
+
+
+Despite the fact that the  mesh size is directly related to the offset distance
+correction |delta|, a strong correlation can be seen between the two on
+`Fig #dxc`.  This can be explain despite the fact that |delta|
+seem correlated with the Concentration in capping protein through the
+non-appearance of time in our data analysis.  We will see in a later point that
+the value measured for |delta| might be influenced by the time of measurement.
+
+
+.. _dxc:
+.. figure:: /figs/delta-xi-corr.png
+    :width: 80%
+    Correlation of the meshsize :math:`\xi_0` with the distance offset |delta|, with marginal distribution as histogram on the side and on the top. 
+    Shaded regions represent confidence interval at 95%.
+
+.. _dxf:
+.. figure:: /figs/delta-xi-facets.png
+    :width: 80%
+
+    Something
+
+
+
+:num:`Fig #xi-violin`
 
 Results
 *******
