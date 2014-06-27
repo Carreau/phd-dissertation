@@ -641,24 +641,15 @@ using fluorescence.
 
 
 
-Interpretation 
-==============
+Mechanical properties
+=====================
 .. 3
 
-The data collected and the results of data analysis lead to the conclusion that
-on the surface of the actin bead is polymerized a dense actin gel of elasticity
-close to ~1kPa, and which act as the scale of force of the optical tweezer can
-apply to an infinitely rigid material that cannot be indented. Beyond this
-dense gel a soft actin cloud with an effective Elastic modulus up to thousand
-time softer  is present and extend on distance that are several time bigger
-than the thickness of the reconstituted actin cortex. The structure structure
-of this actin cloud is expected to be quite different from the dendritic gel
-and could be mostly constituted of loosely entangle actin filaments. 
 
-To investigate further this hypothesis, and the mechanical properties of the
-network that should arise from a :math:`\alpha = -1` power law, we model the
-deformation of the actin cloud by the theory of semi-flexible entangled polymer
-network (:cite:`Isambert1996`, :cite:`MacKintosh1995`, :cite:`Morse1998a`).
+To investigate the mechanical properties of the network that should arise from
+a :math:`\alpha = -1` power law, we model the deformation of the actin cloud by
+the theory of semi-flexible entangled polymer network (:cite:`Isambert1996`,
+:cite:`MacKintosh1995`, :cite:`Morse1998a`).
 
 
 The Young's modulus of semiflexible filaments in a 3D environment can be
@@ -722,6 +713,7 @@ fit parameters and  characteristic scales of the system.
 
 
 .. math::
+    :label: eqb
          E(d_c)     &=  \frac{(1+\nu).14.k_BT}{5L_p^{1/5}\xi_0^{14/5} \left.d_0\right.^{\alpha}}\times \left.d_c\right.^{\alpha}.\\
                     &=  E_0' \times \left.d_c\right.^{\alpha}
 
@@ -746,27 +738,198 @@ correlation with the concentration of capping protein.
 
 Despite the fact that the  mesh size is directly related to the offset distance
 correction |delta|, a strong correlation can be seen between the two on
-`Fig #dxc`.  This can be explain despite the fact that |delta|
+:num:`Fig #dxcf`.  This can be explain despite the fact that |delta|
 seem correlated with the Concentration in capping protein through the
 non-appearance of time in our data analysis.  We will see in a later point that
 the value measured for |delta| might be influenced by the time of measurement.
 
 
-.. _dxc:
+.. _dxcf:
 .. figure:: /figs/delta-xi-corr.png
     :width: 80%
-    Correlation of the meshsize :math:`\xi_0` with the distance offset |delta|, with marginal distribution as histogram on the side and on the top. 
-    Shaded regions represent confidence interval at 95%.
+
+    Correlation of the meshsize :math:`\xi_0` with the distance offset |delta|,
+    with marginal distribution as histogram on the side and on the top.  Shaded
+    regions represent confidence interval at 95%.
+
+:num:`Figure #dxf` shows the relation between the mesh size and the offset
+distance |delta| independently for each concentration of Capping Protein.
 
 .. _dxf:
 .. figure:: /figs/delta-xi-facets.png
     :width: 80%
 
-    Something
+    Same figure as :num:`Fig #dxcf` for each concentration of capping protein,
+    with linear regression and confidence intervals at 95%
+
+From :eq:`eqa` and :eq:`eqb` by identifying the prefactor it is also possible
+to extract the Poisson ratio (|nu|) of the compressed material : 
+    
+.. math::
+    :label: nu=f(alpha)
+
+    \nu =\frac 1 2 \times \left( \frac 5 7.\alpha +1\right)
+
+
+The Poisson ratio depend only on the powerlaw exponent and thus varies little
+with they amount of capping protein concentration.  We found value of the
+Poisson ratio that are between 0.07 and 0.16 corresponding compressible
+Foam-like material that do not expand highly in the direction orthogonal to the
+compression axis. Previous study of bulk actin network find a Poisson ration of
+0.5 (incompressible material) for actin concentration of 21.5 µM. The lower
+value we find which are closer to Poisson ratio of polymer network can be
+explain by the five fold decrease of actin concentration that we use here (4µM)
+and the different structure of the actin cloud we measure here.
+
+Interpretation
+==============
+.. 3
+
+The results of data analysis lead to the interpretation that
+on the surface of the actin bead is polymerized a dense actin gel of elasticity
+close to ~1kPa, and which act as the scale of force of the optical tweezer can
+apply to an infinitely rigid material that cannot be indented. Beyond this
+dense gel a soft actin cloud with an effective Elastic modulus up to thousand
+time softer  is present and extend on distance that are several time bigger
+than the thickness of the reconstituted actin cortex. The structure
+of this actin cloud is expected to be quite different from the dendritic gel
+and could be mostly constituted of loosely entangle actin filaments. 
+
+In this model, the offset distance |delta| correspond to the limit of the dense
+dendritic actin network mimicking the actin cortex that grows on actin bead
+and which elastic modulus make impenetrable by the optical tweezer we use. The
+value of delta we found hare coherent with the measured thickness :math:`e
+\simeq \delta - 2.R_{bead}` of the  biomimetic actin cortex as measured by
+epifluorescence in :cite:`Kawska2012` in the range of 1 to 2 µm. The decrease
+of |delta| with capping protein is also coherent with the decrease of gel
+thickness. The value of delta close to the bead radius also correspond to the
+absence of formation of biomimetic cortices in the absence of Capping Protein.
+
+The filament composing the loosely actin cloud emanates directly from the actin
+cortex in which the nucleation of actin polymerisation started at the surface
+of the bead. Eventually a few filaments can escape from the networks and are
+capped by the capping protein only later with the growing extremity a several
+micrometers from the bead surface. 
+
+.. figure:: /figs/interp-delta.png
+    :width: 60%
+
+    Schematic of actin cloud. Left:  The Actin bead triggers actin
+    polymerisation. Right Probe Bead. On the surface of the actin bead a dense
+    and dendritic network forms a biomimetic actin cortex with an elastic
+    modulus close to the kPa (Dark Green). From this actin cortex emanate a
+    softer actin structure : The actin cloud . The actin cloud is  loosely
+    entangled network formed by the filaments escaping from the bead actin
+    cortex and extend on several micrometers. The actin cloud have an average
+    elastic modulus which is several order of magnitude softer than the actin
+    cortex. From the point of view of the probe bead in optical tweezer, the
+    system (actin-bead+actin cortex) behave as a hard-sphere of radius
+    :math:`\delta-R`
+
+
+The thickness of the actin cortex :math:`e` as measured in :cite:`Kawska2012`
+increase with time during the polymerisation of actin. We can predict that the
+offset distance |delta| should increase with time, except in the absence of
+Capping Protein where no actin cortices forms.This can be verified on
+:num:`figure #time-delta-corr` that show the evolution of |delta| as a function
+of polymerisation time. 
+
+.. _time-delta-corr:
+.. figure:: /figs/time-delta-corr.png
+    :width: 80%
+
+    Distance offset |delta| as a function of time (min) since mix of actin, Atp
+    and beads. Linear fit with confidence interval at 95% (light shaded area)
+    and bead surface (dark shaded area). Sample in the absence of Capping are
+    not taken into account in the regression (Pink +).
+
+
+Relaxation phase
+****************
+.. 2
+
+The approach phase of the indentation cycle has been modeled with a purely
+elastic mode. However, the force distance plot show a significant dissipation
+marked by an hysteresis. The repetitive indent cycle giving the same
+force-distance curves (:num:`Fig #reproc`) permanent plastic deformation have
+to be excluded. We can so strongly reject the hypothesis of ruptures of the
+actin meshwork or breakage near the entanglement points.
+
+The theory that allowed us to understand the link between the phenomenological
+model and the mechanical properties of the network also propose a relation to
+explain the relaxation of the network using relation of actin filament. 
+
+In this model :cite:`Morse1998a`, the elastic modulus  |E| is function of time
+and can be written as :math:`E(t) = E\times \chi(t)` with 
+
+.. math ::
+    :label: chi
+
+    \chi(t)=\sum_{n, odd} \frac{8}{n^2 \pi^2}exp\left(- \frac{n^2\pi^2 t}{ \tau_{rep}} \right)
+
+.. |Drep| replace:: :math:`D_{rep}`
+.. |tau| replace:: :math:`\tau_{rep}`
+
+In which :math:`\tau_{rep} = \frac{l_f^2}{D+{rep}}` is a single fit parameter
+that depends on diffusion constant for filament reptation |Drep| and the
+filaments length :math:`l_f`. In this form, :math:`\chi` is a sum of
+exponential decay with well defined characteristic timescale and amplitudes
+that decreases as :math:`1/n^2`. To fit this model to the data of the
+relaxation phase, we can limit ourselves to the first 40 terms of the sum as
+any of the subsequents terms represent timescales than we cannot reach with out
+experimental resolution. 
+
+It should be noted that  the value of :math:`\chi(t=0)` is 1 and should be
+treated particularly in order to insure continuity of the force applied on the
+actin-bead in the model.
+
+Using this sum of exponential decays is coherent with the common findings of
+power-law found in the shear modulus of both in vivo and in vitro actin
+networks as well as the relaxation behavior found in cells.
+
+In order to determine :math:`\tau_{rep}`, the Young modulus determined on the
+approach phase is use and the model is fitted against the relaxation data.  A
+result of such a fit can be seen on :num:`Fig #fit-3-phases`. The value of
+|tau| are highly variable and the fit can be difficult when the relaxation is
+slow or in the order of the measured noise. Variation of |tau| with the
+concentration in Capping Protein can be seen on :num:`figure #tau-violin`, and
+one example of fit on the :num:`figure #fit-3-phases`
+
+.. _tau-violin:
+.. figure:: /figs/tau_violin.png
+    :width: 80%
+
+    Violin plot showing the repartition of |tau| as a function of capping protein. Outlier (|tau| negative or greater than tens of minutes removed)
 
 
 
-:num:`Fig #xi-violin`
+.. _fit-3-phases:
+.. figure:: /figs/3phases.png
+    :width: 80%
+
+    Force as a function of time as well as fit for the 3 phases, approach, relaxation and retraction.
+
+We can see here that the polymer model introduced in :cite:`Morse1998a` allow
+to completely fit the succession of approach and relaxation phases.  To check if
+the fit parameters give realistic value, we can estimate the diffusion constant
+for filament reptation |Drep|. 
+
+.. math:: 
+
+    D_{rep} &= \frac{k_bT}{\gamma l_f} \\
+
+
+In which :math:`\gamma\approx {2\pi\eta_s}/{ln(\xi_0/d_f)}` is the friction
+coefficient per unit length. :math:`\gamma` depends on the solvent viscosity
+:math:`\eta_s`, the mesh-size :math:`\xi_0` and the filament diameter
+:math:`d_f` (:math:`~7nm` for actin).  We use :math:`\eta_s=10^{-3} Pa\times s`
+for water and a mesh size in the order of 400nm as determined previously. Using
+|tau| given by the fit, this lead to filaments length ranging from 3 to 8 µm.
+
+
+
+
+
 
 Results
 *******

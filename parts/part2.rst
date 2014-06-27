@@ -205,7 +205,7 @@ composed of the following :
     - Complete to 15 µL using X-Buffer.
     
 5 µL of G-Actin (20% fluorescent) is then added to previous mix, and considered
-as the origin of time for the experiment. the 20 µL are then gently deposited
+as the origin of time for the experiment and recorded. the 20 µL are then gently deposited
 at the center lower coverslips and 4 drops of valap are deposited at the
 position where the corner of the upper (18x18mm) coverslip will rest actin as a spacer
 and preventing the sample to be squashed. The upper coverslip is then placed on
@@ -293,6 +293,9 @@ on proceed with a new one.
 In the case where the indented actin network show sign of inhomogeneity or
 symmetry breaking, the experiments are marked not taken into account for
 further analysis.
+
+The date and time of each indentation cycle is recorded to extract the time of
+polymerisation for each sample.
 
 .. _bead-move:
 
