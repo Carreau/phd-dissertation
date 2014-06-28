@@ -927,6 +927,60 @@ for water and a mesh size in the order of 400nm as determined previously. Using
 |tau| given by the fit, this lead to filaments length ranging from 3 to 8 µm.
 
 
+Retraction Phase
+================
+.. 3
+
+I during the retraction phase decrease the force decreases, becomes negative
+after a retraction of 3 to 4 µm, and a slow  return to 0 at large distance.
+During the retraction, sticking event can be seen when the force becomes
+abruptly negative before relaxing as fast. :num:`Figure #sticking-event` show
+such a sticking even happening during an indentation cycle.
+
+.. _sticking-event:
+.. figure:: /figs/sticking-event.png
+    :width: 80%
+
+    A sticking event at `d=15µm`where the force can be seen decreasing rapidly
+    up to -18 pN before quickly returning to its normal value. A second smaller
+    sticking even is present at `d=12µm` Sticking even appear roughly 20% of
+    the experiments.
+
+WE assume that the sticking even are characteristic to non-specific interaction
+between the probe bead and the actin cloud.  In the case when no sticking even
+is present, we can suppose a partial closing of the actin cloud beyond the
+probe bead during the relaxation phase and can model the retraction curve as a
+transition between the damped-approach curve and a penetration of the probe
+bead through the closing actin cloud.
+
+Durring the approach phase the force exerted on the actin-bead is
+:math:`F(d)=\beta(d-\delta)^\alpha`. During the relaxation phase the force
+decrease from :math:`F(t_1)` to :math:`F(t_2)` with the relation that :
+
+.. math::
+
+    \frac{F(t_2)}{F(t_1)} = \chi(t_2-t1)
+
+We can write that the force exerted on the actin-bead during the retraction can be written as 
+
+.. math::
+
+    F_{ret}(d) = F_{da}(d) + F_{closing}(d)
+    F_{ret}(d) = \chi(t_2-t_1).\beta(d-\delta)^\alpha+ F_{closing}(d)
+
+In which :math:`F_{da}` stand for damping-approached , and :math:`F_{closing}`
+is due to the closing of the force. :math:`F_{closing}` apparently also seem to
+follow a power low for long distance when no sticking even can be seen and
+enough data point are available and can be fitted as well with :math:`F_{closing-powerlaw}(d)`.
+
+:math:`F_{ret}(d)` seem though to follow :math:`F_{da}(d)` for :math:`d
+\simeq{D_{bead}}` and :math:`F_{closing-powerlaw}(d)` for :math:`d > 10µm`
+
+.. figure:: /figs/retract-powerlaw.png
+    :width: 100%
+
+
+
 
 
 

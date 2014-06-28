@@ -561,8 +561,8 @@ L437.4 106.538" style="fill:none;stroke:#e41a1c;stroke-linecap:round;stroke-widt
    </g>
    <g id="line2d_50">
     <path clip-path="url(#p34a7969b2b)" d="
-M438.522 105.603
-L444.899 120.005
+M438.522 103.499
+L444.899 120.004
 L451.276 127.714
 L457.653 133.629
 L464.031 138.617
@@ -655,23 +655,23 @@ L988.023 319.244" style="fill:none;stroke:#4daf4a;stroke-linecap:round;stroke-wi
    </g>
    <g id="patch_3">
     <path d="
-M1036.8 693
-L1036.8 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
-   </g>
-   <g id="patch_4">
-    <path d="
 M144 693
 L1036.8 693" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
    </g>
-   <g id="patch_5">
+   <g id="patch_4">
     <path d="
-M144 693
-L144 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
+M1036.8 693
+L1036.8 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
    </g>
-   <g id="patch_6">
+   <g id="patch_5">
     <path d="
 M144 79.2
 L1036.8 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_6">
+    <path d="
+M144 693
+L144 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
    </g>
    <g id="text_18">
     <text style="fill:#262626;font-family:Arial;font-size:40.0px;font-style:normal;text-anchor:start;" transform="rotate(-0.000000, 188.640000, 462.825000)" x="188.64" y="462.825">A</text>
