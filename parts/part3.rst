@@ -965,34 +965,136 @@ We can write that the force exerted on the actin-bead during the retraction can 
 
 .. math::
 
-    F_{ret}(d) = F_{da}(d) + F_{closing}(d)
-    F_{ret}(d) = \chi(t_2-t_1).\beta(d-\delta)^\alpha+ F_{closing}(d)
+    F_{ret}(d) &= F_{da}(d) + F_{closing}(d)\\
+    F_{ret}(d) &= \chi(t_2-t_1).\beta(d-\delta)^\alpha+ F_{closing}(d)
 
 In which :math:`F_{da}` stand for damping-approached , and :math:`F_{closing}`
 is due to the closing of the force. :math:`F_{closing}` apparently also seem to
-follow a power low for long distance when no sticking even can be seen and
-enough data point are available and can be fitted as well with :math:`F_{closing-powerlaw}(d)`.
+follow a power low (:math:`F_{plaw}`) for long distance when no sticking even
+can be seen and enough data point are available .
 
-:math:`F_{ret}(d)` seem though to follow :math:`F_{da}(d)` for :math:`d
-\simeq{D_{bead}}` and :math:`F_{closing-powerlaw}(d)` for :math:`d > 10µm`
 
 .. figure:: /figs/retract-powerlaw.png
     :width: 100%
 
+    Left : Retraction phase with approach phase fit damped by
+    :math:`\xi(t_2-t1)` in green. Blue area under the curve is plotted on a
+    log-log scale on the right, follow a powerlaw.
 
 
+:math:`F_{ret}(d)` seem though to follow :math:`F_{da}` for :math:`d
+\simeq{D_{bead}}` and :math:`F_{da}+F_{plaw}` for :math:`d > 10µm`.  The
+typical size of the bead being :math:`D_{bead}` we expect the transition from
+one regime to the other to be done on a length scale of :math:`D_{bead}` Thus
+we use a smoothing function which is a convolution between the projected bead
+area and a linear ramp function which can be seen on :num:`figure #interp`
+
+.. _interp:
+.. figure:: /figs/interpolation.png
+    :width: 90%
+
+    Interpolation function used to smooth the transition from :math:`F_{da}` to
+    :math:`F_{da}+F_{plaw}` 
 
 
+The complete retraction force can be seen on :num:`figure #fit-3-phases` and is equal to 
+
+.. math::
+
+    F_{ret}(d) &= F_{da}(d)\times(1-S(d)) + F_{plad}(d)\times S(d)\\
 
 
-Results
-*******
-.. 2
+Where :math:`S(d)` is the interpolation function for a bead of 4.34 µm
+diameter. We can see that the model fit correctly the retraction and especially
+the position and value of the minimum of the retraction function without
+fitting parameter when we use the diameter of the probe bead as a typical scale
+for the transition when changing direction.
 
 Discussion
 **********
 .. 2
 
+Nursees cell :cite:`Huelsmann2013`
+Anticlinal Periclinal :cite:`iwabusi`
+..         - :cite:`Schuh2008` show that a sparse actin network contracted by
+..           myosin that like the cortex to the spindle is necessary for its
+..           migration.
+
+- Organelles are supported by .. gravity thing :cite:`Feric2013`
+
+:cite:`Jaalouk2009` The mechanical link from extracellular environment to the
+nucleus is established by actin bundles that connect integrins and proteins of
+the nuclear envelope
+
+Rough explanation beta/delta/cp
+
+INfinite cappingfilamanet immedaitely capped.
+
+
+actin cytoskeletton invoved in many events,
+cell shape :cite:`..` 
+recent experiments hits for possible direct transmission of forces from cortex to nucleus
+
+Important psitionning of nucleus :cite:`nurse cells` mechanics link from external  environemt bundle intergrins cite{jaalouk_mechanotransduction_2009}
+
+Actin network emanating can sutain forces up to 10 pN sufficient for draging organelss inside cell
+
+can allow a constantly polymerizing
+    cortical network to push throughout the inside of a cell and exert
+    sufficient forces to move organelles and chromosomes
+    \cite{kumaran_chromatin_2008}
+
+
+Indeed, networks observed inside cells are
+    generally anchored to cortical actin network \cite{schuh_new_2008,
+    chaigne_soft_2013, iwabuchi_actin_2010, lenart_contractile_2005}
+
+
+We here reproduce a system that show how from a dense branched actin network
+can emanate an actin cloud structure with mechanical force sufficient to move
+organelles. This actin-cloud by the way it is form is linked to actin cortex
+and provide a scafold to build larger structure linked together.
+
+ - should do microrheology
+   - measure average properties
+ - inquery the amount of branching. 
+ - better understand the retraction part. 
+ - How woudl this differ in the inside geometry.
+   - Astonishingly it is the same -1 law that is found for flexible polymers :cite:`pincus witten`
+ - how would this sparse actin network react in the addition of myosin ? bunddling ? firning parallel structure in lamelipodia ? 
+ - 
+
+Conclusion
+**********
+.. 2
+
+The actin cortex can be reproduced `in vitro` on polystyrene beads. It is
+polymerized by the activation  of the Arp2/3 complex on the surface of
+polystyrene beads. Near the surface of the gel forms a dense dendritic actin
+network with Elastic modulus of kPa. This gel can be seen by fluorescence when
+using fluorescent actin.
+
+The transition from his dense network mimicking actin cortex to the solution
+medium is not sharp. On beads system there is a large transition zone of
+several micrometers through a soft actin structure that we call the
+actin-cloud.  We determined the mechanical properties of these actin clouds and
+determines their viscoelastic properties.  The actin cloud are very soft in
+comparison to the dense gel with young modulus several order of magnitude lower
+(pa). Nonetheless these actin cloud are capable of supporting force sufficient
+to move cells organelles, and do not deform plastically.  
+
+The properties of these actin cloud are well explained by polymer theory of
+loosely entangle actin network and the predicted viscoelastic properties are in
+agreement with our measurement. Values founds are also in agreement with bulk
+measurement with measurement of properties of actin gel measurement in gels,
+but also suggest that lower Poisson ratio can be observed in the actin
+structure.
+
+The mechanical effect of the actin cloud can thus not be ignored in cellular
+context. It provides the correct range of force and spawn over a sufficient
+distance to position organelles, and could be used to position many cellular
+structure. The actin cloud also provide a sparse actin structure that could be
+easily remodeled by other actors of the cell to form already known structures.
 
 
 .. Doublets:
