@@ -173,6 +173,8 @@ pass through cell membrane from one cell to the other.
 The bead motility system is the minimal in-vitro system capable of replicating
 the listeria motility.
 
+.. _bead-motility-assay:
+
 Bead motility assay
 ===================
 .. 3
