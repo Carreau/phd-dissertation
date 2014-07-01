@@ -9,39 +9,41 @@ Introduction
 .. 2
 
 
-We have seen previously that the actin cytoskeleton play a major role in
+We have seen that the actin cytoskeleton play a major role in
 cellular mechanics in many domains. It is necessary for force generation, and a
 key component to cell motility. It has also be extensively studied both in
 cells and biomimetic systems. 
 
-Actin can for a variety of network in cell, ranging from dense branch network
+Actin can form a variety of network in cell, ranging from dense branched network
 at the leading Edge of the lamelipodia to bundled parallel structure forming
 the filopodia.  Reconstruction of actin network have been done in biomimetic
-systems using purified component, and many properties of these network have
+systems using purified component :cite:`...`, and many properties of these network have
 been measured.
 
 It has been determined that the actin cortex is  a mechanical support for the
-plasma membrane and that it extend over a few hundreds of nanometers. Many
+plasma membrane and that it extend over a few hundreds of nanometers:cite:`...` . Many
 cells processes also hint for actin structure connected to this cortex that are
-key elements to organelle and chromosome positioning. 
+key elements to organelle and chromosome positioning :cite:`...`. 
 
 In this part of the manuscript we investigate how a sparse actin structure can
 emanate from the actin cortex, and what its properties are. Using a biomimetic
 system to reconstitute the actin cortex and its dendritic structure on bead, we
 show that from the cortex emanate a network of filaments that have mechanical
-effect up to tens of micrometers from the actin cortex.
+effect sufficient to move cells organelles  up to tens of micrometers from the actin cortex.
 
-The branched structure of the actin cortex underneath the plasma membrane of of
-cell hint for a structure governed by Arp2/3. How Arp2/3 and CP can be used to
+The branched structure of the actin cortex underneath the plasma membrane of
+cells hint for a structure governed by Arp2/3. How Arp2/3 and CP can be used to
 form a biomimetic actin cortex has been studied. In :cite:`Kawska2012`, both in
 vitro measurement on reconstituted actin cortex on bead as well as simulation
 investigate the effect of cross linking and capping on the formed gel. They can
-see both experimentally ad in simulation that a network of filament escape from
-what is defined as the active cortex. The effect of these long filament is not
-take into account in the in-silica system where measurement is restricted to
-filament shorter than 10 µm. Only the effect of dense entangle actin network
+see both experimentally and in simulation that a network of filament escape from
+what is defined as the actine cortex. The effect of these long filaments is not
+taken into account in the in-silica system where measurement is restricted to
+filament shorter than 10 µm. Only the effect of dense entangled actin network
 generated from primers randomly placed  on the bead surface participate in the
 increase of tension and contribute to symmetry breaking.
+
+.. todo:: might want to introduce bead better here.
 
 .. figure:: /figs/Bead-tirf-fluo-sim.png
     :width: 70%
@@ -58,19 +60,19 @@ increase of tension and contribute to symmetry breaking.
 The limit of the dense network visible in epifluorescence is defined in
 :cite:`Kawska2012` by the position of the half-maximum fluorescent intensity.
 The properties of these network are measured by :cite:`Pujol2012` using
-magnetic beads after stabilising with phalloidin. Though they do not
+magnetic beads and actin stabilized with phalloidin. Though they do not
 investigate the sparse and softer actin network that originate from he visible
 part.
 
 
 Using :ref:`time-shared optical tweezer <time_shared_ot>` we are able to probe
-the mechanics of this soft actin structure at time scale than actin
-polymerisation and pN force range. We show that the beyond the dense dendritic
+the mechanics of this soft actin structure at time scale shorter than characteristic time of actin
+polymerisation and forces in the pN range. We show that beyond the dense dendritic network
 mimicking the actin cortex which as been measured to have :ref:`Elastic Modulus
 <elastic_modulus>` in the order of kPa :cite:`Pujol2012` the soft actin cloud
-we probe is much softer with stiffness around 3 order of magnitude smaller.
+we probe is much softer with stiffness three order of magnitude smaller.
 This might explain why such a structure as not previously been seen by less
-sensitive techniques. Nonetheless the size of this actin cloud and its ability
+sensitive techniques than optical tweezer we use. The size of this actin cloud and its ability
 to sustain forces suggest that in cell the actin cortex is not sharply
 delimited and that structure escaping from it have a role in organelle
 positioning.
@@ -120,14 +122,19 @@ These condition are chosen in order to grow a dense network on the surface of
 actin-bead as in :cite:`Kawska2012`. We place ourself at 25nM ATP and a varying
 amount of capping protein concentrating in order to cover condition where the
 dense gel that form on the actin-bead is able to accumulate sufficient stress
-to lead to symmetry breaking (CP between 12  and 35 nM ). We also investigate
+to lead to symmetry breaking (CP between 15  and 35 nM ). We also investigate
 condition where the amount of Capping Protein is to low (< 15nM) or to high
 (>35 nM) to permit symmetry breaking.
 
+.. todo::
+    the phase diagram of symetry breaking is show in :kawska2012: and figure ....
+
 We select a bead diameter of 4.3 µm in order to get a characteristic symmetry
-breaking time of 20 to 40 minutes, leaving enough time to proceed with the
-experiments before symmetry breaking occurs.  A smaller bead radius imply a
+breaking time of 20 to 40 minutes.
+A smaller bead radius imply a
 faster increase of stress and a shorter symmetry breaking time. 
+The choice of 4.3µm allow enough time to proceed with the
+experiments before symmetry breaking occurs. 
 
 All measured on actin bead were made on an actively growing actin network which
 was not stabilized unlike in :cite:`Pujol2012`, and before symmetry breaking
@@ -138,9 +145,9 @@ Probe Bead System
 .. 2
 
 To indent the network formed on actin-bead we used polystyrene bead passivated
-with BSA referred to as probe-bead.  The size of probe-bead have to be chosen
+with BSA. These bead are referred to as probe-bead.  The size of probe-bead have to be chosen
 to be the same of actin-bead in order to achieve optical trapping of both actin
-and probe bead. In the case of bead with different diameter the forced exerted
+and probe-bead in the same observation plane. In the case of bead with different diameter, due to the trapping in two different Z-planes, the forced exerted
 between the two bead during the indentation process has a non-negligible
 component along the z-axis which is the axis with the weaker trapping stiffness
 leading to bead escaping the traps.
@@ -151,42 +158,47 @@ Experimental description
 ************************
 .. 2
 
-To probe the actin network growing on bead we trap an actin-bead with a growing
-actin-network and a probe-bead using time-shared optical trap and measure force
-on the actin-bead using a QPD placed in the back focal plane of the condenser.
+To probe the actin network we trap an actin-bead with a growing
+actin-network and a probe-bead using time-shared optical trap :ref:`...`,  and measure force
+on the actin-bead using a QPD placed in the back focal plane of the condenser :ref:`...`.
 
-To avoid systematic error  on force measurement on displacing trap all the
-force recording is made on the static bead, that is to say in our case on the
+To avoid systematic error of force measurement on displacing trap, all the
+force recording are  made on the static bead. In our case on the
 actin bead.
 
 
-The indentation is a three step process :num:`Fig #figindent-time`.
+The indentation is a three step process :num:`Fig #figindent-time` we describe hereafter and in :ref:`material and methods`
+
+    - Approach phase at constant velocity 10µm/sec unless precised otherwise
+    - Resting or relaxation phase of 3 second during which both trap are static
+    - Retraction phase in which the probe trap move toward its initial position at 10µm/sec.
+
 
 Approach Phase
 ==============
 .. 3
  
-The approach of the probe-trap at constant speed (10 µm/s), as seen in
+Durring the approach phase, probe-trap approaches at constant speed (10 µm/s), as seen in
 :num:`Fig #figindent-time` for :math:`t < t_1`. During the approach the actin bead
 will repel the probe bead due the actin network growing on it. The force felt
 by the actin bead will progressively increase as the probe bead approach
 eventually reaching the maximum as the probe-trap reach its closest position
 from the actin trap. Note that during this process as both bead fell the force
-exerted in-between them they move away from the traps center. Though the trap
+exerted in-between them they move away from their respective traps center. The trap
 stiffness of :math:`>20 pN/µm` and the maximum for measured of :math:`~20 pN`
 insure the displacement of the beads in the trap are small compared to the
-distance between the two beads.
+distance between the two beads. Hence in the following we consider that the probe-bead speed is equivqlent to the trap spped of 10µm/sec.
 
 
 Relaxation Phase
 ================
 .. 3
 
-After the approach phase is a 3 seconds resting phase during which the probe
+After the approach phase is a 3 seconds resting (or relaxation)  phase during which the probe
 and actin-trap remain static. The relaxation phase start at :math:`t_1` and
-finish at :math:`t_3`. The duration of the relaxation phase is long enough to
-allow the relaxation of the actin cloud to happen, and sufficiently short for
-the actin polymerisation not to change the properties of the network as well as
+finish at :math:`t_3` Num figure here`...`. The duration of the relaxation phase is long enough to
+allow the relaxation of the actin cloud to happen at the timescale of the experiement, and sufficiently short for
+the actin polymerisation not to change the properties of the network during one indentation cycle as well as
 allow repetitive indentation to be done :ref:`ref repetitive figure`.
 
 While the actin network relaxes, the forces between the two beads will slowly
@@ -207,7 +219,7 @@ in the middle part.
     curve, yellow back) represent the approach phase. Middle part (orange on
     white) is the relaxation phase, and right part (blue on pale yellow) is the
     retraction.  Shown data is a subsample of around 1 every 1000 points of
-    acquired data.
+    acquired data. We can see on the second graph that the bead displacement on their respective trap is small compared to the dissplacement of the trap and justify the approximation of a probe bead speed equal to the probe trap speed.
 
 
 Retraction part
@@ -221,19 +233,21 @@ exerted between the two beads decrease, becomes negative, reach a minimum, and
 eventually reaching zero asymptotically as the probe bead recover its initial
 position.
 
+This can be seen on :num:`Figure #figindent-time` right part. Negative forces
+represent forces that tends to push the two beads to ward each other.
+
+
 Reconstitution of Force-distance-curve
 ======================================
 .. 3
 
 From the position of he trap with time and the signal measured by the QPD the
 position of bead in the trap as well as the forced exerted on each bead can be
-calculated we can then recover the distance between beads center as a function
-for time. Note that the displacement of bead from their respective trap center
-is small compared to the distance between bead center and thickness of the
-actin gel, thus the distance between beads center could be approximated as the
-distance between traps without change of the overall further results.  The
-force-distance curve curve representing the force exerted by the probe bead on
-the actin bead as a function of the distance can be computed :num:`Fig #force-distance`. 
+calculated. We can then recover the distance between beads center as a function
+for time.  The force-distance curve curve representing the force exerted by the
+probe bead on the actin bead as a function of the distance can be computed and
+show in :num:`Fig #force-distance` where we can still distinguish the three
+phase of the indentation cycle. 
 
 
 .. todo::
@@ -248,12 +262,12 @@ the actin bead as a function of the distance can be computed :num:`Fig #force-di
     Force exerted on the actin bead as a function of the distance between the
     two beads center. Color and data are the same as in :num:`Fig
     #figindent-time`. The probe bead start from the far right, and get closer
-    while the force get higher (green upper part of the curve), reach a
+    while the force increases (green upper part of the curve), reach a
     maximum, and enter the relaxation phase (orange part) where the force
-    between the probe and actin bead decrease, while the distance slightly
+    between the probe and actin bead decrease, while the distance  also slightly
     decrease. During the retraction part (Blue) the force decrease, reaches
     negative value while the bead return to its initial position. Shown data is
-    a subsample of around 1 every 1000 points of acquired data. Shaded region
+    a subsample of 1 every 1000 points of acquired data. Shaded region
     represent area where the two polystyrene bead would interpenetrate.
 
 
@@ -262,7 +276,7 @@ Repetitive indent
 .. 3
 
 To check for reproducibility and non-plastic deformation of the network after
-indentation, the indentation cycle can be reputed several time at a few seconds
+indentation, the indentation cycle can be repeated several time at a few seconds
 intervals. As the network is constantly growing during the measurement, this
 also allow to check for the change of network properties due to actin
 polymerisation.
@@ -276,7 +290,7 @@ polymerisation.
     Force exerted on actin bead as a function of time for ten repetitive
     indent at a few seconds of interval. In one of the cycle a sticking event
     can be seen in the retraction phase 6 seconds after the beginning of the
-    cycle.
+    cycle. Tis shows hi reproducibility of indentation curves.
 
 
 .. _reproc:
@@ -287,14 +301,15 @@ polymerisation.
     Figure showing the reproducibility of indentation process on a bead with
     25nM Arp2/3 and 10nM CP Subset of data from :num:`Fig #reproc-time` shown
     with different color to represent evolution of indentation curve with time.
+    Time is relative to first indentaion.
 
 Effect of approach speed
 ========================
 .. 3
 
-:cite:`Gardel2003` suggest that for frequency higher than 0.1 Hz, the effect of
-force due to the viscous part of actin network can be in the same order of the
-force dur to the elastic component.  It is though important to check the effect
+:cite:`Gardel2003` suggest that for frequency higher than 0.1 Hz, 
+force due to the viscous behavior  of actin network can be in the same order 
+than the elastic component.  We checked the effect
 of the approach speed on the force measurement. We check in :num:`Fig
 #many-speed` how the indentation speed affect the measurement by varying the
 approach speed from 10 to 30 µm/s onthe same actin bead.
@@ -305,7 +320,7 @@ approach speed from 10 to 30 µm/s onthe same actin bead.
 .. figure:: /figs/many_speed.png
     :width: 80%
 
-    Aproach phase of repetitive indent at multiple speed on the same actin-bead
+    Aproach phase of repetitive indent at multiple speed on the same actin-bead. The approach phase in the differents conditions qre indentical, hinting for a negligible effect of the viscosity  in the actin cloud at the speed considered.
 
 
 
@@ -319,9 +334,13 @@ we are able to investigate mechanical properties inaccessible to other
 microscopy techniques like TIRF. Beyond the visible actin cortex we can detect
 the presence of a actin structure that have mechanical effects far beyond the
 thickness that has been measured for the biomimetically reconstructed actin
-cortices (less than the µm). :num:`Fig #cloud-repelling` show qualitatively
+cortices (less than the µm). :num:`Figure #cloud-repelling` show qualitatively
 that the actin cloud growing on actin beads is able to repel free floating
 probe beads before they reach the visible reconstituted cortex. 
+
+.. todo::
+
+    add the video online
 
 
 To quantify the distance at which the probe bead are affect by the actin-cloud
@@ -397,7 +416,7 @@ pN, and the bead we use expos a surface of roughly :math:`(2µm)^2`. Before
 entering non-linear regime and escaping the trap, the probe bead can move up to
 1µm off from the trap center. For a material of typical size in the order of
 tens of µm,  this lead to a maximum Young's Modulus of the indented material in
-the order of 100 Pa. Any material with a Stiffness much higher than 100 Pa can
+the order of 100 Pa. Any material with a stiffness much higher than 100 Pa can
 be considered as infinitively rigid.
 
 In our experiments, the polystyrene beads have a average diameter
