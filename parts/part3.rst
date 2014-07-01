@@ -125,7 +125,7 @@ to lead to symmetry breaking (CP between 15  and 35 nM ). We also investigate
 condition where the amount of Capping Protein is to low (< 15nM) or to high
 (>35 nM) to permit symmetry breaking.
 
-.. figure:: /figs/karaka-phase-diagram.png
+.. figure:: /figs/kawska-phase-diagram.png
     :width: 90%
 
     Phase diagram showing the concentrating of Arp2/3 and Capping Protein
@@ -1060,7 +1060,6 @@ Discussion
 **********
 .. 2
 
-:cite:`Lenart 2014 ?? starfish (read  it first)`
 
 The actin cytoskeleton play an important role in many cellular functions.  The
 actin cortex, just beneath the cell membrane is not only a crucial structure in
@@ -1215,9 +1214,11 @@ cells and its control.
 .. Oocytes
 .. *******
 
+:cite:`Lenart 2014 ?? starfish (read  it first)`
 
 .. figure:: /figs/actin-cloud.png
-    :with: 80%
+    :width: 40%
 
-    The "actin cloud"
+    The "actin cloud" from which polymerize actin filament branched by Arp2/3 and capped by CP
+    — Congratulatin for your HDR – 
     
