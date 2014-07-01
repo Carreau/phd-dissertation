@@ -1215,3 +1215,9 @@ cells and its control.
 .. Oocytes
 .. *******
 
+
+.. figure:: /figs/actin-cloud.png
+    :with: 80%
+
+    The "actin cloud"
+    
