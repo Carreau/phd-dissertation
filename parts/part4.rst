@@ -132,9 +132,9 @@ The distance between liposome center decreases as the total angle :math:`\theta
 = \theta_1+\theta_2` increases. The contact angle and other parameter of the
 doblets are obtained by fitting spherical caps onto the 2D epifluorescence
 images or 3D confocal stack as describe later.  In the absence of myosin, the
-contact angle |theta| is measured to be :math:`\theta = 64 \pm 16 °` whereas in
+contact angle |theta| is measured to be :math:`\theta = 64 \pm 16 º` whereas in
 the presence of Myosin II (200 nM) we find a value of :math:`\theta = 86 \pm 21
-°`. Measured of contact angle after Myosin injection are done before the cortex
+º`. Measured of contact angle after Myosin injection are done before the cortex
 ruptures as characterized in :cite:`Carvalho2013a` .
 
 Angle related to tension
@@ -199,6 +199,99 @@ in the same order as the increase in angle with the addition of myosin, a
 statistical analysis of the contact angle before and during contraction is
 difficult. Thus to avoid this effect of dispersion, we follow the evolution of
 :math:`\theta` on the same doublet during time.
+
+
+Tension of actin-shell
+**********************
+.. 2
+
+In order to investigate the increase of tension due to the acto-myosin network
+on liposome, we first characterise the increase due to the sole actin-shell in
+the absence of myosin. y photo bleaching the actin we compare the shape of the
+same doublets in the presence and absence of the actin-shell. The total contact
+angle change by :math:`3.4 \pm 2.0º` after disruption of the actin network.
+Thus we conclude that the effect of the actin-shell is small and negligible
+compared to the effect we see with myosin. 
+
+.. _3d-obs:
+3D observation
+**************
+.. 2
+
+Three dimentionnal observation 
+
+
+
+
+
+
+
+
+3D fitting
+**********
+.. 2
+
+The obtention of geometrical parameter of doublets is challenging, indeed in
+classical phase contrast microscopy, or epifluorescence  the acquired images
+only capture one of the plane of the doublets. Thus the chances to measure
+correctly the contact angle are slim, as the observation plane have to be the
+equatorial plane of the doublet, which implies that the center of each liposome
+have to stay simultaneously in the focal plane of the microscope during the
+contraction.
+
+In oder to achieve good precision in the measure of the contact angle we
+decided to use confocal microscopy and acquire stack in order to reconstruct
+the 3D structure of a doublet, determines the geometrical parameters in order
+to  get access to the contact angle.
+
+In order to determine the geometrical parameter of the doublets automatically
+and through time we modeled the doublets as two intersecting sphere simulated
+the 3D obtained imaged and adjusted the parameter of the model to reflect the
+obtained experimental data.
+
+Finding a single liposome
+=========================
+.. 3
+
+In this part we show the principle that allowed us to determine the 8
+geometrical parameter that cauterize a doublet 2 centers (X,Y,Z) and 2 radii
+(|R1| and |R2|). 
+
+As working in an eight-dimensional is not particularly interesting here and the
+principle apply to more dimension (deformed ellipsoid liposome, or multi
+channel imaging) we will restrict ourself to a single liposome on a 2D plane.  
+
+Experimentally liposomes are observed using fluorescently labeled actin that
+form an actin shell. In the observation plane, the liposome shows as a bright
+ring of given thickness (we will refer to as the `ground truth` signal), on top
+of this image is a noise due to the different material use and the presence of
+fluorescent actin monomers in the buffer solution. Eventually, the noise in the
+outside buffer can be higher than inside which is fee of actin. Numerical
+simulation of this can bee seen on :num:`figure #fig-2d-sim`.
+
+
+.. _fig_2d-sim:
+.. figure:: /figs/modl-2d-doublet.png
+    :alt: liposome Model
+
+    Left : A simulation of liposome fluorescent of an uniform shell or membrane
+    (`ground truth`).  Middle: Same Image Adding gaussian noise to simulate a
+    plane from a confocal Z-stack.  Right: Fluorescently labelled Liposome in
+    fluorescent External Buffer and less fluorescent inside buffer.
+
+The ground truth signal can be modeled numerically using several parameter of
+the system (center and radius of liposome, point spread function of microscope)
+to generate a model. 
+
+
+
+.. figure:: /figs/corrfun-noise-.png
+    :alt: liposome Model
+
+
+
+
+
 
 
 
