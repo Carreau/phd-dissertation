@@ -130,23 +130,74 @@ Capping protein
 =================
 .. 3
 
-Mouse capping protein (CP; a1/b2) is purified as previously described [13]. 
-oeno Y, Abe H, Kimura S, Maruyama K, Obinata T. 1998 Generation of functional beta-actinin (CapZ)
-in an E. coli expression system. J. Muscle Res. Cell. Motil. 19, 639 – 646. (doi:10.1023/A:1005 329114263)
+Mouse capping protein (CP; a1/b2) is purified as previously described in :cite:`Soeno1998`
 
 Myosin II
 =========
 .. 3
 
-Myosin II is pur- ified from rabbit skeletal muscle, and fluorescent myosin II is prepared as previously described [14]
-Silva MSE, Depken M, Stuhrmann B, Korsten M, Mackintosh FC, Koenderink GH. 2011 Active multistage coarsening of actin networks driven by myosin motors. Proc. Natl Acad. Sci. USA 108, 9408 – 9413. (doi:10.1073/pnas.1016616108)
+Myosin II is purified from rabbit skeletal muscle, and fluorescent myosin II is
+prepared as previously described in :cite:`SoareseSilva2011`. Functionality of
+Myosin I is confirmed by motility assays. Gliding speed shows an average of 4.5
++ 1.5 µm/s (N = 27)
 
+The working buffer for Myosin contains 
 
-Vesicle preparation
-*******************
+    - 25 mM imidazole
+    - 50 mM KCl
+    - 70 mM sucrose
+    - 1mM Tris
+    - 2 mM MgCl2
+    - 1 mM ATP
+    - 0.1 mM DTT
+    - 0.02 mg/ml β-casein,
+
+then adjusted to a pH  of 7.4.
+In the working buffer and myosin II
+forms minifilaments of approximately 0.7 µm length which correspond to about 100
+motors. 
+
+Lipids, reagent and proteins
+****************************
 .. 2
 
+Chemical are purchased from Sigma Aldricht (St-Louis, Mo, USA). EPC (l-:math:`\alpha`-phosphatidylcholine) and `1,2-distearoyl-sn-glycero-3-phosphoethanolamine-N-[biotinyl polyethylene glycol 2000]` (biotinylated lipids), `1,2-dioleoyl-sn-glycero-3-phosphocholine` are purchased from Avanti polar lipids (Alabaster, USA).
+Monomeric actin containing 10% or 20% of labeled Alexa-488
+actin and 0.25 % of biotinylated actin is diluted in G-Buffer 
 
+
+
+doublets preparation
+********************
+.. 2
+
+Cell-sized liposomes are formed by electro formation :cite:`Angelova1986`
+
+20 µL mix of EPC lipids and PEG-biotin lipids (present at 0.1 %, mol ) with a
+concentration of 2.5 mg/ml in chloroform/methanol 5:3 are deposited on glass
+plates coated with  ITO. Glass is then dried with  nitrogen; placed
+under vacuum for 2 hours.
+
+A chamber is formed using the ITO plates with their conductive sides facing
+inside, then filled with sucrose buffer (200mM sucrose, 2mM Tris adjusted at pH
+7.4). Chamber is sealed with with hematocrit paste (Vitrex medical, Denmark).
+
+An alternate current voltage of 1V and 10 Hz is applied between the ITO-coated
+surfaces for 75minutes to form liposomes.
+
+Formed liposomes are incubated 15 minutes with 160 nM streptavidin in order to
+coat them with streptavidin. Liposomes coated with streptavidin tends to aggregates. 
+Diluted 30 times and waiting 15 minutes increase the ratio doublets/single liposome by still avoiding aggregates of more liposome.
+
+A bulk solution of 40 µM actin monomers — 10% fluo — 0.25% biotinylated is
+diluted 40 times in working buffer (25 mM imidazole, 50 mM KCl, 70 mM sucrose,
+1mM Tris, 2 mM MgCl2, 1 mM ATP, 0.1 mM DTT, 0.02 mg/ml β-casein, adjusted at a
+pH 7.4) and polymerized for one hour. The adjunction of 1 µm of phalloidin
+after 1 hour prevent further depolymerisation
+
+Actin filaments are 
+diluted to 0.1 µM (10x), mixed with streptavidin-coated doublets of
+liposomes, and incubated for 15 min. The mix is diluted 5 times to reduce fluorescent background form actin monomers in solution 
 
 .. _bead_preparation:
 

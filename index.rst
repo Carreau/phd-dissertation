@@ -10,6 +10,7 @@ Contents
    parts/part3
    parts/part4
    parts/extra
+   parts/physicalparameters
 ..  parts/spinning
 ..   parts/doublets
 ..   acknowledgements
