@@ -61,8 +61,7 @@ doublets are free of actin. As the actin added is fluorescent, this can be
 checked by epifluorescence as the interface appears dark compared to the rest
 of the doublet.
 
-.. _figDoubletsSchema:
-
+.. _fds:
 .. figure:: /figs/doublets-schema.png
     :alt: Formation doublet schema
     :width: 90%
@@ -146,6 +145,10 @@ Angle related to tension
 .. |taui| replace:: :math:`\tau_i`
 .. |taut| replace:: :math:`\tau_t`
 .. |W| replace:: :math:`W`
+.. |V| replace:: :math:`V`
+.. |d| replace:: :math:`d`
+.. |R1| replace:: :math:`R1`
+.. |R2| replace:: :math:`R2`
 
 Each liposome have its respective tension |tau1|, and |tau2|.  In the absence
 of the biomimetic acto-myosin cortex these tensions correspond only to the
@@ -218,12 +221,138 @@ compared to the effect we see with myosin.
 **************
 .. 2
 
-Three dimentionnal observation 
+Three dimensional imaging of the doublets are necessary to get the correct
+contact angle, especially when doublets are of different radii. In our
+experiments, liposomes composing a doublets had a ratio :math:`R_1 / R_2 \in
+[1.15:1.82]`, and to measure the contact angle the epifluorescence plane have
+to be one of the equatorial plane of the doublets, leading to a under
+estimation of the contact angle. 
+
+The interface between the two liposomes is a portion of sphere with a curvature
+:math:`C_i= \frac{1}{R_i}` much smaller  than :math:`\frac{1}{R_1}`  and
+:math:`\frac{1}{R_2}`. The determination of the radius :math:`R_i` was
+difficult as the difference in the position of the interface both before and
+after myosin injection differed from flat surface by only a few pixels. Also
+there is no important dissymmetry  of the liposome composing the doublets. In
+theses conditions we assume that |theta1| and |theta2| are equal in our system
+with our optical resolution.
+
+3D Spinning disk images are recorded for an accurate determination of the
+different parameters of the doublet : the contact angle |theta|, the volume of
+the doublet |V|, the distance between trap centers :math:`d`. All theses
+parameters are obtain by fitting spherical 3D caps on the 3D stack as explained
+:re:`in later parts`. 
+
+During contraction triggered by myosin injection, we observe that the contact
+angle |theta| increases while the distance between liposomes center |d|
+decreases. During this process the volume remain constant within a 10% error, which is consistent with cells doublets experiments done by :ref:`Maitre2012a`.
+
+Discussion 
+***********
+.. 2
+
+Cortical tension is homogeneous for single doublet
+==================================================
+.. 3
+
+The use of :eq:`young-perpendicular` with :math:`\theta_1 = \theta_2 = \theta
+/2` leads to the equality of tension on both side of the doublet during all the
+experiments.We can then write :math:`\tau_1 = \tau_2 = \tau`. This result is
+consistent with the fact that actin is distributed continuously all around the
+liposome doublet. Hence, myosin II minifilaments pull on a continuous shell. In
+these conditions equation :eq:`young-parallel` simplifies to :
+
+.. math:: 
+    :label: eq3
+
+    \tau_i - W = 2.\tau(t).cos(\theta(t)/2)
+
+
+Where :math:`\tau(t)` and :math:`\theta(t)` are the tension and the angle at
+the time t after myosin injection. A reasonable assumption is that
+:math:`\tau_i-W` may depend on a variability of the initial adhesion between
+liposomes. Since muosin does not operate at the interface between liposome as
+it is free from actin, it is also reasonable con consider the tension and
+adhesion energy constant for a given doublets through time. That is to say
+:math:`\tau_i-W = \tau_{i,0}-W_0`.
+Therefore we obtain the expression of the tension :math:`\tau(t)` during the acto myosin contraction that reads : 
+
+.. math::
+    :label: eqtime
+
+    \tau(t) &= \frac{ \tau_i - W }{2.cos(\theta/2)}\\
+            &= \frac{ cst           }{2.cos(\theta/2)}
+
+
+Hence we can evaluate the tension relative to its initial value over time :
+
+.. math::
+
+    \frac{ \tau(t) }{\tau_0} = \frac{cos(\theta_0/2)}{cos(\theta(t)/2)}
+
+
+Relative increase in cortical tension
+=====================================
+.. 3
+
+
+Interaction of myosin II filaments with a biomimetic actin cortex induces
+tension build up. The cortical tension, normalized to its initial value,
+increases and reaches a plateau where :math:`\tau(t) = \tau_{peeling}` with the
+same trend as |theta|.  Note that if the actomyosin shell breaks and peels, the
+doublet recovers its initial shape (see dashed blue line for :math:`d` and
+|theta| on  Fig...). The average relative tension is found to be
+:math:`\tau_{peeling}/\tau_0 = 1.56 + 0.56` (n=5) in 3D and
+:math:`\tau_{peeling}/\tau_0  = 1.25 + 0.15` (n=5) in epifluorescence, in
+agreement with the underestimates of the contact angle in epifluorescence. 
 
 
 
 
 
+Cortical tension increase in doublets and in cells
+==================================================
+.. 3
+
+In cells, cortical tension can be as low as 50 pN/µm in fibroblast progenitor
+cells (REF KRIEG NatCellBio 2008) and can go up to 4000 pN/µm for dictyostelium
+(REF SCHWARZ 2000). Surprisingly, when myosin activity is affected, either by
+drugs or by genetic manipulation  the cortical tension only decreases by a
+factor of about 2. Cells are also observed to round up during division (REF
+KUNDA 2008) in which an  increase of tension by a factor of two is sufficient.
+Our `in vitro` reconstruction is able to capture this feature in the change of
+cortical tension. Indeed, we observe a cortical tension of the doublets
+increasing by a factor 1.1 to 2.4.
+
+
+
+Different contributions for cortical tension
+============================================
+.. 3
+
+Cortical tension is the sum of the membrane tension and the tension due to the
+acto myosin cortex. We question how the membrane contribute to cortical tension
+and in our assay we show that it count for about 50% of the cortical tension.
+In suspended fibroblast cells, membrane tension is estimated to be 10% of the
+cortical tension :cite:`Tinevez2009`. When polymerisation of actin is
+stimulated, the cortical tension is multiplied by a factor of 5 showing a
+strong dependence also with actin dynamics :cite:`Tinevez2009`. Hence he
+residual tension in cells might be due to actin dynamics which is absent in our
+experiments. How actin contribute to cortical tension is still an open question
+that need to be addressed in the cell geometry.  Whereas actin polymerisation
+outside outside a liposome has been show to generate inward pressure
+:cite:`...`, how this can be translated to tension  is a different geometry is
+not yet clear. `In vitro` assay are on their way to mimic actin dynamics in
+cells :cite:`...` and will allow to unveil the mechanism of tension build up by
+actin dynamics, which  is the remaining module that need ti be understood. The
+effect of myosin and the one of membrane being clarified in this study.
+
+
+Conclusion 
+===========
+.. 3
+
+We provide a biomimetic reconstitution of tension build up through acto-myosin contractility using liposome doublets. Cortical tension change is visualized in situ over time by analyzing doublet shape changes. This method allows us to directly quantify the relative increase in tension due to myosin, separately from the one due to actin dynamics. Understanding contraction of composite systems built brick by brick on the model of a cell tile the road for the reconstitution of complex systems like tissues.
 
 
 
@@ -270,7 +399,7 @@ outside buffer can be higher than inside which is fee of actin. Numerical
 simulation of this can bee seen on :num:`figure #fig-2d-sim`.
 
 
-.. _fig_2d-sim:
+.. _fig-2d-sim:
 .. figure:: /figs/modl-2d-doublet.png
     :alt: liposome Model
 
@@ -280,15 +409,204 @@ simulation of this can bee seen on :num:`figure #fig-2d-sim`.
     fluorescent External Buffer and less fluorescent inside buffer.
 
 The ground truth signal can be modeled numerically using several parameter of
-the system (center and radius of liposome, point spread function of microscope)
-to generate a model. 
+the system (center and radius of liposome, point spread function of microscope,
+...) to generate a model. Assuming a noise uniform on top of the ground truth
+signal, it is possible to correlate the simulated signal.  With an uniform
+noise on the acquired data, the value of the correlation will be maximal for
+the parameter of the model that correspond to the physical parameter of the
+model. 
+
+To verify this hypothesis, we can generate data, thus knowing the `ground
+truth`,  add a significant amount of noise to it, and look at the value of the
+correlation between our model and the generated data as a function of the models parameter.
 
 
 
-.. figure:: /figs/corrfun-noise-.png
+.. .. figure:: /figs/corrfun-noise-.png
+
+.. _corr-fun-1:
+.. figure:: /figs/double-c-_100-by-100-rc-40_0-noise-0_5-delta-4_0_.png 
     :alt: liposome Model
+    :width: 60% 
+
+    Value of the correlation as a function (arbitrary units) of two of the fit
+    parameter. Radius of the liposome in the model is taken as
+    equal to the value of the ground truth, and position of the center is
+    varied on X and Y direction. The value of the correlation is maximal for
+    the position of the center in the model that equal the one ground truth.  We
+    can see local maxima on the 3D representation that are well below the value
+    of the global maximum. The peak at the global maxima is sharp hinting  that 
+    the search of the maxima need relatively good initial
+    parameters (lower than ~1/10 of liposome radius). The sharpness of the peek
+    point that the result of the fit parameters on experimental data should be
+    robust.  
+    
+.. _corr-fun-2: 
+.. figure:: /figs/c-R-_100-by-100-RC-40_0-noise-0_5-delta-4_0_.png 
+    :width: 60% 
+
+    Same as :num:`figure #corr-fun-1`  with Y position of the center taken
+    as equal to the ground-truth, variating X position of the model and
+    radius of the liposome. The graph show the same properties as before.
 
 
+
+Using minimisation technique we can search the parameter space of the model an
+maximise the correlation between the model and the experimental data to recover the geometrical parameters of the liposomes.
+
+
+
+Fitting a doublet
+=================
+.. 3
+
+
+The determination of contact angle on epifluorescence image or phase contrast
+images are often underestimated as the imaged plan is not one of the doublets
+equatorial plan. Moreover, most determination of contact angle are done
+manually and are subject to experimenter biased as they draw the tangent line
+at the contact point between the liposome. Thus we decided to do fitting of
+acquired 3D stack with confocal microscope. In our case we avoided the usage of
+fluorescent lipids that could change the tension of the membrane.
+
+As seen on :num:`Figure #fds`, the doublets are covered with a
+thin micrometer-thick layer of fluorescent actin filament. It is such layer
+that we imaged with confocal spinning disk. The contact angle is defined as the
+angle between the lipid bilayer, when imaging the actin-layer this correspond
+to the angle between the inner surface of the actin network on each liposome.
+
+Thus in order to determine the geometrical parameter of the doublets we need to
+model the actin shell. As the liposome in contact are two spherical cap the
+uniform actin layer also form two spherical caps with a given thickness. The
+signal thus the signal of the union of two spherical caps blurred by the point
+spread function of the microscope. This can be seen on :num:`figure #mproj1`
+
+.. _mproj1:
+.. figure:: /figs/max_proj_340A.png
+    :width: 80%
+
+    Maximum projection along X,Y and Z of recorded stacks, green channel actin.
+    One can see that the liposomes doublets are stuck to the surface of the
+    observation chamber.
+
+It is crucial to be able to compute the model and the correlation between the
+model and the data sufficiently fast in order to make the fit on each timestep
+of the contraction of each doublets in a reasonable time (less than the hour
+per images) in order to achieve this, beyond calculating the model as
+efficiently as possible using a fast C-like language one can replace the exact
+calculation of two spherical cap and the point spread function of the
+microscope by the union and  subtraction of sphere with  3D numerical
+Gaussian blur. 
+
+.. figure:: /figs/3dblur.png
+    :width: 60% 
+
+    Principe of numerically approximating the two spherical caps as the union
+    and intersection of sphere, follow by a 3D numerical Gaussian blur. The
+    speedup compared to the exact calculation of the fluorescent density allow
+    to make fits on doublets in minutes instead of hours.
+
+It should though be noted that in the case of discreet Z-stack sufficiently
+spaced the difference of radius between rings in subsequent stack can led to an
+artificial "ring-artifact" in the under sample Z-direction. In the case of a
+too pronounce "ring effect" a "ghost" sphere can appear at inside of each
+liposome which might lead the fitting process of the doublets to fall into a
+local maximum of correlation.
+
+.. _ring-artifact:
+.. figure:: /figs/ring_artifact.png
+    :width: 90%
+
+    Left : One plane of the numerical model with ring artifact due to an under
+    sampling of the model in the Z-direction, stacks from "Far" Z leaks onto
+    current Z-stack and form a ring.  Right : Same plane of the model with
+    enough sampling plane in the Z-direction do not show the ring artifact. In
+    this case we use a sampling equal to the number of slice than the recorded
+    data. (X,Y in arbitrary units)
+   
+
+In our case we have a sufficient number of stacks so that the numerical model
+with the same sample size as the data do not show the ring artefact and have
+smooth transition near the position of the spherical cap. The size of the
+Gaussian blur can also be adjusted to be higher than the typical size of the
+point spread function of the microscope and will act as a regularisation
+function for the value of the correlation between the model and the acquired
+data (cf :num:`Figure #max-proj-model`).
+
+.. _max-proj-model:
+.. figure:: /figs/max_proj_model.png
+    :width: 80%
+
+    Maximum projection along X,Y and Z of numerical model, the "ring" effect
+    can still slightly be seen near the pole of each liposome, but is not
+    sufficient enough to have the minimisation process stick in a local minima. 
+
+
+The value of the correlation between the model and the experimental recorded
+data can be maximised using already available function, in particular we used
+Nelder–Mead simplex as implemented in `scipy.optimise` python library which
+gives us the 8 parameters of the doublets. Result of the fits are show in
+:num:`figure #fig-fit-t0`.
+
+.. _fig-fit-t0:
+.. figure:: /figs/Doublet-402-A-Fit-t-0.png
+    :width: 80%
+
+    Maximum projection of confocal images in the X,Y and Z projection as well
+    as the result of the fits shown as equatorial circles for the three
+    direction of projection.
+
+
+To insure the fits where robust to doublets center displacement during
+acquisition, the initial parameter of the fit where chosen manually for each
+first frame of each sequences. The final fit parameter of each frame are reused
+as initial fit parameter for the subsequent frame.
+
+In order to test robustness of the fit, initial fit parameters where randomly
+modified by an amount of +/- 1µm, and we checked that the final parameter did
+not varied.
+
+For a couple of parameter, the value of the correlation function can be plotted
+to check for the regularity of the function and the absence of local maxima. :num:`Figure #gof2d` and :num:`figure #gof3d` show the
+
+
+.. _gof2d:
+.. figure:: /figs/gof-2d-doublets.png
+    :width: 80%
+    
+    Correlation of the model and the data as a function of the center position
+    of on of the model spherical cap along the X axis and the radius of this
+    same spherical cap. Vertical axis in arbitrary unit.
+
+.. _gof3d:
+.. figure:: /figs/gof-3d-doublets.png
+    :width: 80%
+
+    3D representation of the data in :num:`figure #gof2d`, the shape of the
+    function is the same as the simulation done with the `ground truth` in
+    :num:`figure #corr-fun-1` :num:`and #corr-fun-2`
+
+
+
+The correctness of the fit is also checked visually, especially to detect when
+fit can't find the actin layer once its stop peeling. As most of the recorded
+stack also have a red channel, it can also be used to check for the correctness
+of the fit (Cf :num:`Fig #srhod`).
+
+.. _srhod:
+.. figure:: /figs/srhod_superimpose.png
+    :width: 80%
+
+    Maximum projection of the red channel (`sulphorhodamin`) and the fitted
+    parameter for the doublet.
+    
+    
+    
+
+The red channel could be use conjointly to the green channel in order to
+improve the quality of the fit, but would require the extra parameter of the
+interface radius. Though, the curvature of the interface being relatively small
+and the difference between the curved interface and a plane close to 
 
 
 
