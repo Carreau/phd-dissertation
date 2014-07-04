@@ -598,7 +598,7 @@ Fitting a doublet
 The determination of contact angle on epifluorescence image or phase contrast
 images are often underestimated as the imaged plan is not one of the doublets
 equatorial plan. Moreover, most determination of contact angle on phase
-contrast and epifluorescece images are done manually and are subject to
+contrast and epifluorescence images are done manually and are subject to
 experimenter biased as they draw the tangent line at the contact point between
 the liposome. Thus we decided to do fitting of acquired 3D stack with confocal
 microscope. In our case we avoided the usage of fluorescent lipids that could
