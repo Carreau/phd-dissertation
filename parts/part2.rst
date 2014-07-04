@@ -1,7 +1,6 @@
 .. part2
 
 .. _m_et_m:
-
 Materials and methods
 #####################
 .. 1
@@ -166,6 +165,8 @@ Monomeric actin containing 10% or 20% of labeled Alexa-488
 actin and 0.25 % of biotinylated actin is diluted in G-Buffer 
 
 
+
+.. _electroformation:
 
 doublets preparation
 ********************
