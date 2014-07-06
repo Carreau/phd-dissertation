@@ -275,8 +275,8 @@ phase of the indentation cycle, also marked by the color of the data.
     :width: 100%
 
     Force exerted on the actin bead as a function of the distance between the
-    two beads centers. Color and data are the same as in :num:`Fig
-    #figindent-time`. The probe bead starts from the far right, and gets closer
+    two beads centers. Color and data are the same as in :num:`Fig #figindent-time`. 
+    The probe bead starts from the far right, and gets closer
     while the force increases (green upper part of the curve), reaches a
     maximum, and enters the relaxation phase (orange part) where the force
     between the probe and actin bead decrease, while the distance  also
@@ -329,12 +329,12 @@ Effect of approach speed
 ========================
 .. 3
 
-:cite:`Gardel2003` suggest that for frequency higher than 0.1 Hz, 
-force due to the viscous behavior  of actin network can be in the same order 
-as the elastic component. To test if such effect is important we measured the effect
-of the approach speed on the force measurements. :num:`Fig
-#many-speed` presents the indentation speed affect the measurement by varying the
-approach speed from 10 to 30 µm/s onthe same actin bead.
+:cite:`Gardel2003` suggest that for frequency higher than 0.1 Hz, force due to
+the viscous behavior  of actin network can be in the same order as the elastic
+component. To test if such effect is important we measured the effect of the
+approach speed on the force measurements. :num:`Fig #many-speed` presents the
+indentation speed affect the measurement by varying the approach speed from 10
+to 30 µm/s onthe same actin bead.
 
 
 .. _many-speed:
@@ -558,8 +558,8 @@ fit parameters for concentrating of Capping Protein ranging from 0 to 50 nM.
 
 
 We have already seen previously that the powerlaw exponent factor |alpha|
-didn't vary with the amount of Capping Protein in solution (:num:`Fig
-#power-law-exponent`). The two other parameters investigated are the prefactor
+didn't vary with the amount of Capping Protein in solution (:num:`Fig #power-law-exponent`). 
+The two other parameters investigated are the prefactor
 :math:`\beta`. For the same value of :math:`\alpha` and :math:`\delta`, the
 higher :math:`\beta` is the stronger the interaction between the two beads for
 the same distance |dc|. We can see on :num:`Figure #beta-violin` that the

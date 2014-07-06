@@ -418,8 +418,8 @@ Relative increase in cortical tension
 
 Interaction of myosin II filaments with a biomimetic actin cortex induces
 tension build up. The cortical tension, normalized to its initial value,
-increases and reaches a plateau where :math:`\tau(t) = \tau_{peeling}` (Fig
-:num:`fig3e`)with the same trend as |theta|.  Note that if the actomyosin shell
+increases and reaches a plateau where :math:`\tau(t) = \tau_{peeling}` (
+:num:` Fig#fig3e`)with the same trend as |theta|.  Note that if the actomyosin shell
 breaks and peels, the doublet recovers its initial shape (see dashed blue line
 for :math:`d` and |theta| on  :num:`Fig #fig3b`, :num:`#fig3c`, :num:`#fig3d` ). The average relative tension is found to
 be :math:`\tau_{peeling}/\tau_0 = 1.56 + 0.56` (n=5) in 3D and
