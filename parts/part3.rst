@@ -275,8 +275,8 @@ phase of the indentation cycle, also marked by the color of the data.
     :width: 100%
 
     Force exerted on the actin bead as a function of the distance between the
-    two beads centers. Color and data are the same as in :num:`Fig
-    #figindent-time`. The probe bead starts from the far right, and gets closer
+    two beads centers. Color and data are the same as in :num:`Fig #figindent-time`. 
+    The probe bead starts from the far right, and gets closer
     while the force increases (green upper part of the curve), reaches a
     maximum, and enters the relaxation phase (orange part) where the force
     between the probe and actin bead decrease, while the distance  also
@@ -329,12 +329,12 @@ Effect of approach speed
 ========================
 .. 3
 
-:cite:`Gardel2003` suggest that for frequency higher than 0.1 Hz, 
-force due to the viscous behavior  of actin network can be in the same order 
-as the elastic component. To test if such effect is important we measured the effect
-of the approach speed on the force measurements. :num:`Fig
-#many-speed` presents the indentation speed affect the measurement by varying the
-approach speed from 10 to 30 µm/s onthe same actin bead.
+:cite:`Gardel2003` suggest that for frequency higher than 0.1 Hz, force due to
+the viscous behavior  of actin network can be in the same order as the elastic
+component. To test if such effect is important we measured the effect of the
+approach speed on the force measurements. :num:`Fig #many-speed` presents the
+indentation speed affect the measurement by varying the approach speed from 10
+to 30 µm/s onthe same actin bead.
 
 
 .. _many-speed:
@@ -558,8 +558,8 @@ fit parameters for concentrating of Capping Protein ranging from 0 to 50 nM.
 
 
 We have already seen previously that the powerlaw exponent factor |alpha|
-didn't vary with the amount of Capping Protein in solution (:num:`Fig
-#power-law-exponent`). The two other parameters investigated are the prefactor
+didn't vary with the amount of Capping Protein in solution (:num:`Fig #power-law-exponent`). 
+The two other parameters investigated are the prefactor
 :math:`\beta`. For the same value of :math:`\alpha` and :math:`\delta`, the
 higher :math:`\beta` is the stronger the interaction between the two beads for
 the same distance |dc|. We can see on :num:`Figure #beta-violin` that the
@@ -665,7 +665,8 @@ Experimentally, the probed Young's modulus corresponds to the average mechanical
 properties of the actin cloud between the surface of the actin bead and the
 surface of the probe bead and do not reflect the variation of the mechanical
 properties of the uncompressed actin cloud with position.
-Physically :math:`E_0` correspond to the Young's modulus as a corrected distance of :math:`d_c = 1 \mu{}m` (See :num:`Fig #E0-violin`)
+Physically :math:`E_0` correspond to the Young's modulus as a corrected distance of :math:`d_c = 1 \mu{}m` 
+(See :num:`Fig #ev`)
 The geometry of the
 system and the fluorescence signal suggest a decrease of the density of the
 actin cloud with the distance from the actin-bead center. All values
@@ -686,7 +687,7 @@ with the optical-tweezer indent experiments has a fundamentally different
 structure than the dense dendritic network on the actin
 bead surface.
 
-.. _E0-violin:
+.. _ev:
 .. figure:: /figs/E0_violin.png
     :width: 80% 
 
@@ -749,7 +750,7 @@ Thus leading to :
     E(d_c)=\frac{ (1+\nu).14.k_BT}{5L_p^{1/5}}\times \rho(d_c)^{7/5}
 
 
-The scaling exponent of |E| in equation :eq:`Eq #eqa` with |dc| should match the exponent
+The scaling exponent of |E| in equation :eq:`eqa` with |dc| should match the exponent
 of the experimentally found power law |alpha|. Thus the density can be
 expressed in the following form : 
 
@@ -1053,7 +1054,7 @@ follow a power low (:math:`F_{plaw}`), when no sticking events are present.
     log-log scale on the right, follow a powerlaw.
 
 
-:math:`F_{ret}(d)` seem though to follow the force felt durring the approached damped by :math:`\Chi(t)` (:math:`F_{da}`) for :math:`d
+:math:`F_{ret}(d)` seem though to follow the force felt durring the approached damped by :math:`\chi(t)` (:math:`F_{da}`) for :math:`d
 \simeq{D_{bead}}` and :math:`F_{da}+F_{plaw}` for :math:`d > 10µm`.  The
 typical size of the bead being :math:`D_{bead}` we expect the transition from
 one regime to the other to be done on a length scale of :math:`D_{bead}` Thus
