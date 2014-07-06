@@ -13,32 +13,33 @@ G Buffer
 ========
 .. 3
 
-G-Buffer is used to conserved actin in monomeric form. Actin in diluted in
-G-Buffer and kept on ice for at least 12 hours before further use, stored at
--20°C unfrozen and conserved at 4°C or on ice for weekly use, never refrozen.
-pH is adjusted between 7 and 8.
+G-Buffer is used to conserved actin in monomeric form. Actin is diluted in
+G-Buffer and kept on ice for at least 12 hours before further use. G-buffer is
+stored at -20°C. Unfrozen and conserved on ice for weekly use. G-buffer is never
+refrozen.  pH is adjusted between 7 and 8.
 
 Composition of G-Buffer:
      
     - 0.2 mM :math:`CaCl_2`
-    - 0.5 mM DTT
-    - 2.0 mM Tris
-    - 0.2 mM ATP
+    - 0.5 mM DTT (Dithiothreitol, or (2S,3S)-1,4-bis(sulfanyl)butane-2,3-diol)
+    - 2.0 mM Tris (tris(hydroxymethyl)aminomethane or 2-Amino-2-hydroxymethyl-propan)
+    - 0.2 µM ATP (Adenosine triphosphate)
 
 Polymerisation Buffer
 =====================
 .. 3
 
-Polymerisation buffer or X-Buffer is used for polymerisation of actin gel on
-beads. As well as bead dilution and cleaning.  It is conserved at -20°C and
-stored at 4°C or on ice for weekly use, never refrozen.
+Polymerisation buffer or X-Buffer is used for polymerisation of actin gels on
+beads  as well as bead dilution and cleaning.  It is aliquoted and conserved at
+-20°C. During experiments it is stored on ice for weekly use. X-Buffer is never
+refrozen.
 
 Composition of X-Buffer :
 
-    - 10 mM Hepes
+    - 10 mM Hepes (2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonic acid)
     - 0.1 M :math:`KCl`
     - 1 mM :math:`MgCl_2`
-    - 1 mM Atp
+    - 1 mM ATP (Adenosine triphosphate)
     - 0.1 mM :math:`CaCl2`
 
 
@@ -47,8 +48,8 @@ X Buffer with BSA
 .. 3
 
 Same as X-Buffer with the addition of 1% BSA (10 mg/ml). BSA is used to prevent
-non specific adsorption. Xb-BSA Buffer is used  in place of X-Buffer for
-conservation of probe bead.
+non specific adsorption. X-BSA buffer is used  in place of X-Buffer for
+the conservation of the probe beads.
 
 .. _atp_mix_buffer:
 
@@ -56,7 +57,9 @@ ATP Mix Buffer
 ==============
 .. 3
 
-ATP-Mix buffer of simply `Mix` contain the ATP necessary for actin polymerisation,  It is stored at -20°C, or on ice for Weekly use, dilutions are made using X-Buffer.
+ATP-Mix buffer of simply `Mix` containing the ATP necessary for actin
+polymerisation,  It is aliquoted and stored at -20°C. or on ice for Weekly use, dilutions are
+made using X-Buffer. pH is adjusted between 7.5 and 8.0.
 
     - 12.0 mM ATP,
     - 20,0 mM DDT
@@ -71,23 +74,24 @@ Protein preparation
 *******************
 .. 2
 
-PWA
+pWA
 ===
 
-PWA is conserved at -80°C, never refrozen and conserved on ice for daily use.
+pWA is conserved at -80°C, never refrozen and conserved on ice for daily use.
+
 
 Actin
 =====
 .. 3
 
 Actin and biotinylated actin are purchased from Cytoskeleton (Denver, CO, USA), and stored at -80°C.
-Fluorescent Alexa-488 actin is obtained from Molecular Probes and stored at -80°C. 
+Fluorescent Alexa-488 actin is obtained from Molecular Probes and stored at -80°C, and prepared according to manufacturer recommendation.
 
-Black actin is stored in aliquots of 5µL at a concentration of ~238 µM, and
-Fluorescent actin in aliquots of 3µm with a concentration of ~106 µM.
+Actin is stored in aliquots of 5µL at a concentration of ~238 µM, and
+fluorescent actin in aliquots of 3µm with a concentration of ~106 µM.
 
-Monomeric actin with 20% fluorescent monomers is prepared the day before the
-experiment by mixing 1 aliquots of each and diluting with G-Buffer until
+G-actin with 20% fluorescently actin  monomers is prepared the day before the
+experiments by mixing 1 aliquots of each and diluting with G-Buffer until
 desired concentration.
 
 
@@ -95,9 +99,9 @@ profiline
 =========
 .. 3
 
-Human profilin is expressed by competent cell and purified in our laboratory as
-in `Carvalho2013a`.  Profilin is conserved at 4°C for a few month and on ice
-for daily use.
+Human profilin is expressed by competent cells and purified in our laboratory as
+described in `Carvalho2013a`.  Profilin is conserved at 4°C for a few month and
+keep on ice for daily use.
     
 
 .. Wild-type human profilin in pMW expression vector is transformed into Rosetta
@@ -118,18 +122,18 @@ Arp2/3
 ======
 .. 3
 
-Arp2/3 complex  from Bovine is purchased from Cytoskeleton, aliquoted at 1µM
-and conserved at -80°C.  Aliquot are never refrozen and stored on ice for
+Bovine Arp2/3 complex  from Bovine is purchased from Cytoskeleton prepared as recommended by the manufacturer, aliquoted at 1µM
+and conserved at -80°C.  Aliquots are never refrozen and stored on ice for
 weekly used.
 
 
-cf :cite:`Foley`
+.. cf :cite:`Foley`
 
 Capping protein
 =================
 .. 3
 
-Mouse capping protein (CP; a1/b2) is purified as previously described in :cite:`Soeno1998`
+Mouse capping protein (CP; a1/b2) is purified as previously described in :cite:`Soeno1998` was a gift from Laurent Blanchoin 
 
 Myosin II
 =========
@@ -209,20 +213,20 @@ Bead Preparation
 Carboxylated polystyrene beads (Polysciences, Philadelphia, PA) of 4.34 ± 0.239
 μm (Standard deviation) diameter were used as actin-bead and probe-beads.
 
-Bead are stored at 4°C.
+Beads are stored at 4°C.
 
-Before coating by BSA (probe bead) or NPF (actin-bead), bead solution is
-cleaned by centrifugation at 5000 rpm, 2min. Supernatant removed, and pellet
-resuspended in X-Buffer.
+Before coating by BSA (probe bead) or pWA (actin-bead), bead solution is
+cleaned by centrifugation at 5000 rpm, 2min. Supernatant is removed, and pellet
+is resuspended in X-Buffer. Procedure is repeated twice.
 
 
 
-Actin Bead Preparation 
+Actin-Bead Preparation 
 =======================
 .. 3
 
-Above cleaned polystyrene beads are incubated for 20 min at 20°C under
-agitation with 2 μM pVCA. Centrifuged at 5000rpm 2min,, supernatant removed and
+Cleaned polystyrene beads are incubated for 20 min at 20°C under agitation with
+2 μM pVCA. Centrifuged at 5000rpm 2min, supernatant is removed and pellet
 diluted by 4 in X-buffer on ice for the day.
 
 
@@ -230,8 +234,10 @@ Probe Bead Preparation
 ======================
 .. 3
 
-Above cleaned polystyrene beads are incubated under agitation
-with 10 mg/ml BSA at room temperature for 30 minutes. Passivated beads are then centrifuged, separated from supernatant and pellet resuspended in Xb-BSA then stored at 4°C for weekly use.
+Cleaned polystyrene beads are incubated under agitation with 10 mg/ml BSA at
+room temperature for 30 minutes. Passivated beads are then centrifuged,
+separated from supernatant, the pellet is resuspended in X-BSA buffer and
+stored at 4°C for weekly use.
 
 
 .. _force-indentation-experiments:
@@ -245,28 +251,31 @@ Preparation of sample
 .. 3
 
 
-Equal amount of each beads are are placed in the polymerization mix which was
-composed of the following : 
+Equal amount of each actin and probe beads are are placed in the polymerization
+mix consisting : 
 
     - 2µL BSA at 10%
     - 3µL of ATP-Mix Buffer
     - 1.5 µL Profilin (114µM)
-    - 1 µL Of beads (50% actin-bead 50% probe bead)
+    - 1 µL beads (50% actin-bead 50% probe bead)
     - 0.5 µL Arp2/3 (22,3 µM)
-    - between 0 and 2 µL CP protein (0.5 µM)
-    - Complete to 15 µL using X-Buffer.
+    - between 0 and 2 µL CP (0.5 µM)
+    - Completed to 15 µL using X-Buffer.
     
-5 µL of G-Actin (20% fluorescent) is then added to previous mix, and considered
-as the origin of time for the experiment and recorded. the 20 µL are then gently deposited
-at the center lower coverslips and 4 drops of valap are deposited at the
-position where the corner of the upper (18x18mm) coverslip will rest actin as a spacer
-and preventing the sample to be squashed. The upper coverslip is then placed on
-top of the sample and the chamber is sealed using valap.
+5 µL of G-Actin (20% fluorescent) is then added to the previous mix. This
+moment is `t=0` for the experiment and recorded. The experimental chamber is
+build by 2 coverslips that are separated by VaLaP. VaLaP is a mix of vaseline
+Lanoline and Parafine. The chamber is prepared by gently depositing 20 µL of
+the final beadds mix at the center of the lower coverslips and 4 drops of VaLaP
+are deposited at the position where the corner of the upper (18x18mm) coverslip
+will rest. The VaLaP act as a spacer and prevents the sample to be squashed.  The
+upper coverslip is then placed on top of the sample and the chamber is sealed
+using VaLaP.
 
 .. _laser_calibration:
 
-Calibration of microscope
-=========================
+QPD positioning and calibration of microscope
+=============================================
 .. 3
 
 The prepared sample is placed on the microscope and a drop of water is
@@ -274,40 +283,52 @@ deposited on top of the upper coverslip to assure immersion of the light
 collecting objective. The collecting objective and the quadrant photodiode are
 place on top of the sample.
 
+.. todo::
+    figure setup.
+
+
 The trapping laser is then aligned with the photodiode while verifying that no
 object is trapped during the process. The conjugation of the back focal planes
 of the objective with the AODs and the QPD is optimized by adjusting the
 distance of both objective with the sample. 
 
-One full power trap is positioned near the center of the microscope field of
-view and QPD Zero in X and Y direction is adjusted while and no object is
-present in the formed trap.
+A trapping laser is positioned near the center of the microscope field of view
+using LabView software. The QPD is adjusted in X and Y direction to
+:math:`\Delta X  = \Delta Y = 0V`. This is done with no object is trapped in
+the  laser focus.
 
 Initial bead trapping
 =====================
 .. 3
 
-Two maximum strength trap are created near the center of the microscope field
-of view, separated by 15 to 20 µm. The trap are then moved near the middle
-plane of the chamber. Temporarily removing the Infra Red filter from the
-microscope allow to see the reflection of the trapping lasers on the upper and
-lower coverslip and determine the localisation of the middle plane of the
-observation chamber.
+Two maximum strength trap (~50mW/trap) are created near the center of the
+microscope field of view, separated by 15 to 20 µm. The traps are then moved in
+the Z-direction near the middle plane of the chamber by displacing the 3D piezo controlled stage. Temporarily removing the
+Infra Red filter from the microscope allows to see the reflection of the
+trapping lasers on the upper and lower coverslip and to determine the localisation
+of the middle plane of the observation chamber.
 
-The operator capture one probe-bead and one actin bead in each of the trap.
-Both type of bead can be recognized using fluorescent microscopy, as actin bead
-promptly cover with a fluorescent actin appearing as bright green which  can
-clearly be distinguished from the probe bead that appear dark. In the case
-where 2 identical bead are trap one of the two trap can selectively be disable
-or decreased in stiffness, letting the bead escape from  the trap, and the
-procedure repeated.
+The operator then captures one probe-bead and one actin-bead in each of the
+traps.  Both types of beads can be recognized using fluorescent microscopy, as
+actin-beads are promptly cover with a fluorescent actin 
+which  can clearly be distinguished from the probe bead that remain dark.
+In the case where 2 identical beads are traped one of the two traps can selectively
+be disabled or decreased in stiffness, letting the bead escape from  the trap,
+and the procedure can be repeated.
 
-The operator will then moved the two traps of roughly one micrometer in each
-direction to check that the two bead are effectively trapped in the tweezer and
-that no external forces applies on the beads. 
+The operator will then move the two traps roughly one micrometer in each
+direction to check that the two beads are effectively trapped in the tweezer and
+that no external forces act on the beads. 
 
-Finally the operator verify that the two trap are aligned along one of the
-principal axis of the AODs to avoid the "ghost trap" phenomenon. 
+.. Finally the operator verify that the two trap are aligned along one of the
+.. principal axis of the AODs to avoid the "ghost trap" phenomenon. 
+
+For practical reasons, the traps are aligned along one of the principles axis
+of the AOD before starting the indentation experiments.
+
+.. todo::
+
+    Sceenshot of the setup.
 
 Indentations
 ============
@@ -320,30 +341,30 @@ The operator set the parameter of the experiment in the software:
     - Resting Time
     - Laser Power
 
-For each pairs of actin/probe bead pairs, the initial minimum approach distance
-of the traps is set to 5 to 8 µm then a single indentation cycle is done. If
-the maximum measured force between the two beads is not higher than 8 to 10 pN,
-the minimum approach distance is reduced by 0.25 to 1 µm and the procedure
-repeated. One the maximum achieved forced is in the 10-15pN range the
-indentation experiment is automatically repeated from up to 10 times. Before
-each indentation the software automatically does a "scan" of each bead to
-correct for the trapping stiffness inferred from the bead radius. It then
-perform an indentation cycle: 
+For each pair of actin/probe bead, the initial minimum approach distance of the
+traps is set to 5 to 8 µm before a single indentation cycle is done. If the
+maximum measured force between the two beads is not higher than 8 to 10 pN, the
+minimum approach distance is reduced by 0.25 to 1 µm and the procedure
+repeated. Once the maximum achieved forced is in the 10-15pN range the right
+distance is found and up to 10 automatic force-indentation experiments are
+performed. Before each indentation the software automatically does a "scan" of
+each bead to ensure correct calibration. An indentation cycle has the
+following step: 
 
-    - Approach Probe trap at constant speed until the minimal approach distance.
-    - Rest for the required time
-    - retract Probe trap until initial position at constant speed
-    - repeat after a few second if requested.
+    - Probe trap is approaching the actin-bead at constant speed until the minimal approach distance has been reached.
+    - Rest for 3seconds resting time
+    - Probe trap return to its initial position at constant speed
+    - Cycle is repeated as many times as set.
 
 During this cycle the deflection of the laser induced by the probe-bead and
-actin bead are recored byte QPD.
+actin-bead are recored by the QPD.
 
-After a indentation cycle is done the experimenter can try to perform the
-indentation on the actin-bed from another direction, or release the actin bead
-on proceed with a new one.
+After an indentation cycle is finished the experimenter can try to perform the
+indentation on the actin-bead from another direction, or release the actin-bead
+on proceed to a new one.
 
-In the case where the indented actin network show sign of inhomogeneity or
-symmetry breaking, the experiments are marked not taken into account for
+In the case where the indented actin network shows sign of inhomogeneity or
+symmetry breaking, the experiments are stripped not taken into account for
 further analysis.
 
 The date and time of each indentation cycle is recorded to extract the time of
@@ -358,7 +379,7 @@ polymerisation for each sample.
     Schematic of indentation experiment. On the left is the actin-bead, covered
     with actin, in the static trap, on the right the probe-bead in the mobile
     trap. At the brining of experiment (A) the probe bead is situated far from
-    the actin bead. During the approach phase (I) the moving trap approach
+    the actin-bead. During the approach phase (I) the moving trap approach
     toward the static trap at 10µm/sec until it reached the minimal approach
     distance (B). The moving trap stay at the minimal approach distance for
     3sec (II), which constitute the relaxation phase.C) The actin gel are
@@ -375,38 +396,38 @@ Time Shared Optical Trap
 .. 2
 
 
-Optical  trap are build on an inverted microscope (Olympus, IX71) equiped with
-a fluorescence (200W mercury lamp, Osram, Munich, Germany) sample is observed
-through a 60X water immersion objective of numerical aperture 1.2, from Olympus, that also
-serve at entry point for the laser of the optical tweezer.  Optical tweezer is
-done with an infrared fiber laser (:math:`\lambda=1064nm`, YLP-1-1064, IPG,
+The optical trap is build on an inverted microscope (Olympus, IX71) equiped with
+a fluorescence (200W mercury lamp, Osram, Munich, Germany). The sample is observed
+through a Olympus 60X water immersion objective with numerical aperture NA=1.2,.from Olympus, that also
+serves at entry point for the laser of the optical tweezer.  The light source is 
+an infrared fiber laser (:math:`\lambda=1064nm`, YLP-1-1064, IPG,
 Germany). X, Y positioning and stiffness of the trapping force are controlled
-by 2 Accousto Optic Deflectors (AODs, AA-Optoelectronics, France) Conjugated
-with the back focal plane of the objective by IR lenses telescope (Thorlabs).
-Multiple traps can be achieved by switching the position of the laser between
-multiple positions within an amount of time in the order of 5 µs, and resting
-on each position 20+ µs. 
+by 2 Acousto Optic Deflectors (AODs, AA-Optoelectronics, France) that are placed  in the conjugated plane of
+the back focal plane of the objective. 
+Multiple traps can be achieved by switching the laser between
+multiple positions within a switching time in the order of 5 µs, and resting
+on each position 20µs or more. 
 
-The phenomenon of ghost trap can be avoid by automatically aligning the trap on
-one of the AOD axis or decreasing the laser power to zero during each
-transition but doubling the required transition between position time. 
+.. The phenomenon of ghost trap can be avoid by automatically aligning the trap on
+.. one of the AOD axis or decreasing the laser power to zero during each
+.. transition but doubling the required transition between position time. 
 
-Refracted light by the trapped sample are collected by a 40X (N.A:0.9, Olympus)
-water immersion objective and focused on a quadrant photodiode (QPD) conjugated
-with the back focal plane of the light collection objective. Signal from the
+Light refracted by the trapped sample is collected by a 40X (N.A:0.9, Olympus)
+water immersion objective and imaged on a quadrant photodiode (QPD) conjugated
+with the back focal plane of the light collection objective. Signals from the
 QPD (:math:`\Delta X, \Delta Y` and :math:`\Sigma`) are sampled at 500kHz, by a Digital
 To Analogic Aquisition card (NI PCIe-6363, National Instruments, Austin,
 Texas), controlled using a custom Labview software (National Instruments)
-coupled with Matlab (Mathworks, Natick, MA). Raw signal is reduced by binning
-of 10 to mean and standard deviation for further processing.
+coupled with Matlab (Mathworks, Natick, MA). Raw signals are preprocessed by binning all voltage measured during the time the laser rest at one position. Finally
+to mean and standard deviation is stored for further processing.
 
 The trap stiffness is inferred from bead radius, laser power, number of present
 traps and control experiment data. In control experiment the trap stiffness is
 calibrated using the power spectral density of trap beads, and was determined
-to be as high as 34 pN/µm at full laser power (119mW) for a single trap.
+to be as high as 80 pN/µm at full laser power (119mW) for a single trap.
 
-Coarse positioning of the sample is done through a pair if micrometer precision
-screw capable of translating the microscope stage in X and Y.  Finer
+Coarse positioning of the sample is done through a pair of micrometer precision
+screws capable of translating the microscope stage in X and Y.  Finer
 positioning in X,Y and Z direction are done with the help of 3D piezzo with an
 accessible range of 80 µm in each direction and a sub-micrometer accuracy.  
 
@@ -433,18 +454,18 @@ Live oocytes were embedded in a collagen gel to reduce movement of the overall
 cell during measurements.
 
 
-Collagen gel was made by mixing the following component 
+Collagen gel was made by mixing the following components :
 
     - M2 medium (33.5μL)
     - 1X PBS (10 μL)
     - NaOH (1M, 0.9 μL)
     - collagen (3.6 mg/mL, 55.6 μL) 
 
-Which gate a final concentration of collagen of 2 mg/ml in 100 μL, and pH was
-checked to be around 7.4. 
+Which gives a final collagen concentration of 2 mg/ml in 100 μL. pH was
+adjusted to be around 7.4. 
 
 20 µL of the collagen solution was deposited on a coverslip. Before full
-polymerisation of the collagen,  and 3 to 8 oocyte where deposited inside the
+polymerisation of the collagen occured 3 to 8 oocyte where deposited inside the
 droplet separated from each other by tens of micrometers. 
 
 Droplet is then covered with another coverslip. Dow Corning vacuum grease is
@@ -460,25 +481,25 @@ Passive Microrheology
 *********************
 .. 2
 
-Passive microrheology was performed on vesicle  present prepared in oocyte. To
-do so, vesicle present in :ref:`prepared oocyte <oocyte_preparation>` were
+Passive microrheology was performed on vesicles inside the prepared in oocytes. To
+do so, vesicle present in :ref:`prepared oocytes <oocyte_preparation>` were
 trapped using a :ref:`single optical trap <time_shared_ot>`.
 
-After :ref:`Laser Calibration <laser_calibration>`, one of the oocyte is
+After :ref:`Laser Calibration <laser_calibration>`, one of the oocytes is
 brought into the field of view of the microscope and the oocyte is move until
 nucleus is into view and in microscope focal plane. The optical tweezer is
 positioned on a vesicle and set to a low power (1mW)  and is used only to
 record the spontaneous motion of the endogenous vesicle for 10 seconds without
-trapping them.  The recorded trajectory are hereafter restricted to a
-displacement of 500nm to stay in the linear regime of the photodiode.
+trapping them.  The recorded 10s trajectory are hereafter restricted to a
+displacement of 500nm to remain in the linear regime of the photodiode.
 
-Bright field picture of the sample is automatically taken before and after each
+A bright field picture of the sample is automatically taken before and after each
 passive microrheology measurement.
 
 From the recorded displacement the power spectral density of the vesicle displacement is calculated.
 
 After performing passive microrheology measurement, :ref:`active microrheology
-measurement <active_microrheology>` are made on the same vesicle.
+measurements <active_microrheology>` are made on the same vesicle.
 
 
 .. _active_microrheology:
@@ -487,18 +508,18 @@ Active Microrheology
 ********************
 .. 2
 
-Active microrheology was performed on vesicle present on prepared oocyte.
+Active microrheology was performed on vesicle present on prepared oocytes.
 Active microrheology was done on the same vesicle than :ref:`passive rheology
 measurement <passive_microrheology>`. 
 
-Oocyte :ref:`previously prepared <oocyte_preparation>` are put inside
-microscope field of view with the focal plane passing through the nucleus. A
+Oocyte :ref:`previously prepared <oocyte_preparation>` are put in the 
+microscope's field of view with the focal plane passing through the nucleus. A
 vesicle is selected and the trapping later is positioned on it at maximum
 trapping power (:math:`~120 mW`). A series of sinusoidal displacement (:math:`u`) of known
 amplitude, frequency and direction are then applied to the trapping tweezer while the
 force (:math:`F`) exerted on endogenous vesicle is recorded by the QPD. 
 
-In our experiments, the applied displacement had an amplitude :math:`\pm 1 \mu
+In our experiments, the applied displacement had an amplitude :math:`\pm 0.5 \mu
 m`.  The frequencies of the applied displacement were selected to be
 exponentially spaced from 1Hz, to 50kHz. Each sinusoidal displacement duration
 was chosen to be at minimum 500ms or 8 periods. 
@@ -539,7 +560,7 @@ dividing the displacement by the force at given frequency.
 .. network. Using actin monomers solution mixed with a small amount of fluorescent
 .. actin make the actin network visible using epi-fluorescence. Thus the actin
 .. bead can be differentiated from the probe bead from simple observation.  Using
-.. bright field microscopy both kind of beads can bee seen whereas only actin bead
+.. bright field microscopy both kind of beads can bee seen whereas only actin-bead
 .. are visible when observing in the fluorescent wavelength of actin.
 
 .. As described in section [...] the experimental setup used is equipped with time
@@ -560,11 +581,11 @@ dividing the displacement by the force at given frequency.
 .. 
 .. Then the probe bead will be approached at constant speed toward the actin-bead,
 .. eventually indenting the actin network while the exerted forced recorded on the
-.. actin bead increase.
+.. actin-bead increase.
 .. 
-.. The probe bead will then be stopped close to the actin bead for a few seconds
+.. The probe bead will then be stopped close to the actin-bead for a few seconds
 .. letting some time to the network to relax, and usually accompanied with a
-.. decrease of force on the actin bead. 
+.. decrease of force on the actin-bead. 
 .. 
 .. The probe bead then retract to it's initial position at the same speed it was
 .. approached.
@@ -573,7 +594,7 @@ dividing the displacement by the force at given frequency.
 .. 
 .. 
 .. It should be noted that this system have several particularly: The measurement
-.. are effectuated on a dynamic system, while the actin network on the actin bead
+.. are effectuated on a dynamic system, while the actin network on the actin-bead
 .. is polymerising. It has been show previously that only  in the right conditions
 .. of Arp2/3 and CP concentration :cite:`Kawska2012` a dense gel is formed around
 .. the bead and is both able to generate and accumulate enough stress for a
@@ -602,7 +623,7 @@ dividing the displacement by the force at given frequency.
 .. 
 .. The selection of the bead diameter is a interesting parameter to vary in order
 .. to test different models for the indented materials. Indeed, having a prob bead
-.. much smaller (or bigger) than the actin bead could be used to test the same
+.. much smaller (or bigger) than the actin-bead could be used to test the same
 .. model in a sphere-plan or plan-sphere approximation instead of a plan-plan or
 .. sphere-sphere approximation. Practically the use of probe and actin-bead of
 .. different size lead to impossibility of achieving high indentation force, and
@@ -635,7 +656,7 @@ dividing the displacement by the force at given frequency.
 .. 
 ..     A bigger bead will be trapped higher in the optical tweezer. The forced
 ..     exerted between the two bead by the intermediate of the actin network
-..     growing on the actin bead will be along the direction between the two
+..     growing on the actin-bead will be along the direction between the two
 ..     center. It decomposes along the observation plane (green arrows), direction
 ..     along which the trapping is strong, and along the orthogonal direction (red
 ..     arrow) along which the trapping is weak. Further approach of the two bead
@@ -667,8 +688,8 @@ dividing the displacement by the force at given frequency.
 .. 
 .. We then dispose of two traps, that are aligned along the X axis, at initial
 .. position they are separated from a sufficient distance for the probe bead to
-.. already interact with the actin network polymerising on the actin bead. The
-.. actin bead can be discriminated from the probe bead by using fluorescent and
+.. already interact with the actin network polymerising on the actin-bead. The
+.. actin-bead can be discriminated from the probe bead by using fluorescent and
 .. lie in what will hereafter be the static trap wile the probe bead is stationed
 .. in what will be referred to as the moving trap.
 .. 
@@ -684,9 +705,9 @@ dividing the displacement by the force at given frequency.
 .. Approach at constant speed
 .. ^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. 
-.. We are now certain that we are in presence of a actin bead trapped in the
+.. We are now certain that we are in presence of a actin-bead trapped in the
 .. tweezer free from any other external forces, and a probe bead situated
-.. relatively far (~15-20µm) from the actin bead. 
+.. relatively far (~15-20µm) from the actin-bead. 
 .. 
 .. To probe the mechanical property we will now effectuate a indentation at
 .. constant speed, followed by a resting phase and finally a retraction. A few
@@ -776,7 +797,7 @@ dividing the displacement by the force at given frequency.
 .. of the traps, as long as the timescale at which the photodiode respond is
 .. faster than the characteristic at which the time-shared trap are switching.
 .. 
-.. This allowed us to record the forced exerted both on the actin bead in the
+.. This allowed us to record the forced exerted both on the actin-bead in the
 .. static trap, and on the probe bead on the mobile trap. As the two beads, except
 .. their interaction between each other are floating free in the medium, both
 .. force measurement should give the same values. 
