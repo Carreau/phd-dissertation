@@ -383,7 +383,7 @@ plotted in :num:`Figure #d0-violin`.
 
     Chronophotography representing the displacement a trapped
     actin bead in a solution with probe bead. During this experiment, the actin
-    bead is kept static in the optical trap while the stage is moved. Up until
+    bead is kept static in the optical trap (marked b the cross) while the stage is moved. Up until
     frame 70, the stage is moved down in the Y direction (South), then up
     again. The 11 first pictures show an average of the frame indicated as
     suptitle of each. Pictures 12 show a maximum projection of the all movie.
@@ -447,18 +447,18 @@ Pa. Any material with a stiffness much higher than 100 Pa can be considered as
 infinitely rigid.
 
 .. todo::
-    Describe order of magnitude Young Above.
+    Describe order of magnitude Young's Above.
 
 
 The elasticity of dense actin gels around polystyrene beads has been measured
-in :cite:`Pujol2012` and found to be in the order of kPa. It then shouldn't be
-surprising  not to be able to probe the mechanics of the dense gel on the
-surface of the bead and found a value of :math:`\delta` higher than 4.34 µm.
+in :cite:`Pujol2012` and found to be in the order of kPa.  Therefore teh
+optical tweezer are not able to probe the mechanics of the dense gel on the
+surface of the bead. The value of :math:`\delta`  is expected to be i:math:`> 4.34 \mu{}m` as it include partially the dense actin gel.
 
-The model can be fitted using-least squares independently on each experimental
-approach phase. An example of such a model adjusted is shown on figure
+The model can be fitted independently on each experimental
+approach phase. An example of such a fit is shown in figure
 :num:`Fig #force-distance-fit` and quality of fit can can be measure by the
-coefficient of determination :math:`R^2` which as a media value of `0.97`
+coefficient of determination :math:`R^2` which has a media value of `0.97`
 across all fits.
 
 .. _force-distance-fit:
@@ -551,7 +551,7 @@ Variation of parameters with Capping Protein
 At the chosen concentration of Arp2/3 the bead system can show symmetry
 breaking in the correct range of concentration of Capping Protein of 10 to 30
 µM. In absence of Capping Protein the dense dendritic network does not form on
-the surface. At low Capping Protein concentrations (:math:`<10 \mu{}M`) it seem not able to generate enough stress to
+the surface :cite:`Kawska2012`. At low Capping Protein concentrations (:math:`<10 \mu{}M`) it seem not able to generate enough stress to
 rupture, and at too high concentration (>35nM) the visible gel is thin and do
 not break symmetry either. We then investigated the variation of each of the
 fit parameters for concentrating of Capping Protein ranging from 0 to 50 nM.
@@ -572,15 +572,15 @@ concentration.
 
     Violin plot showing the repartition of prefactor with the quantity of
     Capping Protein. Decrease of prefactor with increasing amount of Capping
-    Protein indicate a lower force between the probe bead and the actin bead
+    Protein indicates a lower force between the probe bead and the actin bead
     for the same corrected distance between bead centers 
 
 The last parameter of our model is :math:`\delta`, distance at which the force
-diverges.   It can be seen in :num:`Figure #delta-violin` that at the exception
-of absence of capping protein, the distance at which the model diverge get
-closer to the diameter of the polystyrene bead as the concentration of capping
-protein in the medium increases. It interesting to see that the distance offset
-is the closer from the bead diameter in the absence of capping protein, when no
+diverges.   It can be seen in :num:`Figure #delta-violin` that with the exception
+of zero capping protein, the distance at which the model diverges gets
+closer to the diameter of the polystyrene bead as the concentration of Capping
+Proteins in the medium increases. It is interesting to see that the distance offset
+|delta| is very close from the bead diameter in the absence of capping protein, when no
 biomimetic actin cortices forms.  
 
 .. _delta-violin:
@@ -588,14 +588,14 @@ biomimetic actin cortices forms.
     :width: 80% 
 
     Violin plot showing the variation of the offset distance :math:`\delta`
-    with the quantity of capping protein. The shaded region represent the
+    with the capping protein concentration. The shaded area represents the
     non-physical region which would correspond to a diverging force beyond the
-    contact of the two polystyrene bead. Experimental data with :math:`\delta`
+    contact of the two polystyrene beads. Experimental data with :math:`\delta`
     value in this regions have been excluded from further analysis.
 
 
-Determination of Young Modulus
-==============================
+Determination of Young's Modulus
+================================
 .. 3
 
 
@@ -609,14 +609,14 @@ Determination of Young Modulus
 
 .. |E0| replace:: :math:`E_0`
 
-To determine the mechanical properties of he gel between the actin and the
-probe bead, we model it as a purely elastic material. The viscous effect are
-neglected in the approach part as the approach at different speed show now
-clear effect on the approach curves (Cf :num:`Figure #many-speed`). We consider
-the compression of the material between the two probe bead. Surface of the
-compressed material correspond to projected surfaces of the bead along the
+To determine the mechanical properties of the gel between the actin and the
+probe bead, we model it as a purely elastic material. The viscous effects are
+neglected in the approach part as the approach at different speed show no
+clear effect on the approach curves (:num:`Figure #many-speed`). We consider
+the compression of the material between the two beads. The surface of the
+compressed material is approximated by the projected surfaces of the bead along the
 direction of compression (:math:`\pi R^2`).  The thickness of the compressed
-material is taken as being the distance between bead center corrected by the
+material is taken as being the distance between bead centers corrected by the
 distance offset |delta| as any material below delta can be considered as
 infinitively rigid for the optical tweezer.
 
@@ -637,9 +637,11 @@ along the axis between the two bead center `x` :
 
 
 We can express the local differential strain around the position |dc| of the
-bead : :math:`\partial u = -\partial x/d_c` in which the minus sign reflect the
-choice of the coordinate system: a decrease in :math:`x` with a positive
-Young's modulus |E| should lead to an increase of the exerted force. The local felt young modulus when the probe bead has been approached from its initial position to the distance |dc| is then  
+bead : :math:`\partial u = -\partial x/ \partial d_c` in which the minus sign
+reflect the choice of the coordinate system: a decrease in :math:`x` with a
+positive Young's modulus |E| should lead to an increase of the exerted force.
+The localy felt Young's modulus 
+at the distance |dc| is then  
 
 .. _eq-E:
 .. math::
@@ -659,35 +661,37 @@ In which the value of |E0| can be expressed as function of the power law exponen
     
     E_0 = - \frac{\alpha\beta}{\pi R^2}
 
-Experimentally, the probed young modulus correspond to the average mechanical
+Experimentally, the probed Young's modulus corresponds to the average mechanical
 properties of the actin cloud between the surface of the actin bead and the
 surface of the probe bead and do not reflect the variation of the mechanical
-properties of the uncompressed actin cloud with position. The geometry of the
+properties of the uncompressed actin cloud with position.
+Physically :math:`E_0` correspond to the Young's modulus as a corrected distance of :math:`d_c = 1 \mu{}m` (See :num:`Fig #E0-violin`)
+The geometry of the
 system and the fluorescence signal suggest a decrease of the density of the
 actin cloud with the distance from the actin-bead center. All values
-reported later represent estimation of elasticity of an effective young
-modulus. The Effective young modulus values found are 3 orders of magnitude
+reported later represent estimation of elasticity of an effective Young's
+modulus. The value of this effective Young's modulus are 3 orders of magnitude
 smaller than know elasticity of dendritic gel formed on bead that are in the
 order of kPa :cite:`Marcy2004`. 
 
-This difference in elasticity might explain why this actin cloud as not been
-seen mechanically before in other measurement like micro pipettes aspiration,
+This difference in elasticity might explain why the mechanical actions of this actin cloud as not been
+seen before in other measurement like micro-pipette aspiration,
 micro needle deformation or Atomic Force Microscopy indentation that have
-sensitivity in the order of nN while the forces exerted by this actin network 
-are in the order of the pN.
+sensitivity in the order of nN while the forces exerted by this actin cloud 
+are in the order of pN.
 
 Nonetheless, :cite:`Gardel2003` show that such low moduli can be obtain using
 sparse entangle actin network, and confirm the idea that the actin-cloud seen
-with the optical-tweezer indent experiment has a fundamentally different
-structure that the dense dendritic network that what can be seen on the actin
-bead surface using fluorescence.
+with the optical-tweezer indent experiments has a fundamentally different
+structure than the dense dendritic network on the actin
+bead surface.
 
 .. _E0-violin:
 .. figure:: /figs/E0_violin.png
     :width: 80% 
 
-    Young Modulus Prefactor as a function of capping protein show a decrease of
-    average young modulus with an increase of Capping Protein concentration.
+    Young's Modulus prefactor as a function of capping protein show a decrease of
+    average Young's modulus with an increase of Capping Protein concentration.
     Similar to the graph of |beta| on :num:`Fig #beta-violin` as |E0| is
     proportionnal to |alpha|, which is alway close to -1 and |beta| . 
 
@@ -700,7 +704,7 @@ Mechanical properties
 
 To investigate the mechanical properties of the network that should arise from
 a :math:`\alpha = -1` power law, we model the deformation of the actin cloud by
-the theory of semi-flexible entangled polymer network (:cite:`Isambert1996`,
+the theory of semi-flexible entangled polymer networks (:cite:`Isambert1996`,
 :cite:`MacKintosh1995`, :cite:`Morse1998a`).
 
 
@@ -714,25 +718,25 @@ entanglement length :math:`L_e` as :cite:`Morse1998b`:
 
 .. |nu| replace:: :math:`\nu`
 
-In which |nu| is the Poisson ratio and allow the conversion from shear to
+In which |nu| is the Poisson ratio that allows the conversion from shear to
 elastic modulus. Previous study have investigated the non-linear stiffening of
 such actin network for large deformation :cite:`Semmrich2008` and found that in
 our condition, the linear description of theses networks holds to describe the
 actin-cloud.
 
-Using :cite:`Morse1998a` allow us to express the entanglement length as a
-function of other parameters : :math:`L_e\approx L_p^{1/5} \rho^{-2/5}`. We can
-reduce the expression of the young modulus to a function of the following
+Similar to :cite:`Morse1998a` we express the entanglement length as a
+function of persistence length and filaments density: :math:`L_e\approx L_p^{1/5} \rho^{-2/5}`. We can
+reduce the expression of the Young's modulus to a function of the following
 parameters : 
 
     - The Poisson Ratio |nu|, 
     - The persistence lenght of actin filaments :math:`L_p`
-    - The mesh size of the network :math:`\xi_0`
+    - The mesh size of the network :math:`\xi_0^2 = \rho_0`
     - The "size" of the cloud, for which we use the distance at which the force
       is first significant :math:`d_0`
 
 We need also the consideration that for a general compressible material, the
-only variable that can change during compression is the density :math:`\rho`
+only variable that changes during compression is the density :math:`\rho`
 which could be made to depend on the corrected distance :math:`\rho \to
 \rho(d_c)`
 
@@ -745,7 +749,7 @@ Thus leading to :
     E(d_c)=\frac{ (1+\nu).14.k_BT}{5L_p^{1/5}}\times \rho(d_c)^{7/5}
 
 
-The scaling exponent of |E| in `Eq #eqa` with |dc| should match the exponent
+The scaling exponent of |E| in equation :eq:`Eq #eqa` with |dc| should match the exponent
 of the experimentally found power law |alpha|. Thus the density can be
 expressed in the following form : 
 
@@ -762,9 +766,9 @@ mesh-size :math:`\xi_0` of the undeformed network:
     \xi_0 = 1/\sqrt\rho_0
 
 
-By identifying to the phenomenological model we can thus express the Elastic
-modulus as a function of the distance and the mesh size as a function of the
-fit parameters and  characteristic scales of the system.
+By comparing this to the phenomenological fit we can express the elastic
+modulus as a function of the distance and the mesh size, as a function of the
+fit parameters and characteristic scales of the system.
 
 
 .. math::
@@ -780,8 +784,8 @@ closed form solution for the meshsize :math:`\xi_0` :
         \xi_0=\left(-\frac{({2-\frac{5}{7}\alpha)}.k_BT\pi R^2}{5\alpha \beta L_p^{\frac{1}{5}}\left.d_0\right.^{\alpha}}\right)^{\frac{5}{14}}
 
 
-The found mesh size is in the order of 0.3 to 0.4 µm which is consistent which
-what has been found  previously :cite:`Morse1998`. The variation of the
+The found mesh size is in the order of 0.3 to 0.4 µm which is consistent with previous findings 
+:`Morse1998`. The variation of the
 meshsize can be seen on :num:`Fig #xi-violin` and does not seem to have a
 correlation with the concentration of capping protein. 
 
@@ -872,13 +876,13 @@ micrometers from the bead surface.
 .. figure:: /figs/interp-delta.png
     :width: 60%
 
-    Schematic of actin cloud. Left:  The Actin bead triggers actin
+    Schematic of an actin cloud. Left:  The actin bead triggers actin
     polymerisation. Right Probe Bead. On the surface of the actin bead a dense
     and dendritic network forms a biomimetic actin cortex with an elastic
     modulus close to the kPa (Dark Green). From this actin cortex emanate a
     softer actin structure : The actin cloud . The actin cloud is  loosely
     entangled network formed by the filaments escaping from the bead actin
-    cortex and extend on several micrometers. The actin cloud have an average
+    cortex and extend on several micrometers. The actin cloud has an average
     elastic modulus which is several order of magnitude softer than the actin
     cortex. From the point of view of the probe bead in optical tweezer, the
     system (actin-bead+actin cortex) behave as a hard-sphere of radius
@@ -896,12 +900,12 @@ of polymerisation time.
 .. figure:: /figs/time-delta-corr.png
     :width: 80%
 
-    Distance offset |delta| as a function of time (min) since mix of actin, Atp
+    Distance offset |delta| as a function of time (min) since mix of actin, ATP
     and beads. Linear fit with confidence interval at 95% (light shaded area)
-    and bead surface (dark shaded area). Sample in the absence of Capping are
-    not taken into account in the regression (Pink +). The increase of |delta|
-    with time is coherent with the measured increase of the gel thickness
-    :math:`e` as measured in :cite:`Kawska2012`
+    and bead surface (dark shaded area). Sample in the absence of Capping
+    Protein are not taken into account in the regression (Pink +). The increase
+    of |delta| with time is coherent with the measured increase of the gel
+    thickness :math:`e` as measured in :cite:`Kawska2012`
 
 
 Relaxation phase
@@ -909,17 +913,17 @@ Relaxation phase
 .. 2
 
 The approach phase of the indentation cycle has been modeled with a purely
-elastic mode. However, the force distance plot show a significant dissipation
+elastic mode. However, the force distance plot shows a significant dissipation
 marked by an hysteresis :num:`Fig #force-distance`. The repetitive indent cycle giving the same
-force-distance curves (:num:`Fig #reproc`) allow plastic deformation 
-to be excluded. We can reject the hypothesis of ruptures of the
+force-distance curves (:num:`Fig #reproc`) allow to exclude plastic deformation 
+. We can hence reject the hypothesis of ruptures of the
 actin meshwork or breakage near the entanglement points.
 
-The theory that allowed us to understand the link between the phenomenological
+The theory of entangled filaments networks that allowed us to understand the link between the phenomenological
 model and the mechanical properties of the network also propose a relation to
 explain the relaxation of the network. 
 
-In this model :cite:`Morse1998a`, the elastic modulus  |E| is function of time
+In this model :cite:`Morse1998a`, the visco elastic modulus  |E| is a function of time
 and can be written as :math:`E(t) = E\times \chi(t)` with 
 
 .. math ::
@@ -933,7 +937,7 @@ and can be written as :math:`E(t) = E\times \chi(t)` with
 In which :math:`\tau_{rep} = \frac{l_f^2}{D_{rep}}` is a single fit parameter
 that depends on diffusion constant for filament reptation |Drep| and the
 filaments length :math:`l_f`. In this form, :math:`\chi` is a sum of
-exponential decay with well defined characteristic timescale and amplitudes
+exponential decays with well defined characteristic timescales and amplitudes
 that decreases as :math:`1/n^2`. To fit this model to the data of the
 relaxation phase, we can limit ourselves to the first 40 terms of the sum as
 any of the subsequents terms represent timescales we cannot reach with out
@@ -944,11 +948,11 @@ treated particularly in order to insure continuity of the force applied on the
 actin-bead in the model.
 
 Using this sum of exponential decays is coherent with the common findings of
-power-law found in the shear modulus of both in vivo and in vitro actin
+power-laws found in the frequency-dependant shear modulus of both `in vivo` and `in vitro` actin
 networks as well as the relaxation behavior found in cells :cite:`...`.
 
-In order to determine :math:`\tau_{rep}`, the Young modulus determined on the
-approach phase is use and the model is fitted against the relaxation data.  A
+In order to determine :math:`\tau_{rep}`, the Young's modulus determined in the
+approach phase is used and the model is fitted against the relaxation data.  A
 result of such a fit can be seen on :num:`Fig #fit-3-phases`. The value of
 |tau| are highly variable and the fit can be difficult when the relaxation is
 slow or in the order of the measured noise. Variation of |tau| with the
@@ -986,9 +990,9 @@ In which :math:`\gamma\approx {2\pi\eta_s}/{ln(\xi_0/d_f)}` is the friction
 coefficient per unit length. :math:`\gamma` depends on the solvent viscosity
 :math:`\eta_s`, the mesh-size :math:`\xi_0` and the filament diameter
 :math:`d_f` (:math:`~7nm` for actin).  We use :math:`\eta_s=10^{-3} Pa\times s`
-for water and a mesh size in the order of 400nm as determined previously
+for water and a mesh size in the order of 400nm as determined from the approach phase
 (:num:`Fig #tau-violin`). Using |tau| given by the fit, this lead to filaments
-length ranging from 3 to 8 µm.
+length ranging from 3 to 8 µm, which is consistent with TIRF experiments and simulation as done in :cite:`Kawska2012`.
 
 
 Retraction Phase
@@ -1010,10 +1014,10 @@ happening during an indentation cycle.
     sticking even is present at `d=12µm` Sticking even appear roughly 20% of
     the experiments.
 
-We assume that the sticking even are characteristic to non-specific interaction
+We assume that the sticking events are characteristic to non-specific interaction
 between the probe bead and the actin cloud.  In the case when no sticking even
-is present, we can suppose a partial closing of the actin cloud beyond the
-probe bead during the relaxation phase and can model the retraction curve as a
+is present, we assume partial closing of the actin cloud beyond the
+probe bead during the relaxation phase and model the retraction curve as a
 transition between the damped-approach curve and a penetration of the probe
 bead through the closing actin cloud.
 
@@ -1035,10 +1039,10 @@ network behind the bead :math:`F_{closing}`.
     F_{ret}(d) &= F_{da}(d) + F_{closing}(d)\\
     F_{ret}(d) &= \chi(t_2-t_1).\beta(d-\delta)^\alpha+ F_{closing}(d)
 
-:math:`F_{closing}` can be computed using the fit parameter |alpha|, |beta|, |delta| and :math:`tau_{rep}` (`Fig #retract-powerlaw`).
+:math:`F_{closing}` is computed using the fit parameter |alpha|, |beta|, |delta| and :math:`\tau_{rep}` (:num:`Fig #retract-powerlaw`).
 
-On a bi logarithmic scale and at long distance :math:`F_{closing}` also seem to
-follow a power low (:math:`F_{plaw}`)  and when no sticking even are present.
+On a double logarithmic scale and at long distance :math:`F_{closing}` also seem to
+follow a power low (:math:`F_{plaw}`), when no sticking events are present.
 
 .. _retract-powerlaw:
 .. figure:: /figs/retract-powerlaw.png
@@ -1049,7 +1053,7 @@ follow a power low (:math:`F_{plaw}`)  and when no sticking even are present.
     log-log scale on the right, follow a powerlaw.
 
 
-:math:`F_{ret}(d)` seem though to follow :math:`F_{da}` for :math:`d
+:math:`F_{ret}(d)` seem though to follow the force felt durring the approached damped by :math:`\Chi(t)` (:math:`F_{da}`) for :math:`d
 \simeq{D_{bead}}` and :math:`F_{da}+F_{plaw}` for :math:`d > 10µm`.  The
 typical size of the bead being :math:`D_{bead}` we expect the transition from
 one regime to the other to be done on a length scale of :math:`D_{bead}` Thus
@@ -1083,14 +1087,14 @@ Discussion
 
 
 The actin cytoskeleton plays an important role in many cellular functions.  The
-actin cortex, just beneath the cell membrane is not only a crucial structure in
-cell motility and mechanical properties, it is also a essential component in
-cell division :cite:`Chaigne2013a` and the positioning of spindle. Other actin
-structures, that spawn from the nucleus to the cell membrane are responsible
-for cells organelles positioning like in plants where nucleus is moved away
-from light :cite:`Iwabuchi2010`, or push the nucleus away during nurses cell
-maturation :cite:`Huelsmann2013`. The mechanical link from the outside of the
-cell to the nucleus using actin bundle has already been show in
+actin cortex, just beneath the cell membrane is not only a crucial structure
+for cell motility and the mechanical properties, it is also an essential
+component in cell division and the positioning of the spindle.
+Other actin structures, that spawn from the nucleus to the cell membrane are
+responsible for cells organelles positioning like in plants where nucleus is
+moved away from light :cite:`Iwabuchi2010`, or push the nucleus away during
+nurses cell maturation :cite:`Huelsmann2013`. The mechanical link from the
+outside of the cell to the nucleus using actin bundle has already been show in
 :cite:`Jaalouk2009`. We show here that these actin structure should not be the
 only one take into account to explain organelles positioning.
 
@@ -1207,7 +1211,7 @@ cells and its control.
 .. several micrometers through a soft actin structure that we call the
 .. actin-cloud.  We determined the mechanical properties of these actin clouds and
 .. determines their viscoelastic properties.  The actin cloud are very soft in
-.. comparison to the dense gel with young modulus several order of magnitude lower
+.. comparison to the dense gel with Young's modulus several order of magnitude lower
 .. (pa). Nonetheless these actin cloud are capable of supporting force sufficient
 .. to move cells organelles, and do not deform plastically.  
 .. 
@@ -1237,9 +1241,9 @@ cells and its control.
 
 :cite:`Lenart 2014 ?? starfish (read  it first)`
 
-.. figure:: /figs/actin-cloud.png
-    :width: 40%
-
-    The "actin cloud" from which polymerize actin filament branched by Arp2/3 and capped by CP
-    — Congratulatin for your HDR – 
+.. .. figure:: /figs/actin-cloud.png
+..     :width: 40%
+.. 
+..     The "actin cloud" from which polymerize actin filament branched by Arp2/3 and capped by CP
+..     — Congratulatin for your HDR – 
     
