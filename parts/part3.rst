@@ -665,7 +665,8 @@ Experimentally, the probed Young's modulus corresponds to the average mechanical
 properties of the actin cloud between the surface of the actin bead and the
 surface of the probe bead and do not reflect the variation of the mechanical
 properties of the uncompressed actin cloud with position.
-Physically :math:`E_0` correspond to the Young's modulus as a corrected distance of :math:`d_c = 1 \mu{}m` (See :num:`Fig #E0-violin`)
+Physically :math:`E_0` correspond to the Young's modulus as a corrected distance of :math:`d_c = 1 \mu{}m` 
+(See :num:`Fig #ev`)
 The geometry of the
 system and the fluorescence signal suggest a decrease of the density of the
 actin cloud with the distance from the actin-bead center. All values
@@ -686,7 +687,7 @@ with the optical-tweezer indent experiments has a fundamentally different
 structure than the dense dendritic network on the actin
 bead surface.
 
-.. _E0-violin:
+.. _ev:
 .. figure:: /figs/E0_violin.png
     :width: 80% 
 
