@@ -184,7 +184,7 @@ recording are  made on the static bead, which is in our case on the actin bead.
 
 The indentation is a three step process (:num:`Fig #figindent-time`):
 
-    - Approach phase at constant velocity 10µm/sec unless precised otherwise
+    - Approach phase at constant velocity 10µm/sec unless specified otherwise
     - Relaxation phase of 3 second during which both traps remain static
     - Retraction phase in which the probe trap move towards its initial position at 10µm/sec.
 
@@ -193,28 +193,31 @@ Approach Phase
 ==============
 .. 3
  
-Durring the approach phase, probe-trap approaches at constant speed (10 µm/s), as seen in
-:num:`Fig #figindent-time` for :math:`t < t_1`. During the approach the actin bead
-will repel the probe bead due the actin network growing on it. The force felt
-by the actin bead will progressively increase as the probe bead approach
-eventually reaching the maximum as the probe-trap reach its closest position
-from the actin trap. Note that during this process as both bead fell the force
-exerted in-between them they move away from their respective traps center. The trap
-stiffness of :math:`>20 pN/µm` and the maximum for measured of :math:`~20 pN`
-insure the displacement of the beads in the trap are small compared to the
-distance between the two beads. Hence in the following we consider that the probe-bead speed is equivqlent to the trap spped of 10µm/sec.
+During the approach phase, the probe-trap approaches the actin-trap at constant speed (10 µm/s), as shown in
+:num:`Fig #figindent-time` for times :math:`t < t_1`. During this approach the actin bead
+will repel the probe bead due to the actin network growing on it. The force felt
+by the actin bead will progressively increase during the probe bead approach,
+eventually reaching the maximum as the probe-trap reaches its closest position
+to the actin trap. Note that during this process 
+the force between the bead displace the beads from the respective trap center. 
+.. The trap
+.. stiffness of :math:`>20 pN/\mu{}m` and the maximum for measured of :math:`~20 pN`
+.. insure .. trap stiffness is 34pN/µm
+The displacement of the beads in the trap remain small compared to the
+distance between the two beads. Hence in the following we consider that the probe-bead speed is equivalent to the trap approach speed of 10µm/sec.
 
 
 Relaxation Phase
 ================
 .. 3
 
-After the approach phase is a 3 seconds resting (or relaxation)  phase during which the probe
-and actin-trap remain static. The relaxation phase start at :math:`t_1` and
-finish at :math:`t_3` Num figure here`...`. The duration of the relaxation phase is long enough to
-allow the relaxation of the actin cloud to happen at the timescale of the experiement, and sufficiently short for
-the actin polymerisation not to change the properties of the network during one indentation cycle as well as
-allow repetitive indentation to be done :ref:`ref repetitive figure`.
+After the approach , the trap remain static for a 3 seconds relaxation phase 
+. The relaxation phase start at :math:`t_1` and
+finish at :math:`t_3` as shown on figure :num:`#figindent-time`. The duration of the relaxation phase is sufficient to allow the partial
+relaxation of the actin cloud  but remain sufficiently short compared to
+the actin polymerisation speed hence the polymerisation is not expected to 
+change the properties of the network during indentation cycle as well as
+during repetitive indentation (:ref:`Figure #reproc`)
 
 While the actin network relaxes, the forces between the two beads will slowly
 decrease thus leading to the bead getting closer to their trap center and
@@ -228,13 +231,16 @@ in the middle part.
 .. figure:: /figs/force_time.png
     :width: 80%
     
-    Upper graph : Force as a function of time on the actin-bead.  Lower graph :
-    distance between beads (distance between traps + displacement of bead from
-    the trap center) as a function of time. First part of each graph (green
-    curve, yellow back) represent the approach phase. Middle part (orange on
-    white) is the relaxation phase, and right part (blue on pale yellow) is the
-    retraction.  Shown data is a subsample of around 1 every 1000 points of
-    acquired data. We can see on the second graph that the bead displacement on their respective trap is small compared to the dissplacement of the trap and justify the approximation of a probe bead speed equal to the probe trap speed.
+    Upper graph : Force as a function of time on the actin-beads.  Lower graph
+    : distance between beads (distance between traps + displacement of beads
+    from the trap center) as a function of time. First part of each graph
+    (green curve, yellow back) represent the approach phase. Middle part
+    (orange on white) is the relaxation phase, and right part (blue on pale
+    yellow) is the retraction.  Shown data is a subsample of around 1 of every
+    1000 points acquired. We can see on the second graph that the bead
+         displacement on their respective trap is small compared to the
+         dissplacement of the trap and justify the approximation of a probe
+         bead speed equal to the probe trap speed.
 
 
 Retraction part
@@ -242,14 +248,12 @@ Retraction part
 .. 3
 
 
-After the three seconds of the retraction phase, the probe trap return to it's
+After the three seconds of the retraction phase, the probe trap returns to it's
 initial position at 10 µm/s (:math:`t > t_2`). During this phase, the force
-exerted between the two beads decrease, becomes negative, reach a minimum, and
-eventually reaching zero asymptotically as the probe bead recover its initial
-position.
-
-This can be seen on :num:`Figure #figindent-time` right part. Negative forces
-represent forces that tends to push the two beads to ward each other.
+exerted between the two beads decrease, becomes negative, reaches a minimum, and
+eventually returns to zero as the probe bead recover its initial
+position (shown on :num:`Figure #figindent-time` right part). Negative forces
+represent forces that tends to push the two beads towards each other.
 
 
 Reconstitution of Force-distance-curve
@@ -257,12 +261,12 @@ Reconstitution of Force-distance-curve
 .. 3
 
 From the position of he trap with time and the signal measured by the QPD the
-position of bead in the trap as well as the forced exerted on each bead can be
-calculated. We can then recover the distance between beads center as a function
-for time.  The force-distance curve curve representing the force exerted by the
-probe bead on the actin bead as a function of the distance can be computed and
+position of bead in the trap as well as the force exerted on each bead can be
+calculated. We can then recover the distance between bead centers as a function
+of time.  The force-distance curve representing the force exerted by the
+probe bead on the actin bead as a function of the distance can be computed and is
 show in :num:`Fig #force-distance` where we can still distinguish the three
-phase of the indentation cycle. 
+phase of the indentation cycle, also marked by the color of the data. 
 
 
 
@@ -271,15 +275,16 @@ phase of the indentation cycle.
     :width: 100%
 
     Force exerted on the actin bead as a function of the distance between the
-    two beads center. Color and data are the same as in :num:`Fig
-    #figindent-time`. The probe bead start from the far right, and get closer
-    while the force increases (green upper part of the curve), reach a
-    maximum, and enter the relaxation phase (orange part) where the force
-    between the probe and actin bead decrease, while the distance  also slightly
-    decrease. During the retraction part (Blue) the force decrease, reaches
-    negative value while the bead return to its initial position. Shown data is
-    a subsample of 1 every 1000 points of acquired data. Shaded region
-    represent area where the two polystyrene beads would interpenetrate.
+    two beads centers. Color and data are the same as in :num:`Fig
+    #figindent-time`. The probe bead starts from the far right, and gets closer
+    while the force increases (green upper part of the curve), reaches a
+    maximum, and enters the relaxation phase (orange part) where the force
+    between the probe and actin bead decrease, while the distance  also
+    slightly decrease. During the retraction part (blue) the force rapidly
+    decrease and  reaches negative values while the bead returns to its initial
+    position. Shown data is a subsample of 1 every 1000 points of acquired
+    data. Shaded region represent areas where the two polystyrene beads would
+    interpenetrate.
 
 
 Repetitive indent
@@ -287,10 +292,10 @@ Repetitive indent
 .. 3
 
 To check for reproducibility and non-plastic deformation of the network after
-indentation, the indentation cycle can be repeated several time at a few seconds
-intervals. As the network is constantly growing during the measurement, this
-also allow to check for the change of network properties due to actin
-polymerisation.
+indentation, the indentation cycle can be repeated several times at a few seconds
+interval. As the network is constantly growing during the measurement, this
+repeat also allows to check for possible change of network properties due to actin
+polymerisation. The force distance plot is shown in `Figure #reproc`.
 
 
 .. _reproc-time:
@@ -298,11 +303,16 @@ polymerisation.
 .. figure:: /figs/reproc-time.png
     :width: 100%
 
-    Force exerted on actin bead as a function of time for ten repetitive
-    indent at a few seconds of interval. In one of the cycle a sticking event
-    can be seen in the retraction phase 6 seconds after the beginning of the
-    cycle. Tis shows hi reproducibility of indentation curves.
+    Upper graph : Force exerted on actin bead as a function of time for ten
+    repetitive indents. In one of the cycle a sticking event can be seen in the
+    retraction phase 6 seconds after the beginning of the cycle. Lower graph:
+    Distance as a function of time for  ten repetitive indents. The ten curves
+    can difficulty be distinguished from one another.  This shows the
+    reproducibility of indentation curves.
 
+
+.. todo:: 
+    fix figure, add gray area. 
 
 .. _reproc:
 
@@ -311,9 +321,9 @@ polymerisation.
 
     Figure showing the reproducibility of indentation process on a bead with
     25nM Arp2/3 and 10nM CP Subset of data from :num:`Fig #reproc-time` shown
-    with different color to represent evolution of indentation curve with time.
-    Time is relative to first indentation. Shaded area represent zone where the
-    two beads would interpenetrate.
+    with different color to represent the evolution of the indentation curve
+    over time.  Time is relative to first indentation. Shaded area represent
+    zone where the two beads would interpenetrate.
 
 Effect of approach speed
 ========================
@@ -321,9 +331,9 @@ Effect of approach speed
 
 :cite:`Gardel2003` suggest that for frequency higher than 0.1 Hz, 
 force due to the viscous behavior  of actin network can be in the same order 
-than the elastic component.  We checked the effect
-of the approach speed on the force measurement. We check in :num:`Fig
-#many-speed` how the indentation speed affect the measurement by varying the
+as the elastic component. To test if such effect is important we measured the effect
+of the approach speed on the force measurements. :num:`Fig
+#many-speed` presents the indentation speed affect the measurement by varying the
 approach speed from 10 to 30 µm/s onthe same actin bead.
 
 
@@ -332,38 +342,37 @@ approach speed from 10 to 30 µm/s onthe same actin bead.
 .. figure:: /figs/many_speed.png
     :width: 80%
 
-    Aproach phase of repetitive indent at multiple speed on the same actin-bead. The approach phase in the differents conditions are simillar, hinting for a negligible effect of the viscosity  in the actin cloud at the speed considered.
+    Aproach phase of repetitive indents at multiple speed on the same actin-bead. The approach phase in the differents conditions are simillar, hinting for a negligible effect of the viscosity  in the actin cloud at the speed considered.
 
 
 
-Experimental observation
-************************
+Experimental observations
+*************************
 .. 3
 
 Using the bead system, we are able to reconstruct actin cortices `in vitro` and
-we are able to investigate mechanical properties inaccessible to other
-microscopy techniques like TIRF. Beyond the visible actin cortex we can detect
-the presence of a actin structure that have mechanical effects far beyond the
-thickness that has been measured for the biomimetically reconstructed actin
-cortices (less than the µm). :num:`Figure #cloud-repelling` show qualitatively
-that the actin cloud growing on actin beads is able to repel free floating
-probe beads before they reach the visible reconstituted cortex. 
+to investigate the mechanical properties inaccessible to other microscopy
+techniques like TIRF. Beyond the visible actin cortex we can detect the
+presence of an actin structure that have mechanical effects  standing at
+distances of :math:`> 10\mu{}m`, hence far beyond the thickness of the actin cortex (~1µm) 
+:num:`Figure #cloud-repelling` present a video that shows qualitatively that the actin cloud growing
+on actin beads is able to repel free floating probe beads before they reach the
+visible reconstituted cortex. 
 
-.. todo::
+.. todo:
 
     add the video online ?
 
 
-To quantify the distance at which the probe bead are affected by the actin-cloud
-we measure the experimental noise by looking at the fluctuation of trapped probe bead.
+To quantify the distance at which the probe beads are first affected by the actin-cloud
+we measure the experimental noise by looking at the fluctuations of the trapped probe bead.
 
 During the indentation we defined :math:`d_0` as the distance at which the
-average force felt by the probe bead is higher than the experimental noise. THe
-experimental noise is measured by looking at the fluctuation of the probe bead
-in its trap before the indentation cycle starts.
+average force felt by the probe bead is higher than the experimental noise.
+Typically the standard deviation is 2pN. 
 
-The repartition of :math:`d_0` with the concentration in capping protein is
-plotted on :num:`Figure #d0-violin`.
+The repartition of :math:`d_0` with the concentration of Capping Protein is
+plotted in :num:`Figure #d0-violin`.
 
  
  
@@ -402,7 +411,7 @@ Approach phase modeling
 =======================
 .. 3
 
-To extract mechanical properties using the three phase of the indentation we
+To extract mechanical properties using the three phases of the experiement we
 decided to model each part (approach, relaxation and retraction) independently.
 In particular, we fit force-distance curve of the approach phase using a power
 law with 3 fit parameters :math:`\alpha, \beta, \delta`:
@@ -412,30 +421,33 @@ law with 3 fit parameters :math:`\alpha, \beta, \delta`:
     F(d) = \beta \times \left(d-\delta\right)^\alpha
 
 In which :math:`F` represent the force exerted on the probe bead, and :math:`d`
-is the distance between bead center. The powerlaw exponent :math:`\alpha` is
+is the distance between bead centers. The powerlaw exponent :math:`\alpha` is
 expected to be negative as the force decreases with the distance :math:`d`, and
-characterize how fast the steepness of the curve force increase as the two
-beads approaches. The prefactor :math:`\beta` act as a scaling factor of the
+characterizes how fast the force increase as the two
+beads approaches. The prefactor :math:`\beta` acts as a scaling factor of the
 force. The offset parameter :math:`\delta` shifts the curve on the distance
 axis. The model has the particularity that the force on the probe bead tends to
-:math:`+\infty` when the distance :math:`d` get  to :math:`\delta`. THe force
-is undefined for value of :math:`d< \delta` The offset distance :math:`\delta`
-practically describe the distance at which the optical trap are not able to
+:math:`+\infty` when the distance :math:`d` get  to :math:`\delta`. The force
+is undefined for values of :math:`d< \delta`. Hence, the offset distance :math:`\delta`
+practically describe the distance at which the optical trap is not able to
 indent the network anymore. 
 
-In the case of hard sphere the value of :math:`\alpha` would tend toward
+In the case of a hard sphere the value of :math:`\alpha` would tend toward
 :math:`-\infty` leading to a infinite force increase at the contact between the
-two hard-sphere of same diameter and a value of :math:`\delta` equal to the
+two hard-spheres of same diameter and a value of :math:`\delta` equal to the
 diameter of the hard sphere.  In this case :math:`F(d>\delta)=0` and
 :math:`F(d<\delta)=\infty`
 
 The optical tweezer we use can apply forces up to 20pN, and the bead we use
-exposes a surface of roughly :math:`(2\mu{}m)^2`. Before entering non-linear
-regime and escaping the trap, the probe bead can move up to 1µm from its
+have a diameter of 4.34µm , then have a cross section surface of surface of roughly :math:`4.7\mu{}m^2`. Before 
+escaping the trap, the probe bead can move up to 1µm from its
 trap center. For a material of typical size in the order of tens of µm,  this
-lead to a maximum Young's Modulus of the indented material in the order of 100
+leads to a maximum Young's modulus of the indented material in the order of 100
 Pa. Any material with a stiffness much higher than 100 Pa can be considered as
-infinitively rigid.
+infinitely rigid.
+
+.. todo::
+    Describe order of magnitude Young Above.
 
 
 The elasticity of dense actin gels around polystyrene beads has been measured
