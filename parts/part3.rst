@@ -832,10 +832,10 @@ to extract the Poisson ratio (|nu|) of the compressed material :
     \nu =\frac 1 2 \times \left( \frac 5 7.\alpha +1\right)
 
 
-The Poisson ratio depend only on the powerlaw exponent and thus varies little
+The Poisson ratio depends only on the powerlaw exponent and thus varies little
 with the amount of Capping Protein concentration.  We found value of the
 Poisson ratio that are between 0.07 and 0.16 corresponding compressible
-foam-like material that do not expand highly in the direction orthogonal to the
+foam-like materials that do not expand highly in the direction orthogonal to the
 compression axis. Previous study of bulk actin network find a Poisson ration of
 0.5 (incompressible material) for actin concentration of 21.5 µM. The lower
 value we find which are closer to Poisson ratio of polymer network can be
@@ -846,30 +846,30 @@ Interpretation
 ==============
 .. 3
 
-The results of data analysis lead to the interpretation that on the surface of
+The results of our data analysis lead to the interpretation that on the surface of
 the actin bead is polymerized a dense actin gel of elasticity close to ~1kPa,
 and which act as the scale of force of the optical tweezer can apply to an
 infinitely rigid material that cannot be indented. Beyond this dense gel a soft
-actin cloud with an effective Elastic modulus up to thousand time softer  is
-present and extend on distance that are several time bigger than the thickness
+actin cloud with an effective elastic modulus up to thousand time softer  is
+present and extends on distances that are several times bigger than the thickness
 of the reconstituted actin cortex (:num:`Fig #fig-interpretation`). The
 structure of this actin cloud is expected to be quite different from the
 dendritic gel and be mostly constituted of loosely entangle actin filaments. 
 
 In this model, the offset distance |delta| correspond to the limit of the dense
 dendritic actin network mimicking the actin cortex that grows on actin bead
-and which elastic modulus make impenetrable by the optical tweezer we use. The
-value of delta we found are coherent with the measured thickness :math:`e
+and which elastic modulus makes it impenetrable by the optical tweezer we use. The
+value of |delta| we found are coherent with the measured thickness :math:`e
 \simeq \delta - 2.R_{bead}` of the  biomimetic actin cortex as measured by
 epifluorescence in :cite:`Kawska2012` in the range of 1 to 2 µm. The decrease
 of |delta| with Capping Protein is also coherent with the decrease of gel
 thickness. The value of |delta| close to the bead radius also correspond to the
 absence of formation of biomimetic cortices in the absence of Capping Protein.
 
-The filament composing the loosely actin cloud emanates directly from the actin
+The filaments composing the actin cloud emanate directly from the actin
 cortex in which the nucleation of actin polymerisation started at the surface
-of the bead. Eventually a few filaments can escape from the networks and are
-capped by the Capping Protein only later with the growing extremity a several
+of the bead. Eventually, a few filaments can escape from the network and are
+capped by the Capping Protein only when the growing extremity is already several
 micrometers from the bead surface. 
 
 .. _fig-interpretation:
@@ -882,7 +882,7 @@ micrometers from the bead surface.
     modulus close to the kPa (Dark Green). From this actin cortex emanate a
     softer actin structure : The actin cloud . The actin cloud is  loosely
     entangled network formed by the filaments escaping from the bead actin
-    cortex and extend on several micrometers. The actin cloud has an average
+    cortex and extends on several micrometers. The actin cloud has an average
     elastic modulus which is several order of magnitude softer than the actin
     cortex. From the point of view of the probe bead in optical tweezer, the
     system (actin-bead+actin cortex) behave as a hard-sphere of radius
@@ -890,9 +890,9 @@ micrometers from the bead surface.
 
 
 The thickness of the actin cortex :math:`e` as measured in :cite:`Kawska2012`
-increase with time during the polymerisation of actin. We can predict that the
+increases with time during the polymerisation of actin. We can predict that the
 offset distance |delta| should increase with time, except in the absence of
-Capping Protein where no actin cortices forms.This can be verified on
+Capping Protein where no actin cortices form. This can be verified on
 :num:`figure #time-delta-corr` that show the evolution of |delta| as a function
 of polymerisation time. 
 
@@ -1203,7 +1203,7 @@ cells and its control.
 .. The actin cortex can be reproduced `in vitro` on polystyrene beads. It is
 .. polymerized by the activation  of the Arp2/3 complex on the surface of
 .. polystyrene beads. Near the surface of the gel forms a dense dendritic actin
-.. network with Elastic modulus of kPa. This gel can be seen by fluorescence when
+.. network with elastic modulus of kPa. This gel can be seen by fluorescence when
 .. using fluorescent actin.
 .. 
 .. The transition from his dense network mimicking actin cortex to the solution
