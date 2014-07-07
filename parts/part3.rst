@@ -22,13 +22,13 @@ Actin can form a variety of networks in cells , ranging from dense branched
 networks at the leading edge of the lamellipodia to bundled parallel structures
 forming the filopodia.  Reconstruction of actin networks have been acchieved in
 biomimetic systems using purified components :cite:`Plastino2005`,
-:cite:`Loisel1999`, :cite:`Bernheim-Groswasser2002`,:cite:`Pontani2009`, and
+:cite:`Loisel1999`, :cite:`Bernheim-Groswasser2002`,  :cite:`Pontani2009`, and
 many properties of these network have been measured.
 
 It has been determined that the actin cortex is  a mechanical support for the
-plasma membrane and that it extends over a few hundreds of nanometers :cite:`...` . Many
+plasma membrane and that it extends over a few hundreds of nanometers. Many
 cellular processes hint for actin structures connected to this cortex to be
-key elements in organelle and chromosome positioning :cite:`...`. 
+key elements in organelle and chromosome positioning. 
 
 In this part of the manuscript we investigate how a sparse actin structure can
 emanate from the actin cortex, and we explore its properties. Using the
@@ -54,13 +54,14 @@ contribute to symmetry breaking.
 .. figure:: /figs/Bead-tirf-fluo-sim.png
     :width: 70%
 
-    Upper Left : Fluorescence image of a actin bead with a growing actin
-    cortex. Escaping filament can difficultly be seen. Scale bar is 2 µm. Lower
-    Left: Tiff image of actin polymerising on an actin bead.Escaping filament
-    can be seen. Gray circle  overladed to represent the size of the bead.
-    Right : Representation of the actin growth simulation with delimitation
-    between entangled branched actin network and escaping filaments. 
-    Adapted from :cite:`Kawska2012`
+    Upper Left : Fluorescence image of an actin bead with a growing actin
+    cortex. Escaping filament  forming the actin cloud can only hardly be  be
+    seen. Scale bar is 2 µm. Lower Left: Total Internal Reflexion (TIRF) image
+    of actin polymerising on an actin bead.Escaping filament and directly
+    visible. The gray circle represents the size of the bead.  Right :
+    Representation of the actin growth simulation with delimitation between the
+    entangled branched actin network and escaping filaments.  Adapted from
+    :cite:`Kawska2012`.
 
 
 The limit of the dense network visible in epifluorescence is defined in
@@ -93,7 +94,7 @@ through time ?  Is the gel elastic or viscous ?
     :width: 100%
 
     Upper Left : Epifluorescence image of polystyrene bead with a growing actin
-    gel in presence of 25 nM of Arp2/3 and 25 nM of Capping Protein scale bar
+    gel in presence of 25 nM of Arp2/3 and 25 nM of Capping Protein. Scale bar
     is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image
     with thickness of the gel shown with dashed line as defined in
     :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
@@ -103,7 +104,7 @@ through time ?  Is the gel elastic or viscous ?
     :width: 100%
 
     Upper Left : Epifluorescence image of polystyrene bead with a growing actin
-    gel in presence of 25 nM of Arp2/3 and absence of Capping Protein scale bar
+    gel in presence of 25 nM of Arp2/3 and absence of Capping Protein. Scale bar
     is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image
     with thickness of the gel shown with dashed line as defined in
     :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
@@ -174,9 +175,9 @@ Experimental description
 .. 2
 
 To probe the actin network we trap an actin-bead with a growing actin-network
-and a probe-bead using time-shared optical trap :ref:`...`,  and measure force
-on the actin-bead using a QPD placed in the back focal plane of the condenser
-(:ref:`material and methods <m_et_m>`).
+and a probe-bead using time-shared :ref:`optical trap <time_shared_ot>`,  and
+measure force on the actin-bead using a QPD placed in the back focal plane of
+the condenser (:ref:`material and methods <m_et_m>`).
 
 To avoid systematic error of force measurement on moving traps, all the force
 recording are  made on the static bead, which is in our case on the actin bead.
@@ -200,9 +201,6 @@ by the actin bead will progressively increase during the probe bead approach,
 eventually reaching the maximum as the probe-trap reaches its closest position
 to the actin trap. Note that during this process 
 the force between the bead displace the beads from the respective trap center. 
-.. The trap
-.. stiffness of :math:`>20 pN/\mu{}m` and the maximum for measured of :math:`~20 pN`
-.. insure .. trap stiffness is 34pN/µm
 The displacement of the beads in the trap remain small compared to the
 distance between the two beads. Hence in the following we consider that the probe-bead speed is equivalent to the trap approach speed of 10µm/sec.
 
@@ -229,7 +227,7 @@ in the middle part.
 .. _figindent-time:
 
 .. figure:: /figs/force_time.png
-    :width: 80%
+    :width: 90%
     
     Upper graph : Force as a function of time on the actin-beads.  Lower graph
     : distance between beads (distance between traps + displacement of beads
@@ -238,9 +236,9 @@ in the middle part.
     (orange on white) is the relaxation phase, and right part (blue on pale
     yellow) is the retraction.  Shown data is a subsample of around 1 of every
     1000 points acquired. We can see on the second graph that the bead
-         displacement on their respective trap is small compared to the
-         dissplacement of the trap and justify the approximation of a probe
-         bead speed equal to the probe trap speed.
+    displacement on their respective trap is small compared to the
+    dissplacement of the trap and justify the approximation of a probe bead
+    speed equal to the probe trap speed.
 
 
 Retraction part
@@ -295,7 +293,7 @@ To check for reproducibility and non-plastic deformation of the network after
 indentation, the indentation cycle can be repeated several times at a few seconds
 interval. As the network is constantly growing during the measurement, this
 repeat also allows to check for possible change of network properties due to actin
-polymerisation. The force distance plot is shown in `Figure #reproc`.
+polymerisation. The force distance plot is shown in :num:`Figure #reproc`.
 
 
 .. _reproc-time:
@@ -381,12 +379,9 @@ plotted in :num:`Figure #d0-violin`.
 .. figure:: /figs/cloud-repelling.png
     :width: 100%
 
-    Chronophotography representing the displacement a trapped
-    actin bead in a solution with probe bead. During this experiment, the actin
-    bead is kept static in the optical trap (marked b the cross) while the stage is moved. Up until
-    frame 70, the stage is moved down in the Y direction (South), then up
-    again. The 11 first pictures show an average of the frame indicated as
-    suptitle of each. Pictures 12 show a maximum projection of the all movie.
+    Chronophotography representing the displacement a trapped actin bead in a
+    solution with probe bead. During this experiment, the actin bead is kept
+    static in the optical trap (marked b the cross) while the stage is moved.
     Scale bar is 5 micrometers. Total movie duration is 21 seconds.
 
 
@@ -629,7 +624,7 @@ The stress exerted onto the material projected onto the bead surface or radius
 
 For small deformation the local strain of the material :math:`u` can be written
 as a function of the corrected bead position |dc| and the considered location
-along the axis between the two bead center `x` : 
+along the axis between the two bead center :math:`x` : 
 
 .. math::
 
@@ -693,9 +688,6 @@ bead surface.
 
     Young's Modulus prefactor as a function of capping protein show a decrease of
     average Young's modulus with an increase of Capping Protein concentration.
-    Similar to the graph of |beta| on :num:`Fig #beta-violin` as |E0| is
-    proportionnal to |alpha|, which is alway close to -1 and |beta| . 
-
 
 
 Mechanical properties
@@ -836,22 +828,28 @@ to extract the Poisson ratio (|nu|) of the compressed material :
 The Poisson ratio depends only on the powerlaw exponent and thus varies little
 with the amount of Capping Protein concentration.  We found value of the
 Poisson ratio that are between 0.07 and 0.16 corresponding compressible
-foam-like materials that do not expand highly in the direction orthogonal to the
-compression axis. Previous study of bulk actin network find a Poisson ration of
-0.5 (incompressible material) for actin concentration of 21.5 µM. The lower
-value we find which are closer to Poisson ratio of polymer network can be
-explain by the five fold decrease of actin concentration that we use here (4µM)
-and the different structure of the actin cloud we measure here.
+foam-like materials that do not expand highly in the direction orthogonal to
+the compression axis. Previous study of bulk actin network find a Poisson
+ration of 0.5 (incompressible material) for actin concentration of 21.5 µM.  We
+suspect that the low actin concentration used in our experiments (4µm) is the
+reason for the low Poisson Poisson Ratio. Also the local structure of filaments
+emanating from the  bead may explain the large compressibility of our actin
+cloud.
+
+.. The lower
+.. value we find which are closer to Poisson ratio of polymer network can be
+.. explain by the five fold decrease of actin concentration that we use here (4µM)
+.. and the different structure of the actin cloud we measure here.
 
 Interpretation
 ==============
 .. 3
 
-The results of our data analysis lead to the interpretation that on the surface of
-the actin bead is polymerized a dense actin gel of elasticity close to ~1kPa,
-and which act as the scale of force of the optical tweezer can apply to an
-infinitely rigid material that cannot be indented. Beyond this dense gel a soft
-actin cloud with an effective elastic modulus up to thousand time softer  is
+The results of our data analysis lead to the interpretation that 
+a dense actin gel of elasticity close to ~1kPa is polymerized
+on the surface of the actin bead. This stiff gel
+cannot be indented by the optical tweezer. Beyond this dense gel a soft
+actin cloud with an effective elastic modulus of 1 Pa and below is
 present and extends on distances that are several times bigger than the thickness
 of the reconstituted actin cortex (:num:`Fig #fig-interpretation`). The
 structure of this actin cloud is expected to be quite different from the
@@ -862,10 +860,12 @@ dendritic actin network mimicking the actin cortex that grows on actin bead
 and which elastic modulus makes it impenetrable by the optical tweezer we use. The
 value of |delta| we found are coherent with the measured thickness :math:`e
 \simeq \delta - 2.R_{bead}` of the  biomimetic actin cortex as measured by
-epifluorescence in :cite:`Kawska2012` in the range of 1 to 2 µm. The decrease
+epifluorescence in :cite:`Kawska2012` and found to be in the range of 1 to 2 µm. The decrease
 of |delta| with Capping Protein is also coherent with the decrease of gel
-thickness. The value of |delta| close to the bead radius also correspond to the
-absence of formation of biomimetic cortices in the absence of Capping Protein.
+thickness. 
+
+.. The value of |delta| close to the bead radius also correspond to the
+.. absence of formation of biomimetic cortices in the absence of Capping Protein.
 
 The filaments composing the actin cloud emanate directly from the actin
 cortex in which the nucleation of actin polymerisation started at the surface
@@ -877,7 +877,7 @@ micrometers from the bead surface.
 .. figure:: /figs/interp-delta.png
     :width: 60%
 
-    Schematic of an actin cloud. Left:  The actin bead triggers actin
+    A ) Schematic of an actin cloud. Left:  The actin bead triggers actin
     polymerisation. Right Probe Bead. On the surface of the actin bead a dense
     and dendritic network forms a biomimetic actin cortex with an elastic
     modulus close to the kPa (Dark Green). From this actin cortex emanate a
@@ -885,7 +885,7 @@ micrometers from the bead surface.
     entangled network formed by the filaments escaping from the bead actin
     cortex and extends on several micrometers. The actin cloud has an average
     elastic modulus which is several order of magnitude softer than the actin
-    cortex. From the point of view of the probe bead in optical tweezer, the
+    cortex. B ) From the point of view of the probe bead in optical tweezer, the
     system (actin-bead+actin cortex) behave as a hard-sphere of radius
     :math:`\delta-R`
 
@@ -950,7 +950,7 @@ actin-bead in the model.
 
 Using this sum of exponential decays is coherent with the common findings of
 power-laws found in the frequency-dependant shear modulus of both `in vivo` and `in vitro` actin
-networks as well as the relaxation behavior found in cells :cite:`...`.
+networks as well as the relaxation behavior found in cells.
 
 In order to determine :math:`\tau_{rep}`, the Young's modulus determined in the
 approach phase is used and the model is fitted against the relaxation data.  A
@@ -1092,40 +1092,43 @@ actin cortex, just beneath the cell membrane is not only a crucial structure
 for cell motility and the mechanical properties, it is also an essential
 component in cell division and the positioning of the spindle.
 Other actin structures, that spawn from the nucleus to the cell membrane are
-responsible for cells organelles positioning like in plants where nucleus is
-moved away from light :cite:`Iwabuchi2010`, or push the nucleus away during
-nurses cell maturation :cite:`Huelsmann2013`. The mechanical link from the
-outside of the cell to the nucleus using actin bundle has already been show in
+responsible for cells organelles positioning like in plants where the nucleus is
+to ward the anticlinal wall of the cell :cite:`Iwabuchi2010`, or during
+nurses cell maturation where the nucleus pushed away from the dumping canal:cite:`Huelsmann2013`. The mechanical link from the
+outside of the cells to the nucleus using actin bundles has already been show previously
 :cite:`Jaalouk2009`. We show here that these actin structure should not be the
-only one take into account to explain organelles positioning.
+only one taken into account to explain organelles positioning.
 
 
-Our experiments show that from biomimetically reconstituted actin cortex formed
-on beads emanates a sparse and soft actin cloud capable of staining forces of
+Our experiments shows the existence of a sparse and stiff actin cloud emanating
+from a biomimetically reconstituted actin cortex.  This actin cloud is capable
+of staining forces of
 tens of pico newtons, enough to hold organelles in place. Using polymer physics
-description we are able to model the behavior of such an actin cloud and
-measure many of its mechanical properties. This soft actin cloud provide a
+we are able to model the behavior of such an actin cloud and
+measure many of its mechanical properties. It provides an
 actin scaffold capable of deforming non-plastically. At time scale of few
 seconds if behaves mostly elastically with an elastic modulus of a few Pascal.
-The Poisson ratio of the actin cloud varies from 0.05 to 0.1 hinting for a
+The Poisson ratio of the actin cloud varies from 0.05 to 0.2 hinting for a
 sparse structure of loosely entangle filaments forming a meshwork with a
 typical mes size of 300 to 400 nm. 
 
-The filament at the origin of this loosely entangled network would emanate from
+The filaments at the origin of this loosely entangled network would emanate from
 the dense actin cortex that can be seen and simulated on actin-beads
 :cite:`Kawska2012` and the evolution of parameters of this actin cloud are
 coherent with the preceding studies on biomimetically reconstituted actin
 cortices. Recently the role of actin network with similar properties as the
 actin cloud have been described in cells such as `Xenopus` Oocyte
-:cite:`Feric2013`. Poisson ratio of different actin network in have been
-measured in bulk to be higher :cite:`Gardel2003` that what found here, but
-cannot explain the low or even negative Poisson ratio that can be found in
-pluripotent cells :cite:`Pagliara2014`. 
+:cite:`Feric2013`. Poisson ratios of actin networks have been
+measured in bulk to be higher :cite:`Gardel2003` but are not inconsistent with our measurement at lower actin concentration.
+
+.. that what found here, but
+.. cannot explain the low or even negative Poisson ratio that can be found in
+.. pluripotent cells :cite:`Pagliara2014`. 
 
 
-The actin cloud provide a novel structure that should be studied further to
-understand the positioning of organelles in cells and which role this sparse
-actin structure plays in the formation of other actin network inside cells.
+The actin cloud provides a novel structure that should be studied further to
+understand the positioning of organelles in cells and to study which role this sparse
+actin structure plays in the formation of other actin networks inside cells.
 
 In particular microrheology experiments could be performed on the growing actin
 cloud in order to further  characterize frequency dependence of the mechanical
@@ -1135,9 +1138,9 @@ would likely play a role in the structure of the actin cloud. A confined
 geometry and direct polymerisation on membrane, or the effect of myosin motors
 might allow to alter the properties of the actin cloud.
 
-All these could be mechanism used by the cell to use the actin cloud in order
-to efficiently form structures it need in order to achieve its function.
-Further studies of the actin cloud on biomimetic or `in vivo` system is
+All these could be cellular mechanisms to use the actin cloud in order
+to efficiently form structures needed for its function.
+Further studies of the actin cloud on biomimetic or `in vivo` system are
 challenging, but would lead to a better understanding of the mechanics of the
 cells and its control.
 
@@ -1240,7 +1243,7 @@ cells and its control.
 .. Oocytes
 .. *******
 
-:cite:`Lenart 2014 ?? starfish (read  it first)`
+.. :cite:`Lenart 2014 ?? starfish (read  it first)`
 
 .. .. figure:: /figs/actin-cloud.png
 ..     :width: 40%

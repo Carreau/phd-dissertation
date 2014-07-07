@@ -76,55 +76,55 @@ Introduction
 ************
 .. 2
 
-Cells are the basic component of living organism, understanding their
-individual behavior and the way they function is a key step into understanding
-how they interact with their environment. One of the key component to most
-cells is actin, a protein which is highly conserved across the species and play
-a important role in cell mechanics, from cell migration to cell differentiation
+Cells are the basic component of living organisms. Understanding their
+individual behavior and the way they function is a key step to understand
+how they interact with their environment. One of the key components within most
+cells is actin, a protein which is highly conserved across the species and plays
+an important role for the cell mechanics, from cell migration to cell differentiation
 and division. It plays also a non negligible role in mechanical properties of
-the cell and its interactions with the environment. Under the cell membrane is
-thin actin layer which structure control the cell mechanical properties : it is
+the cell and its interactions with the environment. Under the cell membrane lies a 
+thin actin layer which controls mechanical properties of the cell: 
 the actin cortex. The mechanical behavior of this actin cortex is itself driven
-by the dynamics and interactions of the actin network composing it.
-Understanding this actin network is hence a key piece to learn how the actin
-cortex behave, leading to a better understanding of cells and tissues. 
+by the dynamics and interactions of the actin network  it is made off.
+Understanding this actin network is hence a key to learn how the actin
+cortex behaves, leading to a better understanding of cells and tissues. 
 
-The properties of an actin network highly depend on it's structure. The
-structure itself depends on many parameters that influence how the network is
+The properties of an actin network highly depend on its structure. The
+structure itself depends on many parameters that influenced how the network is
 formed.  The network structure and formation is influence by physical and
-chemical condition. The spatial and temporal variation of these parameter like
-stress and ion-concentration can determine the fate of a network. It is though
+chemical conditions. The spatial and temporal variation of these parameters like
+stress and ion-concentration can determine the fate of a network. Hence it is though
 important to study these networks and their dynamics in order to grasp the
 changing structure of the cell.
 
 
 Cells are complex systems that adapt their shape, mechanical properties and
-biochemical conditions permanently. The spacial repartition of theses
-properties is also variable as the cell regulate the concentration of proteins
-all across its body. To well study the effect of each components independently,
-it is crucial to study actin network in a controlled environment.
+biochemical conditions permanently. The spatial repartition of theses
+properties is also variable as the cell regulates the concentration of proteins
+all across its cytoplasm. To well study the effect of each component independently,
+it is crucial to study actin networks in a controlled environment.
 
-Biomimetic systems allow to respond to most of these concern, they provide a
-controlled environment that mimic `in-vivo` phenomenon. Biochemical condition
-can be well controlled both in space and time allowing to precisely fine tuning
-experimental conditions. Biomimetic system are also particularly adapted with
+Biomimetic systems allow to respond to most of these concerns, they provide a
+controlled environment that mimic `in-vivo` phenomenon. Biochemical conditions
+can be well controlled, both in space and time allowing to precisely fine tune
+experimental conditions. Biomimetic system are also particularly adapted to be combined with
 optical traps which allow us to study local mechanical properties of actin
-network with a high time resolution. The combination of both allows us to get
+networks with a high time resolution. The combination of both allows us to get
 insight into the variation of theses mechanical properties as a function of
 time and space with a high precision. 
 
 
-During my PhD, my work has mainly be to study the mechanics of branched actin
-network polymerizing on optically trapped polystyrene beads. Such network was
-studied before :cite:`Kawska2012` but have suspected to be highly
-inhomogeneous, the use of optical trap allowed to probe mechanics of part of
-the network unaccessible before both because of their sensitivity and the
-ability to get hi time resolution. I further moved toward studying actin
-network on other biomimetic system constituted of liposomes, in order to better
-understand the effect on actin cortex polymerisation on membrane tension and
-characterize network dynamic through time. Finally I participated in a
+During my PhD,  I have focused on the study of the mechanics of branched actin
+networks polymerizing on optically trapped polystyrene beads. Such networks where
+studied before :cite:`Kawska2012` but have been suspected to be highly
+inhomogeneous. Optical traps allowed to probe mechanics of parts of
+the network which had been  unaccessible before.
+I further studied actin
+networks on other biomimetic systems constituted of liposomes, in order to better
+understand the effect of actin cortex polymerisation on membrane tension and
+characterize network dynamic over time. Finally,  I participated in a
 collaboration in order to understand the implication such actin network in
-living mouse oocyte.
+living mouse oocytes.
 
 
 .. :cite:`...`  

@@ -23,12 +23,12 @@ Living Cells
 
 
 Cell are the basic building block of life, all living things are composed of
-cells, from unicellular organism to multicellular organism like us. Unicellular
-organism must accomplish all the organism functions. At the other end,
-multicellular organism cell differentiate in order to accomplish specialised
-task often by regrouping into organs. Despite sharing the same genetic
-material, and each cell accomplish a different task require different
-mechanical properties from the cells. The variation of elasticity and other
+cells, from unicellular to multicellular organisms like us. Unicellular
+organism must accomplish all the functions. At the other end,
+multicellular organism cells differentiate in order to accomplish specialised
+tasks often by regrouping into organs. Despite sharing the same genetic
+material, each cell to accomplish a different task require different
+mechanical properties of the cells. The variation of elasticity and other
 mechanical properties of cells derive from the structure they are composed of.
 
 .. todo:
@@ -36,13 +36,13 @@ mechanical properties of cells derive from the structure they are composed of.
     This paragraph is a little too repetitive try to boil it down to 1-3 simple
     phrases rethink what message you want transmit.
 
-Cell are hence able to adapt to their environment and develop function and
-behavior that will depends on time. A small change of timing and/or biochemical
+Cells are hence able to adapt to their environment and develop function and
+behavior that will depend on time. A small change of timing and/or biochemical
 conditions can highly injure the development of an organism : modification of
-the actin network at the right time of the cell cycle prevent symetric division
-:cite:`Lenart2005`, :cite:`Vasilev2012`. Mechanical properties of substrate can
-govern the differentiation of cell : Soft substrate will favor brain-tissue
-cell, where stiff one increase the appearance of muscle cells
+the actin network at the right time of the cell cycle prevents symmetric division
+:cite:`Lenart2005`, :cite:`Vasilev2012`. Mechanical properties of the substrate can
+govern the differentiation of cells : Soft substrate will favor brain-tissue
+cell, where stiff substrates increase the appearance of muscle cells
 :cite:`Engler2006`.
 
 .. _albertcell:
@@ -51,25 +51,24 @@ cell, where stiff one increase the appearance of muscle cells
     :alt: schematic of a cell
     :width: 90%
 
-    Schematic of an eukariotic cell, adapted from `Molecular Biology of The
-    Cell`. One can see the many component that constitute majority of cells.
-    Cell shape and size can highly vary, going from quasi spherical with a
-    typical size of ten micrometers to elongated neurones that can be tens of
-    centimeters long.
+    Schematic of an eukariotic cell, adapted from :cite:`Alberts2008`. One can
+    see the many component that constitute majority of cells.  Cell shape and
+    size can highly vary, from quasi spherical with a typical size of ten
+    micrometers to elongated neurones that can be tens of centimeters long.
 
-Nonetheless, even with all theses different behavior and phenotype, the cells
-all have a common structure. The exterior of the cell is separated from the
-inside by a membrane. The interior of the cell is filled with the cytoplasm
+Nonetheless, even with all theses different behavior and phenotypes, cells
+have a common structure. The exterior of the cell is separated from the
+inside by a plasma membrane. The interior of the cell is filled with the cytoplasm
 which contain diverse structures known as organelles, genetic material, and
-large number of proteins that the cell uses to accomplish its functions. To
-communicate with the outside cells have a series of mechanism that allow signal
-and cargo to go through the membrane. This communication can be chemical but
+a large number of proteins that the cell uses to accomplish its functions. To
+communicate with the outside, cells have a series of mechanism that allow signals
+and cargo to go through the membrane. This communication can be chemical, but
 mechanics is also known to participate in the process. To sense their
 mechanical environment, cells use adhesion complexes to attach to the
 substrate, and integrins as trans-membrane protein to transfer the force to the
-cell cytoskeleton situated inside the cell. Chemical signal can either cross
+cell cytoskeleton situated inside the cell. Chemical signals can either cross
 the membrane through trans-membrane proteins, endocytosis and exocytosis are
-way of the cell to impart and export protein and chemical through its membrane. 
+ways for the cell to impart and export proteins and chemicals through its membrane. 
 
 
 
@@ -122,8 +121,8 @@ specialised functions which are called organelles. The position and state of
 organelles is of great importance for the cell to achieve its functions.
 Probably the most known organelle is the cell nucleus of eukariotic cells that
 contains the genetic material. Attached to the nucleus is the endoplasmic
-reticulum (also know as ER) which is the organelle responsible form translating
-RNA coming from the nucleus into functional proteins that will be delivered
+reticulum  which is the organelle responsible form translating
+RNA coming from the nucleus to functional proteins that will be delivered
 across the cell after maturation through vesicles. Theses vesicles are
 transported across the cell both by dyneins and kinesins — molecular motors —
 that walks along microtubules originating from the centriole part of the

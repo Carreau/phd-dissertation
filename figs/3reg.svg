@@ -655,13 +655,13 @@ L988.023 319.244" style="fill:none;stroke:#4daf4a;stroke-linecap:round;stroke-wi
    </g>
    <g id="patch_3">
     <path d="
-M144 693
-L1036.8 693" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
+M1036.8 693
+L1036.8 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_4">
     <path d="
-M1036.8 693
-L1036.8 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
+M144 693
+L144 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_5">
     <path d="
@@ -671,7 +671,7 @@ L1036.8 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linej
    <g id="patch_6">
     <path d="
 M144 693
-L144 79.2" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
+L1036.8 693" style="fill:none;stroke:#cccccc;stroke-linecap:square;stroke-linejoin:miter;"/>
    </g>
    <g id="text_18">
     <text style="fill:#262626;font-family:Arial;font-size:40.0px;font-style:normal;text-anchor:start;" transform="rotate(-0.000000, 188.640000, 462.825000)" x="188.64" y="462.825">A</text>
