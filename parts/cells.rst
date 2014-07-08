@@ -188,13 +188,12 @@ things a bout a cell.
 Unlike the (exo)-skeleton of animals which is rigid and
 static, the cytoskeleton of cell is a  highly dynamic structure that keep
 remodeling itself on a short time scale compared to the speed at which a cell
-move. That's through this dynamics that the cytoskeleton can achieve its
-functions.  As mammals skeletons are necessary to transmit force from one part
-of the body to another, the cell cytoskeleton is responsible to not only
-transmit the force the cell is exerting, but also to generate theses force.
-Thats through its cytoskeleton that a cell can be connected to its environment,
+moves. Thanks to this dynamics cytoskeleton can achieve its
+functions.  As vertebrates skeletons are necessary to transmit force from one part
+of the body to another, the cytoskeleton is responsible to not only
+transmit the forces the cell is exerting, but also to generate theses force.
+The cytoskeleton connect a cell to its environment,
 both mechanically and biochemically.
 
-We will consecrate a longer part to describe the cytoskeleton in the later part 
-:ref:`role_of_actin`.
+We will consecrate a longer part to describe the cytoskeleton.
 

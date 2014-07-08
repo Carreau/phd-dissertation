@@ -1,40 +1,41 @@
 .. _role_of_actin:
 
-The Role And Composition Of Cytoskeleton
-****************************************
+The Role And Composition Of The Cytoskeleton
+********************************************
 .. 2
 
-We have already introduced the cell cytoskeleton in a previous part, we will
-describe its component and functionality more in detail here.  The cytoskeleton
-of the cell as though three main function, it connects the cell both physically
+We have already introduced the cell cytoskeleton in a previous part, and we will
+describe its components and functionality more in detail here.  The cytoskeleton
+has three main functions, it connects the cell both physically
 and biochemically to the external environment, generate and coordinate the
-forces that give the cell its shape and allow it to move, it is also
+forces that give the cell its shape and allows it to move. It is also
 responsible for organising spatially  the cell content :cite:`Fletcher2010`.
-The cytoskeleton is also in particular sensitive to Spatial and temporal
-information that can affect cell fate and the assembly of cytoskeletal
+The cytoskeleton is also in particular sensitive to spatial and temporal
+information that can affect cell fate and the assembly of the cytoskeletal
 structure. This can be seen for example with the bud scar of budding yeast that
-persist after division. 
+persists after division. 
 
 Composition of cell cytoskeleton
 ================================
 .. 3
 
 
-The cytoskeleton is mainly composed of three type of filaments.  The
-microtubules, intermediate filament and actin filament, also known as
+The cytoskeleton is mainly composed of three types of filaments.  
+Microtubules, intermediate filament and actin filament, also known as
 microfilaments.
 
 .. Microtubules
 
-Microtubules are the wider with a diameter of 20nm :num:`Fig #fig-mt` and the
-stiffer of the three kinds of filament with a persistence length in the order
-of millimeter, which is much longer than the size of the usual cell.
+Microtubules are the widest structure with a diameter of 20nm (:num:`Fig #fig-mt`) 
+and the
+stiffest of the three kinds of filaments with a persistence length in the order
+of millimeters, much longer than the size of the usual cell.
 Microtubules are extensively studied :cite:`Valiron2001`.
-Microtubules are formed by the polymerisation of an heterodimer of tubuline
-that lead to the formation of polar (oriented) filament that can be walked on
+Microtubules are formed by the polymerisation of a heterodimer of tubuline
+that leads to the formation of polar (oriented) filaments that can be walked on
 by molecular motors. These molecular motors can be decomposed in two families –
 kinesins and dyneins – depending on the end toward which the motor preferably
-walk.  Microtubules are mostly known for their action during the cells mitosis
+walk.  Microtubules are mostly known for their action during mitosis
 where they will form majority of the mitotic spindle that drive the segregation
 of the chromosomes in two groups, each group ending in one of the daughter
 cells. 
@@ -53,14 +54,14 @@ shrinkage after a `catastrophe`
     Electron microscopy of a single microtubule filament. From `Molecular
     Biology of the Cell`. A) Structure of heterodimer of tubuline B)
     Heterodimers can assemble forming polar filaments. C) Filaments can
-    assemble into  microtubules. D,E) Electro microscope image of
+    assemble into  microtubules. D,E) Electron microscopy image of
     microtubules.
 
 
 .. Intermediate filament
 
 Intermediate filaments are of medium diameter in the order of around 10nm, in
-between actin and microtubules filament, hence their name.  Unlike microtubules
+between actin and microtubules filaments, hence their name.  Unlike microtubules
 and actin filament, intermediate filaments are composed by several sub-families
 of proteins and are non-polar.
 
@@ -74,23 +75,25 @@ laterally.
 .. Actin
 
 
-Actin, is the third component of the cytoskeleton, the one we will focus most
-of our effort. Actin monomers polymerises into actin filament, the thinest of
-the three kind that form the cytoskeleton. Actin is produced in the cell as a
-globular protein of ~40 kDa that once associated with ATP or ADP polymerises
-into helicoidal filament with a diameter between 7 and 9nm. The formed actin
-filament are polar, which both extremity respectively called the plus (`+`) or
-barbed end, and the minus (`-`) or pointed end. The polarity of the actin
-filament is of importance as this give rise to a preferred direction for most
-processes that can happen on the filament.
+Actin, is the third component of the cytoskeleton, the one on which  we will
+focus most of our effort. Actin monomers polymerises into actin filaments, the
+thinest of the three kind that form the cytoskeleton. Actin is produced in the
+cell as a globular protein of ~40 kDa that once associated with ATP or ADP
+polymerises into helicoidal filament with a diameter between 7 and 9nm. The
+formed actin filament are polar, where both extremity are respectively called the
+plus (`+`) or barbed end, and the minus (`-`) or pointed end. The polarity of
+the actin filament is of importance as this give rise to a preferred direction
+for most processes that can happen on the filament.
 
 
 The actin protein is highly conserved across species, and is know to directly
-interact with hundreds of proteins :cite:`DosRemedios2003`. As hint before it
-can in particular bind to ATP, that can hydrolyse into, ADP
+interact with hundreds of proteins :cite:`DosRemedios2003`. 
 
-Single undecorated filament will behave at the scale of the cell as
-semi-flexible polymer with a persistence length in the order of 10 µm. When the
+.. todo::
+    Actin peristence lenght cite
+
+Single undecorated filaments will behave  as
+semi-flexible polymers at the scale of the cell with a persistence length in the order of 10 µm. When they
 assemble into different structure and network, or associate with other proteins
 and molecule the resulting mechanical and dynamic properties can be highly changed.
 
@@ -104,14 +107,14 @@ and molecule the resulting mechanical and dynamic properties can be highly chang
     — from :cite:`Alberts2008`.
 
 
-Dynamic of actin polymerisation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dynamics of actin polymerisation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. 4 
 
-The assembly mechanism that allow to go from single monomers of actin (also
+The assembly mechanisms that allow to go from single monomers of actin (also
 refer to as G-actin for globular actin) to actin filament (also refer as
 F-actin) need to be well understood to explain the different networks
-structures actin filaments can create in presence of other proteins.
+structures created by actin filaments in the presence of other proteins.
 
 The polymerisation of ATP/ADP actin monomer to form an actin filament need to
 go through the step of forming an actin proto-filament which is constituted of
@@ -149,8 +152,8 @@ The equations that drive the polymerisation can be written as follow
 
 .. math::
 
-    \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[monomers] - k_{-,{barbed}} \\
-    \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[monomers] - k_{-,{pointed}} \\
+    \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[G-Actin] - k_{-,{barbed}} \\
+    \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[G-Actin] - k_{-,{pointed}} \\
 
 Where `barbed` and `pointed` designate respectively the barbed and pointed end,
 and :math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation
@@ -158,35 +161,35 @@ rate.  The concentration in barbed and pointed end denoted by
 :math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointed end is
 equal to the number of barbed end, one can derive the steady state which give
 rise to the critical monomer concentration below which an actin filament cannot
-grow: :math:`[monomers]_c`.
+grow: :math:`[G-Actin]_c`.
 
-The rate constant of elongation of actin have been determined to also depend of
-whether the monomer was bound to ADP or ATP :cite:`Pollard1986`. We should
-consider the fact that ATP-bound actin will hydrolyse to ADP-Pi then release
-the inorganic phosphate, and thus with a rate which also depend on whether the
-monomer is part of a filament or in solution. With the hydrolysis of ATP-bound
-actin into ADP bound actin in the filament, this lead to an imbalance of actin
-(de)-polymerisation on both ends. The actin filament preferably
-grows from the barbed end and shrink preferably from the pointed end.
+The rate constants of elongation of actin have been determined and depend of
+whether the monomer is bound to ADP or ATP :cite:`Pollard1986`. We should
+consider the fact that the  ATP-bound actin will hydrolyse to ADP-Pi before releasing
+the inorganic phosphate.The hydrolysis and phosphate release rates also depend on whether the
+monomer is part of a filament or in solution. The hydrolysis of ATP-bound
+actin into ADP bound actin in the filament,  leads to an imbalance of actin
+(de)-polymerisation on both ends. The actin filaments preferably
+grow from the barbed end and shrink preferably from the pointed end.
 
-This will lead to a phenomenon known ad treadmilling where a single actin
+This will lead to a phenomenon known as treadmilling where a single actin
 monomer bound to an ATP molecule, will be incorporated at the `+` end of the
 filament and progressively move toward the `-` end, eventually hydrolysing it
 ATP into ADP before detaching from the filament on the pointed end. During this
 process the filament will grow / shrink until it reaches the stationary state
 where its length would stay constant but the treadmilling continues.
 
-Treadmilling require an imbalance in the global rate constant on the barbed and
+Treadmilling requires an imbalance in the global rate constant on the barbed and
 pointed end and an energy source, in the case of actin this is provided by the
 hydrolysis of ATP into ADP+Pi before releasing the inorganic phosphate, without
-whom treadmilling would not occurs.
+which treadmilling would not occur.
 
-Practically this can be approximated by having only ATP monomers at the barbed
-end of actin filament while pointed end is constituted only of ADP monomers,
+Practically, this can be approximated by having only ATP monomers at the barbed
+end of actin filaments while the pointed end is typically constituted only of ADP monomers,
 thus the critical concentration is lower at the  pointed end. The barbed end
-have a higher critical concentration. The growth speed of the filament depend
-on both end depends on the monomer concentration in solution and in between the
-critical concentration of both ends exist a concentration at which the
+have a higher critical concentration. The growth speed of the filament depends
+on both ends depends on the monomer concentration in solution. It is between the
+critical concentration of both ends, there exists a concentration at which the
 polymerisation on (+) exactly compensate the depolymerisation on (-).
 
 
@@ -195,25 +198,25 @@ Actin network can be controlled by a host of actin binding proteins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. 4
 
-Despite the already complex process that is actin polymerisation and the
+Despite the already complex process of actin polymerisation and the
 numbers of parameter that we have already introduced, the formation of an actin
-network is an even more complex process that involve many other components.
-Especially, actin monomers and filament can interact with a high number of
+network is an even more complex process that involves many other components.
+Especially, actin monomers and filaments can interact with a high number of
 proteins that will affect the previously introduced dynamics.  We will present
-some categories of such protein in the following.
+some categories of such proteins in the following.
 
 Formins
 """""""
 .. 5
 
 `Formins` are polymerase proteins that will increase the polymerisation rate
-of actin filament by dimerizing and binding to the barbed end. It has the
+of actin filaments by dimerizing and binding to the barbed end. It has the
 particularity of being processive, meaning that it will stay bound to the
-barbed and while catalysing the addition of new monomers. The processivity of
-formins also permit the control of the localization of actin polymerisation
+barbed end while catalysing the addition of new monomers. The processivity of
+formins also permits the control of the localization of actin polymerisation
 where formin proteins are present, like the tip of filopodia :cite:`Faix2006`
-:cite:`Bornschlogl2013`. `Formin` posses domains rich in proline capable of
-binding to profilin (`FH1`) which allow formin to elongate F-Actin using actin
+:cite:`Bornschlogl2013`. `Formins` posses domains rich in proline, capable of
+binding to profilin (`FH1`) which allows formin to elongate F-Actin using actin
 monomers bounds to profilin :cite:`Pruyne2002` :cite:`Pring2003a`.
 
 .. todo: verlhac ? Fmn2-- ?
@@ -225,7 +228,7 @@ Actin depolymerization and severing
 
 Like polymerisation that can be enhanced by formins, depolymerization can also
 be speed up. ADF/Cofilin is a protein which is able to increase the rate of
-depolymerization of actin. ADF/Cofilin can do so by increasing the off rate at
+actin depolymerization. ADF/Cofilin can do so by increasing the off rate at
 the pointed end :cite:`Carlier1997`, or by actively severing the filament in
 different point, thus disassembling the formed network :cite:`McCullough2011`.
 
@@ -592,7 +595,7 @@ orthogonal to the membrane as one can see using electron microscopy on cells
     :alt: "Electron microscope view of the actin cortex"
     :width: 70%
 
-    Electro microscope view of the actin cortex in rat cell. The inset 
+    Electron microscope view of the actin cortex in rat cell. The inset 
     show a periodicity of ~5nm in filaments characteristic of actin.  Scale
     bars are 100nm, inset 50 nm. Extracted from :cite:`Morone2006b`.
 
@@ -727,7 +730,7 @@ perform a viable division of the cell.
 
 The actin cortex is not the only actin structure in the cell, beyond the thin and dense layer just below the cell is a softer and sparser actin structure that have crucial role in organelle positioning.
 
-During cell division,there are several several stage require actin structure.
+During cell division,there are several several stages that require actin structure.
 It has been show in :cite:`Azoury2011` that the expulsion of polar body during
 oocyte asymmetric division is  strongly dependant on the time evolution of a
 sparse actin network that can be found in the cell. Actin structure is also

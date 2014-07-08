@@ -228,17 +228,16 @@ distinguished. In the first phase, the system present a spherical symmetry with
 an homogeneous actin  network around the bead. The gel is growing from the
 surface and is accumulating stress due to the polymerisation of inner layers.
 
-If the gel is able of accumulating sufficient stress, and the polymerisation to
-produce enough,  the symmetry breaking event happens, and the system enters in
+If the gel to able of accumulate sufficient stress, by polymerisation,  the symmetry breaking event happens, and the system enters in
 a second phase with the formation of a comet. 
 
 The condition that lead to symmetry breaking are investigated in
-:cite:`Kawska2012`. In the absence of capping, the actin polymerisation seem
-not to be restricted enough on near the surface of the bead, and the formed
+:cite:`Kawska2012`. In the absence of Capping Protein, the actin polymerisation seem
+not to be restricted enough near the surface of the bead, and the formed
 network is not able to generate or sustain enough stress to achieve symmetry
-breaking. At high capping concentration, the growth of the gel is too impaired
+breaking. At high Capping Protein concentration, the growth of the gel is too impaired
 to also permit symmetry breaking. The concentration of Arp2/3 is also critical
-as Arp form branched network, and these branched network are primordial for the
+as Arp2/3 form branched network, and these branched network are primordial for the
 ability to sustain stress.
 
 
@@ -253,10 +252,10 @@ ability to sustain stress.
     only occurs inside the area delimited by dashed line. Experiments are
     displayed as inverted fluorescence image. Adapted from :cite:`Kawska2012`
 
-In the rest of this manuscript we use the bead motility system bu only consider
+In the rest of this manuscript we use the bead motility system but only consider
 it during the first phase, where the symmetry breaking has not yet occurred, or
 in condition where it should not occur. In particular we will investigate
-condition at 25 Nm Arp2/3 and concentration of Capping Protein varying from 0
+condition at 25 nM Arp2/3 and concentration of Capping Protein varying from 0
 to 50 nM. This correspond in :num:`Fig #phase-diag` to both condition where no
 symmetry breaking can occurs, but also to condition to which symmetry occurs
 happens with the highest probability. This first phase where the gel is still
