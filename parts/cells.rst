@@ -123,33 +123,33 @@ Probably the most known organelle is the cell nucleus of eukariotic cells that
 contains the genetic material. Attached to the nucleus is the endoplasmic
 reticulum  which is the organelle responsible form translating
 RNA coming from the nucleus to functional proteins that will be delivered
-across the cell after maturation through vesicles. Theses vesicles are
+across the cell after maturation in vesicles. Theses vesicles are
 transported across the cell both by dyneins and kinesins — molecular motors —
-that walks along microtubules originating from the centriole part of the
-centrosome but also by myosin along actin filaments.  All of those process
-consume energy as the form of ATP, generated from with the mitocondrion spread
+that walk along microtubules originating from the centriole part of the
+centrosome but also by myosin along actin filaments.  All of those processes
+consume energy in  the form of ATP, generated within the mitocondria spread
 across the cytoplasm. A schematic of the cell with some organelles can be seen
 on :num:`Figure #albertcell`
 
-The positioning of organelle is crucial for the life of an organism. During
+The positioning of organelles is crucial for the life of an organism. During the
 meiotic division of cell, for example, it has been seen that the positioning of
-the nucleus at the center of the cell in mouse oocyte happen before its
+the nucleus at the center of the cell in mouse oocytes happens before its
 migration closer to the cortex to expel the first polar body. Failure to do so
 result in a incorrect amount of DNA in germinal cell that can lead to
 infertility. 
 
 It is already known that microtubules play a key role in organelle positioning.
-Microtubules emanating from centrosome position at the two end of the cell
-during its division will be used to fetch the correct chromosomes. Each
-chromosome will be pulled toward the centrosome which lead to each daughter
+Microtubules emanating from centrosome position at the two ends of the cell
+during its division is used to fetch the correct chromosomes. Each
+chromosome is pulled towards the centrosome which leads to each daughter
 cell having the same amount of DNA.
 
-Actin plays also an as determinant role in the organelle positioning process,
-like in drosophila's oocyte maturation where it positions the nurses cell away
-from the dumping canal :cite:`Huelsmann2013`. In a later part (:ref:`Organelle
+Actin plays also an determinant role in organelle positioning process,
+like in drosophila oocyte maturation where it positions the nurses cell away
+from the dumping canal :cite:`Huelsmann2013`. In a later chapter (:ref:`Organelle
 Positionning <organelle_positioning>`) we will develop a few keys points where
 actin is indispensable in organelle positioning and how this relate to the
-biomimetic actin networks we reconstitute. :num:`Figure #oocytewt` show a mouse
+biomimetic actin networks we reconstitute. :num:`Figure #oocytewt` shows a mouse
 oocyte where the nucleus can be seen positioned at the center of the cell.
 
 .. todo:
@@ -174,19 +174,19 @@ oocyte where the nucleus can be seen positioned at the center of the cell.
 
 .. _intro-cyto:
 
-The Cell Cytoskeleton
-=====================
+The Cytoskeleton
+================
 .. 3
 
-The cytoskeleton, literally skeleton of the cell, is the structure which give
+The cytoskeleton, literally skeleton of the cell, is the structure which gives
 it shape to a cell.  As for other multicellular animals that possesses
-skeleton, its shape is often a hint on how a organism move. As feet, fins and
-wigs are characteristics that will tell you whether a animal does more
-preferably prefer land, see or air, the cytoskeleton is will tell you many
+skeleton, its shape is often a hint on how a organism moves. As feet, fins and
+wings are characteristics that will tell you whether a animal 
+ prefer land, see or air, the cytoskeleton will tell you many
 things a bout a cell. 
 
-In the other hand, unlike (exo)-Skeleton of animals which is ridged and
-unchanging, the cytoskeleton of cell is a  highly dynamic structure that keep
+Unlike the (exo)-skeleton of animals which is rigid and
+static, the cytoskeleton of cell is a  highly dynamic structure that keep
 remodeling itself on a short time scale compared to the speed at which a cell
 move. That's through this dynamics that the cytoskeleton can achieve its
 functions.  As mammals skeletons are necessary to transmit force from one part
