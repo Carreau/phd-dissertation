@@ -116,21 +116,21 @@ refer to as G-actin for globular actin) to actin filament (also refer as
 F-actin) need to be well understood to explain the different networks
 structures created by actin filaments in the presence of other proteins.
 
-The polymerisation of ATP/ADP actin monomer to form an actin filament need to
+The polymerisation of ATP/ADP actin monomer to form an actin filaments need to
 go through the step of forming an actin proto-filament which is constituted of
 at least 3 actin monomers. This will most of the time be the kinetically
 limiting step. Once proto-filaments are present in solution, single monomers
 can be freely added or removed on both ends of the filament.  The process of
 forming these proto-filament is called the nucleation and is the rate limiting
 factor to form actin filament from actin monomers. To circumvent this
-limitation experimentally one can use actin filament seed, or actin nucleator
-to direct the polymerisation on cell as cell does.
+limitation experimentally one can use actin filament seeds, or actin nucleators
+to direct the polymerisation on the cell.
 
 We need to distinguish between the dynamics of polymerisation and
 depolymerisation on both ends of the filament. Indeed it has been show that the
 association and dissociation rate are differing between the pointed (-) and
-barbed (+) end. The barbed end has a  higher dynamic that its pointed
-counterpart which is the reason that give it its (+) name. The dynamics of
+barbed (+) end. The barbed end has a  higher dynamics than its pointed
+counterpart which is the reason for its (+) name. The dynamics of
 polymerisation  is higher both in he case of ATP and ADP, though the rate
 constant of association and dissociation differ for both kind of filaments.
 
@@ -158,14 +158,14 @@ The equations that drive the polymerisation can be written as follow
 Where `barbed` and `pointed` designate respectively the barbed and pointed end,
 and :math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation
 rate.  The concentration in barbed and pointed end denoted by
-:math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointed end is
-equal to the number of barbed end, one can derive the steady state which give
+:math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointeds end is
+equal to the number of barbed ends, one can derive the steady state which give
 rise to the critical monomer concentration below which an actin filament cannot
 grow: :math:`[G-Actin]_c`.
 
 The rate constants of elongation of actin have been determined and depend of
 whether the monomer is bound to ADP or ATP :cite:`Pollard1986`. We should
-consider the fact that the  ATP-bound actin will hydrolyse to ADP-Pi before releasing
+consider the fact that the  ATP bound to actin will hydrolyse to ADP-Pi before releasing
 the inorganic phosphate.The hydrolysis and phosphate release rates also depend on whether the
 monomer is part of a filament or in solution. The hydrolysis of ATP-bound
 actin into ADP bound actin in the filament,  leads to an imbalance of actin
@@ -230,7 +230,7 @@ Like polymerisation that can be enhanced by formins, depolymerization can also
 be speed up. ADF/Cofilin is a protein which is able to increase the rate of
 actin depolymerization. ADF/Cofilin can do so by increasing the off rate at
 the pointed end :cite:`Carlier1997`, or by actively severing the filament in
-different point, thus disassembling the formed network :cite:`McCullough2011`.
+different points, thus disassembling the formed network :cite:`McCullough2011`.
 
 It should be noted that depolymerization can not only be  enhanced at the
 pointed end, indeed formin that accelerate the polymerisation is also able to
@@ -243,9 +243,9 @@ Capping Protein
 
 To regulate polymerisation, cells also have the possibility to reduce or stop
 the polymerisation. To achieve this, some proteins will bind to the growing end
-of actin filament and prevent the addition of new monomers.  `Capping Protein`
+of actin filaments and prevent the addition of new monomers.  `Capping Protein`
 (CP) being one particular example that will specifically bind to the barbed end
-of a growing filament and  prevent here from growing. Capping proteins are
+of a growing filament and  prevent it from growing. Capping proteins are
 necessary to prevent polymerisation of actin in undesired area
 and are essential for the structure and mechanical properties of actin gel
 :cite:`Kawska2012`. `Gelsoline` is another example of capping protein, that
@@ -269,7 +269,7 @@ one to each other. Such proteins, are referred to as cross-linkers.
     ref to review
 
 The amount of freedom in movement between the two filaments is dependant of the
-used cross-linker. For example , α-actinin will allow rotation of the two
+ cross-linker used . For example , α-actinin will allow rotation of the two
 filament at their anchoring point whereas cross-linker like fascine will prefer
 a parallel conformation of the filament and favor the formation of actin
 bundles.
@@ -277,9 +277,9 @@ bundles.
 Cross-linkers are essential for the formation of elastic network as they allow
 forces to be carried from one actin filament to the other. The quantity of
 cross link of a network will often be a key parameter in the elastic properties
-of a network. The distance between link point of the network (both cross link
-and entanglement point) will give the typical network mesh-size which is used
-to calculate the viscoelastic response of network : :cite:`Morse1998a`.
+of a network. The distance between the link points in the network (both cross links
+and entanglement points) will give the typical network mesh-size which is used
+to calculate the viscoelastic response of networks : :cite:`Morse1998a`.
 
 Stabilizing actin filaments
 """""""""""""""""""""""""""
@@ -287,14 +287,14 @@ Stabilizing actin filaments
 
 
 
-As actin network a dynamics construct that are changing shape and properties
-with time, it is convenient to be able to stabilize those network. Tropomyosins
+As actin networks are dynamic constructs that are changing shape and properties
+with time, it is convenient to be able to stabilize those networks. Tropomyosins
 are proteins capable to bind on the side of actin filament to stabilize them.
 
-The use of phalloidin, a toxin extracted from fungus, is also common as by
-binding between F-actin subunits on the filament, it prevent it from
-de polymerising.  Though, it is known that stabilizing actin filaments with
-phalloidin will increase they persistence length which can change the
+The use of phalloidin, a toxin extracted from fungus (Amanita phalloides), binds 
+between F-actin subunits on the filament, and hence  prevents it from
+de-polymerising.  Though, it is known that stabilizing actin filaments with
+phalloidin will increase their stiffness as measure by the persistence length which can change the
 mechanical properties of the formed actin network.
 
 Molecular Motor
@@ -302,29 +302,29 @@ Molecular Motor
 .. 5
 
 
-A particular kind of protein that can bind to cytoskeleton filament are
-molecular motors. Molecular motors are proteins that will consume energy source
+A particular kind of protein that can bind to cytoskeleton filaments are
+molecular motors. Molecular motors are proteins that will consume energy 
 in the form of ATP, hydrolyse it to change conformation and produce forces.
 
-The motors that move along actin filaments are part of myosin superfamily, they
-are both responsible for the transport of cargo along filament, cell motility,
+The motors that move along actin filaments are part of the myosin superfamily, they
+are both responsible for the transport of cargo along filaments, cell motility,
 division, and muscle contraction. They acquire their name from their discovery
 in 1864 by Willy Kühne who extracted the first myosin II extract from muscle
 cell :cite:`Hartman2012`.
 
 The myosin super family is divided into subfamilies number with roman literals.
 As of today we count more than 30 family of myosin :cite:`Berridge2012a`.
-Muscle myosin are part of the myosin II family and are often referred to  as
+Muscle myosin is part of the myosin II family and is often referred to  as
 conventional myosin for historical reason as being the first discovered.
 Non-muscle  myosin are also referred to as unconventional myosin.
 
 Myosin motors seem to be shared among all the living domain, hinting for an
 early emerging of myosin in the evolution. All the myosin motors move on actin
-filament toward the barbed end, with the exception of myosin VI which moves
-toward the pointed end :cite:`Buss2008`.
+filaments toward the barbed end, with the exception of myosin VI which moves
+towards the pointed end :cite:`Buss2008`.
 
-Different subfamily of myosin are used for different function in cells, even in
-subfamily each type of myosin can have specific function. For example,
+Different subfamily of myosin are used for different function in cells. Even in
+subfamilies each type of myosin can have specific functions. For example,
 conventional myosin found in muscle cell are use for large scale cell
 contraction. In contrast, myosin V is known to transport cargo and is found to
 be responsible for actin network dynamics and vesicle positioning
@@ -336,14 +336,14 @@ Myosin II
 .. 6
 
 As stated before, the myosin II family both encompass conventional myosin ans
-well as Non-muscle myosin II (NMII). Both have a similar structure.
+well as Non-muscle myosin II (NMII). Both have a similar structure (:num:`Fig #fig-myosin`).
 
-All myosin II are dimers constituted of two heavy chains and light chains. The
+All myosin II are dimers constituted of two heavy chains and the light chains. The
 heavy chain are held together by a coil-coiled alpha helix referred to as the
 tail. On the other side of the protein sequence is a globular head, which is
 responsible for ATP hydrolysis and is able to convert the energy from the
-hydrolysis into mechanical force, it is also the part that will bind to th
-actin filament. In between the tail en head is the neck domain that act as a
+hydrolysis into mechanical force. It is also the part that will bind to the
+actin filament. In between the tail and head is the neck domain that act as a
 lever to transmit the force generated by the head to the tail. The length of
 the neck influence the length of the movement done by the cargo at each step of
 the myosin as well as the size of the step the myosin can effect. The two light
@@ -354,7 +354,7 @@ Myosin II dimers can align and assemble by the tail region, forming myosin
 minifilaments. These minifilaments are bipolar, having numbers of myosin head
 with the same orientation at each extremities.
 
-Into the myosin II family, conventional myosin and NMII differentiate by the
+In the myosin II family, conventional myosin and NMII differentiate by the
 size of the minifilaments they form. Muscle myosin will form minifilaments
 aggregating around 200 dimers, where NMII minifilaments will be composed  only
 of 10 to 20 minifilaments. The other characteristic of unconventional myosin
@@ -375,8 +375,8 @@ be noted :
 We will see in the following that the duty-ratio might have an important effect
 on the processivity of the myosin.
 
-Itshould be noted that as minifilaments can attach on actin filaments on both
-ends, they can also act as a bridge that hold two points close to each other,
+It should be noted that as minifilaments can attach on actin filaments on both
+ends, they can also act as a bridge that holds two points close to each other,
 though having the properties of crosslinkers.
 
 Myosin V
@@ -393,7 +393,7 @@ myosin V posses another globular domain capable of binding to its cargo, and
 the variability of this region is what mostly define the difference between the
 different type of myosin V.
 
-Myosin V also have a high duty-ratio, this lead to dimers having almost always
+Myosin V also has a high duty-ratio, this leads to dimers having almost always
 one of the two head of the myosin to be bound to actin. It grants to the myosin
 V the ability to walk in a processive manner toward the barbed end of
 the actin filaments, both head successively binding 36 nm in front of the other
@@ -410,12 +410,12 @@ head.
 
 .. todo: MyoV OOcyte Maria ?
 
-
+.. _fig-myosin:
 .. figure:: /figs/figure-16-54a.jpg     
     :alt: "Schematic of a myosin II motor"
     :width: 70%
 
-    A schematic of a dimer of myosin motors with the example of Myosin II.
+    Schematic of a dimer of myosin motors with the example of Myosin II.
     Each of the myosin monomer is colored in a
     different shade of green. From Right to Left, the myosin head, with the N
     terminal, is the part of the myosin that binds to the actin filaments. The
@@ -444,7 +444,7 @@ the forced exerted on the myosin cargo.
       myosin from the actin filament.
 
     - ATP molecule is hydrolysed into ADP+Pi, providing energy which is stored
-      into a conformational change of the myosin which effect a recovery
+      into a conformational change of the myosin which effects a recovery
       stroke. 
 
     - Inorganic phosphate is released as the myosin head attaches to the actin
@@ -457,7 +457,7 @@ the forced exerted on the myosin cargo.
       to first step of the cycle.
 
 
-The principle stay the same for all kinds of myosin. In the case of Myosin II
+This principle is the same for all kinds of myosin. In the case of Myosin II
 the duty-ratio is only of about 5%, which leave Myosin II detached from the
 actin filament most of the time. A single dimer cannot then achieve
 processivity.   Though the aggregation of myosin II dimers into minifilaments
@@ -465,7 +465,7 @@ of tens of dimers increase the effective attachment time of the minifilaments
 to actin networks, and confer it processivity.
 
 The bipolar nature of myosin II minifilaments also allow them to act as force
-dipoles, each  of th extremity pulling the surrounding actin network or
+dipoles, each  of the extremity pulling the surrounding actin network or
 filament toward the center of the minifilaments. This is the mechanism at the
 origin of muscle contraction and can allow to build-up tension in actin network. 
 
@@ -487,7 +487,7 @@ monomers into dimers and trimmers, thus preventing the nucleation of actin
 filament. It thus allows a better control of localisation of actin filament
 both in vivo and in vitro in the presence of actin seeds of actin nucleator.
 
-Profilin as for a long time been believed to be only a sequestering protein
+Profilin was for a long time been believed to be only a sequestering protein
 that inhibit polymerisation :cite:`Yarmola2009`, though it has a more complex
 behavior, and if it prevent polymerisation of actin filaments by the pointed
 end, it can facilitate polymerisation. One of the cause of increase in
@@ -497,7 +497,7 @@ and increase the exchange rate of ADP into ATP.
 Branching Agent
 """""""""""""""
 
-We have seen previously that crosslinker were proteins capable on linking two
+We have seen previously that crosslinker  are proteins capable on linking two
 or more actin filament together by binding on their side. Another mechanism
 involving binding on the side on actin filament is responsible for a closely
 related network, the branching mechanism. 
@@ -505,7 +505,7 @@ related network, the branching mechanism.
 The Arp2/3 complex is composed of seven subunits, two of which are highly
 similar to actin, from Arp2 and Arp3 family for Actin Related Proteins,
 giving the complex its name. Arp2/3 will bind on the side of a pre-existing
-actin filament, hence initiating the growth a daughter filament with an angle of
+actin filament, hence initiating the growth of a daughter filament with an angle of
 70° to the mother filament. The newly created daughter filament pointed end
 is terminated by the Arp2/3 complex that will stay attached to the mother
 filament, thus increasing the number of available barbed end, without changing
@@ -513,15 +513,15 @@ the number of available pointed end. Cf Nature Review by Erin D. Goley and
 Matthew D. Welch :cite:`Goley2006` for  a longer review about the Arp2/3
 complex.
 
-In cells, the Arp2/3 complex need to be activated by a Nucleation Promoting
+In cells, the Arp2/3 complex is needed to be activated by a Nucleation Promoting
 Factor (NFP).  Among them is the  WASp protein (Wiskott-Aldrich Syndrome
 protein) and its neural homologue N-WASP which are from the same family as
-SCAR/WAVE :cite:`Machesky1999`.  All these activator of Arp2/3 have in common a
-WCA motif. The Wild type protein need to be activated in order to activate Arp.
+SCAR/WAVE :cite:`Machesky1999`.  All these activators of Arp2/3 have in common a
+WCA motif. The Wild type protein need to be activated in order to activate Arp2/3.
 The activation is done by a change in conformation that expose the active
 region and provide the first actin monomer necessary for the nucleation of the
-daughter filament.  To circumvent the activation process of
-these protein, we use a reconstructed version of the protein that cut all
+daughter filaments.  To circumvent the activation process of
+these proteins, we use a reconstructed version of the protein that cut all
 region before the poly-proline. This confer to pVCA the ability to be
 permanently active. This region can also be replaced by streptavidine in order
 to selectively bind pVCA to selected regions. Characterisation and more
@@ -533,10 +533,10 @@ of localisation of actin polymerisation is directly done by the localisation of
 pVCA.
 
 The network formed by Arp2/3 is called a dendritic network, and is in
-particular found at the leading edge of the cell in the lamelipodia, and it is
-such a network is present in the bead system we will study hereafter.
+particular found at the leading edge of the cell in the lamellipodia. It is
+such a network that is present in the bead system we will study hereafter.
 
-AS for crosslinker, dendritic network are able to carry force across single
+As for crosslinkers dendritic networks are able to carry force across single
 actin filament by the intermediary of Arp2/3. Two dendritic network of Apr2/3
 can also entangle and allow forces to be carried across them
 :cite:`Kawska2012`. 
@@ -554,7 +554,7 @@ can also entangle and allow forces to be carried across them
     :alt: "Actin recycling at the leading edge of a cell"
     :width: 70%
 
-    Adapted from :cite:`Pollard2000`, schematic recapitulating the formation of
+    Adapted from :cite:`Pollard2000`. Schematic recapitulating the formation of
     a dendritic network at the leading edge of a cell were several of the
     function of protein can be seen. An actin nucleation promoting factor
     (Active WASp,  blue rectangle at the membrane) will activate Arp2/3 (green
@@ -580,7 +580,7 @@ The actin cortex
 The actin cortex is a thin layer of between 200 to 500 nm that can be found
 just underneath the plasma membrane of a cell. The properties of the actin
 cortex makes it a key component to diverse processes.  Its capacity to resit
-to, and transmit forces is indispensable for locomotion of many cell by
+to, and transmit forces is indispensable for locomotion of many cells by
 allowing the retraction of the rear of the migrating cell and will be describe
 in more detail in the next section. Its structure is also essential for the
 cellular division as contractility is necessary to generate cortical tension
@@ -599,9 +599,9 @@ orthogonal to the membrane as one can see using electron microscopy on cells
     show a periodicity of ~5nm in filaments characteristic of actin.  Scale
     bars are 100nm, inset 50 nm. Extracted from :cite:`Morone2006b`.
 
-We saw through the but scar of budding yeast that the full cytoskeleton could
-retain memory of past event. It is also the case for simple actin network as
-show in :cite:`Parekh2005` who described how actin-network growth can be
+We saw through the bud scar of budding yeast that the full cytoskeleton could
+retain memory of past events. It is also the case for simple actin networks as
+show in :cite:`Parekh2005` who describe how actin-network growth can be
 determined by network history, showing actin cortex could also act as a memory
 for cell.
 
@@ -610,10 +610,10 @@ Cell Motility
 =============
 .. 3
 
-The way cells moves highly depend on their environment and the type of cells.
-We can distinguish several Strategy of movement, mainly categorised into
-amoeboid and mesenchymal movement. The type of motility involve for certain
-cell can be characteristic of malignant tissue, and play a significant role in
+The way cells move highly depend on their environment and the type of cells.
+We can distinguish several strategies of movement, mainly categorised into
+amoeboid and mesenchymal movement. The type of motility for certain
+cells can be characteristic of malignant tissue, and play a significant role in
 the ability of the cells to invade nearby tissues. 
 
 
@@ -622,33 +622,33 @@ the ability of the cells to invade nearby tissues.
     :width: 60%
 
     Polymerisation at the leading edge of the cell. NPF situated on the
-    membrane of the cell localize the polymerisation. The lamelipodium will be
+    membrane of the cell localize the polymerisation. The lamellipodium will be
     characterized by a dendritic network formed by Arp2/3. Parallel actin
     structure can form a growing protrusion called filopodium.  Adapted form
-    :cite:`Schafer2004
+    :cite:`Schafer2004`
 
-Lamelipodium based Motility
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Lamellipodium based Motility
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. 4
 
-We can ave a first look into the amoeboid mode of locomotion of cell, which is
-also often referred to as crawling. To understand how a cell is able to crawl
-to move itself we will in particular take the example of the lamelipodium.
-Lamelipodia is a characteristic structure of cells moving on a 2D substrate. By
-its nature, motion using lamelipodia in one of the easiest to study using
+We can ave a first look into the mesenchymal mode of locomotion of cells, which is
+also often referred to as crawling. To understand how a cell is able to crawl,
+to move itself, we will in particular take the example of the lamellipodium.
+Lamellipodia is a characteristic structure of cells moving on a 2D substrate. By
+its nature, motion using lamellipodia is  one of the easiest to study using
 microscopy which might explain why it is one of the best know process of cell
 displacement. None the less, it does not diminish its importance in tissues
 behavior as all epithelial cell can be considered as moving on a 2D substrate.
-Beyond lamelipodia, structure that are responsible for cell motion are
-filopodia and pseudopodia. They mainly differs from lamelipodia by their shape
-and the organisation of the actin structure inside. Lamelipodia-based motion
+Beyond lamellipodia, structure that are responsible for cell motion are
+filopodia and pseudopodia. They mainly differ from lamellipodia by their shape
+and the organisation of the actin structure inside. Lamellipodia-based motion
 can move a cell up to a few micrometers per minute.
 
-The action necessary to move in an amoeboid way can be decomposed in three
+The action necessary to move in an mesenchymal way can be decomposed in three
 steps. First the cell need to grow a protrusion. Growing this protrusion is
-often governed by actin polymerisation just underneath the plasma membrane. The
-lamelipodia is such a protrusion which is constituted by a 2D dendritic actin network
-that polymerize at the leading edge of the cell. Second the cell's protrusion
+typically governed by actin polymerisation just underneath the plasma membrane. The
+lamellipodium is such a protrusion which is constituted by a 2D dendritic actin network
+that polymerize at the leading edge. Second the cell's protrusion
 need to attach to the surface. This is done through trans membrane proteins
 that are bound to the actin cortex on the inside of the cell. The actin cortex
 will act as a scaffold to transmit the force across the cellular to these
@@ -658,34 +658,41 @@ cytoskeleton and actin cortex while the contraction force themselves can origin
 from actin network contraction and reorganisation due to myosin motors.
 
 As we can see the cell cytoskeleton and the actin cortex in particular play a
-fundamental role in the motion process of amoeboid cells. While we can see
-that wit the lamelipodia, the same conclusion can be drawn from pseudopodia and
-filopodia. Indeed filopodia basically differ from lamelipodia by the fact that
+fundamental role in the motion process of mesenchymal cells. What we can see
+that with the lamellipodium, the same conclusion can be drawn from pseudopodia and
+filopodia. Indeed filopodia basically differ from lamellipodia by the fact that
 they are unidimensional at the scale of the cell and are host of an actin
-structure made of parallel filaments and bundles. Pseudopod are the equivalent
+structure made of parallel filaments and bundles. Pseudopods are the equivalent
 of filopodia, except they are characteristic in motion in a 3D environment and
 are constituted by an actin gel more than parallel filaments.
 
-Blebbing base Motility
-^^^^^^^^^^^^^^^^^^^^^^
+Blebbing based Motility
+^^^^^^^^^^^^^^^^^^^^^^^
 .. 4
 
-The second mode of motility which is known as mesenchymal is more
-characteristic of 3D displacement of cells. In this mode, the cells will also
-form protrusions but will not rely on the traction to move its body. This
-motility rely on blebs, that are blister-like protrusion that happened on the
-cell surface. A bleb form on the surface of cell when the membrane detach from
-the actin cytoskeleton underneath it, or if the cortex ruptures. The small
-protrusion formed quickly grows as it lacks the force supporting layer that the
-actin cortex provide. While growing the bleb fills with the cytosol. The actin
+The second mode of motility which is known as amoeboid is more characteristic
+of 3D displacement of cells. In this mode, the cell will also form protrusions
+but will not rely on adhesion to move its body. This motility rely on blebs,
+that are blister-like protrusion that happened on the cell surface. A bleb
+forms on the surface of cell when the membrane detach from the actin
+cytoskeleton underneath it, or if the cortex ruptures. The small protrusions
+are formed quickly grow as they lacks the force supporting layer that the actin
+cortex provides. While growing, the bleb fills with the cytosol. The actin
 cortex can rapidly reform on the bleb slowing down its growth. In some cases,
 the reformation of the actin cortex in the bleb and the rebuilding of the
-tension inside the bleb is enough to reverse the bleb. Though, the content of
-the cell can also drain itself into the bleb as it grows and while the main
-body of the cell contract and empties, thus moving the cell from its old
-position to a new one in the direction of the initial growth of the bleb.
+tension inside the bleb by myosins mediated contraction is enough to reverse
+the bleb. Though, the content of the cell can also drain itself into the bleb
+as it grows and while the main body of the cell contract and empties, thus
+moving the cell from its old position to a new one in the direction of the
+initial growth of the bleb.
 
-At their initial state, bleb are simple membrane protrusion filled with cytosol and empty of organelles. The stop of their growth is due to the spontaneous formation of an actin cortex on the inner side of the bare membrane.By their relative simplicity to the rest of the cells, blebs are the perfect system to reconstitute in vitro by liposomes.
+At their initial state, blebs are simple membrane protrusions filled with
+cytosol and empty of organelles. The stop of their growth is due to the
+spontaneous formation of an actin cortex on the inner side of the bare
+membrane.
+
+By their relative simplicity to the rest of the cells, blebs are the perfect
+system to be reconstituted `in vitro` in liposomes.
 
 
 .. figure:: /figs/Bleb-nature-paluch.jpg
@@ -715,28 +722,28 @@ Organelle Positioning
 
 
 We have seen previously that organelle positioning plays an important role in
-cell function.  Several mechanism involving actin are at the origin of
+cell function.  Several mechanisms involving actin are at the origin of
 structure positioning in cell. The positioning of organelles by actin  can have
-a wide range of impact from being necessary to the correct cell division, to
+a wide range of impact from being necessary for the correct cell division, to
 allowing locust eyes to adapt in the dark by repositioning mitocondrion
 :cite:`Sturmer1995`.
 
 We already know that the actin cortex is a necessary element in cell
 motility. It also plays a determinant  role in organelle
-positioning. It has been shown in :cite:`Chaigne2013a` that the correct range
+positioning. It has been shown  :cite:`Chaigne2013a` that the correct range
 of elasticity of the actin cortex during oocyte division is needed to get spindle
 positioning. The correct spacial position of this spindle is necessary to
 perform a viable division of the cell.
 
-The actin cortex is not the only actin structure in the cell, beyond the thin and dense layer just below the cell is a softer and sparser actin structure that have crucial role in organelle positioning.
+The actin cortex is not the only actin structure in the cell, beyond the thin and dense layer just below the cell is a softer and sparser actin structure that has a crucial role in organelle positioning.
 
-During cell division,there are several several stages that require actin structure.
-It has been show in :cite:`Azoury2011` that the expulsion of polar body during
-oocyte asymmetric division is  strongly dependant on the time evolution of a
-sparse actin network that can be found in the cell. Actin structure is also
+During cell division, there are several stages that require actin structures.
+As shown previously :cite:`Azoury2011` the expulsion of polar body during
+oocyte asymmetric division is  strongly dependent on the time evolution of a
+sparse actin network that can be found in the cell. Actin structures are  also
 required at a later stage to permit the correct capture of chromosomes by
 microtubules and achieve correct haploid division.  :cite:`Schuh2008` also show
-that a similar sparse actin networks contracted by myosins is necessary for the
+that a similar sparse actin network contracted by myosins is necessary for 
 spindle migration.
 
 Especially in oocyte that are typically large, the effect of gravity is not
@@ -744,12 +751,12 @@ negligible. The presence of a sparse "actin scaffold" is discussed in
 :cite:`Feric2013`, where it is found that an actin network is present to
 balance the gravitational force.
 
-In drosophila, nurses cell need to expel their content in oocyte. It has been
-observed in :cite:`Huelsmann2013` that during this phase, nurse's cells nucleus
-is push away from the dumping canal by single actin filaments polymerising
+In drosophila, nurses cell need to expel their content into oocytes. It has been
+observed :cite:`Huelsmann2013` that during this phase, the nurse's cells nucleus
+is pushed away from the dumping canal by single actin filaments polymerising
 from the membrane and forming a soft and sparse actin network.
 
-There are than a few studies that show the importance of sparse actin network
+There are more than theses few studies that show the importance of sparse actin network
 inside cells, but theses networks are not extensively studied. Especially the
 transition from the thin and dense actin cortex near the membrane to the softer
 and sparser actin inside the cytosol. 

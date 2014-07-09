@@ -136,18 +136,18 @@ In vitro reconstituted actin networks
 *************************************
 .. 2
 
-Living cells are complex organism, for which each function may require a number
+Living cells are complex organisms, for which each function requires a number
 of interacting proteins and components. To understand the action of each
-individual component it is needed to isolate of modify their actin
+individual component it is needed to isolate or modify their actions
 independently.
 
 In order to achieve the  precise tuning of each component independently two
-approach are envisageable. An approach referred to  as "Top-Down" where
+approachs are envisageable. An approach referred to  as "Top-Down" where
 starting from the full system — in our case the cell — we will modify or remove
-each of the component and study the global change of behavior. It is a complex
-process that might be difficult to interpret as biological system have often
-multiple pathways and feedback loop to regulate each of their process. With the
-large number of component that constitute a living cell, it is also relatively
+each of the component and study the global change of behavior. This is a complex
+process that might be difficult to interpret as biological systems have often
+multiple pathways and feedback loop to regulate each of their processes. With the
+large number of components that constitute a living cell, it is also relatively
 difficult to come up with the minimal system necessary to replicate a behavior.
 
 The other approach, also referred to as the  bottom-up approach, require to
@@ -156,21 +156,21 @@ behavior. It is also a complex process, as there are a large of component to
 chose from that can potentially be added to the reconstituted system, but often
 lead to a wider range for the testable parameter as well as minimal number of
 interacting component. This allow for a deeper understanding of the governing
-principle of the system, and often permit access to a wider range of accessible
+principle of the system, and often permits access to a wider range of accessible
 conditions and individual tweaking of component.
 
 In our lab we are mainly interested in the bottom-up approach and the use of
 biomimetic system. We try to reconstitute biologically relevant behavior with
 the minimal system constituted from pure protein components.
 
-In particular in this manuscript we are interested in the mimicking the process
-by which the listeria is able to hijack cellular mechanism, recruit proteins
+In particular in this manuscript we are interested in mimicking the motility process
+by which the `listeria` pathogen is able to hijack cellular mechanisms, recruit proteins
 responsible for actin polymerisation at the leading edge of the cell, and use
-hem to polymerize actin on its back. This is what allow the listeria to
-propel itself fast enough (1.5 to 2 µm /sec) :cite:`Dabiri1990` to be able to
+them to polymerize actin on its surface. This is what allows the listeria to
+propel itself fast enough (1.5 to 2 µm /min) :cite:`Dabiri1990` to be able to
 pass through cell membrane from one cell to the other.
 
-The bead motility system is the minimal in-vitro system capable of replicating
+The bead motility system is a minimal in-vitro system capable of replicating
 the listeria motility.
 
 .. _bead-motility-assay:
@@ -179,35 +179,36 @@ Bead motility assay
 ===================
 .. 3
 
-Listeria is 1.5 to 5 micrometer cylindrical bacteria that enter cells, hijack
-its actin polymerisation machinery to propel itself and infect neighbourers
-cells. It does so by the recruitment of single protein to its read end : ActA.
-ActA activate the Arp2/3 complex. From the recruited Arp2/3 will grow a dense
-branched and entangle actin network that will for a comet behind the bacteria
-propelling the bacteria at the speed of actin comet polymerisation. Listeria
-comets are composed of a wide range of protein, it has though been shown
-:cite:`Loisel1999` that the number of required component can be highly reduced.
+The `Listeria` pathogen is a 1.5 to 5 micrometer cylindrical bacteria that
+enter cells, hijacks its actin polymerisation machinery to propel itself and
+infect neighbour cells. It does so by the recruitment of a single protein its
+surface : ActA, that activates the Arp2/3 complex. By the recruited of Arp2/3 a
+dense branched and entangle actin network growth that will eventually form a
+comet behind the bacteria propelling the bacteria at the speed of actin comet
+polymerisation. Listeria comets are composed of a wide range of protein, it has
+though been shown :cite:`Loisel1999` that the number of required component can
+be highly reduced.
 
 
 The simpler system that can replicate the listeria motility is the bead
 motility assay, it consist of a micrometer-sized bead covered with a nucleation
 promoting factor that will activate Arp2/3 present in solution.  This NPF can
 be ActA as in the case of listeria, but one can use other NPF like N-WASp or
-pVCA as we will do in the rest of this manuscript. The NPF covered bead is in a
-solution where G-Actin is present. Capping Protein is added to prevent the
+pVCA. In the experiments presented in this work  we use pVCA. The NPF covered
+bead is in a G-Actin solution. Capping Protein is added to prevent
 polymerisation from happening away from the bead surface as well as the
-component necessary for actin polymerisation (ATP, Salt...) 
+components necessary for actin polymerisation (ATP, Salt..., see :ref:`Material and methods <m_et_m>`) 
 
 Due to the presence of Capping Protein in solution and NPF on the surface of
 the bead, the polymerisation of actin will happened only on the surface on the
 bead forming a thin and dens actin gel capable of sustaining stress depending
 on on the different protein concentration. Unlike in the case of listeria which
-control on which if its side the nucleation process happens, this is not
+control on which of its side the nucleation process happens, this is not
 controlled on bead motility assay. Though, in the right condition
 :cite:`Kawska2012` the dense actin gel formed on the bead surface can
 accumulate stress induce by polymerisation of inner layer until symmetry
-breaking occurs. The gels ruptures on one of the side of he bead, leading to
-the formation on a comet on the opposite side.
+breaking occurs. The gels ruptures on one of the side of the bead, leading to
+the formation of a comet on the opposite side.
 
 .. figure:: /figs/Plastino-Sykes-2005.png 
     :width: 60% 
@@ -220,10 +221,10 @@ the formation on a comet on the opposite side.
 
 
 The further polymerisation of the actin network on the surface of the bead will
-make the comet grow, propelling the bead forward. This is what make the bead
+make the comet grow, propelling the bead forward. This is what makes the bead
 system a biomimetic system replicating the listeria motion.
 
-It should be noted that during the evolution of this system, two phases can be
+It should be noted that during the movement of this system, two phases can be
 distinguished. In the first phase, the system present a spherical symmetry with
 an homogeneous actin  network around the bead. The gel is growing from the
 surface and is accumulating stress due to the polymerisation of inner layers.
@@ -257,8 +258,8 @@ it during the first phase, where the symmetry breaking has not yet occurred, or
 in condition where it should not occur. In particular we will investigate
 condition at 25 nM Arp2/3 and concentration of Capping Protein varying from 0
 to 50 nM. This correspond in :num:`Fig #phase-diag` to both condition where no
-symmetry breaking can occurs, but also to condition to which symmetry occurs
-happens with the highest probability. This first phase where the gel is still
+symmetry breaking can occurs, but also to condition in which symmetry breakes
+ with the highest probability. This first phase where the gel is still
 homogeneous around the bead has already been studied in :cite:`Pujol2012`, who
 measure the stiffness of the thin actin gels that form near the surface of the
 bead.We focus on fixed system where we will do further study on still
@@ -282,33 +283,33 @@ Liposomes
 =========
 .. 3
 
-Bead are a model biomimetic system that replicate the polymerisation mechanism
-that happened on the leading edge of the cell. Because of their composition and
-rigidity phenomenon observed on bead cannot reproduce all the interaction and
-process that take place on cell membrane. Cells are finite compartment with a
+Beads are used as model biomimetic system that replicate the polymerisation mechanism
+happening on the leading edge of the cell. Because of their composition and
+rigidity, phenomenon observed on beads cannot reproduce all the interactions and
+processes that take place on cell membrane. Cells are finite compartments with a
 limited amount of actin that act on the dynamic of polymerisation.  The fact
-that cell size is in the order of the persistence length of actin filament
+that cell size is in the order of the persistence length of actin filaments
 also play a role on the structure of actin network. Indeed at these scale as a
-single filament can never reach the length at which is can be considers a fully
+single filament can never reach the length at which is can be considers fully
 flexible.
 
-Liposomes are one of the biomimetic system that are capable of capturing these
-interaction between cell membrane. Liposomes are lipid bilayers that imprison
-an aqueous compartment and exhibit many extra characteristic similar to cells.
+Liposomes are one of the biomimetic system that are capable of capturing some
+interactions between cell membranes. Liposomes are lipid bilayers that imprison
+an aqueous compartment and exhibit many characteristic similar to cells.
 The inside of liposomes can act as a biochemical reactor of limited size with
-the lipid bilayer actin as a separation with the outside, like the cell
+the lipid bilayer actin as a separation to the outside, like the cell
 membrane. The composition of the lipid layer can be varied in order to reflect
 the composition of cell membrane. In particular it is possible to attach
-protein to the liposomes membrane. Finally the size of the liposomes can be
-varied, leading to actin network of size and shape similar to those found in
+proteins to the liposome membrane. Finally the size of the liposomes can be
+varied, leading to actin networks of size and shape similar to those found in
 cells.
 
 
-It is possible to mimic the cell actin cortex using liposomes, and especially
+It is possible to mimic the cellular actin cortex using liposomes, and especially
 its contractility. A crosslinked actin network, can be formed and attached to
 the outer leaflet of liposomes, and contractility can be trigged by injecting
 molecular motors. The behavior of the system will depend on the attachment
-between the reconstituted actin cortex and liposomes membrane.  Week attachment
+between the reconstituted actin cortex and liposomes membrane.  Weak attachment
 lead to a favorable rupture of the actin cortex during the increase of tension,
 implying a symmetry breaking as in bead system.  In the case of strong
 attachment the liposomes actin cortex will accumulate tension until it has
@@ -322,8 +323,8 @@ through time giving extra insight into the dynamic of actin network.
     :alt: Nothing
     :width: 80%
 
-    Effect of reconstituted actin cortex attachment to liposomes membrane under
-    constraint generated by myosin filaments. On week attachment the actin
+    Effect of reconstituted actin cortex attachment to a liposome membrane under
+    constraint generated by myosin filaments. On weak attachment the actin
     network ruptures thus leading to a "peeling" of the actin cortex. With
     stronger attachment the actin cortex can sustain higher stress, until the
     underlying liposome ruptures ("Crushing"). Adapted from :cite:`Carvalho2013`
@@ -344,7 +345,7 @@ Membrane Physics
 
 The membrane of living cell is a complex, being the host a large number of
 interacting proteins and lipids each with their own dynamics. Though at the
-scale of cell and liposomes it is interest to model the membrane as a surface
+scale of cell and liposomes it is interest to model the membrane as a 2D surface
 (that is to say without thickness) characterized by global mechanical properties.
 
 In the case of closed lipid bilayers, the mechanical property we are interested
@@ -354,7 +355,7 @@ protein and lipid that are present in each of the two leaflet of the lipid
 bilayer.
 
 
-The expansion modulus :math:`K_a` express how much energy need to by used to
+The expansion modulus :math:`K_a` express how much energy is required to
 expand the surface of the lipid bilayer and is due to the exposition of more
 hydrophobic surface to water when expanding it. :math:`K_a` is expressed in
 :math:`J.m^{-2}`, or :math:`N/m` and is close to 2 time the surface tension between the
@@ -368,14 +369,18 @@ of a membrane to the membrane tension and its curvature; also known as Laplace L
     \Delta P = \gamma \left(\frac{1}{R_1}+\frac{1}{R_2}\right)
 
 Where :math:`{R_1}` and :math:`{R_2}` are the principal curvatures radius which
-are equal in the case of sphere. This technique allow for the measure of tension on liposome or cortical tension of cell using aspiration :cite:`Chaigne2013a`. 
+are equal in the case of sphere. This technique allow for the measure of tension on liposome or cortical tension of cell using aspiration :cite:`Chaigne2013a`, :cite:`Maitre2012`. 
 
 .. figure:: /figs/Cell-Surface-tension.png
     :alt: nothing
     :width: 40%
 
     Surface tension govern doublet shape,  adapted from :cite:`Maitre2012`.
-    The equilibrium of forces on the contact line govern the angle of contact.
+    The equilibrium of forces on the contact line govern the angle of contact
+    :math:`2.\theta`. :math:`\omega` correspond to the adhesion tension between
+    the two cells, :math:`\gamma_{cm}` correspond to the cortex tension between
+    the cell and  the medium, :math:`\gamma_{cc}` correspond to the cortex
+    tension between the two cells. 
 
 When more than two regions of space are in contact with each other at the same
 location, they form a contact line. The displacement of this contact line often
@@ -395,7 +400,7 @@ Actin networks as viscoelastic material
 ***************************************
 .. 2
 
-We have seen previously that while polymerising, G-actin assemble into F-actin
+We have seen previously that while polymerising, G-actin assembles into F-actin
 filaments. The stiffness of filament can be measured by a characteristic number
 called the persistence length (:math:`l_p`) which represent the length after
 which the bending of filament becomes non-negligible. More precisely, the
@@ -406,21 +411,19 @@ tangent along the considered polymer. With :math:`s` the curvilinear abscissae a
     \left<\Theta_{(s,s+l)}\right> = exp\left(\frac{-l}{l_p}\right)
 
 For actin filaments, the
-persistence length is in the order of 10 µm :cite:`Isambert1996`. This means
-that for scales much smaller, the actin filament can be considered as rigid,
-like in cell cortex where meshwork have a typical size smaller than 250 nm. In
+persistence length is in the order of 10 µm :cite:`Isambert1995`. This means
+that for scales much smaller, the actin filament can be considered as rigid.
+This is the case in the cell cortex where the meshwork has a typical size smaller than 250 nm. In
 the other extreme, at length scale much bigger than :math:`l_p`, filaments can
-be considered as flexible. Even if for typical cells, the length scale is
+be considered as flexible. While in typical cells, the cell size is
 rarely much bigger than the persistence length of actin, `Xenopus` eggs can be
-as big as 1 mm, so hundreds fold the actin persistence length. In mouse oocyte that
-can go up to a 80µm diameter – and on which we will do some analysis – actin
-filaments are hence about an order of magnitude bigger than the persistence
-length. Still for the majority of cells, the typical size we are interested in
+as big as 1 mm, so hundreds fold the actin persistence length.
+Still for the majority of cells, the typical size we are interested in
 is about the persistence length of an actin filament, making it neither purely
 rigid nor completely flexible.
 
-For the above reasons, solution of actin are often compared to semi-flexible
-polymers, and models that predict comportment of actin network often take
+For the above reasons, actin solutions are often compared to semi-flexible
+polymers, and models that predict the behavior of actin networks often take
 foundation on polymers physics :cite:`Morse1998` :cite:`Morse1998a`. Still, if
 theses models rely on local microscopic parameter, experimental methods only
 have access to bulk properties of the studied material, and it is from theses
@@ -435,41 +438,41 @@ Elastics Modulus
 .. 3
 
 The elastics moduli are probably the easiest to understand. They are
-characteristic of how a material will deform non permanently under applied
+ a characteristic of how a material will deform non permanently under an applied
 force. The stiffer something is the higher its elastics moduli will be. There
-are two specific elastic moduli we will be interested in in the rest of this
-manuscript, `Young's Modulus` and `shear modulus`. The first one describe more
-specially how material will react to it's compression or extension, while the
-second describe how a material resists  shearing. In isotropic and homogeneous
-material, the Young modulus (noted E) and the shear models (G) are proportional
-by a factor depending on the Poisson ratio (:math:`\nu`) by the following relation:
+are two specific elastic moduli of interest in this
+manuscript, `Young's Modulus` and `shear modulus`. The first one describes how a material will react to compression or extension, while the
+second describes how a material resists  shearing. For isotropic and homogeneous
+material, the Young's modulus (E) and the shear models (G) are related
+by the Poisson ratio (:math:`\nu`):
 
 .. math::
     
     G = \frac{E}{2(1+\nu)}
 
 
-Hence at fixed Poisson ratio, and as :math:`\nu` is usually around a value of
-:math:`0.5`, it is common to use G and E interchangeably and to just referee to
-it as "elastic modulus". Both G and E units are homogeneous to :math:`N/m^2` or
+Both G and E units are homogeneous to :math:`N/m^2` or
 :math:`Pa`.  It is interesting to have an idea of the oder of magnitude of a
 few usual materials. Aluminum will have an elastic modulus :math:`G_{Al}\simeq
 70~GPa` while rubber will be more in the order of :math:`G_{rubber}\simeq
 0.1~GPa`. The elastic modulus of muscle cell is in the order of
 :math:`G_{muscle} \sim 10~kPa` and brain tissues around :math:`G_{brain} \sim
-0.1~\text{to}~1~kPa`.
+0.1~\text{to}~1~kPa` :cite:`Engler2006`.
 
 
-For a  more formal definition of the Young moduli, it is the ratio between
-the stress along the direction of the deformation by the relative elongation. 
-It is then proportional to the force by unit of surface applied divided by the relative elongation:
+A  more formal definition of the Young's modulus, is the ratio between
+the stress :math:`\sigma` along the direction of the deformation and the relative deformation :math:`\epsilon`. 
 
 .. math:: 
     
     E &= \frac{\sigma}{\epsilon} \\
       & = \frac{   F/S }{   \Delta L / L_0        }
 
+In which :math:`F` is the applied force, :math:`S` is the cross section of the
+material, :math:`\Delta L` is the elongation and :math:`L_0` is the initial
+length of the considered material.  (:num:`Figure #fym`):
 
+.. _fym:
 .. figure:: /figs/youngm.png
     :width: 50%
     :alt: Definition of young modulus
@@ -490,16 +493,18 @@ The shear modulus is defined for a deformation parallel to the surface on which 
    G &= \frac{\tau_{xy}}{\gamma_{xy}} \\
       & = \frac{   F/S }{   \Delta x / l        }
 
-
+.. _fgm:
 .. figure:: /figs/shearm.png
     :width: 50%
 
     Schematic of deformation for the shear modulus.
 
+In which :math:`\tau_{xy}` is the shear stress, :math:`\gamma_{xy}` is the shear strain, :math:`F` is the applied force on the cross section of the material :math:`S`. :math:`l` is the thickness of the material and :math:`\Delta x` is the transverse displacement (:num:`Fig #fgm`).
 
-A number of other characteristic number can be defined for material, in the
-case of isotropic elastic material, only two of those parameter are enough to
-completely define the properties of the material. 
+
+Other characteristic numbers can also be defined. In the case of isotropic
+elastic material, only two of those parameter are required to completely define
+the properties of the material. 
 
 
 Poisson Ratio
@@ -511,14 +516,31 @@ the Poisson ratio.  The Poisson ration is another characteristic of a material
 that define how much a material will compress/expand in the directions
 orthogonal to its elongation.
 
+Poisson ratio is the negative ratio of transverse to axial strain :
+
+.. math::
+
+    \nu = - \frac{
+        d \epsislon_{trans}
+    }{
+
+        d \epsislon_{axial}
+    }
+
+In which :math:`\epsilon_{axial}` is the relative deformation along one the
+axis of compression/elongation and :math:`\epsilon_{trans}` correspond to the
+relative deformation along an axis orthogonal to the axis of deformation.
+
 Having volume conservation of material during compression or elongation require
-a Poisson ratio of `0.5`. Such value have been found in bulk measurement of
-actin network :cite:`Gardel2003`. Material with a Poisson ratio of `0.5` are
+a Poisson ratio of `0.5`. Such value have been found in bulk measurements of
+actin network at 21.5 µM of actin :cite:`Gardel2003`. Material with a Poisson ratio of `0.5` are
 said to be incompressible. A Poisson ratio lower `0.5` correspond to material
-expanding less than incompressible materials, some cell ad tissues are known to
+expanding less than incompressible materials, some cell and tissues are known to
 have Poisson ratio lower than 0.5 :cite:`Mahaffy2004`. Another critical value
 is 0, at which the material only expand or contract in the direction of the
-main stress.Material with a Poisson ratio superior to 0.5 would show a bigger
+main stress.
+
+Material with a Poisson ratio superior to 0.5 would show a bigger
 deformation in the orthogonal direction than incompressible material, leading
 to a global increase of volume if compressed. 
 
@@ -536,7 +558,7 @@ direction :math:`\vec z` will be written :
 
 .. math::
 
-    F = \eta \frac{\partial v}{\partial z}
+    F = S.\eta \frac{\partial v}{\partial z}
 
 Where :math:`\eta` is the viscosity, and is expressed in :math:`Pa.s`.
 
