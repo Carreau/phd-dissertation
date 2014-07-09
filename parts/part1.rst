@@ -521,10 +521,9 @@ Poisson ratio is the negative ratio of transverse to axial strain :
 .. math::
 
     \nu = - \frac{
-        d \epsislon_{trans}
+        d \epsilon_{trans}
     }{
-
-        d \epsislon_{axial}
+        d \epsilon_{axial}
     }
 
 In which :math:`\epsilon_{axial}` is the relative deformation along one the
@@ -550,26 +549,25 @@ Viscosity
 .. 3
 
 Like elasticity, viscosity is something tangible we are used to work with in
-everyday life, the more viscous a material is the more difficult it is to move
-something in it at high speed. And indeed, viscosity is the pendant of Elastic
-modulus but when considering force induced by speed instead of displacement.
-The force exerted by the gradient a velocity, on a surface `S`  orthogonal to
-direction :math:`\vec z` will be written :
+everyday life. The more viscous a material is the more difficult it is to move
+something in it at high speed. And indeed, viscosity is the pendant of the elastic
+modulus but considering forces induced by deformation rate instead of displacement.
 
 .. math::
 
     F = S.\eta \frac{\partial v}{\partial z}
 
-Where :math:`\eta` is the viscosity, and is expressed in :math:`Pa.s`.
+In which :math:`F` is the force exerted on the surface :math:`S`. :math:`\eta`
+is the viscosity, and is expressed in :math:`Pa.s`, :math:`v` is the
+deformation rate along the direction :math:`z` .
 
 .. We will
 .. also note that viscosity is often written :math:`\mu`, and can
 .. also while dividing by the fluid density (:math:`\rho`)  then being :math:`\nu = {\eta}/{\rho}`.
 
-At room temperature water have a viscosity of around 1 mPa.s, an honey have a
-viscosity of around 10 Pa.s. The consideration of viscosity in problems will
-often depend on the timescale at which the problem is considers, where at short
-timescale tissues will behave elastically, whereas at long timescale the effect
+At room temperature water has a viscosity of around 1 mPa.s, and honey of 10 Pa.s. The consideration of viscosity in problems will
+often depend on the timescale and deformation rate. At short
+timescale tissues often behaves elastically, whereas at long timescale the effect
 of viscosity will be seen :cite:`Thoumine1997`. In actin network, the effect of
 viscosity at short time scale can be as high as elasticity :cite:`Gardel`. 
 
@@ -590,14 +588,14 @@ Viscoelastic
 ============
 .. 3
 
-Typically, no material is purely elastic or purely viscous. When glacier can
+Typically, no material is purely elastic or purely viscous. While glaciers 
 seem purely solid at the time scale of a few days, observation on longer time
-scale ranging from month to years will convince you that ice is not only a
-solid but can also flow. Of course water in its solid form is not the only
-material which is both solid and viscous. In order to describe the such
-behavior one need the theory of viscoelastic materials.  Number of models have
+scale ranging from month to years how that ice is not only a
+solid but can also flow. Of course ice in its solid form is not the only
+material which is both solid and viscous. In order to describe such
+behavior one needs the theory of viscoelastic materials.  A number of models have
 been and are still developed to describe viscoelastic behavior. The
-Kelvin-Voight and Maxwell models are two of the simpler one. A thought
+Kelvin-Voigt and Maxwell models are two of the simpler one. A thought
 experiment to understand each of these model is to put a spring and a dash pot
 in parallel or series.  The model system will have a viscoelastic behavior. 
 
@@ -605,11 +603,11 @@ in parallel or series.  The model system will have a viscoelastic behavior.
 .. figure:: /figs/MKV.png
     :width: 70%    
 
-    Maxwell model schematic on the right and Kelvin-Voight model on the right.
+    Maxwell model schematic on the right and Kelvin-Voigt model on the right.
     Both are a simple approach to express the properties of a viscoelastic
     model. The response to a creep compliance will differ in both case. Maxwell
     model will mostly behave like  a fluid with viscosity :math:`\eta` after a
-    long time, where the Kelvin-Voight model will mostly reflect the elastic
+    long time, where the Kelvin-Voigt model will mostly reflect the elastic
     component at constant stress exerted. (Schematic in Public Domain, adapted
     from Wikimedia).
 
