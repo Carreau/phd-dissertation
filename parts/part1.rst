@@ -8,7 +8,7 @@ mechanical properties of cells. Indeed, mechanical properties of cell are a key
 parameter that has a crucial impact on cell and organism function. Being able
 to detect changes in mechanical properties, and understand the mechanism that
 govern these changes  is an important step to be able to apprehend the behavior
-of cells, distinguish healthy cells and tissues from malignant ones.
+of cells, distinguish healthy cells and tissues from cancerous ones.
 Understanding the mechanism as the origin of cell motion and change in shape is
 also a decisive step in controlling cell behavior, and being able to prevent
 cancer sells invasion and division without impairing healthy cells.
@@ -396,6 +396,7 @@ between each tensions. The measure of contact angle can be use to derive the
 relation of cell membrane+cortex tension between cells in contact
 :cite:`Maitre2012`
 
+.. _visoelastic:
 Actin networks as viscoelastic material
 ***************************************
 .. 2
@@ -723,22 +724,21 @@ to each trap and though stiffness of relevant trap.
     :alt: schematic of setup plus one
     :width: 90%
 
-    A schematic of used setup. The following element can be distinguished. An
-    1064nm Laser will be used for trapping, it first pass through two AODs that
-    well respectively be responsible from moving the position of the trap in
-    the X ad Y direction.  The first couple of lenses between AODs are
-    responsible from having both AOD conjugated.  The second pair of lens will
-    allow to steer the beam and make sure that the AODs are  conjugated with
-    the back-focal plane of the first objective, putting then in the Fourier
-    plane of the sample. Thus a change of angle of the light beam induce by the
-    AOD in reflected into the objective by a change of position of the trap.
-    The trapping light is collected by a second objective, converging on a
-    Quadrant photodiode (QPD) conjugated with the back focal plane of the
-    collecting objective. By construction QPD and AODs should be conjugated, so
-    deviation of the light beam induced by one of the AODs is not supposed to
-    induce any change of position of the laser spot on the QPD. Additional
-    dichroics mirror allow to use bright field and epifluorescence at the same
-    time than using optical tweezer.
+    A schematic of  setup used. The following elements can be distinguished. An
+    1064nm laser s used for trapping. It first passes through two AODs that
+    move the position of the trap in the X  and Y direction.  The first couple
+    of lenses (L1,L2) between AODs assure that AODs are in conjugated planes.
+    The second pair of lens (L3,L4) imaged the AODs plane in back-focal plane
+    of the first objective.
+    Thus a change of angle of the light beam induce by the AOD 
+    result in a  change of position of the trap.  The trapping light
+    is collected by a second objective, and illuminating a Quadrant photodiode
+    (QPD) conjugated with the back focal plane of the collecting objective. By
+    construction QPD and AODs should be conjugated, so deviation of the light
+    beam induced by one of the AODs is not supposed to induce any change of
+    position of the laser spot on the QPD. Additional dichroic mirrors allow to
+    use bright field and epifluorescence simultaneously optical
+    tweezer.
 
 Determination of force and displacement on bead
 ===============================================

@@ -28,7 +28,7 @@ microfilaments.
 
 Microtubules are the widest structure with a diameter of 20nm (:num:`Fig #fig-mt`) 
 and the
-stiffest of the three kinds of filaments with a persistence length in the order
+stiffest of the three kinds of filaments with a :ref:`persistence length <viscoelastic>` in the order
 of millimeters, much longer than the size of the usual cell.
 Microtubules are extensively studied :cite:`Valiron2001`.
 Microtubules are formed by the polymerisation of a heterodimer of tubuline
@@ -41,8 +41,9 @@ of the chromosomes in two groups, each group ending in one of the daughter
 cells. 
 
 Microtubules have the characteristic of being highly dynamic by alternating
-between two state of rapid growth after what is called a `rescue` , and a rapid
-shrinkage after a `catastrophe`
+between two state of rapid growth and a rapid shrinkage. The transition from
+microtubule growth to shrinkage is called a `catastrophe`, the transition from
+shrinkage to growth is called a `rescue`.
 
 .. _fig-mt:
 
@@ -76,7 +77,7 @@ laterally.
 
 
 Actin, is the third component of the cytoskeleton, the one on which  we will
-focus most of our effort. Actin monomers polymerises into actin filaments, the
+focus most of our effort. Actin monomers, also called `G-Actin` for globular actin can polymerise. By Polymerizing actin monomers forms into actin filaments (`F-actin`), the
 thinest of the three kind that form the cytoskeleton. Actin is produced in the
 cell as a globular protein of ~40 kDa that once associated with ATP or ADP
 polymerises into helicoidal filament with a diameter between 7 and 9nm. The
@@ -93,7 +94,7 @@ interact with hundreds of proteins :cite:`DosRemedios2003`.
     Actin peristence lenght cite
 
 Single undecorated filaments will behave  as
-semi-flexible polymers at the scale of the cell with a persistence length in the order of 10 µm. When they
+semi-flexible polymers at the scale of the cell with a persistence length in the order of 10 µm :cite:`Isambert1995`. When they
 assemble into different structure and network, or associate with other proteins
 and molecule the resulting mechanical and dynamic properties can be highly changed.
 
@@ -174,7 +175,7 @@ grow from the barbed end and shrink preferably from the pointed end.
 
 This will lead to a phenomenon known as treadmilling where a single actin
 monomer bound to an ATP molecule, will be incorporated at the `+` end of the
-filament and progressively move toward the `-` end, eventually hydrolysing it
+filament and progressively migrate toward the `-` end, eventually hydrolysing it
 ATP into ADP before detaching from the filament on the pointed end. During this
 process the filament will grow / shrink until it reaches the stationary state
 where its length would stay constant but the treadmilling continues.
@@ -185,10 +186,10 @@ hydrolysis of ATP into ADP+Pi before releasing the inorganic phosphate, without
 which treadmilling would not occur.
 
 Practically, this can be approximated by having only ATP monomers at the barbed
-end of actin filaments while the pointed end is typically constituted only of ADP monomers,
-thus the critical concentration is lower at the  pointed end. The barbed end
-have a higher critical concentration. The growth speed of the filament depends
-on both ends depends on the monomer concentration in solution. It is between the
+end of actin filaments while the pointed end is typically constituted only of
+ADP monomers, thus the critical concentration is lower at the  pointed end
+compared to the barbed end. The growth speed of the filament depends on both
+ends depends on the monomer concentration in solution. It is between the
 critical concentration of both ends, there exists a concentration at which the
 polymerisation on (+) exactly compensate the depolymerisation on (-).
 

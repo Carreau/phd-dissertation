@@ -195,5 +195,5 @@ transmit the forces the cell is exerting, but also to generate theses force.
 The cytoskeleton connect a cell to its environment,
 both mechanically and biochemically.
 
-We will consecrate a longer part to describe the cytoskeleton.
+We will consecrate a longer part of this work to describe the cytoskeleton.
 

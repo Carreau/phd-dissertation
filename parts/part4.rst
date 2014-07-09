@@ -58,7 +58,7 @@ to form doublets after 15 minutes (:num:`Fig #fig1a`).
 
 .. _fig1a:
 .. figure:: /figs/Fig_01-A.png
-    :width: 70%
+    :width: 50%
 
     Cell-sized liposome doublets. Doublets are indicated by white arrows in
     the field of view of a phase contrast microscope.
@@ -85,7 +85,7 @@ dark compared to the rest of the doublet.
 .. _fds:
 .. figure:: /figs/doublets-schema.png
     :alt: Formation doublet schema
-    :width: 90%
+    :width: 70%
 
     Formation of doublets: 1) In the presence of streptavidin, single liposome
     (a) aggregate into doublets (B). The addition of biotinylated actin
@@ -133,7 +133,7 @@ show in :num:`figure #fig-notations-doublets`.
 
 .. _fig-notations-doublets:
 .. figure:: /figs/notations-doublets.png
-    :width: 80%
+    :width: 50%
 
     Notation of parameters for doublets, |R1|, |R2|, |Ri| are respectively the
     radius of the liposome 1, the liposome 2 and the interface. |d| is the
@@ -177,7 +177,7 @@ the chamber, and trigger a shape change (:num:`Fig #doublets-contraction`) of th
 
 .. _doublets-contraction:
 .. figure:: /figs/doublet-contract.png
-    :width: 40%
+    :width: 30%
 
     Doublets contraction showing green channel (actin): Left doublets before
     myosin II injection. Right: doublets during contraction due to myosin II.
@@ -279,7 +279,7 @@ compared to the effect we see with myosin.
 
 .. _fig2a:
 .. figure:: /figs/Fig_02-A.png
-    :width: 80%
+    :width: 50%
 
     Image of the same doublet coated with fluorescent actin before i) ii) and
     after iii) iv) actin cortex disruption. The actin cortex is visualized by
@@ -288,7 +288,7 @@ compared to the effect we see with myosin.
 
 .. _fig2b:
 .. figure:: /figs/Fig_02-B.png
-    :width: 80%
+    :width: 50%
 
     Measurement of the contact angle between the two liposomes as a function of
     their volume, before (black) and after (white) disruption of the stabilized
@@ -322,7 +322,7 @@ system with our optical resolution.
 
 .. _confocal-stack:
 .. figure:: /figs/light_table.png
-    :width: 90%
+    :width: 70%
 
     Confocal stack of an liposome doublets, actin channel, 3D reconstruction in
     :num:`Figure #fig3a`. Note that there is no actin at the interface between
@@ -331,7 +331,7 @@ system with our optical resolution.
 
 .. _fig3a:
 .. figure:: /figs/Fig_03-A.png
-    :width: 80%
+    :width: 50%
 
     3D reconstruction of a doublet surrounded by actin. The absence of actin on
     the interface can be seen more easily on :num:`figure #confocal-stack`  
@@ -345,7 +345,7 @@ fitting spherical 3D caps on the 3D stack as explained :ref:`in later parts`.
 
 .. _fig3b:
 .. figure:: /figs/Fig_03-B.png
-    :width: 80%
+    :width: 50%
 
     Evolution of the contact angle compare to the initial one as a function of
     time. Each doublet is represented by a different line color. 
@@ -356,7 +356,7 @@ fitting spherical 3D caps on the 3D stack as explained :ref:`in later parts`.
 
 .. _fig3c:
 .. figure:: /figs/Fig_03-C.png
-    :width: 80%
+    :width: 50%
 
     Evolution of the distance between the two liposomes center over time.
     Same color code for same doublets as in figure :num:`#fig3b`, :num:`#fig3d`
@@ -366,7 +366,7 @@ fitting spherical 3D caps on the 3D stack as explained :ref:`in later parts`.
 
 .. _fig3d:
 .. figure:: /figs/Fig_03-D.png
-    :width: 80%
+    :width: 50%
 
     Evolution of the volume ratio over time.
     Same color code for same doublets as in figure :num:`#fig3b`, :num:`#fig3c`
@@ -441,7 +441,7 @@ agreement with the underestimates of the contact angle in epifluorescence.
 
 .. _fig3e:
 .. figure:: /figs/Fig_03-E.png
-    :width: 80%
+    :width: 50%
 
     Increase of the tension ratio between the tension :math:`\tau(t)`at time
     :math:`t` and the initial one :math:`\tau_0`. 
@@ -713,7 +713,7 @@ parameters.
 
 .. _ring-artifact:
 .. figure:: /figs/ring_artifact.png
-    :width: 90%
+    :width: 70%
 
     Left : One plane of the numerical model with exaggerated ring artifact due
     to an under sampling of the model in the Z-direction, stacks from "Far" Z
@@ -737,7 +737,7 @@ data (cf :num:`Figure #max-proj-model`), thus smoothing or eliminating local max
 
 .. _max-proj-model:
 .. figure:: /figs/max_proj_model.png
-    :width: 80%
+    :width: 70%
 
     Maximum projection along X,Y and Z of numerical model, the "ring" effect
     can still slightly be seen near the pole of each liposome, but is not
@@ -752,7 +752,7 @@ gaves us the 8 parameters of the doublets. Result of the fits are show in
 
 .. _fig-fit-t0:
 .. figure:: /figs/Doublet-402-A-Fit-t-0.png
-    :width: 80%
+    :width: 70%
 
     Maximum projection of confocal images in the X,Y and Z projection as well
     as the result of the fits shown as equatorial circles for the three

@@ -9,6 +9,7 @@ Contents
    parts/part2
    parts/part3
    parts/part4
+   parts/part5
    parts/extra
 ..    parts/physicalparameters
 ..  parts/spinning
