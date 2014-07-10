@@ -167,13 +167,14 @@ then use the inverse of :math:`\tau` as an indicator of activity.
 
 Once we have define the activity of a region of the cytoplasm of the cell, we
 can repeat the measurement on different area of the cytoplasm, and we can
-reproduce a map of the activity in the cell as a function of the position ( :num:`Fig #fig-activity-map`.
+reproduce a map of the activity in the cell as a function of the position (
+:num:`Fig #fig-activity-map`.
 
 .. _fig-activity-map:
 .. figure:: figs/CellAct-WT.png
     :width: 80%
 
-    Activity for different region of  20 by 20 pixels of a wild type oocyte.
+    Activity for different region of  10 by 10 pixels of a wild type oocyte.
     Value of :math:`1/\tau` plotted as color square overlay on to of the
     analysed bright field image. Example for an of a wild type oocyte. Scale
     bar is 20 µm. We can see that the activity is near the nucleus is lower
@@ -183,9 +184,23 @@ The measure of the correlation characteristic decay time can also be done on a
 time sliding widows. This allows for the determination of activity of a
 particular area of the cytoplasm with time.
 
-    
+
+Conclusion
+**********
+.. 2
 
 
+In this part we developed a methods that allow to determine the cytoplasmic
+activity. Tis methods also allow to determine the variation of this cytoplasmic
+activity with space and time. This methods is the study of oocyte as it allows
+to probe timescale from the second to the hour which is in the order of the
+relevant timescale for oocyte maturation of a few hours. It is also
+complementary to techniques like micro rheology that have difficulties probing
+timescale beyond tens of seconds due to thermal drift and cell movements, but
+reach much shorter timescale.
 
-
+The use of this technique is currently under investigation at Collège de France
+by Marie-Hélène Verhlac and Maria Almonacid. It is used to measure the activity
+of actin network in oocyte and determine their effect on the meiosis of mouse
+oocyte.
 
