@@ -24,7 +24,7 @@ oocyte where the nucleus can be seen positioned at the center of the cell.
 
 .. _oocytewt:
 
-.. figure:: /figs/oocyte-wild-type.png     
+.. figure:: figs/oocyte-wild-type.png     
     :alt: "Bright field image of an oocyte"
     :width: 60%
 
@@ -49,7 +49,7 @@ actin meshwork and oocytes injected  with the dominant-negative tail of Myosin
 Vb (:num:`Fig #fig3oo`)
 
 .. _fig3oo:
-.. figure:: /figs/3-oocytes.png
+.. figure:: figs/3-oocytes.png
     :width: 100%
 
     Bright field image microscopy of the 3 kinds of oocyte (Credit to Maria
@@ -78,7 +78,7 @@ the result for wild type (:num:`Fig #decay-wt`), Formin Knockout (:num:`Fig
 
 
 .. _decay-wt:
-.. figure:: /figs/decay-wt.png
+.. figure:: figs/decay-wt.png
     :width: 70%
 
     Bright field images of Wild type mouse oocyte at t=0, t=1m et t=174m as
@@ -89,7 +89,7 @@ the result for wild type (:num:`Fig #decay-wt`), Formin Knockout (:num:`Fig
     minute and 174 minute. Region show is the same as indicated in :num:`figure #fig3oo`.
 
 .. _decay-myo:
-.. figure:: /figs/decay-myo.png
+.. figure:: figs/decay-myo.png
     :width: 70%
 
 
@@ -101,7 +101,7 @@ the result for wild type (:num:`Fig #decay-wt`), Formin Knockout (:num:`Fig
     in :num:`Figure #decay-wt`. Region show is the same as indicated in :num:`figure #fig3oo`.
 
 .. _decay_fmn2:
-.. figure:: /figs/decay-fmn2.png
+.. figure:: figs/decay-fmn2.png
     :width: 70%
 
     Bright field images of Fmn2-/- mouse oocyte at t=0, t=1m et t=174m as well
@@ -147,7 +147,7 @@ Example of the result of calculating the correlation through time, and fitting
 a decaying exponential can be seen on :num:`figure  #fig-exp-decay`
 
 .. _fig-exp-decay:
-.. figure:: /figs/corrtime.png
+.. figure:: figs/corrtime.png
     :width: 65%
 
     Decreasing of autocorrelation off images  (solid line ) through time, with
@@ -167,10 +167,10 @@ then use the inverse of :math:`\tau` as an indicator of activity.
 
 Once we have define the activity of a region of the cytoplasm of the cell, we
 can repeat the measurement on different area of the cytoplasm, and we can
-reproduce a map of the activity in the cell as a function of the position ( :num:`Fig #ig-activity-map`.
+reproduce a map of the activity in the cell as a function of the position ( :num:`Fig #fig-activity-map`.
 
 .. _fig-activity-map:
-.. figure:: /figs/CellAct-WT.pnp
+.. figure:: figs/CellAct-WT.png
     :width: 80%
 
     Activity for different region of  20 by 20 pixels of a wild type oocyte.
