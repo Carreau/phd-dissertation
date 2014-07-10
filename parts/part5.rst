@@ -128,8 +128,62 @@ In which :math:`x_i` and :math:`y_i` are luminosity values of each of the
 the images, :math:`s_x` and :math:`s_y` are the standard deviation of the
 luminosity values.
 
+
+We can compare the decrease of correlation with time depending on the type of
+oocyte. In order to extract a single value that represent the activity, we can phenomenologically fit the correlation as a function of time with a decaying exponential with an offset :
+
+.. math:: 
+    :label: edecay
+
+    r(t) = (1-off).e^{(-t/\tau)}+off
+
+
+In which :math:`t` is time, and :math:`\tau` is the characteristic time of
+correlation decay. The offset  :math:`off` represent the value of the
+correlation at infinite time to take into account artifact in the chosen region
+of interest, and defect in the image that will not decorrelate through time. 
+
+Example of the result of calculating the correlation through time, and fitting
+a decaying exponential can be seen on :num:`figure  #fig-exp-decay`
+
+.. _fig-exp-decay:
 .. figure:: /figs/corrtime.png
+    :width: 65%
+
+    Decreasing of autocorrelation off images  (solid line ) through time, with
+    exponential decay fit (dotted lines) as in :eq:`edecay`, and value of the
+    characteristic decay time :math:`\tau` as legend. We can see that the
+    correlation of the images decrease much faster in wild type oocyte (red
+    curves, :math:`\tau \sim minute`) than in Formin knockout (blue lines
+    :math:`\tau \gt hour`) that lack the actin meshwork, or than the myosin Vb
+    tails dominant negative (green :math:`\tau > hour`)
+
+
+
+We see the value of the characteristic time increases with when we disrupt the
+actin network or the  source of its dynamism by inactivating Myosin Vb. We can
+then use the inverse of :math:`\tau` as an indicator of activity.
+
+
+Once we have define the activity of a region of the cytoplasm of the cell, we
+can repeat the measurement on different area of the cytoplasm, and we can
+reproduce a map of the activity in the cell as a function of the position ( :num:`Fig #ig-activity-map`.
+
+.. _fig-activity-map:
+.. figure:: /figs/CellAct-WT.pnp
     :width: 80%
+
+    Activity for different region of  20 by 20 pixels of a wild type oocyte.
+    Value of :math:`1/\tau` plotted as color square overlay on to of the
+    analysed bright field image. Example for an of a wild type oocyte. Scale
+    bar is 20 µm. We can see that the activity is near the nucleus is lower
+    (blue) than in the middle of the cytoplasm. 
+
+The measure of the correlation characteristic decay time can also be done on a
+time sliding widows. This allows for the determination of activity of a
+particular area of the cytoplasm with time.
+
+    
 
 
 
