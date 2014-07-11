@@ -155,7 +155,7 @@ a decaying exponential can be seen on :num:`figure  #fig-exp-decay`
     characteristic decay time :math:`\tau` as legend. We can see that the
     correlation of the images decrease much faster in wild type oocyte (red
     curves, :math:`\tau \sim minute`) than in Formin knockout (blue lines
-    :math:`\tau \gt hour`) that lack the actin meshwork, or than the myosin Vb
+    :math:`\tau > hour`) that lack the actin meshwork, or than the myosin Vb
     tails dominant negative (green :math:`\tau > hour`)
 
 

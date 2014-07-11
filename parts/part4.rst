@@ -5,39 +5,45 @@ Liposomes Doublets
 
 Introduction 
 *************
+
 .. Todo::
     check text
     change figure
 
-We have seen that in cells the actin cytoskeleton is a key component to form structures like the
-actin cortex that serve to transmit forces and gives cells mechanical rigidity. In order to drive shape changes
-cells regulate the mechanical properies of the sub-micrometer thick actin cortex that is found beneath the
-membrane :cite:`Clarke2013`. The dynamics of the actin cortex drives cell shape changes
-:cite:`Salbreux2012b` and the presence of the molecular motor myosin 2 plays a fundamental role for the
-tension of the acto-myosin cortex :cite:`Tinevez2009`. Cortical
-tension can be measured on cells to vary between 50 and 4000 pN/µm depending the activity of 
-actin and myosin.  These changes of the cortical tension are also affected by 
-cell-cell adhesions :cite:`Maitre2012` which have been shown to play a main role in cell
+We have seen that in cells the actin cytoskeleton is a key component to form
+structures like the actin cortex that serve to transmit forces and gives cells
+mechanical rigidity. In order to drive shape changes cells regulate the
+mechanical properties of the sub-micrometer thick actin cortex that is found
+beneath the membrane :cite:`Clarke2013`. The dynamics of the actin cortex
+drives cell shape changes :cite:`Salbreux2012b` and the presence of the
+molecular motor myosin 2 plays a fundamental role for the tension of the
+acto-myosin cortex :cite:`Tinevez2009`. Cortical tension can be measured on
+cells to vary between 50 and 4000 pN/µm depending the activity of actin and
+myosin.  These changes of the cortical tension are also affected by cell-cell
+adhesions :cite:`Maitre2012` which have been shown to play a main role in cell
 sorting. 
 
-Recently, such acto-myosin cortices have been reconstructed on cell-sized liposomes
-:cite:`Carvalho2013a` which showed that the attachment of the actin cortex to the
-membrane plays a crucial role in the behavior and contractility of the acto-myosin network. 
+Recently, such acto-myosin cortices have been reconstructed on cell-sized
+liposomes :cite:`Carvalho2013a` which showed that the attachment of the actin
+cortex to the membrane plays a crucial role in the behavior and contractility
+of the acto-myosin network. 
 
-In the present study, I collaborated with Kévin Carvalho and Joël Lemière to further extend the
-previously developped system :cite:`Carvalho2013a` witht he aim to monitor the cortical tension
-changes in a biomimetic actin cortex formed on liposomes. My principal contribution was the
-analysis of the 3D data that was acquired using Spinning Disk Microscopy. For the analysis I
-developped a novel method to get an precise and
-unbiased measure of the geometrical parameter.
+In the present study, I collaborated with Kévin Carvalho and Joël Lemière to
+further extend the previously developed system :cite:`Carvalho2013a` with the
+aim to monitor the cortical tension changes in a biomimetic actin cortex formed
+on liposomes. My principal contribution was the analysis of the 3D data that
+was acquired using Spinning Disk Microscopy. For the analysis I developed a
+novel method to get an precise and unbiased measure of the geometrical
+parameter.
 
-To determine the role of cortical tension in cells, recent work used cell doublets :cite:`Maitre2012`.
-Here we form similar doublets from liposomes around which we polymerize an actin
-cortex `in vitro` (REF RO FIGURE 5.1). The shape changes of these liposome doublets allow the time dependent
-monitoring of cortical tension in a non-invasive way.
-In this project we hence develop a method for the precise aquisision of doublet deformation
-in order to determine accurately the increase of tension induced by the
-injection of myosin motor on the preformed actin cortex.
+To determine the role of cortical tension in cells, recent work used cell
+doublets :cite:`Maitre2012`.  Here we form similar doublets from liposomes
+around which we polymerize an actin cortex `in vitro` (:num:`Fig #fig1a`). The
+shape changes of these liposome doublets allow the time dependent monitoring of
+cortical tension in a non-invasive way.  In this project we hence develop a
+method for the precise acquisition of doublet deformation in order to determine
+accurately the increase of tension induced by the injection of myosin motor on
+the preformed actin cortex.
 
 
 Experimental description
