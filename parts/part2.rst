@@ -57,9 +57,8 @@ ATP Mix Buffer
 ==============
 .. 3
 
-ATP-Mix buffer of simply `Mix` containing the ATP necessary for actin
-polymerisation,  It is aliquoted and stored at -20°C. or on ice for Weekly use, dilutions are
-made using X-Buffer. pH is adjusted between 7.5 and 8.0.
+ATP-Mix buffer or simply `Mix` containing the ATP necessary for actin
+polymerisation,  It is aliquoted and stored at -20°C. Kept on ice for Weekly use. pH is adjusted between 7.5 and 8.0.
 
     - 12.0 mM ATP,
     - 20,0 mM DDT
@@ -77,7 +76,10 @@ Protein preparation
 pWA
 ===
 
-pWA is conserved at -80°C, never refrozen and conserved on ice for daily use.
+pWA is use as a nucleation promoting factor. It is expressed from Human pVCA
+(verprolin homology central and acidic domain) and expressed into Rosetta
+2(DE3) pLysS (Novagen) Cell.  Purified pWA is conserved at -80°C, never
+refrozen, and conserved on ice for daily use.
 
 
 Actin
@@ -90,9 +92,9 @@ Fluorescent Alexa-488 actin is obtained from Molecular Probes and stored at -80�
 Actin is stored in aliquots of 5µL at a concentration of ~238 µM, and
 fluorescent actin in aliquots of 3µm with a concentration of ~106 µM.
 
-G-actin with 20% fluorescently actin  monomers is prepared the day before the
-experiments by mixing 1 aliquots of each and diluting with G-Buffer until
-desired concentration.
+G-actin with 20% fluorescently label actin  monomers is prepared the day before
+the experiments by mixing 1 aliquots of actin with 1 aliquot of fluorescently
+labeled actin and diluting with G-Buffer until desired concentration.
 
 
 profiline
@@ -133,7 +135,7 @@ Capping protein
 =================
 .. 3
 
-Mouse capping protein (CP; a1/b2) is purified as previously described in :cite:`Soeno1998` was a gift from Laurent Blanchoin 
+Mouse capping protein (CP; a1/b2) is purified as previously described in :cite:`Soeno1998` was a gift from Laurent Blanchoin .
 
 Myosin II
 =========
@@ -141,7 +143,7 @@ Myosin II
 
 Myosin II is purified from rabbit skeletal muscle, and fluorescent myosin II is
 prepared as previously described in :cite:`SoareseSilva2011`. Functionality of
-Myosin I is confirmed by motility assays. Gliding speed shows an average of 4.5
+Myosin II is confirmed by motility assays. Gliding speed shows an average of 4.5
 + 1.5 µm/s (N = 27)
 
 The working buffer for Myosin contains 
@@ -176,8 +178,7 @@ doublets preparation
 ********************
 .. 2
 
-Cell-sized liposomes are formed by electro formation :cite:`Angelova1986`
-
+Cell-sized liposomes are formed by electro formation :cite:`Angelova1986`.
 20 µL mix of EPC lipids and PEG-biotin lipids (present at 0.1 %, mol ) with a
 concentration of 2.5 mg/ml in chloroform/methanol 5:3 are deposited on glass
 plates coated with  ITO. Glass is then dried with  nitrogen; placed
@@ -191,10 +192,12 @@ An alternate current voltage of 1V and 10 Hz is applied between the ITO-coated
 surfaces for 75minutes to form liposomes.
 
 Formed liposomes are incubated 15 minutes with 160 nM streptavidin in order to
-coat them with streptavidin. Liposomes coated with streptavidin tends to aggregates. 
-Diluted 30 times and waiting 15 minutes increase the ratio doublets/single liposome by still avoiding aggregates of more liposome.
+coat them with streptavidin. Liposomes coated with streptavidin tends to
+aggregates.  Solution containing doublets is then diluted 30 times. Waiting
+15 minutes increase the ratio doublets/single liposome by still avoiding
+aggregates of more liposome.
 
-A bulk solution of 40 µM actin monomers — 10% fluo — 0.25% biotinylated is
+A bulk solution of 40 µM actin monomers — 10% fluo and 0.25% biotinylated — is
 diluted 40 times in working buffer (25 mM imidazole, 50 mM KCl, 70 mM sucrose,
 1mM Tris, 2 mM MgCl2, 1 mM ATP, 0.1 mM DTT, 0.02 mg/ml β-casein, adjusted at a
 pH 7.4) and polymerized for one hour. The adjunction of 1 µm of phalloidin
@@ -252,7 +255,7 @@ Preparation of sample
 
 
 Equal amount of each actin and probe beads are are placed in the polymerization
-mix consisting : 
+mix consisting of : 
 
     - 2µL BSA at 10%
     - 3µL of ATP-Mix Buffer
@@ -281,11 +284,17 @@ QPD positioning and calibration of microscope
 The prepared sample is placed on the microscope and a drop of water is
 deposited on top of the upper coverslip to assure immersion of the light
 collecting objective. The collecting objective and the quadrant photodiode are
-place on top of the sample.
+place on top of the sample (:num:`Fig #ots-2`).
 
-.. todo::
-    figure setup.
 
+.. _ots-2:
+.. figure:: /figs/setup-plus-1.png
+    :alt: schematic of setup plus one
+    :width: 60%
+
+    Schematic of experimental setup. The QPD situated after the collector allow
+    to determine the force exerted on the trapped sample. It need to be
+    correctly position before each experiment.    
 
 The trapping laser is then aligned with the photodiode while verifying that no
 object is trapped during the process. The conjugation of the back focal planes
@@ -303,16 +312,30 @@ Initial bead trapping
 
 Two maximum strength trap (~50mW/trap) are created near the center of the
 microscope field of view, separated by 15 to 20 µm. The traps are then moved in
-the Z-direction near the middle plane of the chamber by displacing the 3D piezo controlled stage. Temporarily removing the
-Infra Red filter from the microscope allows to see the reflection of the
-trapping lasers on the upper and lower coverslip and to determine the localisation
-of the middle plane of the observation chamber.
+the Z-direction near the middle plane of the chamber by displacing the 3D piezo
+controlled stage. Temporarily removing the Infra Red filter (:num:`Fig #ots-2`)
+from the microscope allows to see the reflection of the trapping lasers on the
+upper and lower coverslip and to determine the localisation of the middle plane
+of the observation chamber.
+
+.. figure:: figs/frontend.png
+    :width: 80%
+
+    Software responsible for controlling the optical tweezer.  Sample
+    containing 2 polystyrene bead and a trap (A, white cross) holding one bead.
+    Cursors (B,C) are available to displace the optical trap(s) .  Cursors can
+    control the position of the stage is X (D), Y (E, blue) and Z (E,red).
+    Blue Rectangle highlight the slider that allow to control trap power.  Red
+    Rectangle highlight the area when some of the parameter of the experiment
+    can be set (approach speed, resting time at closest point). 3 indicators at
+    the bottom of the screen indicate the voltage on the QPD.
+
 
 The operator then captures one probe-bead and one actin-bead in each of the
 traps.  Both types of beads can be recognized using fluorescent microscopy, as
 actin-beads are promptly cover with a fluorescent actin 
 which  can clearly be distinguished from the probe bead that remain dark.
-In the case where 2 identical beads are traped one of the two traps can selectively
+In the case where 2 identical beads are trapped one of the two traps can selectively
 be disabled or decreased in stiffness, letting the bead escape from  the trap,
 and the procedure can be repeated.
 
@@ -440,92 +463,96 @@ Oocyte obtention
 ================
 .. 3
 
-Get help from Maria
+Oocyte culture, collection and micro injection where done at College de France by Maria Almonacid.
 
-Oocytes were collected from XX week old mice (WT), fmn2-/- as previously described.....
+Oocytes were collected from 11 to 15 week old mice (WT), fmn2-/- as previously
+described in :cite:`Holubcova2013` and maintained in Prophase I in M2+BSA
+supplemented with  1µM Milrinone. Oocyte are then injected with cRNA  using a
+micro-injector Eppendorf FemtoJet. Imaging was carried at :math:`37^\circ{}C`.
+
 
 .. _oocyte_preparation:
 
-Oocyte preparation
-==================
-.. 3
+.. Oocyte preparation
+.. ==================
+.. .. 3
+.. 
+.. Live oocytes were embedded in a collagen gel to reduce movement of the overall
+.. cell during measurements.
+.. 
+.. 
+.. Collagen gel was made by mixing the following components :
+.. 
+..     - M2 medium (33.5μL)
+..     - 1X PBS (10 μL)
+..     - NaOH (1M, 0.9 μL)
+..     - collagen (3.6 mg/mL, 55.6 μL) 
+.. 
+.. Which gives a final collagen concentration of 2 mg/ml in 100 μL. pH was
+.. adjusted to be around 7.4. 
+.. 
+.. 20 µL of the collagen solution was deposited on a coverslip. Before full
+.. polymerisation of the collagen occured 3 to 8 oocyte where deposited inside the
+.. droplet separated from each other by tens of micrometers. 
+.. 
+.. Droplet is then covered with another coverslip. Dow Corning vacuum grease is
+.. used both as a spacer and seal to minimize evaporation. The sample is left to
+.. polymerize in a humid environment at 37°C for 30 minutes.
+.. 
+.. Optical trap laser is then calibrated as in :ref:`laser_calibration`.
+.. 
+.. 
+.. .. _passive_microrheology:
 
-Live oocytes were embedded in a collagen gel to reduce movement of the overall
-cell during measurements.
-
-
-Collagen gel was made by mixing the following components :
-
-    - M2 medium (33.5μL)
-    - 1X PBS (10 μL)
-    - NaOH (1M, 0.9 μL)
-    - collagen (3.6 mg/mL, 55.6 μL) 
-
-Which gives a final collagen concentration of 2 mg/ml in 100 μL. pH was
-adjusted to be around 7.4. 
-
-20 µL of the collagen solution was deposited on a coverslip. Before full
-polymerisation of the collagen occured 3 to 8 oocyte where deposited inside the
-droplet separated from each other by tens of micrometers. 
-
-Droplet is then covered with another coverslip. Dow Corning vacuum grease is
-used both as a spacer and seal to minimize evaporation. The sample is left to
-polymerize in a humid environment at 37°C for 30 minutes.
-
-Optical trap laser is then calibrated as in :ref:`laser_calibration`.
-
-
-.. _passive_microrheology:
-
-Passive Microrheology
-*********************
-.. 2
-
-Passive microrheology was performed on vesicles inside the prepared in oocytes. To
-do so, vesicle present in :ref:`prepared oocytes <oocyte_preparation>` were
-trapped using a :ref:`single optical trap <time_shared_ot>`.
-
-After :ref:`Laser Calibration <laser_calibration>`, one of the oocytes is
-brought into the field of view of the microscope and the oocyte is move until
-nucleus is into view and in microscope focal plane. The optical tweezer is
-positioned on a vesicle and set to a low power (1mW)  and is used only to
-record the spontaneous motion of the endogenous vesicle for 10 seconds without
-trapping them.  The recorded 10s trajectory are hereafter restricted to a
-displacement of 500nm to remain in the linear regime of the photodiode.
-
-A bright field picture of the sample is automatically taken before and after each
-passive microrheology measurement.
-
-From the recorded displacement the power spectral density of the vesicle displacement is calculated.
-
-After performing passive microrheology measurement, :ref:`active microrheology
-measurements <active_microrheology>` are made on the same vesicle.
-
-
-.. _active_microrheology:
-
-Active Microrheology
-********************
-.. 2
-
-Active microrheology was performed on vesicle present on prepared oocytes.
-Active microrheology was done on the same vesicle than :ref:`passive rheology
-measurement <passive_microrheology>`. 
-
-Oocyte :ref:`previously prepared <oocyte_preparation>` are put in the 
-microscope's field of view with the focal plane passing through the nucleus. A
-vesicle is selected and the trapping later is positioned on it at maximum
-trapping power (:math:`~120 mW`). A series of sinusoidal displacement (:math:`u`) of known
-amplitude, frequency and direction are then applied to the trapping tweezer while the
-force (:math:`F`) exerted on endogenous vesicle is recorded by the QPD. 
-
-In our experiments, the applied displacement had an amplitude :math:`\pm 0.5 \mu
-m`.  The frequencies of the applied displacement were selected to be
-exponentially spaced from 1Hz, to 50kHz. Each sinusoidal displacement duration
-was chosen to be at minimum 500ms or 8 periods. 
-
-For each frequency the response function of the material can be computed by
-dividing the displacement by the force at given frequency.
+.. Passive Microrheology
+.. *********************
+.. .. 2
+.. 
+.. Passive microrheology was performed on vesicles inside the prepared in oocytes. To
+.. do so, vesicle present in :ref:`prepared oocytes <oocyte_preparation>` were
+.. trapped using a :ref:`single optical trap <time_shared_ot>`.
+.. 
+.. After :ref:`Laser Calibration <laser_calibration>`, one of the oocytes is
+.. brought into the field of view of the microscope and the oocyte is move until
+.. nucleus is into view and in microscope focal plane. The optical tweezer is
+.. positioned on a vesicle and set to a low power (1mW)  and is used only to
+.. record the spontaneous motion of the endogenous vesicle for 10 seconds without
+.. trapping them.  The recorded 10s trajectory are hereafter restricted to a
+.. displacement of 500nm to remain in the linear regime of the photodiode.
+.. 
+.. A bright field picture of the sample is automatically taken before and after each
+.. passive microrheology measurement.
+.. 
+.. From the recorded displacement the power spectral density of the vesicle displacement is calculated.
+.. 
+.. After performing passive microrheology measurement, :ref:`active microrheology
+.. measurements <active_microrheology>` are made on the same vesicle.
+.. 
+.. 
+.. .. _active_microrheology:
+.. 
+.. Active Microrheology
+.. ********************
+.. .. 2
+.. 
+.. Active microrheology was performed on vesicle present on prepared oocytes.
+.. Active microrheology was done on the same vesicle than :ref:`passive rheology
+.. measurement <passive_microrheology>`. 
+.. 
+.. Oocyte :ref:`previously prepared <oocyte_preparation>` are put in the 
+.. microscope's field of view with the focal plane passing through the nucleus. A
+.. vesicle is selected and the trapping later is positioned on it at maximum
+.. trapping power (:math:`~120 mW`). A series of sinusoidal displacement (:math:`u`) of known
+.. amplitude, frequency and direction are then applied to the trapping tweezer while the
+.. force (:math:`F`) exerted on endogenous vesicle is recorded by the QPD. 
+.. 
+.. In our experiments, the applied displacement had an amplitude :math:`\pm 0.5 \mu
+.. m`.  The frequencies of the applied displacement were selected to be
+.. exponentially spaced from 1Hz, to 50kHz. Each sinusoidal displacement duration
+.. was chosen to be at minimum 500ms or 8 periods. 
+.. 
+.. For each frequency the response function of the material can be computed by
+.. dividing the displacement by the force at given frequency.
 
 
 

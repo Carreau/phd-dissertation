@@ -21,6 +21,13 @@
    inkscape:export-ydpi="300.01093">
   <defs
      id="defs4751">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-160.33154 : -2.3114487 : 0"
+       inkscape:vp_y="2.3871046e-14 : 374.84594 : 0"
+       inkscape:vp_z="114.28894 : 108.14534 : 0"
+       inkscape:persp3d-origin="1643.6261 : 1425.6749 : 1"
+       id="perspective4085" />
     <linearGradient
        id="linearGradient18554">
       <stop
@@ -537,8 +544,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5269752"
-     inkscape:cx="828.30209"
-     inkscape:cy="1097.102"
+     inkscape:cx="1251.4719"
+     inkscape:cy="717.5775"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -561,7 +568,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -981,11 +988,11 @@
       </g>
     </g>
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.19827588;color:#000000;fill:#0a86c5;fill-opacity:1;stroke:none;stroke-width:10.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-       d="m 186.6713,1105.8946 34.81714,580.2124 -234.463694,-9.8495 4.7241179,65.4997 228.5513461,-7.8905 33.54354,-29.5254 13.28336,-24.7574 47.22189,-577.7299 -67.90087,9.1879 z"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.19827587999999999;color:#000000;fill:#ed9f4e;fill-opacity:1;stroke:none;stroke-width:10.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m 186.6713,1105.8946 16.5632,285.5066 88.34682,-1.5109 22.76768,-288.0363 -67.90087,9.1879 z"
        id="path12676"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+       sodipodi:nodetypes="cccccc" />
     <path
        style="fill:#0a87c3;fill-opacity:0.2;stroke:none"
        d="m 273.75134,1481.6642 c 0,0 -503.05597,18.1827 -510.12703,18.1827 -7.07107,0 -63.63962,-20.2031 -63.63962,-20.2031 l -7.07106,76.7716 c 0,0 66.67006,-18.1828 70.71067,-19.1929 4.04061,-1.0102 450.52804,3.0305 450.52804,3.0305 z"
@@ -2067,5 +2074,30 @@
          y="1340.5588"
          style="font-size:36px"
          id="tspan3931">CCD Camera</tspan></text>
+    <rect
+       style="opacity:0.6;fill:#fc6464;fill-opacity:1;stroke:#000000;stroke-width:2.6500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3277"
+       width="182.17177"
+       height="22.771471"
+       x="152.87135"
+       y="1385.7698" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3279"
+       y="1407.3408"
+       x="370.55383"
+       style="font-size:37.17787552px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica"
+       xml:space="preserve"><tspan
+         style="font-size:36px"
+         y="1407.3408"
+         x="370.55383"
+         id="tspan3281"
+         sodipodi:role="line">IR Filter</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3283"
+       d="m 204.82979,1408.4979 16.65865,277.6091 -234.463694,-9.8495 4.7241179,65.4997 228.5513461,-7.8905 33.54354,-29.5254 13.28336,-24.7574 22.14306,-270.9063 z"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.19827588;color:#000000;fill:#0a86c5;fill-opacity:1;stroke:none;stroke-width:10.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
   </g>
 </svg>

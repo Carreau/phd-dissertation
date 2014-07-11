@@ -149,28 +149,7 @@ like in drosophila oocyte maturation where it positions the nurses cell away
 from the dumping canal :cite:`Huelsmann2013`. In a later chapter (:ref:`Organelle
 Positionning <organelle_positioning>`) we will develop a few keys points where
 actin is indispensable in organelle positioning and how this relate to the
-biomimetic actin networks we reconstitute. :num:`Figure #oocytewt` shows a mouse
-oocyte where the nucleus can be seen positioned at the center of the cell.
-
-.. todo:
-
-    Maybe mention that actin is important in this positioning.
-
-.. _oocytewt:
-
-.. figure:: /figs/oocyte-wild-type.png     
-    :alt: "Bright field image of an oocyte"
-    :width: 60%
-
-    Bright field image of a mouse oocyte before meiosis. Cell diameter is of
-    80µm. The nucleus can be clearly seen at the center of the cell. The
-    nucleus is positioned at the center of the oocyte during Meiosis I by the
-    help of the actin network. The positioning is a crucial factor for the
-    normal division of the oocyte.  Oocytes are a good reference system  by
-    their symmetry and their sufficient size that help measuring spatial
-    variation of mechanical properties.  Image Credit to Maria Almonacid from
-    Collège de France.
-
+biomimetic actin networks we reconstitute. 
 
 .. _intro-cyto:
 

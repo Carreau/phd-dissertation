@@ -674,7 +674,7 @@ beam of light toward the plane of observation. The light also having a non
 negligible radiation  pressure, object in the second half cone of diverging
 light beyond the observation plane are often repel away from the trap.
 
-
+.. _setup:
 .. figure:: /figs/ot1.png
     :alt: schematic of setup plus one
     :width: 70%
@@ -725,7 +725,7 @@ to each trap and though stiffness of relevant trap.
     :width: 90%
 
     A schematic of  setup used. The following elements can be distinguished. An
-    1064nm laser s used for trapping. It first passes through two AODs that
+    1064nm laser is used for trapping. It first passes through two AODs that
     move the position of the trap in the X  and Y direction.  The first couple
     of lenses (L1,L2) between AODs assure that AODs are in conjugated planes.
     The second pair of lens (L3,L4) imaged the AODs plane in back-focal plane

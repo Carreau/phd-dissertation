@@ -6,10 +6,6 @@ Liposomes Doublets
 Introduction 
 *************
 
-.. Todo::
-    check text
-    change figure
-
 We have seen that in cells the actin cytoskeleton is a key component to form
 structures like the actin cortex that serve to transmit forces and gives cells
 mechanical rigidity. In order to drive shape changes cells regulate the
@@ -75,16 +71,20 @@ Formation of actin cortex on doublets
 =====================================
 .. 3
 .. DOn't you describe this is in the mateiral and methods? You should refer to ti!
-Formation of the actin network on doublets is done similar as described recently :cite:`Carvalho2013a`. 
-Briefly, actin filaments including biotinylated monomers are stabilized by phalloidin
-and linked to PEG-Biotin lipids (DETAILS!) via straptavidin that is present in the solution (:num:`Fig #fig1b`). 
-Besides linking the actin to the membrane, it also cross-links the filaments. 
-Such a network has already been
-characterized recently :cite:`Carvalho2013a`.  Note that as the actin monomers(FILAMENTS??) are only added
-after the formation of the doublets, the interface between the two liposomes composing 
-the doublets remains free of F-actin (:num:`Fig #fig1c`, :num:`#fds`). As the actin added
-is fluorescent, the absence of actin at the liposome interface can be checked by epifluorescence as it appears
-dark compared to the rest of the doublet(:num:`Fig #fig1c`).
+
+
+Formation of the actin network on doublets is done similar as described
+recently :cite:`Carvalho2013a`.  Briefly, actin filaments including
+biotinylated monomers are stabilized by phalloidin and linked to PEG-Biotin
+lipids (cf :ref:`materials and methods <m_et_m>`)  via streptavidin that is
+present in the solution (:num:`Fig #fig1b`).  Besides linking the actin to the
+membrane, it also cross-links the filaments.  Such a network has already been
+characterized recently :cite:`Carvalho2013a`.  Note that as the actin filaments
+are only added after the formation of the doublets, the interface between the
+two liposomes composing the doublets remains free of F-actin (:num:`Fig
+#fig1c`, :num:`#fds`). As the actin added is fluorescent, the absence of actin
+at the liposome interface can be checked by epifluorescence as it appears dark
+compared to the rest of the doublet(:num:`Fig #fig1c`).
 
 .. scheme equilibrium tension contact angle.
 
@@ -122,11 +122,12 @@ Visualisation of the interface
     labeled in green. Scale bar 5µm.
 
 
-
+.. (ARE YOU SURE? THIS STILL SEEMS TO BE A HUGE CONCENTRATION!)
+.. Yes it is 0.9 µM, I checked with K
 
 To visualise the interface between the liposomes, and to avoid the use of fluorescent
 lipids that may affect the membrane mechanics :cite:`Sandre1999` the inside
-buffer of approximatey half the liposomes are labeled with 0.9 µM (ARE YOU SURE? THIS STILL SEEMS TO BE A HUGE CONCENTRATION!)
+buffer of approximately half the liposomes are labeled with 0.9 µM 
 of sulphorhodamin B (SRB)
 eventually leading to half of the doublets containing a single fluorescent liposome (:num:`Fig #fig1c` i and iii).
 
@@ -158,10 +159,10 @@ parameters of the doublets which are :
       interface and each of the liposomes :math:`\theta_1,\theta_2`
     - The distance between the liposome centers.
 
-This model has a rotational symmetry along the axis connecting the
-center of the three liposomes. We thus only consider one of the equatorial
-planes when referring to the model. Unless otherwise specified, all components
-outside of such a plane are null (HAE? I DON'T UNDERSTAND THIS PHRASE).
+.. This model has a rotational symmetry along the axis connecting the
+.. center of the three liposomes. We thus only consider one of the equatorial
+.. planes when referring to the model. Unless otherwise specified, all components
+.. outside of such a plane are null (HAE? I DON'T UNDERSTAND THIS PHRASE).
 
 Experimental Observations
 *************************
@@ -181,7 +182,7 @@ and green (actin) channel.
 
 Muscle Myosin II that forms :ref:`bipolars filaments <myoII>` is carefully injected into
 the chamber, and leads within minutes to a shape change (:num:`Fig #doublets-contraction`) 
-of the doublets due to the contraction of the actin cotex. 
+of the doublets due to the contraction of the actin cortex. 
 
 .. _doublets-contraction:
 .. figure:: /figs/doublet-contract.png
@@ -199,13 +200,13 @@ The distance between the liposome centers decreases as the total angle :math:`\t
 = \theta_1+\theta_2` increases. The contact angle and other parameters of the
 doublets are obtained by fitting spherical caps onto the 2D epifluorescence
 images or on the 3D confocal stack as :ref:`described later <full3dfit>`.  In the absence of myosin, the
-contact angle |theta| is measured to be :math:`\theta = 64 \pm 16 ^{\circ}` (n=??) whereas in
+contact angle |theta| is measured to be :math:`\theta = 64 \pm 16 ^{\circ}` (n=18) whereas in
 the presence of myosin II (200 nM) we find a value of :math:`\theta = 86 \pm 21
-^{\circ}` (n=??). Measurements of the contact angle after myosin II injection are done before the cortex
+^{\circ}` (n=5). Measurements of the contact angle after myosin II injection are done before the cortex
 ruptures as characterized in :cite:`Carvalho2013a`.
 
 Relation between the angles and tension
-========================
+=======================================
 .. 3
 
 .. |tau1| replace:: :math:`\tau_1`
@@ -222,7 +223,7 @@ Relation between the angles and tension
 Each liposome has its respective tension |tau1|, and |tau2|.  In the absence
 of the biomimetic acto-myosin cortex these tensions correspond only to the
 tension of the liposome membrane. The interface between the two liposomes is
-formed by two lipid bilayers, and the interfacial tension is composed of two contributions:
+formed by two lipid bilayers, and the inter facial tension is composed of two contributions:
 The tension of the lipid bilayer, noted |taui|, and the
 adhesion energy per surface unit |W| due to the biotin-streptavidin-biotin link
 between the two lipid bilayers. The total tension at the interface can thus be
@@ -230,14 +231,34 @@ written :math:`\tau_t = \tau_i -W`. (Why -? How do you define the interaction en
 
 
 As the movement of the contact line during the contraction is slow (order of
-µm/min) compared to pressure equilibration across the doublet, we can consider the contact line between the liposomes and the interface
-to be at equilibrium. Hence, we can apply Young's (the LAPLACE????) equation over time (WHAT DO YOU MEAN? OVER TIME SOUNDS LIKE 'A FUNCTION OF TIME'.).
-(GIVE THE EQUATION)!!
+µm/min) compared to pressure equilibration across the doublet, we can consider
+the contact line between the liposomes and the interface to be at equilibrium.
+Hence, we can apply Young's equation : 
+
+.. math::
+
+    \sum_{k \in interfaces} \tau_k. \vec t_k  = \vec 0 \\
+    \tau_i \vec t_i + \tau_1 \vec t_1 + \tau_2 \vec t_2 + = \vec 0
+    
+In which :math:`t_k` are the vectors tangent to the interface at the point of
+contact, as described in :num:`figure #fig-yd`
+
+.. _fig-yd:
+.. figure:: figs/yd.png
+    :width: 60%
+
+    Equilibrium of the contact line. Each interfaces pull on the line with a
+    force proportional to its tension. As the contact line is at equilibrium
+    the some of the force compensate which allow to get a relation between the
+    tensions and the contact angles.
+
+    
+
 This allows
 to relate the tension of each of the lipid layers and the angle
 between them at each each instance of the contraction. We can in particular project
-the result of this (WHICH, you ned to give it!) equation onto the direction of the contact surface
-tangent : 
+the result of this equation onto the direction of the contact surface
+tangent (dotted line on :num:`figure #fig-yd`): 
 
 .. Math::
     :label: young-tangent
@@ -251,7 +272,6 @@ And on the direction perpendicular to it :
 
      \tau_1.sin(\theta_1) = \tau_2.sin(\theta_2)
 
-(YOU NEED TO INCLUDE A FIGURE! I DON'T UNERSTAND ANYTHING HERE. WHAT PROJECTION? IS \tau_2 - W = \tau_1 -W? THIS NEED TO BE FIXED!!!) 
 These equations link the tension to the contact angle both before, during and
 after the contraction and hence remain correct during the experiment. In the following we will mark the values 
 before the contraction phase by
@@ -284,12 +304,12 @@ In order to investigate the increase of tension due to the acto-myosin network
 on liposomes, we first characterise the increase that is only due to the addition of the actin-shell in
 the absence of myosin. By destroying the F-actin via photo-bleaching (:num:`Fig #fig2a`) we compare the shape of the
 same doublets in the presence and absence of the actin-shell. It should be noted that it is established that the 
-actin filaments are destroyed by the bleaching as it frees oxigen radicals that denature the actin monomers. Hence, the bleaching process
-actually destroys the atin cortex (REF!!!).
+actin filaments are destroyed by the bleaching as it frees oxygen radicals that denature the actin monomers. Hence, the bleaching process
+actually destroys the actin cortex (:cite:`VanDerGucht2005`).
 This investigation showed that the total contact
-angle changes by :math:`3.4 \pm 2.0 ^{\circ}` (n=?) after disruption (:num:`Fig #fig2b`) of the actin network.
-Thus we conclude that the effect of the actin-shell is small and negligible
-compared to the effect we see with myosin (WHAT IS THE CHANGE WITH ACTIN?). 
+angle changes by :math:`3.4 \pm 2.0 ^{\circ}` (n=7) after disruption (:num:`Fig #fig2b`) of the actin network.
+Thus we conclude that the change of tension due of the actin-shell is small and negligible
+compared to the change in tension we see with myosin. 
 
 .. _fig2a:
 .. figure:: /figs/Fig_02-A.png
@@ -304,24 +324,24 @@ compared to the effect we see with myosin (WHAT IS THE CHANGE WITH ACTIN?).
 .. figure:: /figs/Fig_02-B.png
     :width: 50%
 
-    Measurement of the contact angle between the two liposomes forming the doublet before (black) 
-    and after (white) disruption of the stabilized
-    actin cortex as a function of their volume. 
+    Measurement of the contact angle between the two liposomes forming the
+    doublet before (black) and after (white) disruption of the stabilized actin
+    cortex as a function of their volume. 
+
 
 
 .. _3d-obs:
+
 3D observation
 **************
 .. 2
 
 Three dimensional imaging of the doublets is necessary to get the correct
-contact angle. This requirement comes from the fact that in simple 2D epiflourescence 
-images, the focal plane has to correspond to the equitorial plane of the doubles. I
-f this is not the case, the fit will produce a systematic underestimation of the contact angle. 
+contact angle. This requirement comes from the fact that in simple 2D epifluorescence 
+images, the focal plane has to correspond to the equatorial plane of the doubles. If
+this is not the case, the fit will produce a systematic underestimation of the contact angle. 
 This is especially the case when doublets are of different radii as typically found in our
-experiments, where the liposomes composing the doublets have an (average?) ratio of :math:`R_1 / R_2 \in
-[1.15:1.82]` (??? is this in µm/µm? is this an average value? If son what is the error. 
-If it gives a range, why not simply saying between 1.15 and 1.82??).
+experiments, where the liposomes composing the doublets have an ratio of :math:`R_1 / R_2` between 1.15 and 1.82.
 
 
 .. _confocal-stack:
@@ -338,11 +358,13 @@ If it gives a range, why not simply saying between 1.15 and 1.82??).
     :width: 50%
 
     3D reconstruction of a doublet surrounded by actin. The absence of actin on
-    the interface can be seen more easily on :num:`figure #confocal-stack`. (It would be good to have here an image tht gives an impression of the 3D structure. The reconstruction given looks like a simple 2D image. I think imaris can produce nicer examples.)
+    the interface can be seen more easily on :num:`figure #confocal-stack`. 
+    
+.. (It would be good to have here an image tht gives an impression of the 3D structure. The reconstruction given looks like a simple 2D image. I think imaris can produce nicer examples.)
     
 
 Time resolved 3D Spinning disk stacks (:num:`Fig #confocal-stack` with 3D reconstruction
-:num:`Fig #fig3a`) are recorded with a time respution of xx sec per stack for an accurate determination of the different
+:num:`Fig #fig3a`) are recorded with a time resolution of less than 5 seconds per stack for an accurate determination of the different
 parameters of the doublet over time. The analysis reveals: the contact angle |theta| (:num:`Fig #fig3b`) , the
 volume of the doublet |V| (:num:`Fig #fig3d`) and the distance between liposome
 centers :math:`d` (:num:`Fig #fig3c`). All theses parameters are obtain by
@@ -353,11 +375,11 @@ fitting spherical 3D caps on the 3D stack as explained :ref:`in later parts`.
     :width: 50%
 
     Evolution of the contact angle compare to the initial one as a function of
-    time. (BEFORE YOU DEFINE THETA_0, AND NOW YOU CALL IT \theta^I_tot. Be consistent!!!!) Each doublet is represented by a different color. The color code corresponds to the doublets
+    time.  Each doublet is represented by a different color. The color code corresponds to the doublets
     shown in figure :num:`#fig3c`, :num:`#fig3d`
     and :num:`#fig3e`. A special case is shown in the blue dashed line, 
-    where the actin cortex on the doublet ruptured, and the coretx peeled off. 
-    The analysis of this case showed that the contanct angle after rupture recovers its initial value.
+    where the actin cortex on the doublet ruptured, and the cortex peeled off. 
+    The analysis of this case showed that the contact angle after rupture recovers its initial value.
 
 .. _fig3c:
 .. figure:: /figs/Fig_03-C.png
@@ -376,20 +398,22 @@ fitting spherical 3D caps on the 3D stack as explained :ref:`in later parts`.
     and :num:`#fig3e`. 
 
 
-During contraction triggered by myosin, we observe that the contact
-angle |theta| increases while the distance between liposomes center |d|
-decreases. During this process the volume remain constant within the 10% error, 
-which is consistent with cell doublet experiments done previously :cite:`Maitre2012a`. (how did they induce contaction in these experiments? You need to explain how it is consistent!)
+During contraction triggered by myosin, we observe that the contact angle
+|theta| increases while the distance between liposomes center |d| decreases.
+During this process the volume remain constant within the 10% error.  These
+result are consistent with the measure of contact angle in freely adhering cell
+doublet experiments done previously :cite:`Maitre2012a`. 
 
-The interface between the two liposomes is a part of a sphere with a curvature
-:math:`C_i= \frac{1}{R_i}` much smaller than :math:`\frac{1}{R_1}` and
-:math:`\frac{1}{R_2}`. The test to determine the radius :math:`R_i` proved to be 
-difficult as the interface both before and
-after myosin injection differed by only a few pixels from a flat surface in most
-of the cases. Combining the small deviation of the interface from a flat surface with the small size assymtries
-leads to our finding that |theta1| and |theta2| remained equal within
-our optical resolution.
-(I move the two previous paragraphes to the end, since I did not understand what they did at that position. Still, I am not sure why you say that. It wold be great to bring these two statements into a bigger context.)
+
+.. The interface between the two liposomes is a part of a sphere with a curvature
+.. :math:`C_i= \frac{1}{R_i}` much smaller than :math:`\frac{1}{R_1}` and
+.. :math:`\frac{1}{R_2}`. The test to determine the radius :math:`R_i` proved to be 
+.. difficult as the interface both before and
+.. after myosin injection differed by only a few pixels from a flat surface in most
+.. of the cases. Combining the small deviation of the interface from a flat surface with the small size assymtries
+.. leads to our finding that |theta1| and |theta2| remained equal within
+.. our optical resolution.
+.. (I move the two previous paragraphes to the end, since I did not understand what they did at that position. Still, I am not sure why you say that. It wold be great to bring these two statements into a bigger context.)
 
 Discussion 
 ***********
@@ -404,7 +428,7 @@ Combining equation :eq:`young-perpendicular` with the finding that :math:`\theta
 experiments. We can hence write :math:`\tau_1 = \tau_2 = \tau`. This result is
 consistent with the fact that actin is distributed continuously all around the
 liposome doublet. Hence, myosin II minifilaments pull on a continuous shell. In
-these conditions equation :eq:`young-tangeant` simplifies to :
+these conditions equation :eq:`young-tangent` simplifies to :
 
 .. math:: 
     :label: eq3
@@ -454,7 +478,7 @@ agreement with discussed expected underestimation of the contact angle in epiflu
 .. figure:: /figs/Fig_03-E.png
     :width: 50%
 
-    Increase of the tension ratio between the tension :math:`\tau(t)`at time
+    Increase of the tension ratio between the tension :math:`\tau(t)` at time
     :math:`t` and the initial one :math:`\tau_0`. 
     Same color code for same doublets as in figure :num:`#fig3b`, :num:`#fig3c`
     and :num:`#fig3d`. The actin cortex rupture in the blue dashed line also presents the highest relative tension increase. 
@@ -466,12 +490,12 @@ Cortical tension increase in doublets and in cells
 .. 3
 
 In cells, cortical tension can be as low as 50 pN/µm in fibroblast progenitor
-cells :ref:`KRIEG NatCellBio 2008` and can go up to 4000 pN/µm for
-dictyostelium :ref:`SCHWARZ 2000`. Surprisingly, when myosin activity is
+cells :cite:`Krieg2008` and can go up to 4000 pN/µm for
+dictyostelium :cite:`Schwarz2000`. Surprisingly, when myosin activity is
 affected, either by drugs or by genetic manipulation, the cortical tension only
 decreases by a factor of about 2. Cells are also observed to round up during
-division :ref:`KUNDA 2008` in which an  increase of tension by a factor of two
-is sufficient (REF you can use a recent paper by Mueller and Tony Hyman).  
+division  in which an  increase of tension by a factor of two
+is sufficient :cite:`Stewart2011`, :cite:`Kunda2008` .  
 Our `in vitro` reconstruction is able to reproduce similar 
 changes of cortical tension as we observe a cortical tension increase by a factor of up to 2.4.
 
@@ -543,7 +567,7 @@ based in the image stacks acquired using spinning disk microscopy. In the follow
 methods and the result on liposomes doublets.
 
 First step: Finding a single liposome
-=========================
+=====================================
 .. 3
 
 In this part we show the principle that allow us to determine the 8
@@ -615,10 +639,11 @@ parameters of the doublets.
 
     \operatorname*{arg\,max}_p\left(r_{data,model(p)}\right)= \operatorname*{arg\,max}_p \left(r_{groundTruth,model(p)}\right)
 
-(Why to you have a p in tehre? it looks weired. Also what does arg max mean?) Thus 
-searching the value of the parameters that maximize the correlation
-between the model and the data implies finding the geometrical parameters we
-are interested in.  
+In which :math:`\left(\operatorname*{arg\,max}_p\right)` stands for the
+argument of the maximum, that is to say, the set of points of the given
+argument for which the given function attains its maximum value Thus searching
+the value of the parameters that maximize the correlation between the model and
+the data implies finding the geometrical parameters we are interested in.  
 
 We can test the ability to do this numerically by generating data, adding noise
 to it and try to recovering the parameter of the `ground truth`.
@@ -636,7 +661,7 @@ has the same radius in the model correspond to the radius in the generated data 
 .. _corr-fun-1:
 .. figure:: /figs/double-c-_100-by-100-rc-40_0-noise-0_5-delta-4_0_.png 
     :alt: liposome Model
-    :width: 60% 
+    :width: 50% 
 
     Value of the correlation as a function (arbitrary units) of two of the fit
     parameters. The radius of the liposome in the model is taken as
@@ -689,26 +714,36 @@ image by confocal spinning disk microscopy. As the actin-layer is attached to th
 and the contact angle is defined as the angle between the lipid bilayer, imaging the actin-layer corresponds
 to the angle between the inner surfaces of the two actin networks present on each liposome.
 
-Thus in order to determine the geometrical parameters of the doublets we need to also
-model the actin shell. As the liposomes in contact are two spherical caps the
-uniform actin layer will also form two spherical caps with a given thickness. The
-total image is thus the union of two spherical caps blurred by the point
-spread function of the microscope. This can be seen on :num:`figure #mproj1`. (The figures shows tha the doublet is attached to the surface. You might want to discuss this?)
+Thus in order to determine the geometrical parameters of the doublets we need
+to also model the actin shell. As the liposomes in contact are two spherical
+caps the uniform actin layer will also form two spherical caps with a given
+thickness. The total image is thus the union of two spherical caps blurred by
+the point spread function of the microscope. This can be seen on :num:`figure
+#mproj1`.  We can see on this image that the doublet is here lying on the
+chamber surface. We checked in this case that the contact surface between the
+chamber and the doublet did not change during experiments.
+
+
+
+
+(The figures shows tha the doublet is attached to the surface. You might want to discuss this?)
 
 .. _mproj1:
 .. figure:: /figs/max_proj_340A.png
     :width: 80%
 
     Maximum projection along X,Y and Z of recorded stacks, green channel actin.
-    One can see that the liposomes doublets are stuck to the surface of the
-    observation chamber. (THIS IMAGE IS HARD TO INTERPRETE. ADD AN ARROW TO THE FLAT SURFACE SHOWING THE ATTACHEMENT.
+    One can see that the liposomes doublets are lying on  to the surface of the
+    observation chamber (arrows). 
+    
+    
 
 As the contraction of the doublets is rapid, and the recorded 3D stacks contain a
 large number of frames, it is crucial to be able to compute the model and the
 correlation in a reasonable time (less than the hour per images). To
 achieve this besides calculating the model as efficiently as possible one can
 replace the exact calculation of two spherical cap and the point spread
-function of the microscope by the union and subtraction of precalcualted spheres followed by a 3D
+function of the microscope by the union and subtraction of pre calculated spheres followed by a 3D
 numerical Gaussian blur.
 
 .. figure:: /figs/3dblur.png
@@ -721,7 +756,7 @@ numerical Gaussian blur.
 
 Though the use of numerical technique is not without artifacts.  In the case of
 discret Z-stack that are not sufficiently spaced, the different radi in the
-fluorescent rings within subsequent stacks can lead to a "ring-artifact" (`Fig
+fluorescent rings within subsequent stacks can lead to a "ring-artifact" (:num:`Fig
 #ring-artifact`) when using numerical Gaussian blur. In the case of a too
 pronounced "ring-artifact" a "ghost" spheres can appear around each liposome
 which can cause the fitting process of the doublets to fall into a local
@@ -777,10 +812,10 @@ gaves us the 8 parameters of the doublets. Result of the fits are show in
     direction of projection.
 
 
-Using the fast Cython code (REF) also allowed to also speed up fitting to a reasonable
-time: one Z-stack of 3 millions pixels can be fitted in about 40 seconds. Thus
-allowing the fitting of a full 3D movie of a doublets contraction to be done in
-less than an hour for 30 to 40 frames.
+Using the fast Cython code (:cite:`Seljebotn2009`) also allowed to also speed
+up fitting to a reasonable time: one Z-stack of 3 millions pixels can be fitted
+in about 40 seconds. Thus allowing the fitting of a full 3D movie of a doublets
+contraction to be done in less than an hour for 30 to 40 frames.
 
 To ensure robustness of the fits to doublet center displacement during
 acquisition, the initial parameter of the fit where chosen manually for each
@@ -817,7 +852,7 @@ The correctness of the fit is also checked visually to prevent errors in the
 procedure.  The fit was found to be alway accurate and coherent with manual
 measurements of contact angle.  When the red channel was also present and liposomes
 contained sulphorhodamin, fits where additionally visually checked by using maximum
-projection of the red channel.  Cf :num:`Fig #srhod`).
+projection of the red channel.  (Cf :num:`Fig #srhod`).
 
 .. _srhod:
 .. figure:: /figs/srhod_superimpose.png
@@ -836,16 +871,17 @@ fluorescently labeled actin we are able to develop a technique that
 automatically and robustly determine the geometrical properties of the liposome
 doublets.
 
-We note that the red fluorescent dye present in the inside buffer of the liposome
-could be used conjointly to the green channel in order to improve the quality of
-the fit, though this would require the extra parameters of the interface radius. As
-the computation time needed to fit the doublets increase rapidly with the
-number of parameter, this solution was found to be impractical.  Moreover, the
-curvature of the interface being relatively small and the difference between
-the curved interface and a flat plane being close to the optical resolution, we the 
-fits risk to become unstable.  The use of fluorescently labeled
-lipids for the liposome membrane also suffers from the same issues of extra (?????? extra waht??) if
-one want to recover the position of the interface.
+We note that the red fluorescent dye present in the inside buffer of the
+liposome could be used conjointly to the green channel in order to improve the
+quality of the fit, though this would require the extra parameters of the
+interface radius. As the computation time needed to fit the doublets increase
+rapidly with the number of parameter, this solution was found to be
+impractical.  Moreover, the curvature of the interface being relatively small
+and the difference between the curved interface and a flat plane being close to
+the optical resolution, we the fits risk to become unstable.  The use of
+fluorescently labeled lipids for the liposome membrane also suffers from the
+same issues of extra parameter if one want to recover the position of the
+interface.
 
 
 
