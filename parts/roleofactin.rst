@@ -604,6 +604,10 @@ in more detail in the next section. Its structure is also essential for the
 cellular division as contractility is necessary to generate cortical tension
 and achieve the separation of the two daughter cells.
 
+.. todo::
+
+    Sketch actin cortex
+
 
 The actin cortex is constituted of actin filaments that can be parallel or
 orthogonal to the membrane as one can see using electron microscopy on cells
@@ -662,6 +666,10 @@ filopodia and pseudopodia. They mainly differ from lamellipodia by their shape
 and the organisation of the actin structure inside. Lamellipodia-based motion
 can move a cell up to a few micrometers per minute.
 
+.. todo::
+
+    Cite speed ? Ofer2011 ?
+
 The action necessary to move in an mesenchymal way can be decomposed in three
 steps. First the cell need to grow a protrusion. Growing this protrusion is
 typically governed by actin polymerisation just underneath the plasma membrane. The
@@ -673,16 +681,33 @@ will act as a scaffold to transmit the force across the cellular to these
 anchor point. Last part is traction in which the rest of the cell is pulled
 toward the attached protrusion. The traction force is mediated through the
 cytoskeleton and actin cortex while the contraction force themselves can origin
-from actin network contraction and reorganisation due to myosin motors.
+from actin network contraction and reorganisation due to myosin motors (:num:`Fig #fig-lam-principle`).
 
-As we can see the cell cytoskeleton and the actin cortex in particular play a
-fundamental role in the motion process of mesenchymal cells. What we can see
-that with the lamellipodium, the same conclusion can be drawn from pseudopodia and
-filopodia. Indeed filopodia basically differ from lamellipodia by the fact that
-they are unidimensional at the scale of the cell and are host of an actin
-structure made of parallel filaments and bundles. Pseudopods are the equivalent
-of filopodia, except they are characteristic in motion in a 3D environment and
-are constituted by an actin gel more than parallel filaments.
+.. As we can see the cell cytoskeleton and the actin cortex in particular play a
+.. fundamental role in the motion process of mesenchymal cells. What we can see
+.. that with the lamellipodium, the same conclusion can be drawn from pseudopodia and
+.. filopodia. Indeed filopodia basically differ from lamellipodia by the fact that
+.. they are unidimensional at the scale of the cell and are host of an actin
+.. structure made of parallel filaments and bundles. Pseudopods are the equivalent
+.. of filopodia, except they are characteristic in motion in a 3D environment and
+.. are constituted by an actin gel more than parallel filaments.
+
+.. todo::
+
+    Find review on lamellipodia
+
+
+.. _fig_lam_principle:
+.. figure:: figs/figure-16-86.jpg
+
+    :width: 60%
+
+    Schematic of Lamellipodium base motility. The lamellipodium grows at the
+    leading edge of the cell and attach to a focal point. The actin cortex
+    under tension contract and is capable to pull the rear of the cell. 
+
+
+
 
 Blebbing based Motility
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -774,10 +799,10 @@ observed :cite:`Huelsmann2013` that during this phase, the nurse's cells nucleus
 is pushed away from the dumping canal by single actin filaments polymerising
 from the membrane and forming a soft and sparse actin network.
 
-There are more than theses few studies that show the importance of sparse actin network
-inside cells, but theses networks are not extensively studied. Especially the
-transition from the thin and dense actin cortex near the membrane to the softer
-and sparser actin inside the cytosol. 
+.. There are more than theses few studies that show the importance of sparse actin network
+.. inside cells, but theses networks are not extensively studied. Especially the
+.. transition from the thin and dense actin cortex near the membrane to the softer
+.. and sparser actin inside the cytosol. 
 
 
 
