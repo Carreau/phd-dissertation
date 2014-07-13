@@ -400,14 +400,6 @@ V the ability to walk in a processive manner toward the barbed end of
 the actin filaments, both head successively binding 36 nm in front of the other
 head.
 
-.. todo:
-
-    This need to be an expanded section with equal weight to ARP. Explain more
-    about its function and give a figure _________ get inspired by Alberts.
-
-    Important : Introduce minifilaments, make the difference between  head and
-    tail, _______ introduce the duty ratio, and the difference between Muscle
-    and Cell Myosin II.
 
 .. todo: MyoV OOcyte Maria ?
 
@@ -461,9 +453,17 @@ the forced exerted on the myosin cargo.
 This principle is the same for all kinds of myosin. In the case of Myosin II
 the duty-ratio is only of about 5%, which leave Myosin II detached from the
 actin filament most of the time. A single dimer cannot then achieve
-processivity.   Though the aggregation of myosin II dimers into minifilaments
-of tens of dimers increase the effective attachment time of the minifilaments
-to actin networks, and confer it processivity.
+processivity.   The tail of myosin II can bundle itself with the tail of other
+myosin II motors.  They from large bipolar thick filaments of tens of dimers.
+As each myosin dimer attaches and detaches independently from the actin
+networks the effective attachment of of the filament increases with the number
+of motors in the minifilaments. Indeed the probability of having at least one
+motor attached increases with the number of motors. The constant attachment of
+at least one myosin II head in minifilaments insure that the filament does not
+displace with respect to the actin network when others myosin heads recover
+from their power stroke and reattach, thus conferring processivity to myosin II
+minifilaments. 
+
 
 The bipolar nature of myosin II minifilaments also allow them to act as force
 dipoles, each  of the extremity pulling the surrounding actin network or
@@ -498,6 +498,11 @@ and increase the exchange rate of ADP into ATP.
 Branching Agent
 """""""""""""""
 
+A type of network found of the leading edge of cells lamellipodia is dendritic
+network. It is characterise by tree-like structure of actin filament in which
+thanks the Arp2/3 complex branching agent a mother actin filament will form a
+daughter filament on its side.
+
 We have seen previously that crosslinker  are proteins capable on linking two
 or more actin filament together by binding on their side. Another mechanism
 involving binding on the side on actin filament is responsible for a closely
@@ -518,15 +523,25 @@ In cells, the Arp2/3 complex is needed to be activated by a Nucleation Promoting
 Factor (NFP).  Among them is the  WASp protein (Wiskott-Aldrich Syndrome
 protein) and its neural homologue N-WASP which are from the same family as
 SCAR/WAVE :cite:`Machesky1999`.  All these activators of Arp2/3 have in common a
-WCA motif. The Wild type protein need to be activated in order to activate Arp2/3.
+WCA motif. The wild type protein need to be activated in order to activate Arp2/3.
 The activation is done by a change in conformation that expose the active
 region and provide the first actin monomer necessary for the nucleation of the
-daughter filaments.  To circumvent the activation process of
+daughter filaments (:num:`Figure #fig-pwa-deploy`).  To circumvent the activation process of
 these proteins, we use a reconstructed version of the protein that cut all
 region before the poly-proline. This confer to pVCA the ability to be
-permanently active. This region can also be replaced by streptavidine in order
+permanently active. This region can also be replaced by streptavidin in order
 to selectively bind pVCA to selected regions. Characterisation and more
 detailed description of pVCA can be found in :cite:`Noguera2012`.
+
+
+.. _fig-pwa-deploy:
+.. figure:: figs/pwa-deploy.png
+    :width: 60%
+    
+    Organisation of Wasp domains. A change in conformation make the protein
+    active, which allow the activation of the Arp2/3 complex and the nucleation
+    of a daughter filament.  Adapted from :cite:`Goley2006`
+
 
 Unlike Cells that are able to control the localisation of actin nucleation
 process thanks to activation of WASp and its homologue, the in vitro control
