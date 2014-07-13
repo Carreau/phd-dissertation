@@ -349,9 +349,6 @@ that no external forces act on the beads.
 For practical reasons, the traps are aligned along one of the principles axis
 of the AOD before starting the indentation experiments.
 
-.. todo::
-
-    Sceenshot of the setup.
 
 Indentations
 ============
@@ -628,8 +625,6 @@ micro-injector Eppendorf FemtoJet. Imaging was carried at :math:`37^\circ{}C`.
 .. certain time until symmetry is broken. As it is such condition that are mostly
 .. relevant I choose to do experiment only near theses condition. 
 
-.. .. todo::
-..     - describe the biochemical condition here.
 .. 
 .. The symmetry breaking time of theses system also strongly depend on the
 .. diameter of the diameter of the used polystyrene beads. In system with higher
@@ -642,8 +637,6 @@ micro-injector Eppendorf FemtoJet. Imaging was carried at :math:`37^\circ{}C`.
 .. waist we used, leading to a poor linear relation between the bead displacement
 .. and the laser deflection. (cf chap1)
 .. 
-.. .. todo::
-..     - argue against bigger beads.
 
 .. Selection of diameter for probe bead.
 .. ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

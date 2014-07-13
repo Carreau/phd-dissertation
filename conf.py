@@ -303,6 +303,7 @@ r"""
 \cleardoublepage
 \pagestyle{normal}
 \pagenumbering{arabic}
+\setlength{\headheight}{14pt}
  """# % (tex[0], tex[1])
 
 latex_elements = {'preamble': preamble,

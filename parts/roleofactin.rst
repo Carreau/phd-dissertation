@@ -90,9 +90,6 @@ for most processes that can happen on the filament.
 The actin protein is highly conserved across species, and is know to directly
 interact with hundreds of proteins :cite:`DosRemedios2003`. 
 
-.. todo::
-    Actin peristence lenght cite
-
 Single undecorated filaments will behave  as
 semi-flexible polymers at the scale of the cell with a persistence length in the order of 10 µm :cite:`Isambert1995`. When they
 assemble into different structure and network, or associate with other proteins
