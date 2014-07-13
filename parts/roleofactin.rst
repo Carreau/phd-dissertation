@@ -298,6 +298,127 @@ de-polymerising.  Though, it is known that stabilizing actin filaments with
 phalloidin will increase their stiffness as measure by the persistence length which can change the
 mechanical properties of the formed actin network.
 
+
+.. Latrunculin
+.. """""""""""
+.. 
+.. Another toxin that act on actin is latrunculin, secreted by sponges,it bind to
+.. actin monomer preventing them to polymerise.  In presence of latrunculin, actin
+.. filament can though only depolymerize.
+
+
+Profilin
+""""""""
+.. 5
+
+Profilin is a protein that will bind to the barbed end of single monomers of
+actin in solution.  By doing so it will first prevent the association of
+monomers into dimers and trimmers, thus preventing the nucleation of actin
+filament. It thus allows a better control of localisation of actin filament
+both in vivo and in vitro in the presence of actin seeds of actin nucleator.
+
+Profilin was for a long time been believed to be only a sequestering protein
+that inhibit polymerisation :cite:`Yarmola2009`, though it has a more complex
+behavior, and if it prevent polymerisation of actin filaments by the pointed
+end, it can facilitate polymerisation. One of the cause of increase in
+polymerisation speed by profilin is the fact it binds preferably to ADP-Actin
+and increase the exchange rate of ADP into ATP. 
+
+Branching Agent
+"""""""""""""""
+.. 5
+
+A type of network found of the leading edge of cells lamellipodia is dendritic
+network. It is characterise by tree-like structure of actin filament in which
+thanks the Arp2/3 complex branching agent a mother actin filament will form a
+daughter filament on its side.
+
+We have seen previously that crosslinker  are proteins capable on linking two
+or more actin filament together by binding on their side. Another mechanism
+involving binding on the side on actin filament is responsible for a closely
+related network, the branching mechanism. 
+
+The Arp2/3 complex is composed of seven subunits, two of which are highly
+similar to actin, from Arp2 and Arp3 family for Actin Related Proteins,
+giving the complex its name. Arp2/3 will bind on the side of a pre-existing
+actin filament, hence initiating the growth of a daughter filament with an angle of
+70° to the mother filament. The newly created daughter filament pointed end
+is terminated by the Arp2/3 complex that will stay attached to the mother
+filament, thus increasing the number of available barbed end, without changing
+the number of available pointed end. Cf Nature Review by Erin D. Goley and
+Matthew D. Welch :cite:`Goley2006` for  a longer review about the Arp2/3
+complex.
+
+In cells, the Arp2/3 complex is needed to be activated by a Nucleation Promoting
+Factor (NFP).  Among them is the  WASp protein (Wiskott-Aldrich Syndrome
+protein) and its neural homologue N-WASP which are from the same family as
+SCAR/WAVE :cite:`Machesky1999`.  All these activators of Arp2/3 have in common a
+WCA motif. The wild type protein need to be activated in order to activate Arp2/3.
+The activation is done by a change in conformation that expose the active
+region and provide the first actin monomer necessary for the nucleation of the
+daughter filaments (:num:`Figure #fig-pwa-deploy`).  To circumvent the activation process of
+these proteins, we use a reconstructed version of the protein that cut all
+region before the poly-proline. This confer to pVCA the ability to be
+permanently active. This region can also be replaced by streptavidin in order
+to selectively bind pVCA to selected regions. Characterisation and more
+detailed description of pVCA can be found in :cite:`Noguera2012`.
+
+
+.. _fig-pwa-deploy:
+.. figure:: figs/pwa-deploy.png
+    :width: 60%
+    
+    Organisation of Wasp domains. A change in conformation make the protein
+    active, which allow the activation of the Arp2/3 complex and the nucleation
+    of a daughter filament.  Adapted from :cite:`Goley2006`
+
+
+Unlike Cells that are able to control the localisation of actin nucleation
+process thanks to activation of WASp and its homologue, the in vitro control
+of localisation of actin polymerisation is directly done by the localisation of
+pVCA.
+
+The network formed by Arp2/3 is called a dendritic network, and is in
+particular found at the leading edge of the cell in the lamellipodia. It is
+such a network that is present in the bead system we will study hereafter.
+
+As for crosslinkers dendritic networks are able to carry force across single
+actin filament by the intermediary of Arp2/3. Two dendritic network of Apr2/3
+can also entangle and allow forces to be carried across them
+:cite:`Kawska2012`. 
+
+.. todo:
+
+    Very important : Talk about the activation of the Arp2/3 complex. Introduce
+    the activator and pVCA. Why do we use this peptide.
+
+
+
+.. _actin-cycle:
+
+.. figure:: /figs/pollard2003-actin-cycle.jpg     
+    :alt: "Actin recycling at the leading edge of a cell"
+    :width: 70%
+
+    Adapted from :cite:`Pollard2000`. Schematic recapitulating the formation of
+    a dendritic network at the leading edge of a cell were several of the
+    function of protein can be seen. An actin nucleation promoting factor
+    (Active WASp,  blue rectangle at the membrane) will activate Arp2/3 (green
+    blob) which will act both as nucleation factor and a branching agent. From
+    an activated Arp2/3 will grow an actin filament pointing toward the
+    membrane. Newly growing barbed ends, rich in ATP-actin (white circle) can
+    eventually be capped by capping proteins (light-blue pairs of circle) which
+    will terminate their growth.  Aging monomers in actin filament will slowly
+    hydrolyse their ATP (yellow and red circle), eventually releasing the
+    inorganic phosphate before detaching from the pointed end.
+    Depolymerisation is helped by severing protein (sharp triangle) and Actin
+    Depolymerisation Factor (ADF). ADP-actin monomer will bind to profilin
+    (Black dots) increasing the turn over rate to ATP-actin which will be reuse
+    by the leading edge of the cell.
+
+.. todo:
+    Generally : The Protein you use need to be better introduced than others
+
 Molecular Motor
 """""""""""""""
 .. 5
@@ -469,125 +590,6 @@ The bipolar nature of myosin II minifilaments also allow them to act as force
 dipoles, each  of the extremity pulling the surrounding actin network or
 filament toward the center of the minifilaments. This is the mechanism at the
 origin of muscle contraction and can allow to build-up tension in actin network. 
-
-
-.. Latrunculin
-.. """""""""""
-.. 
-.. Another toxin that act on actin is latrunculin, secreted by sponges,it bind to
-.. actin monomer preventing them to polymerise.  In presence of latrunculin, actin
-.. filament can though only depolymerize.
-
-
-Profilin
-""""""""
-
-Profilin is a protein that will bind to the barbed end of single monomers of
-actin in solution.  By doing so it will first prevent the association of
-monomers into dimers and trimmers, thus preventing the nucleation of actin
-filament. It thus allows a better control of localisation of actin filament
-both in vivo and in vitro in the presence of actin seeds of actin nucleator.
-
-Profilin was for a long time been believed to be only a sequestering protein
-that inhibit polymerisation :cite:`Yarmola2009`, though it has a more complex
-behavior, and if it prevent polymerisation of actin filaments by the pointed
-end, it can facilitate polymerisation. One of the cause of increase in
-polymerisation speed by profilin is the fact it binds preferably to ADP-Actin
-and increase the exchange rate of ADP into ATP. 
-
-Branching Agent
-"""""""""""""""
-
-A type of network found of the leading edge of cells lamellipodia is dendritic
-network. It is characterise by tree-like structure of actin filament in which
-thanks the Arp2/3 complex branching agent a mother actin filament will form a
-daughter filament on its side.
-
-We have seen previously that crosslinker  are proteins capable on linking two
-or more actin filament together by binding on their side. Another mechanism
-involving binding on the side on actin filament is responsible for a closely
-related network, the branching mechanism. 
-
-The Arp2/3 complex is composed of seven subunits, two of which are highly
-similar to actin, from Arp2 and Arp3 family for Actin Related Proteins,
-giving the complex its name. Arp2/3 will bind on the side of a pre-existing
-actin filament, hence initiating the growth of a daughter filament with an angle of
-70° to the mother filament. The newly created daughter filament pointed end
-is terminated by the Arp2/3 complex that will stay attached to the mother
-filament, thus increasing the number of available barbed end, without changing
-the number of available pointed end. Cf Nature Review by Erin D. Goley and
-Matthew D. Welch :cite:`Goley2006` for  a longer review about the Arp2/3
-complex.
-
-In cells, the Arp2/3 complex is needed to be activated by a Nucleation Promoting
-Factor (NFP).  Among them is the  WASp protein (Wiskott-Aldrich Syndrome
-protein) and its neural homologue N-WASP which are from the same family as
-SCAR/WAVE :cite:`Machesky1999`.  All these activators of Arp2/3 have in common a
-WCA motif. The wild type protein need to be activated in order to activate Arp2/3.
-The activation is done by a change in conformation that expose the active
-region and provide the first actin monomer necessary for the nucleation of the
-daughter filaments (:num:`Figure #fig-pwa-deploy`).  To circumvent the activation process of
-these proteins, we use a reconstructed version of the protein that cut all
-region before the poly-proline. This confer to pVCA the ability to be
-permanently active. This region can also be replaced by streptavidin in order
-to selectively bind pVCA to selected regions. Characterisation and more
-detailed description of pVCA can be found in :cite:`Noguera2012`.
-
-
-.. _fig-pwa-deploy:
-.. figure:: figs/pwa-deploy.png
-    :width: 60%
-    
-    Organisation of Wasp domains. A change in conformation make the protein
-    active, which allow the activation of the Arp2/3 complex and the nucleation
-    of a daughter filament.  Adapted from :cite:`Goley2006`
-
-
-Unlike Cells that are able to control the localisation of actin nucleation
-process thanks to activation of WASp and its homologue, the in vitro control
-of localisation of actin polymerisation is directly done by the localisation of
-pVCA.
-
-The network formed by Arp2/3 is called a dendritic network, and is in
-particular found at the leading edge of the cell in the lamellipodia. It is
-such a network that is present in the bead system we will study hereafter.
-
-As for crosslinkers dendritic networks are able to carry force across single
-actin filament by the intermediary of Arp2/3. Two dendritic network of Apr2/3
-can also entangle and allow forces to be carried across them
-:cite:`Kawska2012`. 
-
-.. todo:
-
-    Very important : Talk about the activation of the Arp2/3 complex. Introduce
-    the activator and pVCA. Why do we use this peptide.
-
-
-
-.. _actin-cycle:
-
-.. figure:: /figs/pollard2003-actin-cycle.jpg     
-    :alt: "Actin recycling at the leading edge of a cell"
-    :width: 70%
-
-    Adapted from :cite:`Pollard2000`. Schematic recapitulating the formation of
-    a dendritic network at the leading edge of a cell were several of the
-    function of protein can be seen. An actin nucleation promoting factor
-    (Active WASp,  blue rectangle at the membrane) will activate Arp2/3 (green
-    blob) which will act both as nucleation factor and a branching agent. From
-    an activated Arp2/3 will grow an actin filament pointing toward the
-    membrane. Newly growing barbed ends, rich in ATP-actin (white circle) can
-    eventually be capped by capping proteins (light-blue pairs of circle) which
-    will terminate their growth.  Aging monomers in actin filament will slowly
-    hydrolyse their ATP (yellow and red circle), eventually releasing the
-    inorganic phosphate before detaching from the pointed end.
-    Depolymerisation is helped by severing protein (sharp triangle) and Actin
-    Depolymerisation Factor (ADF). ADP-actin monomer will bind to profilin
-    (Black dots) increasing the turn over rate to ATP-actin which will be reuse
-    by the leading edge of the cell.
-
-.. todo:
-    Generally : The Protein you use need to be better introduced than others
 
 The actin cortex
 ================
