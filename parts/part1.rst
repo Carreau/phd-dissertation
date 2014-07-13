@@ -352,34 +352,86 @@ Membrane Physics
 ****************
 .. 2
 
-The membrane of living cell is a complex, being the host a large number of
-interacting proteins and lipids each with their own dynamics. Though at the
-scale of cell and liposomes it is interest to model the membrane as a 2D surface
-(that is to say without thickness) characterized by global mechanical properties.
+The cells plasma membrane is a biological membrane that separate the cell from
+its outside environment.  It consist of a lipid bilayer in which are present
+numbers of protein.  A lipid bilayer is formed of two layers of lipid and has a
+thickness of a few nm thickness. The first attempt to theoretically describe
+these membranes have been done by W. Helfrich :cite:`Helfrich` in 1973 in a
+model based on the elasticity and fluidity of lipid bilayers as well as the
+self assembly properties of  lipids.
 
-In the case of closed lipid bilayers, the mechanical property we are interested
-in resume to the expansion modulus :math:`K_a` and the bending modulus
-:math:`K_b`. The value of theses two constant will vary depending on the
-protein and lipid that are present in each of the two leaflet of the lipid
-bilayer.
+.. The membrane of living cell is a complex, being the host a large number of
+.. interacting proteins and lipids each with their own dynamics. Though at the
+.. scale of cell and liposomes it is interest to model the membrane as a 2D surface
+.. (that is to say without thickness) characterized by global mechanical properties.
 
 
-The expansion modulus :math:`K_a` express how much energy is required to
-expand the surface of the lipid bilayer and is due to the exposition of more
-hydrophobic surface to water when expanding it. :math:`K_a` is expressed in
-:math:`J.m^{-2}`, or :math:`N/m` and is close to 2 time the surface tension between the
-lipids and water.
 
-Thus the formalism of surface tension is often used  as physical models in cell
-and liposomes. This allow to link the difference of pressure between two side
-of a membrane to the membrane tension and its curvature; also known as Laplace Law : 
+In the case of close lipid bilayer, the potential energy stored by the
+deformation of a lipid bilayer by unit area can be  written as 
 
 .. math::
-    \Delta P = \gamma \left(\frac{1}{R_1}+\frac{1}{R_2}\right)
 
-Where :math:`{R_1}` and :math:`{R_2}` are the principal curvatures radius which
-are equal in the case of sphere. This technique allow for the measure of tension on liposome or cortical tension of cell using aspiration :cite:`Chaigne2013a`, :cite:`Maitre2012`. 
+    H = H_{ext} + H_{curv}
 
+In which :math:`H_{ext}` is due to the extension/ compression of the membrane,
+and :math:`H_{curv}` is due to the local curvature of the membrane.
+
+The density of energy cost of extension :math:`H_{ext}` cab be written as a
+function  of the elastic area compressibility modulus :math:`K_a` and the
+relative variation surface of the membrane :math:`A` :
+
+.. math::
+
+    H_{ext} = \frac 1 2 K_a \left(\frac{\Delta A}{A}\right)^2
+
+:math:`K_a` express how much energy is required to expand the surface of the
+lipid bilayer and is due to the exposition of more hydrophobic surface to water
+when expanding it. :math:`K_a` is expressed in :math:`J.m^{-2}`, or :math:`N/m`
+and is close to 2 time the surface tension between the lipids and water.
+
+
+For closed lipid bilayer, the total curvature energy can be expressed as the
+sum of curvature energy :math:`H_{curv}` :
+
+
+.. math::
+
+    H_{cur} = \frac 1 2 \kappa (c_1 + c_2 -c_0)^2
+
+In which :math:`kappa` is the bending modulus of the membrane, :math:`c_1,c_2`
+are the principal curvature of the membrane. :math:`c_0` is the spontaneous
+curvature of the membrane, the curvature the membrane would adopt when free of
+external constraint.
+
+.. |sigma| replace:: :math:`\sigma`
+.. |Hext| replace:: :math:`H_{ext}`
+
+An important parameter which is introduced in membrane is the  membrane tension
+|sigma| which is the stress associated with an increase in membrane surface.
+The tension |sigma| is linked to the energy required to expand the membrane |Hext| by :
+
+.. math::
+
+    \sigma &= \frac {\partial H.A} {\partial \Delta A} \\
+    ie &\\
+    H_{ext} &= \sigma\left( \frac {\Delta A} A \right)
+
+In which 
+
+.. math::
+
+    \sigma =  K_a \left( \frac {\Delta A} A \right)
+
+
+Membrane tension is a key parameter as it can be measures in cells, and is one
+of the parameter responsible for cell sorting :cite:`Maitre0212`. In particular
+between cells, the tension of the couple (membrane+actin cortex) can be
+determined by using the contact angle between cell which is the angle between
+interfaces as defined in `Figure #fig-tension-cell`.
+
+
+.. _fig-tension-cell:
 .. figure:: /figs/Cell-Surface-tension.png
     :alt: nothing
     :width: 40%
@@ -387,23 +439,62 @@ are equal in the case of sphere. This technique allow for the measure of tension
     Surface tension govern doublet shape,  adapted from :cite:`Maitre2012`.
     The equilibrium of forces on the contact line govern the angle of contact
     :math:`2.\theta`. :math:`\omega` correspond to the adhesion tension between
-    the two cells, :math:`\gamma_{cm}` correspond to the cortex tension between
-    the cell and  the medium, :math:`\gamma_{cc}` correspond to the cortex
+    the two cells, :math:`\sigma_{cm}` correspond to the tension between
+    the cell and  the medium, :math:`\sigma_{cc}` correspond to the cortex
     tension between the two cells. 
 
-When more than two regions of space are in contact with each other at the same
-location, they form a contact line. The displacement of this contact line often
-lead to the change of contact area between each region which makes the
-reasoning on surface tension and energy difficult. Though the problem can be
-reinterpreted by considering that each interface exerted a force on each unit
-length of the contact line. The force exerted by each interface is proportional
-to the surface tension of the interface and tangent to it on the contact line.
-Most problem can thus be resolved by looking at the equilibrium of the contact
-line and solve the condition for which the force on it equilibrate. In such
-cases, the contact angle on the contact line is a key parameter in the relation
-between each tensions. The measure of contact angle can be use to derive the
-relation of cell membrane+cortex tension between cells in contact
-:cite:`Maitre2012`
+In a later part, we use a reconstituted biomimetic made of liposome. The
+injection of Myosin motors changes the tension of the acto myosin cortex
+attached to a membrane. By determining the geometrical parameters of this
+system, and  in particular the evolution of the contact angle with time, we are
+able to measure the variation of tension of the acto myosin cortex due to
+molecular motors.
+
+.. In the case of closed lipid bilayers, the mechanical property we are interested
+.. in resume to the expansion modulus :math:`K_a` and the bending modulus
+.. :math:`K_b`. Each of these value 
+.. 
+.. 
+.. The value of theses two constant will vary depending on the
+.. protein and lipid that are present in each of the two leaflet of the lipid
+.. bilayer.
+.. 
+.. 
+.. The expansion modulus 
+.. Thus the formalism of surface tension is often used  as physical models in cell
+.. and liposomes. This allow to link the difference of pressure between two side
+.. of a membrane to the membrane tension and its curvature; also known as Laplace Law : 
+.. 
+.. .. math::
+..     \Delta P = \sigma \left(\frac{1}{R_1}+\frac{1}{R_2}\right)
+.. 
+.. Where :math:`{R_1}` and :math:`{R_2}` are the principal curvatures radius which
+.. are equal in the case of sphere. This technique allow for the measure of tension on liposome or cortical tension of cell using aspiration :cite:`Chaigne2013a`, :cite:`Maitre2012`. 
+.. 
+.. .. figure:: /figs/Cell-Surface-tension.png
+..     :alt: nothing
+..     :width: 40%
+.. 
+..     Surface tension govern doublet shape,  adapted from :cite:`Maitre2012`.
+..     The equilibrium of forces on the contact line govern the angle of contact
+..     :math:`2.\theta`. :math:`\omega` correspond to the adhesion tension between
+..     the two cells, :math:`\gamma_{cm}` correspond to the cortex tension between
+..     the cell and  the medium, :math:`\gamma_{cc}` correspond to the cortex
+..     tension between the two cells. 
+.. 
+.. When more than two regions of space are in contact with each other at the same
+.. location, they form a contact line. The displacement of this contact line often
+.. lead to the change of contact area between each region which makes the
+.. reasoning on surface tension and energy difficult. Though the problem can be
+.. reinterpreted by considering that each interface exerted a force on each unit
+.. length of the contact line. The force exerted by each interface is proportional
+.. to the surface tension of the interface and tangent to it on the contact line.
+.. Most problem can thus be resolved by looking at the equilibrium of the contact
+.. line and solve the condition for which the force on it equilibrate. In such
+.. cases, the contact angle on the contact line is a key parameter in the relation
+.. between each tensions. The measure of contact angle can be use to derive the
+.. relation of cell membrane+cortex tension between cells in contact
+.. :cite:`Maitre2012`
 
 .. _viscoelastic:
 

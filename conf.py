@@ -237,6 +237,8 @@ preamble = \
 % \\if@twocolumn\\hbox{}\\newpage\\fi\\fi\\fi
 % }
 % \\makeatother
+
+\\renewcommand{\\maketitle}{}
 """
 #if tags.has('latex-print'):
 #    preamble += \
