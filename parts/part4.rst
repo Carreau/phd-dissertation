@@ -13,7 +13,7 @@ We have seen that in cells the actin cytoskeleton is a key component to form
 structures like the actin cortex that serve to transmit forces and gives cells
 mechanical rigidity. In order to drive shape changes cells regulate the
 mechanical properties of the sub-micrometer thick actin cortex that is found
-beneath the membrane :cite:`Clarke2013`. The dynamics of the actin cortex
+beneath the membrane :cite:`Clark2013`. The dynamics of the actin cortex
 drives cell shape changes :cite:`Salbreux2012b` and the presence of the
 molecular motor myosin 2 plays a fundamental role for the tension of the
 acto-myosin cortex :cite:`Tinevez2009`. Cortical tension can be measured on
@@ -230,7 +230,7 @@ formed by two lipid bilayers, and the inter facial tension is composed of two co
 The tension of the lipid bilayer, noted |taui|, and the
 adhesion energy per surface unit |W| due to the biotin-streptavidin-biotin link
 between the two lipid bilayers. The total tension at the interface can thus be
-written :math:`\tau_t = \tau_i -W`. (Why -? How do you define the interaction energy?)
+written :math:`\tau_t = \tau_i -W` :cite:`Maitre2012`.
 
 
 As the movement of the contact line during the contraction is slow (order of
@@ -353,8 +353,7 @@ experiments, where the liposomes composing the doublets have an ratio of :math:`
 
     Confocal stack of an liposome doublets, actin channel, 3D reconstruction in
     :num:`Figure #fig3a`. Note that there is no actin at the interface between
-    the liposomes. The distance between each image is :math:`\Delta z=??` µm. (Number the images).
- 
+    the liposomes. The distance between each image is :math:`\Delta z=0.85` µm.  
 
 .. _fig3a:
 .. figure:: /figs/Fig_03-A.png
@@ -405,7 +404,7 @@ During contraction triggered by myosin, we observe that the contact angle
 |theta| increases while the distance between liposomes center |d| decreases.
 During this process the volume remain constant within the 10% error.  These
 result are consistent with the measure of contact angle in freely adhering cell
-doublet experiments done previously :cite:`Maitre2012a`. 
+doublet experiments done previously :cite:`Maitre2012`. 
 
 
 .. The interface between the two liposomes is a part of a sphere with a curvature
@@ -512,7 +511,7 @@ Different contributions for cortical tension
 
 Cortical tension is the sum of the membrane tension and the tension due to the
 acto myosin cortex. We question how the membrane contributes to cortical tension
-and in our assay we show that may account for approximatey 50% of the cortical tension in some cases.
+and in our assay we show that may account for approximately 50% of the cortical tension in some cases.
 In suspended fibroblast cells, membrane tension is estimated to be 10% of the
 cortical tension :cite:`Tinevez2009`. When polymerisation of actin is
 stimulated, the cortical tension is multiplied by a factor of 5 showing a
@@ -521,9 +520,9 @@ residual tension in cells might be due to actin dynamics which is absent in our
 experiments. How actin contribute to cortical tension is still an open question
 that needs to be addressed in the cell geometry.  Whereas actin polymerisation
 outside a liposome has been shown to generate inward pressure
-:cite:`[missing citation ...]`, how this can be translated to tension  in a different geometry is
+, how this can be translated to tension  in a different geometry is
 not yet clear. `In vitro` assay are on their way to mimic actin dynamics in
-cells :cite:`missing citation ...` and will allow to unveil the mechanism of tension build up by
+cells :cite:`AbuShah2014` and will allow to unveil the mechanism of tension build up by
 actin dynamics, which is the remaining module that need to be understood. The
 effect of myosin and of the membrane being clarified in this study.
 
@@ -556,7 +555,7 @@ equatorial plane of the doublet.
 In order to achieve good precision in the measurements of the contact angle we
 decided to use confocal microscopy and acquire evenly spaced z-stacks. From
 theses stacks the 3D structure of a doublet was reconstituted. Using the 3D
-structure of the doublets allows to recovere the geometrical parameters and
+structure of the doublets allows to recover the geometrical parameters and
 the contact angle.
 
 To determine the geometrical parameter of the doublets 
@@ -581,17 +580,17 @@ geometrical parameter that characterise a doublet: 2 centers (X,Y,Z) and 2 radii
 As the principle for finding the geometrical parameter does not differ with the
 number of dimensions, the presented methods can be applied even in higher dimensions (e.g. deformed
 ellipsoid liposome, or multi channel imaging). Furthermore, the principles remain the same also in a
-space with less dimentison, so we will restrict our discussion to a single liposome
+space with less dimensions, so we will restrict our discussion to a single liposome
 in a 2D plane (X,Y position of centers and R, radius) hence reducing the parameters to be determined to six instead of eight.
 
 Experimentally, liposomes are observed using fluorescently labeled actin that
-forms an homogeneous micrometer sized actin shell. In the observation plane, the
-liposome is a bright ring of given thickness (we will refer to this as the
-`ground truth` signal) (WHAT?? THIS NAME SEEMS VERY STRANGE ARE YOU SURE YOU WANT TO KEEP IT??), on top of this 
-image is the experimental noise where the pricipal noise sources are
-the presence of fluorescent actin monomers in the buffer solution and electronic noise
-from the camera CCD. Eventually, the noise in the outside buffer due
-to monomeric actin can be higher than inside which is fee of actin. 
+forms an homogeneous micrometer sized actin shell. In the observation plane,
+the liposome is a bright ring of given thickness (we will refer to this as the
+`expected signal`) , on top of this image is the experimental noise where the
+principal noise sources are the presence of fluorescent actin monomers in the
+buffer solution and electronic noise from the camera CCD. Eventually, the noise
+in the outside buffer due to monomeric actin can be higher than inside which is
+fee of actin. 
 
 The signal from a liposome and the addition of noise can be replicated
 numerically as seen on  :num:`figure #fig-2d-sim`.
@@ -602,12 +601,12 @@ numerically as seen on  :num:`figure #fig-2d-sim`.
     :alt: liposome Model
 
     Left : A simulation of liposome fluorescent image consisting of an uniform shell or membrane
-    (`ground truth`).  Middle: Same Image Adding Gaussian noise. This simulates
+    (`expected signal`).  Middle: Same Image Adding Gaussian noise. This simulates
     one plane of a confocal Z-stack.  Right: Simulation of liposome with
     fluorescently labeled actin shell in fluorescent external buffer and non
     fluorescent inside buffer.
 
-The `ground truth` signal can be modeled numerically using several parameters of
+The `expected signal` can be modeled numerically using several parameters of
 the system (center and radius of liposome, point spread function of microscope,
 ...). 
 
@@ -627,20 +626,19 @@ the acquired data, :math:`y_i` are the luminosity of the pixels in the model
 values.
 
 As the monomeric fluorescently labeled actin and the electronic noise are dominant
-in the acquired images, we can assume a uniform noise on top of the `ground
-truth` signal. The correlation between the model and the noise is in average
+in the acquired images, we can assume a uniform noise on top of the `expected signal`. The correlation between the model and the noise is in average
 uniform.
 
 .. math::
     r_{noise,model(params)} = cst
 
-And the correlation between the `ground truth` and the model is expected to be
+And the correlation between the `expected signal` and the model is expected to be
 maximal for the parameters of the model that  equal the real geometrical
 parameters of the doublets.
 
 .. math::
 
-    \operatorname*{arg\,max}_p\left(r_{data,model(p)}\right)= \operatorname*{arg\,max}_p \left(r_{groundTruth,model(p)}\right)
+    \operatorname*{arg\,max}_p\left(r_{data,model(p)}\right)= \operatorname*{arg\,max}_p \left(r_{expectedSignal,model(p)}\right)
 
 In which :math:`\left(\operatorname*{arg\,max}_p\right)` stands for the
 argument of the maximum, that is to say, the set of points of the given
@@ -649,11 +647,11 @@ the value of the parameters that maximize the correlation between the model and
 the data implies finding the geometrical parameters we are interested in.  
 
 We can test the ability to do this numerically by generating data, adding noise
-to it and try to recovering the parameter of the `ground truth`.
+to it and try to recovering the parameter of the `expected signal`.
 
 By looking at the value of the correlation between the generated data and the model
 as a function of model parameters, we can check that the correlation
-value are maximal when the model center value correspond to the `ground truth` 
+value are maximal when the model center value correspond to the `expected signal` 
 center value (Figure :num:`corr-fun-1`), and when the radius of the model liposome 
 has the same radius in the model correspond to the radius in the generated data (Figure :num:`corr-fun-2`).
 
@@ -668,9 +666,9 @@ has the same radius in the model correspond to the radius in the generated data 
 
     Value of the correlation as a function (arbitrary units) of two of the fit
     parameters. The radius of the liposome in the model is taken as
-    equal to the value of the ground truth, and the position of the center is
+    equal to the value of the `expected signal`, and the position of the center is
     varied in the X and Y direction. The value of the correlation is maximal for
-    the position of the center in the model that equal the center of the ground truth.  We
+    the position of the center in the model that equal the center of the `expected signal`.  We
     can see local maxima on the 3D representation that are well below the value
     of the global maximum. The peak at the global maxima is sharp, hinting that 
     the search of the maxima need relatively good initial
@@ -683,7 +681,7 @@ has the same radius in the model correspond to the radius in the generated data 
     :width: 60% 
 
     Same as :num:`figure #corr-fun-1`  with Y position of the center taken
-    as equal to the ground-truth, variating X position of the model and
+    as equal to the expected signal, variating X position of the model and
     radius of the liposome. The graph shows the same properties as before.
 
 
@@ -703,9 +701,9 @@ Fitting a doublet
 
 
 The determination of contact angle on epifluorescence images or phase contrast
-images often result in an underestimation as the imageing plane is not neccessarily one of the doublets
+images often result in an underestimation as the imaging plane is not necessarily one of the doublets
 equatorial planes. Moreover, most determination of the contact angle on phase
-contrast and epifluorescence images are done manually :cite:`Maitre2012b` and
+contrast and epifluorescence images are done manually :cite:`Maitre2012` and
 are subject to experimenter bias as the experimenter draws the tangent lines at the
 contact point between the liposomes. Thus we decided to develop fitting routines for the acquired
 3D confocal stacks. In our case we avoid the usage of
@@ -846,7 +844,7 @@ to check for the regularity of the function and the absence of local maxima. :nu
     :width: 80%
 
     3D representation of the data in :num:`figure #gof2d`, the shape of the
-    function is the same as the simulation done with the `ground truth` in
+    function is the same as the simulation done with the `expected signal` in
     :num:`figure #corr-fun-1` :num:`and #corr-fun-2`
 
 

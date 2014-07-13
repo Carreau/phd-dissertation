@@ -851,7 +851,7 @@ micro-injector Eppendorf FemtoJet. Imaging was carried at :math:`37^\circ{}C`.
 .. challenging.  Indeed that traditional microscopy only give access to specific
 .. image on a particular plane.  Thus we decided to use confocal microscopy to
 .. reconstitute the doublets in 3D. Even though tradition contact angle
-.. measurement technique as used in :cite:`Maitre2012b` require image that contain
+.. measurement technique as used in :cite:`Maitre2012` require image that contain
 .. equatorial plan of both liposomes.
 .. 
 .. As liposomes have a spherical shape, and that by using fluorescent component we

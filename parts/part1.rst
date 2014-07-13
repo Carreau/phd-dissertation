@@ -443,7 +443,7 @@ rigid nor completely flexible.
 
 For the above reasons, actin solutions are often compared to semi-flexible
 polymers, and models that predict the behavior of actin networks often take
-foundation on polymers physics :cite:`Morse1998` :cite:`Morse1998a`. Still, if
+foundation on polymers physics :cite:`Morse1998b` :cite:`Morse1998a`. Still, if
 theses models rely on local microscopic parameter, experimental methods only
 have access to bulk properties of the studied material, and it is from theses
 properties, and through the models that we can deduce possible values for the

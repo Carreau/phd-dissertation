@@ -772,7 +772,7 @@ closed form solution for the meshsize :math:`\xi_0` :
 
 
 The found mesh size is in the order of 0.3 to 0.4 µm which is consistent with previous findings 
-:`Morse1998`. The variation of the
+:`Morse1998b`. The variation of the
 meshsize can be seen on :num:`Fig #xi-violin` and does not seem to have a
 correlation with the concentration of capping protein. 
 
