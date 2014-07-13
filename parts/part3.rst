@@ -8,11 +8,6 @@ Introduction
 *************
 .. 2
 
-.. todo::
-
-    Check that all figures are referenced in the text
-
-
 We have seen that the actin cytoskeleton play a major role in
 cellular mechanics. It is necessary for force generation, and a
 key component of cell motility. It has also be extensively studied both in
@@ -20,7 +15,7 @@ cells and biomimetic systems.
 
 Actin can form a variety of networks in cells , ranging from dense branched
 networks at the leading edge of the lamellipodia to bundled parallel structures
-forming the filopodia.  Reconstruction of actin networks have been acchieved in
+forming the filopodia.  Reconstruction of actin networks have been achieved in
 biomimetic systems using purified components :cite:`Plastino2005`,
 :cite:`Loisel1999`, :cite:`Bernheim-Groswasser2002`,  :cite:`Pontani2009`, and
 many properties of these network have been measured.
@@ -308,9 +303,6 @@ polymerisation. The force distance plot is shown in :num:`Figure #reproc`.
     reproducibility of indentation curves.
 
 
-.. todo:: 
-    fix figure, add gray area. 
-
 .. _reproc:
 .. figure:: /figs/reproc.png
     :width: 80%
@@ -434,13 +426,17 @@ diameter of the hard sphere.  In this case :math:`F(d>\delta)=0` and
 The optical tweezer we use can apply forces up to 20pN, and the bead we use
 have a diameter of 4.34µm , then have a cross section surface of surface of roughly :math:`4.7\mu{}m^2`. Before 
 escaping the trap, the probe bead can move up to 1µm from its
-trap center. For a material of typical size in the order of tens of µm,  this
-leads to a maximum Young's modulus of the indented material in the order of 100
-Pa. Any material with a stiffness much higher than 100 Pa can be considered as
-infinitely rigid.
+trap center. The material will indent have a typical size in the order of tens of µm,  this
+leads to a maximum Young's modulus of :
 
-.. todo::
-    Describe order of magnitude Young's Above.
+.. math::
+
+    E_{max} &\sim \frac{F_{max}L_{0,max}}{A_0.\Delta L} \\
+            &\sim \frac{50.10^{-12} \times 10.10^{-6} }{  (2.15.10^{-6})^2 \times 1.10^{-6}              }\\ 
+            & \sim 100 Pa
+
+Any material with a stiffness much higher than 100 Pa can be considered as
+infinitely rigid.
 
 
 The elasticity of dense actin gels around polystyrene beads has been measured
@@ -787,13 +783,16 @@ correlation with the concentration of capping protein.
 
     meshsize vs capping.
 
+We explore the correlation between the mesh size and |delta| by plotting  the mesh size again the distance offset |delta| (:num:`Fig #dxcf`).
+:num:`Figure #dxf` shows the relation between the mesh size and the offset
+distance |delta| independently for each concentration of Capping Protein.
 
-Despite the fact that the  mesh size is directly related to the offset distance
-correction |delta|, a strong correlation can be seen between the two on
-:num:`Fig #dxcf`.  This can be explain despite the fact that |delta|
-seem correlated with the Concentration in capping protein through the
-non-appearance of time in our data analysis.  We will see in a later point that
-the value measured for |delta| might be influenced by the time of measurement.
+.. Despite the fact that the  mesh size is directly related to the offset distance
+.. correction |delta|, a strong correlation can be seen between the two on
+.. .  This can be explain despite the fact that |delta|
+.. seem correlated with the Concentration in capping protein through the
+.. non-appearance of time in our data analysis.  We will see in a later point that
+.. the value measured for |delta| might be influenced by the time of measurement.
 
 
 .. _dxcf:
@@ -804,8 +803,6 @@ the value measured for |delta| might be influenced by the time of measurement.
     with marginal distribution as histogram on the side and on the top.  Shaded
     regions represent confidence interval at 95%.
 
-:num:`Figure #dxf` shows the relation between the mesh size and the offset
-distance |delta| independently for each concentration of Capping Protein.
 
 .. _dxf:
 .. figure:: /figs/delta-xi-facets.png
