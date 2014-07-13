@@ -79,7 +79,7 @@ today_fmt =  '%B %d, %Y at %X %Z'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = ['_build', 'tables', 'data', 'figures', 'src', 'todo.rst',
-    'README.rst', 'index-latex.rst']
+    'README.rst', 'index-latex.rst', 'parts/cells.rst', 'parts/roleofactin.rst']
 if tags.has('latex') or tags.has('latex-web') or tags.has('latex-print'):
     exclude_patterns.remove('index-latex.rst')
     exclude_patterns.append('index.rst')

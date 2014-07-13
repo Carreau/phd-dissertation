@@ -270,7 +270,7 @@ one to each other. Such proteins, are referred to as cross-linkers.
     ref to review
 
 The amount of freedom in movement between the two filaments is dependant of the
- cross-linker used . For example , α-actinin will allow rotation of the two
+cross-linker used . For example , α-actinin will allow rotation of the two
 filament at their anchoring point whereas cross-linker like fascine will prefer
 a parallel conformation of the filament and favor the formation of actin
 bundles.
@@ -453,6 +453,7 @@ be responsible for actin network dynamics and vesicle positioning
 :cite:`Holubcova2013`. 
 
 .. _myoII:
+
 Myosin II
 ---------
 .. 6
@@ -699,7 +700,6 @@ from actin network contraction and reorganisation due to myosin motors (:num:`Fi
 
 .. _fig_lam_principle:
 .. figure:: figs/figure-16-86.jpg
-
     :width: 60%
 
     Schematic of Lamellipodium base motility. The lamellipodium grows at the

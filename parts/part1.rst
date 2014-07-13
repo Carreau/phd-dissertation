@@ -405,7 +405,8 @@ between each tensions. The measure of contact angle can be use to derive the
 relation of cell membrane+cortex tension between cells in contact
 :cite:`Maitre2012`
 
-.. _visoelastic:
+.. _viscoelastic:
+
 Actin networks as viscoelastic material
 ***************************************
 .. 2
@@ -416,7 +417,7 @@ called the persistence length (:math:`l_p`). More precisely, the
 persistence length characterise the average loss of correlation between the
 tangent along the considered polymer. With :math:`s` the curvilinear abscissae along the polymer, and :math:`\Theta_{(x,y)}` the angle between the two tangent at two different abscissae:
 
-.. figure:: figs/F2.large.jpg
+.. figure:: figs/F2_large.jpg
     :width: 60% 
 
     Schematic of polymers with length respectively big compared to persistence
@@ -456,7 +457,7 @@ Elastics Modulus
 .. 3
 
 The elastics moduli are probably the easiest to understand. They are
- a characteristic of how a material will deform non permanently under an applied
+a characteristic of how a material will deform non permanently under an applied
 force. The stiffer something is the higher its elastics moduli will be. There
 are two specific elastic moduli of interest in this
 manuscript, `Young's Modulus` and `shear modulus`. The first one describes how a material will react to compression or extension, while the
@@ -725,7 +726,7 @@ In our case, the rapid switching is achieved using Accousto Optic Deflector
 sound-wave propagate. This sound-wave generates local changes in the
 refractive index of the material which act as a diffraction grating. In
 the right conditions, a laser passing through the crystal will
- be deflected by this grating.
+be deflected by this grating.
 
 In practice, rapidly controlling the frequency and amplitude of the sound wave
 in the crystal, allows direct adjustment of laser deflection and hence the
@@ -819,59 +820,4 @@ biological side and in the physics of the measurement.
 ..    near the center.
 
 
-Oocyte division
-***************
-.. 2
 
-Oocyte are female germinal cells in the process of gametogenesis. Unlike
-somatic cells that undergoes symmetric division via mitosis  which will lead to
-two identical cells sharing the same genetic material, oocytes undergo a
-different process called meiosis.  Meiosis in oocytes is a highly asymmetric
-process necessary for the specificity of the oocytes which are large haploid
-cells containing at the end of the meiosis only one chromosome of each pair
-that constitutes the genomes of a mouse. The second chromosome of each pair
-will be provided by the fertilisation of the oocyte by the male.
-
-The exact process of formation of oocyte can vary among species, we will
-describe the main mechanisms.
-
-The complete process of egg maturation start with Primordial germ cell which
-will undergo mitosis to replicate until it enter the first meiosis (Meiosis I)
-at which state it is now called Primary oocyte and is still diploid, that is to say still contains the two chromosomes of each pairs. 
-
-The primary oocyte will start maturation and growth, then undergo a first
-asymmetric division just after prophase I.  This first division is asymmetric
-both in  the genetic material separation and in the unequal size of the formed
-daughter cell. Indeed, the primary oocyte will divide into a secondary oocyte
-and a polar body. Both secondary oocyte and polar body are haploid and contain
-only half of the genetic material of the primary oocyte.  The secondary oocyte
-can go through Meiosis II in which it incur a second asymmetric division
-expulsion a second polar body. The polar bodies will eventually degenerate.
-
-During meiosis, the process of cell division also differ from mitosis. Instead
-of separating into two identically sized cell through the formation of a
-cytokinetic ring, the primary oocyte will become the secondary oocyte by
-expulsion a polar body. The formation expulsion of the polar body require
-precise positioning of the cells organelles. During prophase I the nucleus of
-oocyte is carefully centered, undergo nuclear breakdown and formation of
-spindle. The first meiotic spindle will migrate toward the oocyte cortex along
-its major axis. Once at the cortex half of the genetic material of the spindle
-will be exposed through the membrane forming the first polar body of much
-smaller size than second oocyte. 
-
-In the third part of my PhD I participated in a collaboration with Marie-Hélene
-Verhlac and Maria Almonacid at Collège de France who are interested of the
-effect of actin dynamics in oocyte cytoplasm on the different part of the
-oocyte gametogenesis.
-
-.. figure:: /figs/oocyte-polar.png
-    :alt: asymmetric division of oocyte
-    :width: 80%
-
-    Asymmetric division of oocyte into polar bodies. The Primary oocyte
-    asymmetrically divide into a secondary oocyte and a smaller polar body each
-    containing half the DNA of the mother cell. The secondary oocyte will
-    divide asymmetrically a second time to become the mature ovum while
-    expulsion a polar body. This asymmetric division process allow the
-    formation of a large haploid cell. Adapted from Wikipedia – Gray's
-    Anatomy – and :cite:`Alberts2008`. 

@@ -297,7 +297,6 @@ polymerisation. The force distance plot is shown in :num:`Figure #reproc`.
 
 
 .. _reproc-time:
-
 .. figure:: /figs/reproc-time.png
     :width: 100%
 
@@ -313,7 +312,6 @@ polymerisation. The force distance plot is shown in :num:`Figure #reproc`.
     fix figure, add gray area. 
 
 .. _reproc:
-
 .. figure:: /figs/reproc.png
     :width: 80%
 

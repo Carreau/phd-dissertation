@@ -1,3 +1,6 @@
+
+.. _lib_doub:
+
 Liposomes Doublets
 ##################
 .. 1
@@ -368,7 +371,7 @@ Time resolved 3D Spinning disk stacks (:num:`Fig #confocal-stack` with 3D recons
 parameters of the doublet over time. The analysis reveals: the contact angle |theta| (:num:`Fig #fig3b`) , the
 volume of the doublet |V| (:num:`Fig #fig3d`) and the distance between liposome
 centers :math:`d` (:num:`Fig #fig3c`). All theses parameters are obtain by
-fitting spherical 3D caps on the 3D stack as explained :ref:`in later parts`. 
+fitting spherical 3D caps on the 3D stack as explained :ref:`in later parts <full3dfit>`. 
 
 .. _fig3b:
 .. figure:: /figs/Fig_03-B.png
