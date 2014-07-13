@@ -1,6 +1,6 @@
-========
-Contents
-========
+.. ========
+.. Contents
+.. ========
 
 .. toctree::
    :maxdepth: 6
@@ -18,11 +18,17 @@ Contents
 ..   preface
 ..   introduction
 
-* :ref:`search`
+.. html::
 
-.. note:: 
+    * :ref:`search`
+
+.. raw:: html
+    
     You can Download the latest pdf version of this 
-    `document <../latex/actingeldynamics.pdf>`_.
+    <a href='../latex/actingeldynamics.pdf' >document</a>
+
+.. raw:: latex
+    == git latex ref ==
 
 References
 ==========
