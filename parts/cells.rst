@@ -6,29 +6,13 @@ Living Cells
 .. 2
 
 
-.. Description of cell
-.. ~~~~~~~~~~~~~~~~~~~
-
-.. todo:
-
-    - spherical, cytokinetic ring, filopodia
-    - how force effect actin
-    - focal adhesion
-
-    - organelle, 
-
-      - nucleus/spindle positioning in division
-      - from oocyte, diploid -> haploid
-
-
-
 Cell are the basic building block of life, all living things are composed of
 cells, from unicellular to multicellular organisms like us. Unicellular
-organism must accomplish all the functions. At the other end,
+organism must accomplish all the functions relative to cell life. At the other end,
 multicellular organism cells differentiate in order to accomplish specialised
 tasks often by regrouping into organs. Despite sharing the same genetic
 material, each cell to accomplish a different task require different
-mechanical properties of the cells. The variation of elasticity and other
+mechanical properties. The variation of elasticity and other
 mechanical properties of cells derive from the structure they are composed of.
 
 .. todo:
@@ -45,16 +29,6 @@ govern the differentiation of cells : Soft substrate will favor brain-tissue
 cell, where stiff substrates increase the appearance of muscle cells
 :cite:`Engler2006`.
 
-.. _albertcell:
-
-.. Figure:: /figs/figure-1-30.jpg
-    :alt: schematic of a cell
-    :width: 90%
-
-    Schematic of an eukariotic cell, adapted from :cite:`Alberts2008`. One can
-    see the many component that constitute majority of cells.  Cell shape and
-    size can highly vary, from quasi spherical with a typical size of ten
-    micrometers to elongated neurones that can be tens of centimeters long.
 
 Nonetheless, even with all theses different behavior and phenotypes, cells
 have a common structure. The exterior of the cell is separated from the
@@ -111,13 +85,14 @@ Oocyte
 ******
 .. 2
 
+A particular type of cell I was interested in during my PhD is mouse oocyte.
 Oocyte are female germinal cells in the process of gametogenesis. Unlike
 somatic cells that undergoes symmetric division via mitosis  which will lead to
 two identical cells sharing the same genetic material, oocytes undergo a
 different process called meiosis.  Meiosis in oocytes is a highly asymmetric
 process necessary for the specificity of the oocytes which are large haploid
-cells containing at the end of the meiosis only one chromosome of each pair
-that constitutes the genomes of a mouse. The second chromosome of each pair
+cells, containing at the end of the meiosis only one chromosome of each pair
+that constitutes the genetic material of a mouse. The second chromosome of each pair
 will be provided by the fertilisation of the oocyte by the male.
 
 The exact process of formation of oocyte can vary among species, we will
@@ -134,7 +109,8 @@ daughter cell. Indeed, the primary oocyte will divide into a secondary oocyte
 and a polar body. Both secondary oocyte and polar body are haploid and contain
 only half of the genetic material of the primary oocyte.  The secondary oocyte
 can go through Meiosis II in which it incur a second asymmetric division
-expulsion a second polar body. The polar bodies will eventually degenerate.
+expulsion a second polar body. The polar bodies will eventually degenerate
+(:num:`Fig #fig-asymetric-division`).
 
 During meiosis, the process of cell division also differ from mitosis. Instead
 of separating into two identically sized cell through the formation of a
@@ -145,13 +121,20 @@ oocyte is carefully centered, undergo nuclear breakdown and formation of
 spindle. The first meiotic spindle will migrate toward the oocyte cortex along
 its major axis. Once at the cortex half of the genetic material of the spindle
 will be exposed through the membrane forming the first polar body of much
-smaller size than second oocyte. 
+smaller size than second oocyte.
+
+Mouse oocyte are good model system for study of mechanical properties inside
+cells, indeed,  they form big spherical cells with a diameter of around 80 µm
+which allows study of mechanical properties of cell at different location in
+the cytoplasm.
 
 In the third part of my PhD I participated in a collaboration with Marie-Hélene
 Verhlac and Maria Almonacid at Collège de France who are interested of the
-effect of actin dynamics in oocyte cytoplasm on the different part of the
+effect of actin dynamics in oocyte cytoplasm during the different part of the
 oocyte gametogenesis.
 
+
+.. _fig-asymetric-division:
 .. figure:: /figs/oocyte-polar.png
     :alt: asymmetric division of oocyte
     :width: 80%
@@ -169,11 +152,6 @@ Cell Organelles
 ===============
 .. 3
 
-.. todo:
-
-    Maybe this should be before cytoskeleton. Here it is breaking the flow.
-    Also you may ------ -- ti 12. when you introduce the cell
-
 Inside the cytoplasm, cells have a number of structures with different and
 specialised functions which are called organelles. The position and state of
 organelles is of great importance for the cell to achieve its functions.
@@ -187,7 +165,19 @@ that walk along microtubules originating from the centriole part of the
 centrosome but also by myosin along actin filaments.  All of those processes
 consume energy in  the form of ATP, generated within the mitocondria spread
 across the cytoplasm. A schematic of the cell with some organelles can be seen
-on :num:`Figure #albertcell`
+on :num:`figure #albertcell`
+
+.. _albertcell:
+
+.. Figure:: /figs/figure-1-30.jpg
+    :alt: schematic of a cell
+    :width: 90%
+
+    Schematic of an eukariotic cell, adapted from :cite:`Alberts2008`. One can
+    see the many component that constitute majority of cells.  Cell shape and
+    size can highly vary, from quasi spherical with a typical size of ten
+    micrometers to elongated neurones that can be tens of centimeters long.
+
 
 The positioning of organelles is crucial for the life of an organism. During the
 meiotic division of cell, for example, it has been seen that the positioning of

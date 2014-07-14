@@ -142,7 +142,7 @@ individual component it is needed to isolate or modify their actions
 independently.
 
 In order to achieve the  precise tuning of each component independently two
-approachs are envisageable. An approach referred to  as "Top-Down" where
+approaches are envisageable. An approach referred to  as "Top-Down" where
 starting from the full system — in our case the cell — we will modify or remove
 each of the component and study the global change of behavior. This is a complex
 process that might be difficult to interpret as biological systems have often
@@ -428,7 +428,7 @@ Membrane tension is a key parameter as it can be measures in cells, and is one
 of the parameter responsible for cell sorting :cite:`Maitre0212`. In particular
 between cells, the tension of the couple (membrane+actin cortex) can be
 determined by using the contact angle between cell which is the angle between
-interfaces as defined in `Figure #fig-tension-cell`.
+interfaces as defined in :num:`Figure #fig-tension-cell`.
 
 
 .. _fig-tension-cell:
@@ -580,11 +580,11 @@ the stress :math:`\sigma` along the direction of the deformation and the relativ
 
 In which :math:`F` is the applied force, :math:`S` is the cross section of the
 material, :math:`\Delta L` is the elongation and :math:`L_0` is the initial
-length of the considered material.  (:num:`Figure #fym`):
+length of the considered material.  (:num:`Figure #fym` A):
 
 .. _fym:
 .. figure:: /figs/youngm.png
-    :width: 50%
+    :width: 80%
     :alt: Definition of young modulus
     
     Schematic of Young Modulus definition. F, force applied to sample, S
@@ -603,25 +603,24 @@ The shear modulus is defined for a deformation parallel to the surface on which 
    G &= \frac{\tau_{xy}}{\gamma_{xy}} \\
       & = \frac{   F/S }{   \Delta x / l        }
 
-.. _fgm:
-.. figure:: /figs/shearm.png
-    :width: 50%
+.. .. _fgm:
+.. .. figure:: /figs/shearm.png
+..     :width: 50%
+.. 
+..     Schematic of deformation for the shear modulus.
 
-    Schematic of deformation for the shear modulus.
-
-In which :math:`\tau_{xy}` is the shear stress, :math:`\gamma_{xy}` is the shear strain, :math:`F` is the applied force on the cross section of the material :math:`S`. :math:`l` is the thickness of the material and :math:`\Delta x` is the transverse displacement (:num:`Fig #fgm`).
+In which :math:`\tau_{xy}` is the shear stress, :math:`\gamma_{xy}` is the shear strain, :math:`F` is the applied force on the cross section of the material :math:`S`. :math:`l` is the thickness of the material and :math:`\Delta x` is the transverse displacement (:num:`Fig #fym` B).
 
 
 Other characteristic numbers can also be defined. In the case of isotropic
 elastic material, only two of those parameter are required to completely define
 the properties of the material. 
 
-
 Poisson Ratio
 =============
 .. 3
 
-We have just seen that the shear modulus is linked to the Young modulus using
+We have seen that the shear modulus is linked to the Young modulus using
 the Poisson ratio.  The Poisson ration is another characteristic of a material
 that define how much a material will compress/expand in the directions
 orthogonal to its elongation.
@@ -654,6 +653,7 @@ deformation in the orthogonal direction than incompressible material, leading
 to a global increase of volume if compressed. 
 
 
+
 Viscosity
 =========
 .. 3
@@ -664,12 +664,13 @@ something in it at high speed. And indeed, viscosity is the pendant of the elast
 modulus but considering forces induced by deformation rate instead of displacement.
 
 .. math::
+    
+    \frac{F}{S} &= \tau_{xy} \\
+                &= \eta \frac{\partial v}{\partial z}
 
-    F = S.\eta \frac{\partial v}{\partial z}
-
-In which :math:`F` is the force exerted on the surface :math:`S`. :math:`\eta`
-is the viscosity, and is expressed in :math:`Pa.s`, :math:`v` is the
-deformation rate along the direction :math:`z` .
+In which :math:`\tau_{xy}` is the shear stress, :math:`F` is the force exerted
+on the surface :math:`S`. :math:`\eta` is the viscosity, and is expressed in
+:math:`Pa.s`, :math:`v` is the deformation rate along the direction :math:`z` .
 
 .. We will
 .. also note that viscosity is often written :math:`\mu`, and can
@@ -679,7 +680,7 @@ At room temperature water has a viscosity of around 1 mPa.s, and honey of 10 Pa.
 often depend on the timescale and deformation rate. At short
 timescale tissues often behaves elastically, whereas at long timescale the effect
 of viscosity will be seen :cite:`Thoumine1997`. In actin network, the effect of
-viscosity at short time scale can be as high as elasticity :cite:`Gardel`. 
+viscosity at short time scale can be as high as elasticity :cite:`Gardel2003`. 
 
 
 .. todo:
@@ -724,24 +725,104 @@ in parallel or series. Such model systems will have a viscoelastic behavior.
 The idea for more complex models is similar, where any material can be seen like an
 (infinite) combination of springs (for elasticity), and dash-pots, (for viscosity).
 
-The generalised model can then be described using a unique parameter, we extend
-the shear modulus with a imaginary part (becoming :math:`G^*`), thus capturing the effect of
-viscosity. In addition to an imaginary part, we introduce a dependency of `G`
-with a pulsation (:math:`\omega`).
+Viscoelastic theory try to explain the mechanical properties of a system by
+using a single parameter which is the viscoelasticity of a material. This can
+be done by describing :math:`E` as a relaxation modulus depending on time.  In
+the case of linear system we can express the strain on the material at a given
+time as a function of its history :
 
-The real and imaginary part of :math:`G^*` are respectively called storage
-(:math:`G'`) and loss (:math:`G"`) modulus.  We can then write the following :
-   
 .. math::
-    G^*(\omega) = G' (\omega) + i.G"(\omega)
+    :label: strain
 
-Where :math:`i` is the imaginary unit.  The star denoting the complex character
-of `G` can be dropped, as well as the explicit dependency with :math:`\omega`.
-The viscoelastic properties of a material are fully characterized by the full
-expression for the storage and loss modulus as a function of the frequencies.
+    \sigma (t)  = \int_0^t E(t-\tau) \frac{du}{d\tau} d\tau
 
-Models for actin network of different concentration under different hypotheses
-have been extensively studied, and exhibit characteristic behavior for linear :cite:`Morse1998a`, and non linear :cite:`Yao2011` regimes.
+In which :math:`\sigma(t)` is the time depending stress, and :math:`u(t)` is
+the know strain.
+
+Using Rheology, it is common to measure the properties of a material using a
+sinusoidal strain of known amplitude :math:`u_0` and frequency :math:`f =
+\omega/ 2.\pi` : :math:`u(t) = u_0.cos(\omega t)`, which also imply a
+sinusoidal strain rate. Using the complex notation :math:`\dot u = u_0 i\omega
+e^{i\omega t}`. In equation :eq:`strain`, and operating the change of variable :math:`t-\tau \to t'`  leads to :
+
+.. math:: 
+
+    \sigma(t) = u_0\int_0^\infty E(t') i\omega e^{i\omega(t-t')}dt'
+
+By making the time dependent part in factor, the rest can be rewritten as two integral with respectively a Real and imaginary prefactor : 
+
+.. math::
+    :label: eqt
+
+    \sigma(t) = u_0e^{i\omega t}\times\left(
+              \omega \int_0^\infty E(t')  sin(\omega t) dt' 
+              +
+            i \omega \int_0^\infty E(t') cos(\omega t) dt' 
+    \right)
+
+ 
+The two integrals in brackets only depends on the pulsation :math:`\omega` and the properties of the considered material. 
+They are both in factor of the complex strain :math:`u(t) = u_0 e^{i\omega t}` 
+We thus define the storage modlus of the material as the real part of (:eq:`eqt` in bracket) :math:`E'` : 
+
+.. math::
+
+    E'(\omega) =  \omega \int_0^\infty E(t')  sin(\omega t) dt' 
+
+And the loss modulus as the imaginary part of (:eq:`eqt` in bracket) 
+    
+.. math::
+    E"(\omega) =  \omega \int_0^\infty E(t')  cos(\omega t) dt' 
+
+And define the complex frequency dependant young modulus as :
+
+.. math::
+
+    E^*(\omega) = E'(\omega) + i.E"(\omega)
+
+.. :math:`\otimes`
+
+
+Thus we can write :eq:`eqt` as : 
+
+.. math::
+
+    \sigma(t) = E^*(\omega).u(t)
+
+
+In this representation of :math:`E^*(\omega)`, the real part will correspond to
+the elastic response of the material, which correspond to in-phase response
+under oscillatory strain. The imaginary part correspond to the viscous response
+of the system, out of phase under sinusoidal strain. The complete knowledge of
+:math:`E^*(\omega)` at all frequency completely characterize the material.
+
+.. The generalised model can then be described using a unique parameter, we extend
+.. the shear modulus with a imaginary part (becoming :math:`G^*`), thus capturing the effect of
+.. viscosity. In addition to an imaginary part, we introduce a dependency of `G`
+.. with a pulsation (:math:`\omega`).
+.. 
+.. The real and imaginary part of :math:`G^*` are respectively called storage
+.. (:math:`G'`) and loss (:math:`G"`) modulus.  We can then write the following :
+..    
+.. .. math::
+..     G^*(\omega) = G' (\omega) + i.G"(\omega)
+.. 
+.. Where :math:`i` is the imaginary unit.  The star denoting the complex character
+.. of `G` can be dropped, as well as the explicit dependency with :math:`\omega`.
+.. The viscoelastic properties of a material are fully characterized by the full
+.. expression for the storage and loss modulus as a function of the frequencies.
+
+Models for actin network have been extensively studied as viscoelastic material
+both theoretically :cite:`Morse1998a`, :cite:`Kruse2005` , and  experimentally
+:cite:`Mizuno2007`.  Actin network have also been shown to exhibit linear
+characteristic behavior, but also and non linear ones  in a certain range in
+concentration :cite:`Yao2011`, :cite:`Gardel2003`. 
+
+The actin network we will study hereafter are in the condition where linear
+behavior is expected, thus we will use the viscoelastic theory to interpret the
+relation stress/strain observed in order to determine the mechanical properties
+of the formed actin gels.
+
 
 
 .. Active and Passive microrheology 

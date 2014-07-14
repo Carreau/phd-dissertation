@@ -101,6 +101,7 @@ latex:
 latexpdf:
 	$(SPHINXBUILD) -b latex -t latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	python sphinxmanual_mod.py
+	python normalize.py
 	@echo "Modified _build/latex/sphinxmanual.cls"
 	@echo "Running LaTeX files through pdflatex..."
 	make -C $(BUILDDIR)/latex all-pdf

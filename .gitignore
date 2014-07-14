@@ -12,3 +12,5 @@ alTmp*
 *.asv
 *.mat
 *.spl
+parts/figs/ac/
+parts/figs/actin-cloud.mov

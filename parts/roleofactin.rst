@@ -150,16 +150,16 @@ The equations that drive the polymerisation can be written as follow
 
 .. math::
 
-    \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[G-Actin] - k_{-,{barbed}} \\
-    \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[G-Actin] - k_{-,{pointed}} \\
+    \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[G—Actin] - k_{-,{barbed}} \\
+    \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[G—Actin] - k_{-,{pointed}} \\
 
 Where `barbed` and `pointed` designate respectively the barbed and pointed end,
 and :math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation
 rate.  The concentration in barbed and pointed end denoted by
-:math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointeds end is
+:math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointed ends is
 equal to the number of barbed ends, one can derive the steady state which give
 rise to the critical monomer concentration below which an actin filament cannot
-grow: :math:`[G-Actin]_c`.
+grow: :math:`[G—Actin]_c`.
 
 The rate constants of elongation of actin have been determined and depend of
 whether the monomer is bound to ADP or ATP :cite:`Pollard1986`. We should
@@ -744,7 +744,6 @@ system to be reconstituted `in vitro` in liposomes.
     inner pressure of the cell lead to the inflation of the membrane at the
     point of rupture/detachment. The acto-myosin cortex with rapidly refer on
     the formed bleb slowing it growth.
-
     Extracted from :cite:`Charras2008`
 
 

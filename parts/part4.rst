@@ -353,7 +353,7 @@ experiments, where the liposomes composing the doublets have an ratio of :math:`
 
     Confocal stack of an liposome doublets, actin channel, 3D reconstruction in
     :num:`Figure #fig3a`. Note that there is no actin at the interface between
-    the liposomes. The distance between each image is :math:`\Delta z=0.85` µm.  
+    the liposomes (Frames #11-#14). The distance between each image is :math:`\Delta z=0.85` µm.  
 
 .. _fig3a:
 .. figure:: /figs/Fig_03-A.png
@@ -833,7 +833,7 @@ to check for the regularity of the function and the absence of local maxima. :nu
 
 .. _gof2d:
 .. figure:: /figs/gof-2d-doublets.png
-    :width: 80%
+    :width: 60%
     
     Correlation of the model and the data as a function of the center position
     of one of the model spherical caps along the X axis and the radius of this
@@ -841,7 +841,7 @@ to check for the regularity of the function and the absence of local maxima. :nu
 
 .. _gof3d:
 .. figure:: /figs/gof-3d-doublets.png
-    :width: 80%
+    :width: 60%
 
     3D representation of the data in :num:`figure #gof2d`, the shape of the
     function is the same as the simulation done with the `expected signal` in
