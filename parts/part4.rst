@@ -349,7 +349,7 @@ experiments, where the liposomes composing the doublets have an ratio of :math:`
 
 .. _confocal-stack:
 .. figure:: /figs/light_table.png
-    :width: 70%
+    :width: 90%
 
     Confocal stack of an liposome doublets, actin channel, 3D reconstruction in
     :num:`Figure #fig3a`. Note that there is no actin at the interface between

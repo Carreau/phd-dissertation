@@ -1050,7 +1050,7 @@ follow a power low (:math:`F_{plaw}`), when no sticking events are present.
 
 
 :math:`F_{ret}(d)` seem though to follow the force felt durring the approached damped by :math:`\chi(t)` (:math:`F_{da}`) for :math:`d
-\simeq{D_{bead}}` and :math:`F_{da}+F_{plaw}` for :math:`d > 10µm`.  The
+\simeq{D_{bead}}` and :math:`F_{da}+F_{plaw}` for :math:`d > 10\mu{}m`.  The
 typical size of the bead being :math:`D_{bead}` we expect the transition from
 one regime to the other to be done on a length scale of :math:`D_{bead}` Thus
 we use a smoothing function which is a convolution between the projected bead
