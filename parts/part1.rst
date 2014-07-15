@@ -934,17 +934,15 @@ Determination of force and displacement on bead
 
 
 In addition to allowing the objects to be hold in place, the use of a QDP
-(Quadrant Photo Diode) with  optical trap have the advantaged of allowing the
-high frequency quantitative measurement of the displacement and force exerted
-on a object. 
-Indeed, when the trapped particle is not in the trap center, 
-the laser apply a force on the object.
-Reciprocally the object apply the opposite force on the light beam,
-thus deflecting the light beam.
-Using optics and lenses correctly placed on the Fourier plane of the sample, it is
-hence possible to translate this change of orientation of the light  beam into
-a displacement of a light spot onto a photo detector with hight sensitivity to
-applied forces.
+(Quadrant Photo Diode, a precise laser position detector) with  optical trap
+have the advantaged of allowing the high frequency quantitative measurement of
+the displacement and force exerted on a object.  Indeed, when the trapped
+particle is not in the trap center, the laser apply a force on the object.
+Reciprocally the object apply the opposite force on the light beam, thus
+deflecting the light beam.  Using optics and lenses correctly placed on the
+Fourier plane of the sample, it is hence possible to translate this change of
+orientation of the light  beam into a displacement of a light spot onto a photo
+detector with hight sensitivity to applied forces.
 
 Through careful calibration of the trap, that give the force/displacement
 relationship, :cite:`Jahnel2011`, :cite:`Vermeulen2006`, one can then also
