@@ -20,10 +20,6 @@ Contents
 ..   preface
 ..   introduction
 
-.. html::
-
-    * :ref:`search`
-
 .. raw:: html
     
     You can Download the latest pdf version of this 

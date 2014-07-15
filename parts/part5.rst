@@ -1,5 +1,5 @@
 Active cytoplasm movement in mouse oocytes
-############################
+##########################################
 .. 1
 
 Introduction
@@ -18,10 +18,11 @@ cytoplasmic activity in mouse oocyte.
 
 In :num:`Figure #oocytewt` a typical mouse
 oocyte is presented where the nucleus can be seen to be positioned at the center of the cell.
-Current questions in this system relate to the mechanical processes during miosis such as the chromosome migration, 
+Current questions in this system relate to the mechanical processes during meiosis such as the chromosome migration, 
 the assymetric cell division and the positioning of organelles by the dynamic remodelling of the actin network. 
-While our team did active and passive microrheology measurements on teh timescales or 10 seconds, I developped a 
-method that is suitable for longer timescales in the order of minutes, that are more relevant for the process of miosis. 
+While our team did active and passive microrheology measurements on the timescales or 10 seconds, I developed a 
+method that is suitable for longer timescales in the order of minutes, that are more relevant for the process of meiosis. 
+
 .. todo:
 
     Maybe mention that actin is important in this positioning.
@@ -32,13 +33,15 @@ method that is suitable for longer timescales in the order of minutes, that are 
     :alt: "Bright field image of an oocyte"
     :width: 60%
 
-    (YOU NEED A SCALE BAR!) Bright field image of a mouse oocyte before meiosis. The cell diameter is about
-    80µm. The nucleus is positioned at the center of the oocyte during Meiosis I by the
-    help of the actin network. The positioning is a crucial factor for the
-    normal division of the oocyte. The oocytes are a good reference system as they provide a clean spherical
-    symmetry and due to their size give a good spatial differences between the cortex and the cytosole which helps 
-    in measuring spatial variations of mechanical properties and vesicel movement.  Image Credit to Maria Almonacid from
-    Collège de France.
+    Bright field image of a mouse oocyte before meiosis (scale bar is 20 µm).
+    The cell diameter is about 80µm. The nucleus is positioned at the center of
+    the oocyte during Meiosis I by the help of the actin network. The
+    positioning is a crucial factor for the normal division of the oocyte. The
+    oocytes are a good reference system as they provide a clean spherical
+    symmetry and due to their size give a good spatial differences between the
+    cortex and the cytosol which helps in measuring spatial variations of
+    mechanical properties and vesicle movement.  Image Credit to Maria
+    Almonacid from Collège de France.
 
 Oocytes
 *******
@@ -46,8 +49,8 @@ Oocytes
 
 The cytosolic actin meshwork in oocyte is controlled by the activity of formins (Fmn2) that
 nucleate actin polymerisation and by the activity of the vesicle bound molecular motor protein myosins Vb that 
-controlls the dynamic movement of the
-vesicles in the actin meshwork. Hence it is of interest to study oocytes that have formin and myosin Vb deficites. 
+controls the dynamic movement of the
+vesicles in the actin meshwork. Hence it is of interest to study oocytes that have formin and myosin Vb deficits. 
 In particular, we focused on three types: 1) Wild types oocyte, 2) oocytes prepared from Formin 2 invalidated female 
 (Fnm2-/-) that lack the
 actin meshwork and 3) oocytes injected  with the dominant-negative tail of Myosin
@@ -58,7 +61,7 @@ Vb (:num:`Fig #fig3oo`)
     :width: 100%
 
     Bright field image microscopy of the 3 kinds of oocyte (Credit to Maria
-    Almonacid, Collège de France). WT) Image of Wild Type Oocyte, Scalebar is
+    Almonacid, Collège de France). WT) Image of Wild Type Oocyte, Scale bar is
     20µm. Fmn2-/-) Oocytes extracted from females with invalidated Formin 2,
     theses oocytes lack the actin meshwork. MyosinVb Tails) Oocyte injected
     with a Myosin Vb dominant negative tail have a less actin vesicle
@@ -73,54 +76,41 @@ The diffusive like motion of actin positive vesicles that can be observed during
 reduced in Fmn2-/- and MyosinVb-tails oocytes when compared to the wild type.
 While the use of particle tracking algorithms to measure vesicle motion in oocyte is possible, it remains a
 complex process especially as the vesicles may move outside the focal
-plane of the microscope. As a simple appraoch to measure the vesicle activity we decided to
+plane of the microscope. As a simple approach to measure the vesicle activity we decided to
 investigate the temporal variations of the bright field images in mouse oocyte.
 
 We can compute the time dependent difference between predefined region of interest (ROI) in an image
 series to see how fast the bright field images change. We can compare
-the result for wild type (:num:`Fig #decay-wt`), Formin Knockout (:num:`Fig
-#decay-fmn2`) and MyosinVb dominant negative tail (:num:`Fig #decay-myo`).
+the result for wild type, Formin Knockout and MyosinVb dominant negative tail (:num:`Fig #decay-all`).
 
-(PUT THE 3 IMAGES TOGETHER IN 3 DIFFERENT PANELS. THEN DESCRIBE THE DIFFERENCE. WOULD IT NOT BE BETTER TO ALWAYS USE THE SAME SCALE ON THE COLORBAR?)
-.. _decay-wt:
-.. figure:: figs/decay-wt.png
-    :width: 70%
 
-    Bright field images of Wild type mouse oocyte at t=0, t=1min et t=174min as
-    well at the difference between t=1min, t=174min and initial image. Blue
+
+.. _decay-all:
+.. figure:: figs/decay-all.png
+    :width: 80%
+
+    Bright field images of 3 types of mouse oocyte : Wild type in first column,
+    Formin knockout in second, Myosin Tails dominant negative in third. Row 1
+    to 3 represent the region of interest of :num:`figure #fig3oo` (20 µm side)
+    for each kind of oocyte. Row 1 show region of interest at t=0s, row 2 at
+    t=1min and row 3 at t=10min. The color-coded difference between images at
+    t=0s and 60s are shown on row 4, and between t=0s and 10min row 6. Blue
     indicate that the later image is brighter that the original one and red
-    indicate that it is darker.  For wild type oocyte, we can see that the
-    scale difference between images is similar for a :math:`\Delta t` of 1
-    minute and 174 minute. Region show is the same as indicated in :num:`figure #fig3oo`.
+    indicate that it is darker. For wild type oocyte, the difference of images
+    reach rapidly its maximum value (Image J and M similar), Whereas for
+    Fmn2-/- and MyoVb the difference between images separated by 60 seconds
+    (K,L) is much smaller than after 10 minutes (N,O) which can be seen as the
+    (K) is whiter than (N) and (L) is whiter than (O). The change in cytoplasm
+    is thus much faster in WT oocyte (:math:`< min`) while it takes
+    significantly longer in Fmn2-/- and MyosinVb oocytes.
 
-.. _decay-myo:
-.. figure:: figs/decay-myo.png
-    :width: 70%
 
 
-    Bright field images of MyoVb tails mouse oocyte at t=0, t=1m et t=174m as
-    well at the difference between t=1m, t=174m and initial image. Blue
-    indicate that the later image is brighter that the original one and red
-    indicate that it is darker.  We can see that the difference between images
-    is much stronger after several hours (174min) than after a minute, unlike
-    in :num:`Figure #decay-wt`. Region show is the same as indicated in :num:`figure #fig3oo`.
 
-.. _decay_fmn2:
-.. figure:: figs/decay-fmn2.png
-    :width: 70%
-
-    Bright field images of Fmn2-/- mouse oocyte at t=0, t=1m et t=174m as well
-    at the difference between t=1m, t=174m and initial image. Blue indicate
-    that the later image is brighter that the original one and red indicate
-    that it is darker.  We can see that the difference between images is much
-    stronger after several hours (174min) than after a minute, unlike
-    in :num:`Figure #decay-wt`. Region show is the same as indicated in :num:`figure #fig3oo`.
-
-(I AM NOT SURE WHAT EXACTLY YOU WANT TO SHOW. YOU SAY THAT THE CHANGE IS STRONGER IN FMN2-/- and MYOVb, WHICH SUGGESTS THAT THEY MORE ACTIVE?)
-
-A quantitative measurement of the difference of the images is the
-autocorrelation of these thought time. The correlation of two images :math:`A`
-and :math:`B` of same dimension is defined as :
+To get a quantitative measurement of the speed at which the difference of the
+images changes, we can compute the autocorrelation of bright field images
+thought time. The correlation of two images :math:`A` and :math:`B` of same
+dimension is defined as :
 
 
 .. math::
@@ -129,14 +119,22 @@ and :math:`B` of same dimension is defined as :
 
     
 In which :math:`A_i` and :math:`B_i` are luminosity values of each of the
-:math:`n` pixels in :math:`\bar{A},\bar{B}` correspond to average values over
-the images, :math:`s_A` and :math:`s_B` are the standard deviations of the
-luminosity values.
+:math:`n` pixels of the images,  :math:`\bar{A},\bar{B}` corresponds to average
+luminosity values over the images, :math:`s_A` and :math:`s_B` are the standard
+deviations of the luminosity values. The correlation will give us a single
+value that characterise the similarity of the images. A correlation of
+:math:`1` mean the images are identical, a correlation of `0`, mean that the
+images have nothing in common, a negative value of correlation mean that the
+second image is globally dark where the first one is bright and bright when the
+first one is dark. We can thus obtain a measurement of similarity of images
+over time, that should start at :math:`1` for :math:`\Delta t=0s` between
+images. We expect it to decrease until it eventually reaches zero. 
 
 
 We can compare the decrease of correlation over time depending on the type of
-oocyte. In order to extract a single value that represent the activity, 
-we can phenomenologically fit the correlation as a decaying exponential with an offset :
+oocyte. In order to extract a single value that represent the activity, we can
+phenomenologically fit the correlation as a decaying exponential with an offset
+:
 
 .. math:: 
     :label: edecay
@@ -144,19 +142,20 @@ we can phenomenologically fit the correlation as a decaying exponential with an 
     r(t) = (1-off).e^{(-t/\tau)}+off
 
 
-In which :math:`t` is time, and :math:`\tau` is a characteristic time representing the
-correlation decay. The offset  :math:`off` represent the value of the
-correlation at infinite time to take into account artifact in the chosen region
-of interest, and defects in the image that will not decorrelate over time. 
+In which :math:`t` is time, and :math:`\tau` is a characteristic time
+representing the correlation decay. The offset  :math:`off` represent the value
+of the correlation at infinite time to take into account artifact in the chosen
+region of interest, and defects in the image that will not decorrelate over
+time. 
 
-:num:`Figure  #fig-exp-decay` gives typical examples of the result of the measured autocorrelation over time, and a
-single exponential decay fit. 
+:num:`Figure  #fig-exp-decay` gives typical examples of the result of the
+measured autocorrelation over time, and a single exponential decay fit. 
 
 .. _fig-exp-decay:
 .. figure:: figs/corrtime.png
     :width: 65%
 
-    Decreasing autocorrelation of images internsity (solid line) over time, with
+    Decreasing autocorrelation of images intensity (solid line) over time, with
     exponential decay fit (dotted lines) as in :eq:`edecay`. The characteristic decay time of the fit 
     :math:`\tau` in the legend. We can see in the plot that the
     correlation of the images decrease much faster in wild type oocyte (red
@@ -167,9 +166,10 @@ single exponential decay fit.
 
 
 
-The results show that the values of the characteristic time increases with when we disrupt the
-actin network or the  source of its dynamism by inactivating Myosin Vb. We can
-then use the inverse of :math:`\tau` as an indicator of activity.
+The results show that the values of the characteristic time increases with when
+we disrupt the actin network or the  source of its dynamism by inactivating
+Myosin Vb. We can then use the inverse of :math:`\tau` as an indicator of
+activity.
 
 
 Once we have define the activity of a region of the cytoplasm of the cell, we

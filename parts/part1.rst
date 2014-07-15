@@ -425,7 +425,7 @@ In which
 
 
 Membrane tension is a key parameter as it can be measures in cells, and is one
-of the parameter responsible for cell sorting :cite:`Maitre0212`. In particular
+of the parameter responsible for cell sorting :cite:`Maitre2012`. In particular
 between cells, the tension of the couple (membrane+actin cortex) can be
 determined by using the contact angle between cell which is the angle between
 interfaces as defined in :num:`Figure #fig-tension-cell`.
