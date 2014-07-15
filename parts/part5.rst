@@ -198,16 +198,17 @@ Conclusion
 
 
 In this part we developed a methods that allow to determine the cytoplasmic
-activity. This method also allows to determine the variation of this cytoplasmic
-activity over space and time. This methods is the study of oocyte as it allows
-to probe timescale from the second to the hour which is in the order of the
-relevant timescale for oocyte maturation of a few hours. It is also
-complementary to techniques like micro rheology that have difficulties probing
-timescale beyond tens of seconds due to thermal drift and cell movements, but
-reach much shorter timescale.
+activity in oocytes by a noninvasive image analysis. This method also allows 
+to determine the spatial and temporal variation of this cytoplasmic
+activity. A further advantage of this methods is its flexibility regarding the timescales 
+that are probed reaching from the second up to hours, noting that this is similar to the 
+relevant timescale for oocyte maturation. Such long timescales are also
+complementary to techniques like active optical tweezer based micro-rheology that have difficulties probing
+timescale beyond tens of seconds due to thermal drift and cell movement, but
+reach on the other hand much shorter timescales below ms.
 
-The use of this technique is currently under investigation at Collège de France
-by Marie-Hélène Verhlac and Maria Almonacid. It is used to measure the activity
-of actin network in oocyte and determine their effect on the meiosis of mouse
-oocyte.
+The proposed techinque is currently actively applied by Marie-Hélène Verhlac and Maria Almonacid at the Collège de France. 
+It is used to measure the activity
+of actin networks in oocyte and determine their effect on the meiosis of mouse
+oocyte and the organelle positioning. 
 
