@@ -106,7 +106,7 @@ pygments_style = 'sphinx'
 #modindex_common_prefix = []
 
 # Shows all todo listings
-todo_include_todos = True
+todo_include_todos = False
 
 
 # -- Options for HTML output ---------------------------------------------------
