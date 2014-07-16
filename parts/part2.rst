@@ -485,30 +485,6 @@ supplemented with  1µM Milrinone. Oocyte are then injected with cRNA  using a
 micro-injector Eppendorf FemtoJet. Imaging was carried out at :math:`37^\circ{}C`.
 
 
-.. Passive Microrheology
-.. *********************
-.. .. 2
-.. 
-.. Passive microrheology was performed on vesicles inside the prepared in oocytes. To
-.. do so, vesicle present in :ref:`prepared oocytes <oocyte_preparation>` were
-.. trapped using a :ref:`single optical trap <time_shared_ot>`.
-.. 
-.. After :ref:`Laser Calibration <laser_calibration>`, one of the oocytes is
-.. brought into the field of view of the microscope and the oocyte is move until
-.. nucleus is into view and in microscope focal plane. The optical tweezer is
-.. positioned on a vesicle and set to a low power (1mW)  and is used only to
-.. record the spontaneous motion of the endogenous vesicle for 10 seconds without
-.. trapping them.  The recorded 10s trajectory are hereafter restricted to a
-.. displacement of 500nm to remain in the linear regime of the photodiode.
-.. 
-.. A bright field picture of the sample is automatically taken before and after each
-.. passive microrheology measurement.
-.. 
-.. From the recorded displacement the power spectral density of the vesicle displacement is calculated.
-.. 
-.. After performing passive microrheology measurement, :ref:`active microrheology
-.. measurements <active_microrheology>` are made on the same vesicle.
-.. 
 .. 
 .. .. _active_microrheology:
 .. 
