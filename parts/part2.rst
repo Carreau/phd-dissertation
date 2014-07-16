@@ -15,7 +15,7 @@ G-Buffer
 
 G-Buffer is used to conserve actin in the monomeric form. Actin is diluted in
 G-Buffer and kept on ice for at least 12 hours before further use. G-buffer is
-aliquoted and stored at -20°C. For weekly use ot is thawn and conserved on ice for up to a week. G-buffer is never
+aliquoted and stored at -20°C. For weekly use or is thawed and conserved on ice for up to a week. G-buffer is never
 refrozen.  pH is adjusted between 7 and 8.
 
 Composition of G-Buffer:
@@ -74,7 +74,7 @@ Protein preparation
 .. 2
 
 pWA (also called pVCA)
-===
+======================
 
 pWA is use as a nucleation promoting factor. It is expressed from Human pVCA
 (verprolin homology central and acidic domain) and expressed into Rosetta
@@ -186,8 +186,7 @@ concentration of 2.5 mg/ml in chloroform/methanol 5:3 are deposited on glass
 plates coated with  ITO. Glass is then dried with  nitrogen; placed
 under vacuum for 2 hours.
 
-.. Todo
-YOU NEED TO SAY THAT HALF OD THE LIPOSOMES WERE PREPARED WITH RHODAMINE B!!)
+
 
 A chamber is formed using the ITO plates with their conductive sides facing
 inside, then filled with sucrose buffer (200mM sucrose, 2mM Tris adjusted at pH
@@ -195,6 +194,13 @@ inside, then filled with sucrose buffer (200mM sucrose, 2mM Tris adjusted at pH
 
 An alternate current voltage of 1V at 10 Hz is applied between the ITO-coated
 surfaces for 75minutes to form liposomes.
+
+The same preparation is done a second time by adding 0.9µm sulphorhodamin to
+the sucrose buffer in order to mark liposomes inside buffer fluorescently.
+
+The two solution are mixed in order to have the inside buffer of half the
+liposome marked in red and being able to distinguish the interfaced in some of
+the formed doublets.
 
 Formed liposomes are incubated 15 minutes with 160 nM streptavidin in order to
 coat them with streptavidin. Liposomes coated with streptavidin tend to
@@ -269,13 +275,14 @@ mix consisting of :
     - 0.5 µL Arp2/3 (22,3 µM)
     - between 0 and 2 µL CP (0.5 µM)
     - Completed to 15 µL using X-Buffer.
-.. Todo
-There are XX letters in the concentration for VaLaP, please fill in.
+
+.. Todo::
+    There are XX letters in the concentration for VaLaP, please fill in.
 
 5 µL of G-Actin (20% fluorescent) is then added to the previous mix. This
 moment parks the time `t=0` for the experiment and recording. The experimental chamber is
-build by 2 coverslips that are separated by VaLaP. VaLaP is a mix of vaseline (XX%)
-Lanoline (XX%) and Parafine(XX%). The chamber is prepared by gently depositing 20 µL of
+build by 2 coverslips that are separated by VaLaP. VaLaP is a mix of vaseline (33%)
+Lanoline (33%) and Parafine(33%) in equal mass proportion. The chamber is prepared by gently depositing 20 µL of
 the final beads mix at the center of the lower coverslip and 4 drops of VaLaP
 are deposited at the position where the corner of the upper (18x18mm) coverslip
 will rest. The VaLaP acts as a spacer and prevents the sample to be squashed.  The
@@ -301,7 +308,7 @@ place on top of the sample (:num:`Fig #ots-2`).
 
     Schematic of experimental setup. The QPD situated after the collector allows
     to determine the displacement between the laser focus and the bead, which is used in combination with the 
-    predertmined trap stiffness to calculate the force exerted on the trapped sample. It needs to be
+    predetermined trap stiffness to calculate the force exerted on the trapped sample. It needs to be
     correctly positioned before each experiment.    
 
 The trapping laser is then aligned with the photodiode while verifying that no
@@ -380,7 +387,7 @@ each bead to ensure correct calibration. An indentation cycle has the
 following step: 
 
     - Probe trap is approaching the actin-bead at constant speed until the minimal approach distance has been reached.
-    - At the minimal distance the traps remain statinary for the predifined (typical 3 seconds) resting time.
+    - At the minimal distance the traps remain stationary for the predefined (typical 3 seconds) resting time.
     - Probe trap returns to its initial position at constant speed.
     - Cycle is repeated as many times as set.
 
@@ -420,11 +427,11 @@ polymerisation for each sample.
 .. _time_shared_ot:
 
 Time Shared Optical Traps
-************************
+*************************
 .. 2
 
 
-The optical trap is build on an inverted microscope (Olympus, IX71) equiped with
+The optical trap is build on an inverted microscope (Olympus, IX71) equipped with
 a fluorescence (200W mercury lamp, Osram, Munich, Germany). The sample is observed
 through a Olympus 60X water immersion objective (Olympus) with numerical aperture NA=1.2, that also
 serves at entry point for the laser of the optical tweezer.  The light source is 
@@ -499,7 +506,7 @@ micro-injector Eppendorf FemtoJet. Imaging was carried out at :math:`37^\circ{}C
 .. adjusted to be around 7.4. 
 .. 
 .. 20 µL of the collagen solution was deposited on a coverslip. Before full
-.. polymerisation of the collagen occured 3 to 8 oocyte where deposited inside the
+.. polymerisation of the collagen occurred 3 to 8 oocyte where deposited inside the
 .. droplet separated from each other by tens of micrometers. 
 .. 
 .. Droplet is then covered with another coverslip. Dow Corning vacuum grease is
