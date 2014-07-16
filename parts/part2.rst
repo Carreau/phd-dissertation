@@ -485,39 +485,6 @@ supplemented with  1µM Milrinone. Oocyte are then injected with cRNA  using a
 micro-injector Eppendorf FemtoJet. Imaging was carried out at :math:`37^\circ{}C`.
 
 
-.. _oocyte_preparation:
-
-.. Oocyte preparation
-.. ==================
-.. .. 3
-.. 
-.. Live oocytes were embedded in a collagen gel to reduce movement of the overall
-.. cell during measurements.
-.. 
-.. 
-.. Collagen gel was made by mixing the following components :
-.. 
-..     - M2 medium (33.5μL)
-..     - 1X PBS (10 μL)
-..     - NaOH (1M, 0.9 μL)
-..     - collagen (3.6 mg/mL, 55.6 μL) 
-.. 
-.. Which gives a final collagen concentration of 2 mg/ml in 100 μL. pH was
-.. adjusted to be around 7.4. 
-.. 
-.. 20 µL of the collagen solution was deposited on a coverslip. Before full
-.. polymerisation of the collagen occurred 3 to 8 oocyte where deposited inside the
-.. droplet separated from each other by tens of micrometers. 
-.. 
-.. Droplet is then covered with another coverslip. Dow Corning vacuum grease is
-.. used both as a spacer and seal to minimize evaporation. The sample is left to
-.. polymerize in a humid environment at 37°C for 30 minutes.
-.. 
-.. Optical trap laser is then calibrated as in :ref:`laser_calibration`.
-.. 
-.. 
-.. .. _passive_microrheology:
-
 .. Passive Microrheology
 .. *********************
 .. .. 2
