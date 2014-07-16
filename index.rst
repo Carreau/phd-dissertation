@@ -3,22 +3,15 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 6
+    :maxdepth: 6
 
-   parts/part1
-   parts/part2
-   parts/part3
-   parts/part4
-   parts/part5
-   parts/conclusion
-
-..    parts/extra
-..    parts/physicalparameters
-..  parts/spinning
-..   parts/doublets
-..   acknowledgements
-..   preface
-..   introduction
+    parts/recap-french
+    parts/part1
+    parts/part2
+    parts/part3
+    parts/part4
+    parts/part5
+    parts/conclusion
 
 .. raw:: html
     

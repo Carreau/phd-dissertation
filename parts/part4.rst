@@ -791,7 +791,7 @@ but reducing the precision in the position of the maxima.
 
 .. _max-proj-model:
 .. figure:: /figs/max_proj_model.png
-    :width: 70%
+    :width: 50%
 
     Maximum projection along X,Y and Z of numerical model, the "ring" effect
     can still slightly be seen near the pole of each liposome, but is not
@@ -806,7 +806,7 @@ gaves us the 8 parameters of the doublets. Result of the fits are show in
 
 .. _fig-fit-t0:
 .. figure:: /figs/Doublet-402-A-Fit-t-0.png
-    :width: 70%
+    :width: 50%
 
     Maximum projection of confocal images in the X,Y and Z projection as well
     as the result of the fits shown as equatorial circles for the three

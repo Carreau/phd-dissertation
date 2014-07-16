@@ -222,7 +222,7 @@ in the middle part.
 .. _figindent-time:
 
 .. figure:: /figs/force_time.png
-    :width: 90%
+    :width: 60%
     
     Upper graph : Force as a function of time on the actin-beads.  Lower graph
     : distance between beads (distance between traps + displacement of beads
@@ -305,7 +305,7 @@ polymerisation. The force distance plot is shown in :num:`Figure #reproc`.
 
 .. _reproc:
 .. figure:: /figs/reproc.png
-    :width: 80%
+    :width: 60%
 
     Figure showing the reproducibility of indentation process on a bead with
     25nM Arp2/3 and 10nM CP Subset of data from :num:`Fig #reproc-time` shown
@@ -328,9 +328,9 @@ to 30 µm/s onthe same actin bead.
 .. _many-speed:
 
 .. figure:: /figs/many_speed.png
-    :width: 80%
+    :width: 60%
 
-    Aproach phase of repetitive indents at multiple speed on the same actin-bead. The approach phase in the differents conditions are simillar, hinting for a negligible effect of the viscosity  in the actin cloud at the speed considered.
+    Approach phase of repetitive indents at multiple speed on the same actin-bead. The approach phase in the differents conditions are simillar, hinting for a negligible effect of the viscosity  in the actin cloud at the speed considered.
 
 
 
@@ -377,11 +377,11 @@ plotted in :num:`Figure #d0-violin`.
 
 .. _d0-violin:
 .. figure:: /figs/d0_violin.png
-    :width: 80%
+    :width: 60%
 
     Repartition of the bead-center distance at which the actin cloud exert a
     force higher than the noise (:math:`d_0`) on the probe bead, as a function of
-    capping protein. Shaded region represent the position of the bead surface (4.34 µm)
+    Capping Protein. Shaded region represent the position of the bead surface (4.34 µm)
     and the red line represent the bead surface+1µm (upper bound for the in vitro
     reformed actin cortex measured in :cite:`Kawska2012`). We see in this graph that for symmetry breaking
     conditions (CP 10 nM and 30 nM) the distance at which the actin cloud apply
@@ -493,7 +493,7 @@ seen on :num:`Fig #power-law-exponent`
 
 .. _power-law-exponent:
 .. figure:: /figs/alpha_violin.png
-    :width: 90%
+    :width: 60%
 
     Right : Violin plot showing the repartition of power law exponent with the
     concentration of Capping Protein. Left distribution of power law exponent
@@ -508,7 +508,7 @@ approach and rescaling the distance by the minimum approach distance from which
 :math:`\delta` is subtracted. 
 
 .. figure:: /figs/rescaled_powerlaw.png
-    :width: 80%
+    :width: 50%
 
     Representation of rescale approach data on a log-log scale.  Red and green
     crosses correspond to average values. Blue area corresponds to average +/-
@@ -870,7 +870,7 @@ micrometers from the bead surface.
 
 .. _fig-interpretation:
 .. figure:: /figs/interp-delta.png
-    :width: 60%
+    :width: 90%
 
     A ) Schematic of an actin cloud. Left:  The actin bead triggers actin
     polymerisation. Right Probe Bead. On the surface of the actin bead a dense
@@ -894,7 +894,7 @@ of polymerisation time.
 
 .. _time-delta-corr:
 .. figure:: /figs/time-delta-corr.png
-    :width: 80%
+    :width: 90%
 
     Distance offset |delta| as a function of time (min) since mix of actin, ATP
     and beads. Linear fit with confidence interval at 95% (light shaded area)

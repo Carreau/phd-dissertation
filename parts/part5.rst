@@ -179,7 +179,7 @@ reproduce a map of the activity in the cell as a function of the position (
 
 .. _fig-activity-map:
 .. figure:: figs/CellAct-WT.png
-    :width: 80%
+    :width: 95%
 
     Activity for different region of  10 by 10 pixels of a wild type oocyte.
     Value of :math:`1/\tau` plotted as color square overlaying the

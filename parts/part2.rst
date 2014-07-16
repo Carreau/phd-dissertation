@@ -319,7 +319,7 @@ upper and lower coverslip and to determine the localisation of the middle plane
 of the observation chamber.
 
 .. figure:: figs/frontend.png
-    :width: 80%
+    :width: 60%
 
     Software responsible for controlling the optical tweezer.  Sample
     containing 2 polystyrene bead and a trap (A, white cross) holding one bead.

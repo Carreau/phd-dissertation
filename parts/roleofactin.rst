@@ -697,7 +697,7 @@ from actin network contraction and reorganisation due to myosin motors (:num:`Fi
 
 .. _fig_lam_principle:
 .. figure:: figs/figure-16-86.jpg
-    :width: 60%
+    :width: 90%
 
     Schematic of Lamellipodium base motility. The lamellipodium grows at the
     leading edge of the cell and attach to a focal point. The actin cortex
