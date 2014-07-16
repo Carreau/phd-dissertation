@@ -1023,9 +1023,9 @@ happening during an indentation cycle.
 .. figure:: /figs/sticking-event.png
     :width: 80%
 
-    A sticking event at `d=15µm` where the force can be seen decreasing rapidly
+    A sticking event at :math:`d=15\mu{}m` where the force can be seen decreasing rapidly
     up to -18 pN before quickly returning to its normal value. A second smaller
-    sticking even is present at `d=12µm` Sticking even appear roughly 20% of
+    sticking even is present at :math:`d=12\mu{}m` Sticking even appear roughly 20% of
     the experiments.
 
 We assume that the sticking events are characteristic to non-specific interaction

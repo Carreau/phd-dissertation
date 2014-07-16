@@ -414,7 +414,10 @@ The tension |sigma| is linked to the energy required to expand the membrane |Hex
 .. math::
 
     \sigma &= \frac {\partial H.A} {\partial \Delta A} \\
-    ie &\\
+
+i.e.
+.. math::
+
     H_{ext} &= \sigma\left( \frac {\Delta A} A \right)
 
 In which 

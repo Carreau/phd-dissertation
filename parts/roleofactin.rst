@@ -149,10 +149,13 @@ constant of association and dissociation differ for both kind of filaments.
 
 The equations that drive the polymerisation can be written as follow
 
+.. todo::
+   Verifier le tiret de G-Actin 
+
 .. math::
 
-    \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[G—Actin] - k_{-,{barbed}} \\
-    \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[G—Actin] - k_{-,{pointed}} \\
+    \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[GActin] - k_{-,{barbed}} \\
+    \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[GActin] - k_{-,{pointed}} \\
 
 Where `barbed` and `pointed` designate respectively the barbed and pointed end,
 and :math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation
@@ -160,7 +163,7 @@ rate.  The concentration in barbed and pointed-end denoted by
 :math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointed ends is
 equal to the number of barbed ends, one can derive the steady state which give
 rise to the critical monomer concentration below which an actin filament cannot
-grow: :math:`[G—Actin]_c`.
+grow: :math:`[GActin]_c`.
 
 The rate constants of elongation of actin have been determined and depend on
 whether the monomer is bound to ADP or ATP :cite:`Pollard1986`. We should
