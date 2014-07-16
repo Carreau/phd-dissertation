@@ -485,35 +485,6 @@ supplemented with  1µM Milrinone. Oocyte are then injected with cRNA  using a
 micro-injector Eppendorf FemtoJet. Imaging was carried out at :math:`37^\circ{}C`.
 
 
-.. 
-.. .. _active_microrheology:
-.. 
-.. Active Microrheology
-.. ********************
-.. .. 2
-.. 
-.. Active microrheology was performed on vesicle present on prepared oocytes.
-.. Active microrheology was done on the same vesicle than :ref:`passive rheology
-.. measurement <passive_microrheology>`. 
-.. 
-.. Oocyte :ref:`previously prepared <oocyte_preparation>` are put in the 
-.. microscope's field of view with the focal plane passing through the nucleus. A
-.. vesicle is selected and the trapping later is positioned on it at maximum
-.. trapping power (:math:`~120 mW`). A series of sinusoidal displacement (:math:`u`) of known
-.. amplitude, frequency and direction are then applied to the trapping tweezer while the
-.. force (:math:`F`) exerted on endogenous vesicle is recorded by the QPD. 
-.. 
-.. In our experiments, the applied displacement had an amplitude :math:`\pm 0.5 \mu
-.. m`.  The frequencies of the applied displacement were selected to be
-.. exponentially spaced from 1Hz, to 50kHz. Each sinusoidal displacement duration
-.. was chosen to be at minimum 500ms or 8 periods. 
-.. 
-.. For each frequency the response function of the material can be computed by
-.. dividing the displacement by the force at given frequency.
-
-
-
-
 
 
 .. Indentation experiment
