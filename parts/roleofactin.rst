@@ -79,7 +79,7 @@ laterally.
 Actin, is the third component of the cytoskeleton, the one on which  we will
 focus on most of our efforts. Actin monomers, also called `G-Actin` for globular actin can polymerise. 
 By polymerizing actin monomers (G-actin) into actin filaments (`F-actin`), the
-thinest of the three cytoskeltal components forms. Actin is produced in the
+thinest of the three cytoskeletal components forms. Actin is produced in the
 cell as a globular protein of ~40 kDa that once associated with ATP or ADP
 polymerises into helicoidal filament with a diameter between 7 and 9nm. The
 formed actin filaments are polar, where both extremities are respectively called the
@@ -218,7 +218,6 @@ where formin proteins are present, like the tip of filopodia :cite:`Faix2006`
 binding to profilin (`FH1`) which allows formin to elongate F-Actin using actin
 monomers bounds to profilin :cite:`Pruyne2002` :cite:`Pring2003a`.
 
-.. todo: verlhac ? Fmn2-- ?
 
 
 Actin depolymerization and severing
@@ -247,9 +246,9 @@ of actin filaments and prevent the addition of new monomers.  `Capping Protein`
 of a growing filament and  prevent it from growing. Capping proteins are
 necessary to prevent polymerisation of actin in undesired area
 and are essential for the structure and mechanical properties of actin gel
-:cite:`Kawska2012`. `Gelsoline` is another example of capping protein, that
+:cite:`Kawska2012`. `Gelsoline` is another example of Capping Protein, that
 unlike CP can only attached to the barbed end of an actin filament after
-severing it. Gelsoline is hence both a severing and a capping protein.
+severing it. Gelsoline is hence both a severing and a Capping Protein.
 
 .. todo:
     refs look for a review
@@ -381,7 +380,7 @@ particular found at the leading edge of the cell in the lamellipodia. It is
 such a network that is present in the bead system we will study hereafter.
 
 As for crosslinkers, dendritic networks are able to carry forces across single
-actin filaments by the intermediary of Arp2/3. Two dendritic network of Apr2/3
+actin filaments by the intermediary of Arp2/3. Two dendritic network of Arp2/3
 can also entangle and allow forces to be carried across them
 :cite:`Kawska2012`. 
 
@@ -479,7 +478,7 @@ In the myosin II family, conventional myosin and NMII differentiate by the
 size of the minifilaments they form. Muscle myosin will form minifilaments
 aggregating around 200 dimers, where NMII minifilaments will be composed  only
 of 10 to 20 minifilaments. The other characteristic of unconventional myosin
-with muscle myosin is the mode of activation. Conventional myosin actvity is
+with muscle myosin is the mode of activation. Conventional myosin activity is
 regulated by the amount of :math:`Ca^{2+}` available, which frees the actin filaments to let the myosin motor bind. However, its
 counterparts are typically activated by the phosphorilation of the Myosin Light Chain (MLC).
 
@@ -507,7 +506,7 @@ Myosin V
 Myosin V is an unconventional myosin. Unlike myosin II it does not aggregate
 into minifilaments.  Though, myosin V has a similar structure to myosin II but
 with a longer neck, this confers to myosin V the ability to realize longer
-steps on actin filaments. Indeed, the myosin V stepsize is of 36nm, which is close to the
+steps on actin filaments. Indeed, the myosin V step size is of 36nm, which is close to the
 twisting length of actin filaments. This allows myosin V motors to walk along
 actin filament without having to rotate around it with the helix they form. At the end the tail domain
 myosin V posses another globular domain capable of binding to its cargo, and
@@ -543,7 +542,7 @@ Myosin cycle
 .. 6
 
 We saw earlier that the duty ratio of myosin was the ratio of time the head of
-the myosin spents attached to the actin filament. Indeed, myosin can generate
+the myosin spent attached to the actin filament. Indeed, myosin can generate
 displacement through a cycle of ATP hydrolysis and attachment/detachment
 described below for a Myosin II motor:
 
@@ -631,7 +630,7 @@ Cell Motility
 =============
 .. 3
 
-The way cells move highly depends on their environment and the celltype.
+The way cells move highly depends on their environment and the cell type.
 We can distinguish several strategies of movement, mainly categorised into
 amoeboid and mesenchymal movement. The type of motility for certain
 cells can be characteristic for malignant tissue, and plays a significant role in
@@ -674,12 +673,12 @@ steps. First the cell needs to grow a protrusion. Growing this protrusion is
 typically governed by actin polymerisation just underneath the plasma membrane. The
 lamellipodium is such a protrusion which is constituted by a 2D dendritic actin network
 that polymerize at the leading edge. Second the cell's protrusion
-need to attach to the surface. This is done through transmembrane proteins
+need to attach to the surface. This is done through trans membrane proteins
 that are bound to the actin cortex on the inside of the cell. The actin cortex
 will act as a scaffold to transmit the force across the cellular to these
 anchor points. The last part is the generation of traction in which the rest of the cell is pulled
 toward the attached protrusion. The traction force is mediated through the
-cytoskeleton and actin cortex while the contraction force themselve can origin
+cytoskeleton and actin cortex while the contraction force themselves can origin
 from actin network contraction and reorganisation due to myosin motors (:num:`Fig #fig-lam-principle`).
 
 .. As we can see the cell cytoskeleton and the actin cortex in particular play a
@@ -743,7 +742,7 @@ system to be reconstituted `in vitro` in liposomes.
     Formation of bleb can be done either by a) detachment of the membrane from
     the cytoskeleton, or b) by a rupture of the cytoskeleton. In both cases the
     inner pressure of the cell leads to the inflation of the membrane at the
-    point of rupture/detachment. The acto-myosin cortex will rapidly repolymerize on
+    point of rupture/detachment. The acto-myosin cortex will rapidly re-polymerize on
     the inside of the bleb slowing down its growth until the expansion stops.
     Extracted from :cite:`Charras2008`
 
@@ -772,7 +771,7 @@ We already know that the actin cortex is a necessary element in cell
 motility. It also plays a determinant  role in organelle
 positioning. It has been shown  :cite:`Chaigne2013a` that the correct range
 of elasticity of the actin cortex during oocyte division is needed for proper spindle
-positioning. The correct spacial position of this spindle is necessary to
+positioning. The correct spatial position of this spindle is necessary to
 perform a viable division of the cell.
 
 The actin cortex is not the only actin structure in the cell, beyond the thin and 
@@ -809,7 +808,7 @@ from the membrane and forming a soft and sparse actin network.
 
 ..       - it has been shown in :cite:`Chaigne2013a` that the elasticity of the
 ..         actin cortex  during oocyte division need to get the right value in
-..         order to get spindle positioning. The correct spacial position of this
+..         order to get spindle positioning. The correct spatial position of this
 ..         spindle is necessary to perform a viable division of the cell.
 
 ..     - Actin also play role in other part of Cellular division

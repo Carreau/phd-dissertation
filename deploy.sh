@@ -1,8 +1,8 @@
-make clean
+#make clean
 make latex
 make pdf
 make html
-#make epub
+make epub
 
 cd ~/tauth
 echo $(pwd)

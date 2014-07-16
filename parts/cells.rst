@@ -45,25 +45,6 @@ the membrane through trans-membrane proteins, while endocytosis and exocytosis a
 ways for the cell to import and export proteins and chemicals through its membrane. 
 
 
-
-
-
- 
-
-
-.. todo:
-  - structure of Arp2/3 branched network is the same on beads comets than on
-    lamelipode :cite:`Cameron2001` 
-  - more than 150 protein have been found to bind with actin.
-  - [x] Wave complex,
-    - [x] Wasp, N-Wasp ( need to :cite:`Machesky1999` )
-  - Some network need actin, some other do not. (Fletcher review 2010)
-  - [x] Polymerase, (depolymerase severing), 
-  - [x] crosslinker
-    - [x] parallel like fascine
-      - [x] rotate like alpha-actinin 
-      - effect of cross linking distance :cite:`Morse20..`
-
 .. todo:
   - interphase, cellule prepare for division
   - Mitosis : "DNA Segregating"
@@ -85,7 +66,7 @@ Oocyte
 ******
 .. 2
 
-A particular celltype I was interested in during my PhD are mouse oocytes.
+A particular cell type I was interested in during my PhD are mouse oocytes.
 Oocytes are female germinal cells in the process of gametogenesis. Unlike
 somatic cells that undergoes symmetric division via mitosis which leads to
 two identical cells sharing the same genetic material, oocytes undergo a
@@ -128,7 +109,7 @@ cells. They form big spherical cells with a diameter of around 80 µm
 which allow to study the mechanical properties at different locations in
 the cytoplasm.
 
-In the third part of my PhD I participated in a collaboration with Marie-Hélene
+In the third part of my PhD I participated in a collaboration with Marie-Hélène
 Verlhac and Maria Almonacid at Collège de France who are interested in the
 effect of actin dynamics in oocyte cytoplasm during the different parts of
 oocyte gametogenesis.
@@ -143,7 +124,7 @@ oocyte gametogenesis.
     asymmetrically divide into a secondary oocyte and a smaller polar body each
     containing half the DNA of the mother cell. The secondary oocyte will
     divide asymmetrically a second time to become the mature ovum while
-    expulsing a polar body. This asymmetric division process allow the
+    expelling a polar body. This asymmetric division process allow the
     formation of a large haploid cell. Adapted from Wikipedia – Gray's
     Anatomy – and :cite:`Alberts2008`. 
 
@@ -195,7 +176,7 @@ cell having the same amount of DNA.
 Actin plays also an determinant role in organelle positioning process,
 like in drosophila oocyte maturation where it positions the nurses cell away
 from the dumping canal :cite:`Huelsmann2013`. In a later chapter (:ref:`Organelle
-Positionning <organelle_positioning>`) we will develop a few keys points where
+Positioning <organelle_positioning>`) we will develop a few keys points where
 actin is indispensable in organelle positioning and how this relate to the
 biomimetic actin networks we reconstitute. 
 
