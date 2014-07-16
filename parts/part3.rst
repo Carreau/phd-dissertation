@@ -85,27 +85,38 @@ reaching part of the gel ? What are mechanical properties ?  How does it change
 through time ?  Is the gel elastic or viscous ?
 
 
-.. figure:: /figs/intensity_profile_25nM_Arp_20nM_CP_09min.pdf
-    :width: 100%
+.. figure:: /figs/intensity_profile_xnM_Arp_xnM_CP_xmin.png
+    :width: 80%
 
-    Upper Left : Epifluorescence image of polystyrene bead with a growing actin
-    gel in presence of 25 nM of Arp2/3 and 25 nM of Capping Protein. Scale bar
-    is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image
-    with thickness of the gel shown with dashed line as defined in
-    :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
-    intensity.  Lower Left: Epifluorescence image of log(intensity).
+    A) Epifluorescence image of polystyrene bead with a growing actin gel in
+    presence of 25 nM of Arp2/3 and 25 nM of Capping Protein. Scale bar is 5
+    µm.  B) Normalized intensity profile of fluorescence image with thickness
+    of the gel shown with dashed line as defined in :cite:`Kawska2012` :
+    Distance between maximum intensity and half-maximum intensity.  C)
+    Epifluorescence image of log(intensity). D,E,F) Same as A,B,C, in absence
+    of Capping Protein
 
-.. figure:: /figs/intensity_profile_25nM_Arp_0nM_CP_30min.pdf
-    :width: 100%
-
-    Upper Left : Epifluorescence image of polystyrene bead with a growing actin
-    gel in presence of 25 nM of Arp2/3 and absence of Capping Protein. Scale bar
-    is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image
-    with thickness of the gel shown with dashed line as defined in
-    :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
-    intensity.  Lower Left: Epifluorescence image of log(intensity). In the
-    absence of Capping Protein the growth of filament is not prevented away
-    from the bead surface
+.. .. figure:: /figs/intensity_profile_25nM_Arp_20nM_CP_09min.pdf
+..     :width: 100%
+.. 
+..     Upper Left : Epifluorescence image of polystyrene bead with a growing actin
+..     gel in presence of 25 nM of Arp2/3 and 25 nM of Capping Protein. Scale bar
+..     is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image
+..     with thickness of the gel shown with dashed line as defined in
+..     :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
+..     intensity.  Lower Left: Epifluorescence image of log(intensity).
+.. 
+.. .. figure:: /figs/intensity_profile_25nM_Arp_0nM_CP_30min.pdf
+..     :width: 100%
+.. 
+..     Upper Left : Epifluorescence image of polystyrene bead with a growing actin
+..     gel in presence of 25 nM of Arp2/3 and absence of Capping Protein. Scale bar
+..     is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image
+..     with thickness of the gel shown with dashed line as defined in
+..     :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
+..     intensity.  Lower Left: Epifluorescence image of log(intensity). In the
+..     absence of Capping Protein the growth of filament is not prevented away
+..     from the bead surface
 
 .. todo: scheme of experimental setup.
 
@@ -222,7 +233,7 @@ in the middle part.
 .. _figindent-time:
 
 .. figure:: /figs/force_time.png
-    :width: 60%
+    :width: 70%
     
     Upper graph : Force as a function of time on the actin-beads.  Lower graph
     : distance between beads (distance between traps + displacement of beads
@@ -265,7 +276,7 @@ phase of the indentation cycle, also marked by the color of the data.
 
 .. _force-distance:
 .. figure:: /figs/force-distance.png
-    :width: 100%
+    :width: 80%
 
     Force exerted on the actin bead as a function of the distance between the
     two beads centers. Color and data are the same as in :num:`Fig #figindent-time`. 
@@ -305,7 +316,7 @@ polymerisation. The force distance plot is shown in :num:`Figure #reproc`.
 
 .. _reproc:
 .. figure:: /figs/reproc.png
-    :width: 60%
+    :width: 80%
 
     Figure showing the reproducibility of indentation process on a bead with
     25nM Arp2/3 and 10nM CP Subset of data from :num:`Fig #reproc-time` shown
@@ -367,7 +378,7 @@ plotted in :num:`Figure #d0-violin`.
 .. _cloud-repelling: 
 
 .. figure:: /figs/cloud-repelling.png
-    :width: 100%
+    :width: 85%
 
     Chronophotography representing the displacement a trapped actin bead in a
     solution with probe bead. During this experiment, the actin bead is kept
@@ -377,7 +388,7 @@ plotted in :num:`Figure #d0-violin`.
 
 .. _d0-violin:
 .. figure:: /figs/d0_violin.png
-    :width: 60%
+    :width: 65%
 
     Repartition of the bead-center distance at which the actin cloud exert a
     force higher than the noise (:math:`d_0`) on the probe bead, as a function of
@@ -508,7 +519,7 @@ approach and rescaling the distance by the minimum approach distance from which
 :math:`\delta` is subtracted. 
 
 .. figure:: /figs/rescaled_powerlaw.png
-    :width: 50%
+    :width: 70%
 
     Representation of rescale approach data on a log-log scale.  Red and green
     crosses correspond to average values. Blue area corresponds to average +/-
@@ -797,7 +808,7 @@ distance |delta| independently for each concentration of Capping Protein.
 
 .. _dxcf:
 .. figure:: /figs/delta-xi-corr.png
-    :width: 80%
+    :width: 100%
 
     Correlation of the meshsize :math:`\xi_0` with the distance offset |delta|,
     with marginal distribution as histogram on the side and on the top.  Shaded
@@ -806,7 +817,7 @@ distance |delta| independently for each concentration of Capping Protein.
 
 .. _dxf:
 .. figure:: /figs/delta-xi-facets.png
-    :width: 80%
+    :width: 100%
 
     Same figure as :num:`Fig #dxcf` for each concentration of capping protein,
     with linear regression and confidence intervals at 95%

@@ -737,7 +737,7 @@ system to be reconstituted `in vitro` in liposomes.
 
 .. figure:: /figs/Bleb-nature-paluch.jpg
     :alt: "Motion through bleb mechanism"
-    :width: 70% 
+    :width: 40% 
 
     Formation of bleb can be done either by a) detachment of the membrane from
     the cytoskeleton, or b) by a rupture of the cytoskeleton. In both cases the

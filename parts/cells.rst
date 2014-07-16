@@ -152,7 +152,7 @@ on :num:`figure #albertcell`
 
 .. Figure:: /figs/figure-1-30.jpg
     :alt: schematic of a cell
-    :width: 90%
+    :width: 80%
 
     Schematic of an eukariotic cell, adapted from :cite:`Alberts2008`. Visualized are
     the many components that constitute the majority of cells.  Cell shape and
