@@ -239,11 +239,11 @@ in the middle part.
     : distance between beads (distance between traps + displacement of beads
     from the trap center) as a function of time. First part of each graph
     (green curve, yellow back) represents the approach phase. Middle part
-    (orange on white) correponds to the relaxation phase, and right part (blue on pale
+    (orange on white) corresponds to the relaxation phase, and right part (blue on pale
     yellow) is the retraction.  Shown data is a subsample of around 1 of every
     1000 points acquired. We can see on the second graph that the bead
     displacement on their respective trap is small compared to the
-    dissplacement of the trap and justify the approximation of a probe bead
+    displacement of the trap and justify the approximation of a probe bead
     speed equal to the probe trap speed.
 
 
@@ -288,7 +288,7 @@ phase of the indentation cycle, also marked by the color of the data.
     decreases and  reaches negative values while the bead returns to its initial
     position. Shown data is a subsample of 1 every 1000 points of acquired
     data. Shaded region represent areas where the two polystyrene beads would
-    interpenetrate.
+    interpenetrates.
 
 
 Repetitive indent
@@ -322,7 +322,7 @@ polymerisation. The force distance plot is shown in :num:`Figure #reproc`.
     25nM Arp2/3 and 10nM CP Subset of data from :num:`Fig #reproc-time` shown
     with different color to represent the evolution of the indentation curve
     over time.  Time is relative to first indentation. Shaded area represent
-    zone where the two beads would interpenetrate.
+    zone where the two beads would interpenetrates.
 
 Effect of approach speed
 ========================
@@ -333,7 +333,7 @@ the viscous behavior  of actin network can be in the same order as the elastic
 component. To test if such an relaxation effect is important we measured the effect of the
 approach speed on the force measurements. :num:`Fig #many-speed` presents the
 indentation speed affect the measurement by varying the approach speed from 10
-to 30 µm/s onthe same actin bead.
+to 30 µm/s on the same actin bead.
 
 
 .. _many-speed:
@@ -342,7 +342,7 @@ to 30 µm/s onthe same actin bead.
     :width: 60%
 
     Approach phase of repetitive indents at multiple speed on the same
-    actin-bead. The approach phase in the differents conditions are simillar,
+    actin-bead. The approach phase in the different conditions are similar,
     hinting for a negligible effect of the viscosity  in the actin cloud at the
     speed considered.
 
@@ -384,7 +384,7 @@ plotted in :num:`Figure #d0-violin`.
 
     Chronophotography representing the displacement a trapped actin bead in a
     solution with probe bead. During this experiment, the actin bead is kept
-    static in the optical trap (marked b the cross) while the stage is moved.
+    static in the optical trap (marked by the cross) while the stage is moved.
     Scale bar is 5 micrometers. Total movie duration is 21 seconds.
 
 
@@ -413,7 +413,7 @@ Approach phase modeling
 =======================
 .. 3
 
-To extract mechanical properties using the three phases of the experiement we
+To extract mechanical properties using the three phases of the experiment we
 decided to model each part (approach, relaxation and retraction) independently.
 In particular, we fit force-distance curve of the approach phase using a power
 law with 3 fit parameters :math:`\alpha, \beta, \delta`:
@@ -426,7 +426,7 @@ In which :math:`F` represent the force exerted on the probe bead, and :math:`d`
 is the distance between bead centers. The powerlaw exponent :math:`\alpha` is
 expected to be negative as the force decreases with the distance :math:`d`, and
 characterizes how fast the force increase as the two
-beads approache each other. The prefactor :math:`\beta` acts as a scaling factor of the
+beads approaches each other. The prefactor :math:`\beta` acts as a scaling factor of the
 force. The offset parameter :math:`\delta` shifts the curve on the distance
 axis. This phenomenological model has the particularity that the force on the probe bead tends to
 :math:`+\infty` when the distance :math:`d` get  to :math:`\delta`. The force
@@ -443,8 +443,8 @@ diameter of the hard sphere.  In this case :math:`F(d>\delta)=0` and
 The optical tweezer we use can apply forces up to 20pN, and the beads we use
 have a diameter of 4.34µm , hence we determine a cross-sectional surface of surface of roughly :math:`14.7\mu{}m^2`. Before 
 escaping the trap, the probe bead can move up to 1µm from its
-trap center. To estimate the maximal stiffness that cen be measured, we aproximate that we can 
-provide a clear measure of deformantion in the order of 1/10 of µm,  this
+trap center. To estimate the maximal stiffness that can be measured, we approximate that we can 
+provide a clear measure of deformation in the order of 1/10 of µm,  this
 leads to a maximum detectable Young's modulus of :
 
 .. math::
@@ -460,7 +460,7 @@ infinitely rigid.
 The elasticity of dense actin gels around polystyrene beads has been measured
 in :cite:`Pujol2012` and found to be in the order of kPa.  Therefore the
 optical tweezers are not able to probe the mechanics of the dense gel on the
-surface of the bead. The value of :math:`\delta`  is expected to be i:math:`> 4.34 \mu{}m` as it include partially the dense actin gel.
+surface of the bead. The value of :math:`\delta`  is expected to be :math:`> 4.34 \mu{}m` as it include partially the dense actin gel.
 
 The model can be fitted independently on each experimental
 approach phase. An example of such a fit is shown in figure
@@ -477,7 +477,7 @@ across all fits.
     parameters.  The vertical line represent the point at which the model
     diverges and the force goes to infinity, that is to say :math:`\delta`. The
     shaded region corresponds to the distance at which the two beads would
-    interpenetrate. Relaxation (orange) and retraction (blue) data are not fitted.
+    interpenetrates. Relaxation (orange) and retraction (blue) data are not fitted.
 
 
 The approach phase data can be corrected for the distance offset :math:`\delta`
@@ -499,7 +499,7 @@ result. The corrected distance is noted with  `c` indices :math:`d_c = d-
 
 
 In our experiments, the polystyrene beads have an average diameter of 4.34 µm,
-thus we expect :math:`\delta` to be higher than the bead diameter since the beads cannot interpenetrate.  Data with
+thus we expect :math:`\delta` to be higher than the bead diameter since the beads cannot interpenetrates.  Data with
 :math:`\delta` values lower than 4.34 µm (21 out of 127) are considered as
 unphysical and were removed from further analysis.
 
@@ -584,10 +584,10 @@ concentration.
 
 The last parameter of our model is :math:`\delta`, the distance at which the force
 diverges.   It can be seen in :num:`Figure #delta-violin` that with the exception
-of zero capping protein, the distance at which the model diverges gets
+of zero Capping Protein, the distance at which the model diverges gets
 closer to the diameter of the polystyrene bead as the concentration of Capping
 Proteins in the medium increases. It is interesting to see that the distance offset
-|delta| is very close from the bead diameter in the absence of capping protein, when no
+|delta| is very close from the bead diameter in the absence of Capping Protein, when no
 biomimetic actin cortices forms.  
 
 .. _delta-violin:
@@ -595,7 +595,7 @@ biomimetic actin cortices forms.
     :width: 80% 
 
     Violin plot showing the variation of the offset distance :math:`\delta`
-    with the capping protein concentration. The shaded area represents the
+    with the Capping Protein concentration. The shaded area represents the
     non-physical region which would correspond to a diverging force beyond the
     contact of the two polystyrene beads. Experimental data with :math:`\delta`
     value in this regions have been excluded from further analysis.
