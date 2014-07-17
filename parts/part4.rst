@@ -586,7 +586,7 @@ Experimentally, liposomes are observed using fluorescently labeled actin that
 forms an homogeneous micrometer sized actin shell. In the observation plane,
 the liposome is a bright ring of given thickness (we will refer to this as the
 `expected signal`) , on top of this image is the experimental noise where the
-principal noise sources are indentified to be the presence of fluorescent actin monomers in the
+principal noise sources are identified to be the presence of fluorescent actin monomers in the
 buffer solution and electronic noise from the CCD camera. Eventually, the noise
 in the outside buffer due to monomeric actin can be higher than inside which is
 free of actin. 
@@ -755,7 +755,7 @@ numerical Gaussian blur.
     to make fits on doublets in minutes instead of hours.
 
 However, the use of such numerical techniques is not without artifacts.  In the case of
-discret Z-stack that are not sufficiently spaced, the different radi in the
+discreet Z-stack that are not sufficiently spaced, the different radii in the
 fluorescent rings within subsequent stacks can lead to a "ring-artifact" (:num:`Fig
 #ring-artifact`) when using numerical Gaussian blur. In the case of a too
 pronounced "ring-artifact" a "ghost" spheres can appear around each liposome
@@ -799,7 +799,7 @@ but reducing the precision in the position of the maxima.
 
 The value of the correlation between the model and the experimentally recorded
 data can be maximised using already available functions, in particular we used
-the Nelder–Mead simplex alogithm as implemented in `scipy.optimise` python library. This
+the Nelder–Mead simplex algorithm as implemented in `scipy.optimise` python library. This
 gives us the 8 parameters of the doublets. Result of the fits are show in
 :num:`figure #fig-fit-t0`.
 

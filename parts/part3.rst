@@ -647,7 +647,7 @@ We can express the local differential strain around the position |dc| of the
 bead : :math:`\partial u = -\partial x/ \partial d_c` in which the minus sign
 reflect the choice of the coordinate system: a decrease in :math:`x` with a
 positive Young's modulus |E| should lead to an increase of the exerted force.
-The localy felt Young's modulus 
+The locally felt Young's modulus 
 at the distance |dc| is then  
 
 .. _eq-E:
@@ -713,7 +713,7 @@ the theory of semi-flexible entangled polymer networks (:cite:`Isambert1996`,
 :cite:`MacKintosh1995`, :cite:`Morse1998a`).
 
 
-The Young's modulus of semiflexible filaments in a 3D environment can be
+The Young's modulus of semi-flexible filaments in a 3D environment can be
 expressed as a function of filament contour length density :math:`\rho` and the
 entanglement length :math:`L_e` as :cite:`Morse1998b`:
 
@@ -735,7 +735,7 @@ reduce the expression of the Young's modulus to a function of the following
 parameters : 
 
     - The Poisson Ratio |nu|, 
-    - The persistence lenght of actin filaments :math:`L_p`
+    - The persistence length of actin filaments :math:`L_p`
     - The mesh size of the network :math:`\xi_0^2 = \rho_0`
     - The "size" of the cloud, for which we use the distance at which the force
       is first significant :math:`d_0`
@@ -783,7 +783,7 @@ fit parameters and characteristic scales of the system.
                     &=  E_0' \times \left.d_c\right.^{\alpha}
 
 In which :math:`E_0'` can be identified as |E0| in :eq:`eqa` to extract the
-closed form solution for the meshsize :math:`\xi_0` :
+closed form solution for the mesh size :math:`\xi_0` :
 
 .. math::
         \xi_0=\left(-\frac{({2-\frac{5}{7}\alpha)}.k_BT\pi R^2}{5\alpha \beta L_p^{\frac{1}{5}}\left.d_0\right.^{\alpha}}\right)^{\frac{5}{14}}
@@ -791,8 +791,8 @@ closed form solution for the meshsize :math:`\xi_0` :
 
 The found mesh size is in the order of 0.3 to 0.4 µm which is consistent with previous findings 
 :`Morse1998b`. The variation of the
-meshsize can be seen on :num:`Fig #xi-violin` and does not seem to have a
-correlation with the concentration of capping protein. 
+mesh size can be seen on :num:`Fig #xi-violin` and does not seem to have a
+correlation with the concentration of Capping Protein. 
 
 
 .. _xi-violin:
@@ -1067,7 +1067,7 @@ follow a power law (:math:`F_{plaw}`), when no sticking events are present.
     log-log scale on the right, follow a powerlaw.
 
 
-:math:`F_{ret}(d)` seems though to follow the force felt durring the approach phase, damped by :math:`\chi(t)` (:math:`F_{da}`) for :math:`d
+:math:`F_{ret}(d)` seems though to follow the force felt during the approach phase, damped by :math:`\chi(t)` (:math:`F_{da}`) for :math:`d
 \simeq{D_{bead}}` and :math:`F_{da}+F_{plaw}` for :math:`d > 10\mu{}m`.  The
 typical size of the bead being :math:`D_{bead}` we expect the transition from
 one regime to the other to be done on a length scale of :math:`D_{bead}` Thus
@@ -1145,7 +1145,7 @@ actin structure plays in the formation of other actin networks inside cells.
 In particular microrheology experiments could be performed on the growing actin
 cloud in order to further characterize the frequency dependence of the mechanical
 properties  of the actin cloud. The effect of cross linking and network
-branching is crucial for the occurence of symmetry breaking on bead systems, and
+branching is crucial for the occurrence of symmetry breaking on bead systems, and
 would likely play a role in the structure of the actin cloud. A confined
 geometry and direct polymerisation on membrane, or the effect of myosin motors
 might allow to alter the properties of the actin cloud.

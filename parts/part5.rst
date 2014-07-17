@@ -19,7 +19,7 @@ cytoplasmic activity in mouse oocyte.
 In :num:`Figure #oocytewt` a typical mouse
 oocyte is presented where the nucleus can be seen to be positioned at the center of the cell.
 Current questions in this system relate to the mechanical processes during meiosis such as the chromosome migration, 
-the assymetric cell division and the positioning of organelles by the dynamic remodelling of the actin network. 
+the asymmetric cell division and the positioning of organelles by the dynamic remodelling of the actin network. 
 While our team did active and passive microrheology measurements on the timescales or 10 seconds, I developed a 
 method that is suitable for longer timescales in the order of minutes, that are more relevant for the process of meiosis. 
 
@@ -54,7 +54,7 @@ vesicles in the actin meshwork. Hence it is of interest to study oocytes that ha
 In particular, we focused on three types: 1) Wild types oocyte, 2) oocytes prepared from Formin 2 invalidated female 
 (Fnm2-/-) that lack the
 actin meshwork and 3) oocytes injected with the RNA coding for the dominant-negative tail of Myosin
-Vb (:num:`Fig #fig3oo`), thus preplacig the active myosin Vb on the vesicles. 
+Vb (:num:`Fig #fig3oo`), thus replacing the active myosin Vb on the vesicles. 
 
 .. _fig3oo:
 .. figure:: figs/3-oocytes.png
@@ -167,7 +167,7 @@ measured autocorrelation over time, and a single exponential decay fit.
 
 
 The results show that the values of the characteristic time increases when
-the actin network is disrupped in Fnm2-/- cells or when the source of its dynamics is removed by inactivating
+the actin network is disrupted in Fnm2-/- cells or when the source of its dynamics is removed by inactivating
 Myosin Vb. We can then use the inverse of :math:`\tau` as an indicator of
 activity.
 
@@ -207,7 +207,7 @@ complementary to techniques like active optical tweezer based micro-rheology tha
 timescale beyond tens of seconds due to thermal drift and cell movement, but
 reach on the other hand much shorter timescales of below ms.
 
-The proposed techinque is currently actively applied by Marie-Hélène Verlhac and Maria Almonacid at the Collège de France. 
+The proposed technique is currently actively applied by Marie-Hélène Verlhac and Maria Almonacid at the Collège de France. 
 It is used to measure the activity
 of actin networks in oocyte and determine their effect on the meiosis of mouse
 oocyte and the organelle positioning. 
