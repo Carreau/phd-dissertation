@@ -16,7 +16,7 @@ structure. This can be seen for example with the bud scar of budding yeast that
 persists after division. 
 
 Composition of the cell cytoskeleton
-================================
+====================================
 .. 3
 
 
@@ -395,7 +395,7 @@ can also entangle and allow forces to be carried across them
     :alt: "Actin recycling at the leading edge of a cell"
     :width: 70%
 
-     Schematic recapitulating the formation of
+    Schematic recapitulating the formation of
     a dendritic network at the leading edge of a cell were several of the
     function of protein can be seen. An actin nucleation promoting factor
     (Active WASp,  blue rectangle at the membrane) will activate Arp2/3 (green
@@ -739,7 +739,7 @@ By their relative simplicity to the rest of the cells, blebs are the perfect
 system to be reconstituted `in vitro` in liposomes.
 
 
-:: _fig-bleb:
+.. _fig-bleb:
 .. figure:: /figs/Bleb-nature-paluch.jpg
     :alt: "Motion through bleb mechanism"
     :width: 40% 

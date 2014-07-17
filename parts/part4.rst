@@ -1,7 +1,7 @@
 .. _lib_doub:
 
 Cortical tension measured on liposome doublets
-##################
+##############################################
 .. 1
 
 
@@ -172,7 +172,7 @@ Experimental Observations
 
 
 Effect of myosin-II injection
-==========================
+=============================
 .. 3
 
 
@@ -456,7 +456,7 @@ Therefore we obtain an expression of the tension :math:`\tau(t)` during the acto
 Hence we can evaluate the tension relative to its initial value over time :
 
 .. math::
-    :label: eqa402
+    :label: eqa402a
 
     \frac{ \tau(t) }{\tau_0} = \frac{cos(\theta_0/2)}{cos(\theta(t)/2)}
 

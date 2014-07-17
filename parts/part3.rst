@@ -223,7 +223,7 @@ finish at :math:`t_3` as shown on figure :num:`#figindent-time`. The duration of
 relaxation of the actin cloud  but remain sufficiently short compared to
 the actin polymerisation speed hence the polymerisation is not expected to 
 change the properties of the network during indentation cycle as well as
-during repetitive indentation (:ref:`Figure #reproc`)
+during repetitive indentation (:num:`Figure #reproc`)
 
 While the actin network relaxes, the forces between the two beads will slowly
 decrease thus leading to the beads getting closer to their trap center and
@@ -451,7 +451,7 @@ provide a clear measure of deformation in the order of 1/10 of µm,  this
 leads to a maximum detectable Young's modulus of :
 
 .. math::
-    :label: eqa32
+    :label: eqa32a
 
     E_{max} &\sim \frac{F_{max}L_{0,max}}{A_0.\Delta L} \\
             &\sim \frac{50.10^{-12} \times 1.10^{-5} }{  (\pi 2.17.10^{-6})^2 \times 1.10^{-7}              }\\ 

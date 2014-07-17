@@ -423,6 +423,7 @@ The tension |sigma| is linked to the energy required to expand the membrane |Hex
     \sigma &= \frac {\partial H.A} {\partial \Delta A} \\
 
 i.e.
+
 .. math::
     :label: eqa5
 
@@ -431,7 +432,7 @@ i.e.
 In which 
 
 .. math::
-    :label: eqa6
+    :label: eqa6a
 
     \sigma =  K_a \left( \frac {\Delta A} A \right)
 

@@ -1,13 +1,19 @@
-.. part2
+.. _part2:
+
+
 
 .. _m_et_m:
+
+
 Materials and Methods
 #####################
 .. 1
 
+
 Buffers
 *******
 .. 2
+
 
 G-Buffer
 ========
@@ -16,7 +22,7 @@ G-Buffer
 G-Buffer is used to conserve actin in the monomeric form. Actin is diluted in
 G-Buffer and kept on ice for at least 12 hours before further use. G-buffer is
 aliquoted and stored at -20°C. For weekly use or is thawed and conserved on ice for up to a week. G-buffer is never
-refrozen.  pH is adjusted between 7 and 8.
+refrozen. pH is adjusted between 7 and 8.
 
 Composition of G-Buffer:
      
