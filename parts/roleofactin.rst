@@ -80,7 +80,7 @@ Actin, is the third component of the cytoskeleton, the one on which  we will
 focus on most of our efforts. Actin monomers, also called `G-Actin` for globular actin can polymerise. 
 By polymerizing actin monomers (G-actin) into actin filaments (`F-actin`), the
 thinest of the three cytoskeletal components forms. Actin is produced in the
-cell as a globular protein of ~40 kDa that once associated with ATP or ADP
+cell as a globular protein of ~40 kDa (:num:`Fig #fig-actin`) that once associated with ATP or ADP
 polymerises into helicoidal filament with a diameter between 7 and 9nm. The
 formed actin filaments are polar, where both extremities are respectively called the
 plus (`+`) or barbed end, and the minus (`-`) or pointed end. The polarity of
@@ -131,9 +131,9 @@ association and dissociation rates are differ between the pointed (-) and
 barbed (+) end. The barbed end has  higher dynamics than its pointed
 counterpart which is the reason for its (+) name. The dynamics of
 polymerisation is higher both in he case of ATP and ADP, though the rate
-constant of association and dissociation differ for both kind of filaments.
+constant of association and dissociation differ for both kind of filaments (:num:`Figure #fig-actin-pollard`)
 
-.. _fig-actin:
+.. _fig-actin-pollard:
 
 .. figure:: /figs/elongation-rate-constant.png     
     :alt: "Elongation rate constant of actin filament as measured by Pollard 2003"
@@ -153,6 +153,7 @@ The equations that drive the polymerisation can be written as follow
    Verifier le tiret de G-Actin 
 
 .. math::
+    :label: roa1
 
     \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[GActin] - k_{-,{barbed}} \\
     \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[GActin] - k_{-,{pointed}} \\
@@ -387,12 +388,6 @@ actin filaments by the intermediary of Arp2/3. Two dendritic network of Arp2/3
 can also entangle and allow forces to be carried across them
 :cite:`Kawska2012`. 
 
-.. todo:
-
-    Very important : Talk about the activation of the Arp2/3 complex. Introduce
-    the activator and pVCA. Why do we use this peptide.
-
-
 
 .. _actin-cycle:
 
@@ -400,7 +395,7 @@ can also entangle and allow forces to be carried across them
     :alt: "Actin recycling at the leading edge of a cell"
     :width: 70%
 
-    Adapted from :cite:`Pollard2000`. Schematic recapitulating the formation of
+     Schematic recapitulating the formation of
     a dendritic network at the leading edge of a cell were several of the
     function of protein can be seen. An actin nucleation promoting factor
     (Active WASp,  blue rectangle at the membrane) will activate Arp2/3 (green
@@ -414,10 +409,13 @@ can also entangle and allow forces to be carried across them
     Depolymerisation is helped by severing protein (sharp triangle) and Actin
     Depolymerisation Factor (ADF). ADP-actin monomer will bind to profilin
     (Black dots) increasing the turn over rate to ATP-actin which will be reused
-    by the leading edge of the cell.
+    by the leading edge of the cell. Adapted from :cite:`Pollard2000`.
 
-.. todo:
-    Generally : The Protein you use need to be better introduced than others
+
+A schematic that recapitulate the interaction of actin with other protein and
+the formation of a dendritic network at the leading edge of the cell is
+presented on :num:`Figure #actin-cycle`.
+
 
 Molecular Motor
 """""""""""""""
@@ -493,6 +491,8 @@ spent attached/detached from  the filament, the duty-ratio or duty-cycle can
 be noted :
 
 .. math::
+    :label: roa2
+
     r = \frac{\tau_{on}}{\tau_{on}+\tau_{off}}
 
 We will see in the following that the duty-ratio might have an important effect
@@ -597,7 +597,7 @@ The actin cortex
 .. 3
 
 The actin cortex is a thin layer of between 200 to 500 nm that can be found
-just underneath the plasma membrane of a cell. The properties of the actin
+just underneath the plasma membrane of a cell (:num:`Fig #fig-electro-cortex`) . The properties of the actin
 cortex makes it a key component to diverse processes.  Its capacity to resit
 to, and transmit forces is indispensable for locomotion of many cells by
 allowing the retraction of the rear of the migrating cell and will be describe
@@ -614,6 +614,7 @@ The actin cortex is constituted of actin filaments that can be parallel or
 orthogonal to the membrane as one can see using electron microscopy on cells
 :cite:`Morone2006b`. 
 
+.. _fig-electro-cortex:
 .. figure:: /figs/Actin-Cortex-Moronne-2006.jpg
     :alt: "Electron microscope view of the actin cortex"
     :width: 70%
@@ -640,7 +641,7 @@ cells can be characteristic for malignant tissue, and plays a significant role i
 the ability of the cells to invade nearby tissues. 
 
 
-
+.. _fig-schafer:
 .. figure:: /figs/Schafer2004.jpg
     :width: 60%
 
@@ -664,10 +665,10 @@ displacement. None the less, it does not diminish its importance in tissues
 behavior as all epithelial cell can be considered as moving on a 2D substrate.
 Beyond lamellipodia, further structures that are responsible for cell motion are
 filopodia and pseudopodia. They mainly differ from lamellipodia by their shape
-and the organisation of the actin structure inside. Lamellipodia-based motion
+and the organisation of the actin structure inside (:num:`Fig #fig-schafer`). Lamellipodia-based motion
 can move a cell up to a few micrometers per minute.
 
-.. todo::
+.. todo:
 
     Cite speed ? Ofer2011 ?
 
@@ -738,6 +739,7 @@ By their relative simplicity to the rest of the cells, blebs are the perfect
 system to be reconstituted `in vitro` in liposomes.
 
 
+:: _fig-bleb:
 .. figure:: /figs/Bleb-nature-paluch.jpg
     :alt: "Motion through bleb mechanism"
     :width: 40% 

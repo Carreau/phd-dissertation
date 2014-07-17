@@ -40,12 +40,13 @@ to form a biomimetic actin cortex has been widely studied. In
 on beads as well as simulations investigate the effect of cross-linking and
 Capping Protein on the formed actin gel. It can be seen both experimentally and in
 simulation that a network of filaments escape from what is defined as the actin
-cortex. The effect of these long filaments is not taken into account in the
+cortex (:num:`Fig fig-bead-tirf`). The effect of these long filaments is not taken into account in the
 `in-silico` system where the analysis is restricted to filaments shorter than 10
 µm. Only the effect of dense entangled actin networks generated from primers
 randomly placed  on the bead surface participate in the increase of tension and
 contribute to symmetry breaking.
 
+.. _fig-bead-tirf:
 .. figure:: /figs/Bead-tirf-fluo-sim.png
     :width: 70%
 
@@ -60,7 +61,7 @@ contribute to symmetry breaking.
 
 
 The limit of the dense network visible in epifluorescence is defined in
-:cite:`Kawska2012` by the position of the half-maximum fluorescent intensity.
+:cite:`Kawska2012` by the position of the half-maximum fluorescent intensity (:num:`Fig #fig-intensity-profile`).
 The properties of these networks are measured by :cite:`Pujol2012` using
 magnetic beads and actin stabilized with phalloidin. Though they do not
 investigate the sparse and softer actin network that originate from the visible
@@ -84,7 +85,7 @@ The questions we address in this part of the manuscript are :  How does the far
 extends the soft part of the gel? What are its precise mechanical properties?  How does it change
 over time?  Is the actin cloud elastic or viscous ?
 
-
+.. _fig-intensity-profile:
 .. figure:: /figs/intensity_profile_xnM_Arp_xnM_CP_xmin.png
     :width: 80%
 
@@ -136,10 +137,11 @@ These condition are chosen in order to grow a dense network on the surface of
 actin-bead as in :cite:`Kawska2012`. We place ourself at 25nM ATP and a varying
 amount of Capping Protein concentration in order to cover condition where the
 dense gel that forms on the actin-bead is able to accumulate sufficient stress
-to lead to symmetry breaking (CP between 15  and 35 nM ). We also investigate
+to lead to symmetry breaking (CP between 15  and 35 nM , :num:`Figure #fig-phase-diagram`). We also investigate
 conditions where the amount of Capping Protein is too low (< 15nM) or too high
 (>35 nM) to permit symmetry breaking.
 
+.. _fig-phase-diagram:
 .. figure:: /figs/kawska-phase-diagram.png
     :width: 90%
 
@@ -299,7 +301,7 @@ To check for reproducibility and non-plastic deformation of the network after
 indentation, the indentation cycle can be repeated several times at a few seconds
 interval. As the network is constantly growing during the measurement, this
 repeat also allows to check for possible change of network properties due to actin
-polymerisation. The force distance plot is shown in :num:`Figure #reproc`.
+polymerisation. The force distance plot is shown in :num:`Figure #reproc`,:num:`#reproc-time`.
 
 
 .. _reproc-time:
@@ -419,6 +421,7 @@ In particular, we fit force-distance curve of the approach phase using a power
 law with 3 fit parameters :math:`\alpha, \beta, \delta`:
 
 .. math::
+    :label: eqa31
 
     F(d) = \beta \times \left(d-\delta\right)^\alpha
 
@@ -448,6 +451,7 @@ provide a clear measure of deformation in the order of 1/10 of µm,  this
 leads to a maximum detectable Young's modulus of :
 
 .. math::
+    :label: eqa32
 
     E_{max} &\sim \frac{F_{max}L_{0,max}}{A_0.\Delta L} \\
             &\sim \frac{50.10^{-12} \times 1.10^{-5} }{  (\pi 2.17.10^{-6})^2 \times 1.10^{-7}              }\\ 
@@ -482,7 +486,7 @@ across all fits.
 
 The approach phase data can be corrected for the distance offset :math:`\delta`
 and plot in a log-log scale allowing for a better appreciation of the fit
-result. The corrected distance is noted with  `c` indices :math:`d_c = d-
+result (:num:`Fig #force-distance-log-log`). The corrected distance is noted with  `c` indices :math:`d_c = d-
 \delta`. In the model the force tends to infinity at :math:`d_c = 0`.
 
 
@@ -520,11 +524,12 @@ seen on :num:`Fig #power-law-exponent`
 
 
 Due to the scale invariance of the inverse power law found above,  all the
-approach phases data can be rescaled into a single master-curve. This is done
+approach phases data can be rescaled into a single master-curve (:num:`Fig #fig-rescale-power-law`). This is done
 by dividing the force by the maximum force :math:`F_{max}` reached during the
 approach and rescaling the distance by the minimum approach distance from which
 :math:`\delta` is subtracted. 
 
+.. _fig-rescale-powerlaw:
 .. figure:: /figs/rescaled_powerlaw.png
     :width: 70%
 
@@ -631,6 +636,7 @@ The stress exerted onto the material projected onto the bead surface or radius
 :math:`R` can be written : 
 
 .. math::
+    :label: eqa32
     
     \sigma = \frac{F}{\pi R^2}
 
@@ -639,6 +645,7 @@ as a function of the corrected bead position |dc| and the considered location
 along the axis between the two bead center :math:`x` : 
 
 .. math::
+    :label: eqa33
 
     u(x)= \frac{d_c-x}{d_c}
 
@@ -652,12 +659,14 @@ at the distance |dc| is then
 
 .. _eq-E:
 .. math::
+    :label: eqa34
 
     E(d_c) = \left.\frac{\partial\sigma}{\partial u}\right|_{d_c}
 
 By injecting the expression of :math:`u` and :math:`\sigma` this lead to :
 
 .. math:: 
+    :label: eqa35
 
     E(d_c) &= -\frac{d_c}{\pi R^2}\times \Big(\frac{dF}{dx}\Big) \Big|_{x=d_c}\\
          &= E_0 d_c^\alpha
@@ -665,6 +674,7 @@ By injecting the expression of :math:`u` and :math:`\sigma` this lead to :
 In which the value of |E0| can be expressed as function of the power law exponent |alpha| and the prefactor |beta| :
 
 .. math::
+    :label: eqa36
     
     E_0 = - \frac{\alpha\beta}{\pi R^2}
 
@@ -718,6 +728,7 @@ expressed as a function of filament contour length density :math:`\rho` and the
 entanglement length :math:`L_e` as :cite:`Morse1998b`:
 
 .. math::
+    :label: eqa37
     
     E= \frac{2.(1+\nu).7.k_BT \rho}{5L_e}
 
@@ -768,6 +779,8 @@ the filament contour length per unit volume, we can determine the
 mesh-size :math:`\xi_0` of the undeformed network: 
 
 .. math::
+    :label: eqa38
+
     \xi_0 = 1/\sqrt\rho_0
 
 
@@ -786,7 +799,9 @@ In which :math:`E_0'` can be identified as |E0| in :eq:`eqa` to extract the
 closed form solution for the mesh size :math:`\xi_0` :
 
 .. math::
-        \xi_0=\left(-\frac{({2-\frac{5}{7}\alpha)}.k_BT\pi R^2}{5\alpha \beta L_p^{\frac{1}{5}}\left.d_0\right.^{\alpha}}\right)^{\frac{5}{14}}
+    :label: eqa39
+
+    \xi_0=\left(-\frac{({2-\frac{5}{7}\alpha)}.k_BT\pi R^2}{5\alpha \beta L_p^{\frac{1}{5}}\left.d_0\right.^{\alpha}}\right)^{\frac{5}{14}}
 
 
 The found mesh size is in the order of 0.3 to 0.4 µm which is consistent with previous findings 
@@ -940,7 +955,7 @@ explain the relaxation of the network.
 In this model :cite:`Morse1998a`, the visco elastic modulus  |E| is a function of time
 and can be written as :math:`E(t) = E\times \chi(t)` with 
 
-.. math ::
+.. math::
     :label: chi
 
     \chi(t)=\sum_{n, odd} \frac{8}{n^2 \pi^2}exp\left(- \frac{n^2\pi^2 t}{ \tau_{rep}} \right)
@@ -996,6 +1011,7 @@ the fit parameters give realistic value, we can estimate the diffusion constant
 for filament reptation |Drep|. 
 
 .. math:: 
+    :label: eqa3-10
 
     D_{rep} &= \frac{k_bT}{\gamma l_f} \\
 
@@ -1040,6 +1056,7 @@ During the approach phase the force exerted on the actin-bead is
 decrease from :math:`F(t_1)` to :math:`F(t_2)` with the relation :
 
 .. math::
+    :label: eqa311
 
     \frac{F(t_2)}{F(t_1)} = \chi(t_2-t_1)
 
@@ -1049,6 +1066,7 @@ relaxation (:math:`F_{da}`), plus a force due to the closing of the actin
 network behind the bead :math:`F_{closing}`.
 
 .. math::
+    :label: eqa312
 
     F_{ret}(d) &= F_{da}(d) + F_{closing}(d)\\
     F_{ret}(d) &= \chi(t_2-t_1).\beta(d-\delta)^\alpha+ F_{closing}(d)
@@ -1085,6 +1103,7 @@ area and a linear ramp function which can be seen on :num:`figure #interp`
 The complete retraction force can be seen on :num:`figure #fit-3-phases` and is equal to 
 
 .. math::
+    :label: eqa314
 
     F_{ret}(d) &= F_{da}(d)\times(1-S(d)) + F_{plad}(d)\times S(d)\\
 

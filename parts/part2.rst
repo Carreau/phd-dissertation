@@ -317,7 +317,7 @@ of the objective with the AODs and the QPD is optimized by adjusting the
 distance of both objectives with respect to the sample. 
 
 A trapping laser is positioned near the center of the microscope field of view
-using the custom written LabView program. The QPD is adjusted in X and Y direction to
+using the custom written LabView program (:num:`Fig #fig-frontend`). The QPD is adjusted in X and Y direction to
 :math:`\Delta X  = \Delta Y = 0V`. This is done while no object trapped in
 the  laser focus.
 
@@ -333,6 +333,7 @@ from the microscope allows to see the reflection of the trapping lasers on the
 upper and lower coverslip and to determine the localisation of the middle plane
 of the observation chamber.
 
+.. _fig-frontend:
 .. figure:: figs/frontend.png
     :width: 65%
 
@@ -382,7 +383,7 @@ maximum measured force between the two beads is not higher than 8 to 10 pN, the
 minimum approach distance is reduced by 0.25 to 1 µm and the procedure
 repeated. Once the maximum force measured is in the 10-15pN range the right
 distance is found and up to 10 automatic force-indentation experiments are
-performed. Before each indentation the software automatically does a "scan" of
+performed (:num:`Fig #bead-move`) . Before each indentation the software automatically does a "scan" of
 each bead to ensure correct calibration. An indentation cycle has the
 following step: 
 
@@ -406,7 +407,6 @@ The date and time of each indentation cycle is recorded to extract the time of
 polymerisation for each sample.
 
 .. _bead-move:
-
 .. figure:: /figs/beed_move.png
     :alt: indent experiment
     :width: 50%

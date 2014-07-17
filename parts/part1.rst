@@ -5,7 +5,7 @@ Preamble
 
 During my PhD I decided to investigate the effect of the actin network on the
 mechanical properties of cells. Indeed, cell mechanics are a key parameter that
-has crucial impact on cellular and organism function. Being able to detect
+has crucial impact on cellular and organisms functions. Being able to detect
 changes in the mechanical properties, and to understand the mechanism that
 govern these changes  is an important step in the study of cellular behavior as
 well as in differentiating healthy from cancerous cells and tissue.
@@ -208,8 +208,9 @@ controlled in bead motility assays. Though, in the right condition
 :cite:`Kawska2012` the dense actin gel formed on the bead surface can
 accumulate stress induce by polymerisation of inner layer until symmetry
 breaking occurs. The gels ruptures on one of the side of the bead, leading to
-the formation of a comet on the opposite side.
+the formation of a comet on the opposite side (:num:`Fig #fig-bead-motility`).
 
+.. _fig-bead-motility:
 .. figure:: /figs/Plastino-Sykes-2005.png 
     :width: 60% 
     
@@ -322,11 +323,12 @@ lead to a favorable rupture of the actin cortex during the increase of tension,
 implying a symmetry breaking as in the bead motility system.  In the case of strong
 attachment, the liposome actin-cortex will accumulate tension until it has
 enough force to crush the supporting lipid layer, thus collapsing the liposome
-:cite:`Carvalho2013`. This system also allows the observation
-over time giving extra insight into the dynamics of the actin network.
+:cite:`Carvalho2013`,(:num:`Fig #fig-peeling-scheme`). This system also allows the observation
+over time giving extra insight into the dynamics of the actin network (:num:`Fig #fig-peeling-3d`).
 
 
 
+.. _fig-peeling-scheme:
 .. figure:: /figs/joel-2-11.png
     :alt: Nothing
     :width: 80%
@@ -338,6 +340,7 @@ over time giving extra insight into the dynamics of the actin network.
     the underlying liposome ruptures ("Crushing"). Adapted from
     :cite:`Carvalho2013`
 
+.. _fig-peeling-3d:
 .. figure:: /figs/joel-5-12.png
     :width: 90%
 
@@ -371,6 +374,7 @@ In the case of close lipid bilayer, the potential energy stored by the
 deformation of a lipid bilayer by unit area can be  written as 
 
 .. math::
+    :label: eqa1
 
     H = H_{ext} + H_{curv}
 
@@ -382,6 +386,7 @@ function  of the elastic area compressibility modulus :math:`K_a` and the
 relative variation surface of the membrane :math:`A` :
 
 .. math::
+    :label: eqa2
 
     H_{ext} = \frac 1 2 K_a \left(\frac{\Delta A}{A}\right)^2
 
@@ -396,6 +401,7 @@ sum of the curvature energy :math:`H_{curv}` :
 
 
 .. math::
+    :label: eqa3
 
     H_{cur} = \frac 1 2 \kappa (c_1 + c_2 -c_0)^2
 
@@ -412,17 +418,20 @@ An important parameter which is introduced in membrane mechanics is the  membran
 The tension |sigma| is linked to the energy required to expand the membrane |Hext| by :
 
 .. math::
+    :label: eqa4
 
     \sigma &= \frac {\partial H.A} {\partial \Delta A} \\
 
 i.e.
 .. math::
+    :label: eqa5
 
     H_{ext} &= \sigma\left( \frac {\Delta A} A \right)
 
 In which 
 
 .. math::
+    :label: eqa6
 
     \sigma =  K_a \left( \frac {\Delta A} A \right)
 
@@ -431,7 +440,7 @@ Membrane tension is a key parameter as it can be measured in cells, and is one
 of the parameters responsible for cell sorting :cite:`Maitre2012`. In particular
 between cells, the tension of the couple (membrane+actin cortex) can be
 determined by using the contact angle between cell which is the angle between
-interfaces as defined in :num:`Figure #fig-tension-cell`.
+interfaces as defined in :num:`figure #fig-tension-cell`.
 
 
 .. _fig-tension-cell:
@@ -510,8 +519,10 @@ filaments. The stiffness of filaments can be measured by a characteristic number
 called the persistence length (:math:`l_p`). More precisely, the
 persistence length characterizes the average loss of correlation between the
 tangent along the considered polymer. With :math:`s` the curvilinear abscissae along the polymer, 
-and :math:`\Theta_{(x,y)}` the angle between the two tangent at two different abscissae:
+and :math:`\Theta_{(x,y)}` the angle between the two tangent at two different abscissae (:num:`Fig #fig-persistence-length`):
 
+
+.. _fig-persistence-length:
 .. figure:: figs/F2_large.jpg
     :width: 60% 
 
@@ -522,6 +533,8 @@ and :math:`\Theta_{(x,y)}` the angle between the two tangent at two different ab
     measured by "following" the polymer. Adapted from :cite:`Liverpool2006`
 
 .. math::
+    :label: eqa6
+
     \left<\Theta_{(s,s+l)}\right> = exp\left(\frac{-l}{l_p}\right)
 
 For actin filaments, the
@@ -561,6 +574,7 @@ materials, the Young's modulus (E) and the shear models (G) are related
 by the Poisson ratio (:math:`\nu`):
 
 .. math::
+    :label: eqa7
     
     G = \frac{E}{2(1+\nu)}
 
@@ -578,6 +592,7 @@ A  more formal definition of the Young's modulus, is the ratio between
 the stress :math:`\sigma` along the direction of the deformation and the relative deformation :math:`\epsilon`. 
 
 .. math:: 
+    :label: eqa8
     
     E &= \frac{\sigma}{\epsilon} \\
       & = \frac{   F/S }{   \Delta L / L_0        }
@@ -603,6 +618,7 @@ length of the considered material.  (:num:`Figure #fym` A):
 The shear modulus is defined for a deformation parallel to the surface on which it is applied :
 
 .. math::
+    :label: eqa9
 
    G &= \frac{\tau_{xy}}{\gamma_{xy}} \\
       & = \frac{   F/S }{   \Delta x / l        }
@@ -634,6 +650,7 @@ orthogonal to its elongation.
 The Poisson ratio is the negative ratio of transverse to axial strain :
 
 .. math::
+    :label: eqa10
 
     \nu = - \frac{
         d \epsilon_{trans}
@@ -670,6 +687,7 @@ something in it at high speed. And indeed, viscosity is the pendant of the elast
 modulus but considering forces induced by the deformation rate instead of displacement.
 
 .. math::
+    :label: eqa12
     
     \frac{F}{S} &= \tau_{xy} \\
                 &= \eta \frac{\partial v}{\partial z}
@@ -712,11 +730,12 @@ solid but can also flow. Of course ice in its solid form is not the only
 material which is both solid and viscous. In order to describe such
 behavior one can use the theory of viscoelastic materials.  A number of models have
 been and are still developed to describe viscoelastic behavior. The
-Kelvin-Voigt and Maxwell models are two of the simpler ones. A thought
+Kelvin-Voigt and Maxwell models are two of the simpler ones (:num:`Fig #fig-mkv`). A thought
 experiment to understand each of these model is to put a spring and a dash pot
 in parallel or series. Such model systems exhibit viscoelastic behavior. 
 
 
+.. _fig-mkv:
 .. figure:: /figs/MKV.png
     :width: 70%    
 
@@ -752,6 +771,7 @@ sinusoidal strain rate. Using the complex notation :math:`\dot u = u_0 i\omega
 e^{i\omega t}` in equation :eq:`strain`, and operating the change of variable :math:`t-\tau \to t'`  leads to :
 
 .. math:: 
+    :label: eqa13
 
     \sigma(t) = u_0\int_0^\infty E(t') i\omega e^{i\omega(t-t')}dt'
 
@@ -772,17 +792,21 @@ They are both in factors of the complex strain :math:`u(t) = u_0 e^{i\omega t}`
 We thus define the storage modlus of the material as the real part of (:eq:`eqt` in bracket) :math:`E'` : 
 
 .. math::
+    :label: eqa14
 
     E'(\omega) =  \omega \int_0^\infty E(t')  sin(\omega t) dt' 
 
 And the loss modulus as the imaginary part of (:eq:`eqt` in bracket) 
     
 .. math::
+    :label: eqa15
+
     E"(\omega) =  \omega \int_0^\infty E(t')  cos(\omega t) dt' 
 
 And define the complex frequency dependent Young's modulus as :
 
 .. math::
+    :label: eqa16
 
     E^*(\omega) = E'(\omega) + i.E"(\omega)
 
@@ -792,6 +816,7 @@ And define the complex frequency dependent Young's modulus as :
 Thus we can write :eq:`eqt` as : 
 
 .. math::
+    :label: eqa17
 
     \sigma(t) = E^*(\omega).u(t)
 
@@ -889,16 +914,16 @@ lateral direction.
 
 
 
-One of the qualities of optical trapq is that in principle, multiple traps can be
+One of the qualities of optical traps is that in principle, multiple traps can be
 obtained. A simple method to generate two traps is to split the incoming light
 into two orthogonally polarized independent beams.  Instead of sharing the
 laser power between the different traps by using polarisation, one can use what
-is known as multiplexing by time sharing. This is achived by switching the laser rapidly
-between different positions at a spped much faster than the diffusion of the particle. By this method
+is known as multiplexing by time sharing. This is achieved by switching the laser rapidly
+between different positions at a speed much faster than the diffusion of the particle. By this method
 it is possible to virtually achieve multiple traps on the same
 sample. 
 
-In this work we use a pultiplexed system, where the rapid switching is achieved using Accousto Optic Deflectors
+In this work we use a multiplexed system, where the rapid switching is achieved using Accousto Optic Deflectors
 (aka AODs).  An AOD consists of a crystal in which a high frequency
 sound-wave propagates perpendicular to the incoming laser beam. This sound-wave generates local changes in the
 refractive index of the material which act as a diffraction grating. In
@@ -907,7 +932,7 @@ be deflected by this grating under the Bragg angle.
 
 In practice, rapidly controlling the frequency and amplitude of the sound wave
 in the crystal, allows direct adjustment of laser deflection and hence the
-trap position.  Using AODs also has the advantage of controling not only
+trap position.  Using AODs also has the advantage of controlling not only
 of the number and position of multiple traps, but also the individual power
 allocated to each trap and hence the stiffness of each trap.
 
@@ -932,6 +957,12 @@ allocated to each trap and hence the stiffness of each trap.
     position of the laser spot on the QPD. Additional dichroic mirrors allow to
     use bright field and epifluorescence simultaneously optical
     tweezer.
+
+A schematic of the optical setup that can be used to trap beads in the focal
+plane on the microscope can be found in :num:`figure #ots`. The scheme also
+contains the detection part of the setup that is used to measure the force
+exerted on each bead, technique which is explained on following part.
+
 
 Determination of trapping forces and bead displacement
 ======================================================

@@ -114,6 +114,7 @@ dimension is defined as :
 
 
 .. math::
+    :label: eqa501
 
     r_{AB}=\frac{\sum\limits_{i=1}^n (A_i-\bar{A})(B_i-\bar{B})}{(n-1) s_A s_B}
 

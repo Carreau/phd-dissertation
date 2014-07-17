@@ -238,6 +238,7 @@ the contact line between the liposomes and the interface to be at equilibrium.
 Hence, we can apply Young's equation: 
 
 .. math::
+    :label: eqa401
 
     \sum_{k \in interfaces} \tau_k. \vec t_k  = \vec 0 \\
     \tau_i \vec t_i + \tau_1 \vec t_1 + \tau_2 \vec t_2 + = \vec 0
@@ -262,7 +263,7 @@ between them at each instance of the contraction. We can in particular project
 the result of this equation onto the direction of the contact surface
 tangent (dotted line on :num:`figure #fig-yd`): 
 
-.. Math::
+.. math::
     :label: young-tangent
 
     \tau_i - W = \tau_1.cos(\theta_1) + \tau_2.cos(\theta_2)
@@ -455,6 +456,7 @@ Therefore we obtain an expression of the tension :math:`\tau(t)` during the acto
 Hence we can evaluate the tension relative to its initial value over time :
 
 .. math::
+    :label: eqa402
 
     \frac{ \tau(t) }{\tau_0} = \frac{cos(\theta_0/2)}{cos(\theta(t)/2)}
 
@@ -467,7 +469,7 @@ Relative increase in cortical tension
 Interaction of myosin II filaments with a biomimetic actin cortex induces
 tension build up. The cortical tension, normalized to its initial value,
 increases and reaches a plateau where :math:`\tau(t) = \tau_{peeling}` 
-(:num:`Fig#fig3e`) with the same trend as |theta|.  Note that if the acto-myosin shell
+(:num:`Fig #fig3e`) with the same trend as |theta|.  Note that if the acto-myosin shell
 breaks and peels, the doublet recovers its initial shape (see dashed blue line
 for :math:`d` and |theta| on  :num:`Fig #fig3b`, :num:`#fig3c`, :num:`#fig3d` ). The average relative tension is found to
 be :math:`\tau_{peeling}/\tau_0 = 1.56 \pm 0.56` (n=5) in 3D and
@@ -615,6 +617,7 @@ that correspond best to the real image. The correlation between the model and th
 data can be written.
 
 .. math::
+    :label: eqa402
 
     r_{xy}=\frac{\sum\limits_{i=1}^n (x_i-\bar{x})(y_i-\bar{y})}{(n-1) s_x s_y}
 
@@ -629,6 +632,8 @@ in the acquired images, we can assume a uniform noise on top of the `expected si
 uniform.
 
 .. math::
+    :label: eqa403
+
     r_{noise,model(params)} = cst
 
 And the correlation between the `expected signal` and the model is expected to be
@@ -636,6 +641,7 @@ maximal for the parameters of the model that  equal the real geometrical
 parameters of the doublets.
 
 .. math::
+    :label: eqa404
 
     \operatorname*{arg\,max}_p\left(r_{data,model(p)}\right)= \operatorname*{arg\,max}_p \left(r_{expectedSignal,model(p)}\right)
 
@@ -744,8 +750,9 @@ correlation in a reasonable time (less than an hour per images). To
 achieve this besides calculating the model as efficiently as possible one can
 replace the exact calculation of two spherical cap and the point spread
 function of the microscope by the union and subtraction of pre calculated spheres followed by a 3D
-numerical Gaussian blur.
+numerical Gaussian blur (:num:`Fig #mdl`).
 
+.. _fig_mdl:
 .. figure:: /figs/3dblur.png
     :width: 60% 
 
