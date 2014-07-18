@@ -352,7 +352,7 @@ experiments, where the liposomes composing the doublets have an ratio of :math:`
     :width: 90%
 
     Confocal stack of an liposome doublet actin channel, 3D reconstruction in
-    :num:`Figure #fig3a`. Note that there is no actin at the interface between
+    :num:`figure #fig3a`. Note that there is no actin at the interface between
     the liposomes (Frames #11-#14). The distance between each image is :math:`\Delta z=0.85` µm.  
 
 .. _fig3a:
@@ -750,9 +750,9 @@ correlation in a reasonable time (less than an hour per images). To
 achieve this besides calculating the model as efficiently as possible one can
 replace the exact calculation of two spherical cap and the point spread
 function of the microscope by the union and subtraction of pre calculated spheres followed by a 3D
-numerical Gaussian blur (:num:`Fig #mdl`).
+numerical Gaussian blur (:num:`Fig #fig-mdl`).
 
-.. _fig_mdl:
+.. _fig-mdl:
 .. figure:: /figs/3dblur.png
     :width: 60% 
 

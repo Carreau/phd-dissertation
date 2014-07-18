@@ -258,7 +258,7 @@ In the rest of this chapter we use the bead motility system, but only
 consider it during the first phase, where the symmetry breaking has not yet
 occurred, or in condition where it should not occur. In particular we will
 investigate condition at 25 nM Arp2/3 and concentration of Capping Protein
-varying from 0 to 50 nM. As shown in :num:`Fig #phase-diag` this range corresponds to
+varying from 0 to 50 nM. As shown in :num:`fig #phase-diag` this range corresponds to
 conditions where no symmetry breaking occurs, but also to conditions in which
 symmetry breaking is expected.  It should be noted that unlike
 other study that also characterize actin network growing on bead

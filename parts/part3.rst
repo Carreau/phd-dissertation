@@ -40,7 +40,7 @@ to form a biomimetic actin cortex has been widely studied. In
 on beads as well as simulations investigate the effect of cross-linking and
 Capping Protein on the formed actin gel. It can be seen both experimentally and in
 simulation that a network of filaments escape from what is defined as the actin
-cortex (:num:`Fig fig-bead-tirf`). The effect of these long filaments is not taken into account in the
+cortex (:num:`Fig #fig-bead-tirf`). The effect of these long filaments is not taken into account in the
 `in-silico` system where the analysis is restricted to filaments shorter than 10
 µm. Only the effect of dense entangled actin networks generated from primers
 randomly placed  on the bead surface participate in the increase of tension and
@@ -83,7 +83,7 @@ structures escaping from it may have a role in organelle positioning.
 
 The questions we address in this part of the manuscript are :  How does the far
 extends the soft part of the gel? What are its precise mechanical properties?  How does it change
-over time?  Is the actin cloud elastic or viscous ?
+over time?  Is the actin cloud elastic or viscous?
 
 .. _fig-intensity-profile:
 .. figure:: /figs/intensity_profile_xnM_Arp_xnM_CP_xmin.png
@@ -203,7 +203,7 @@ Approach Phase
 .. 3
  
 During the approach phase, the probe-trap approaches the actin-trap at constant speed (10 µm/s), as shown in
-:num:`Fig #figindent-time` for times :math:`t < t_1`. During this approach the actin bead
+:num:`figure #figindent-time` for times :math:`t < t_1`. During this approach the actin bead
 will repel the probe bead due to the actin network growing on it. The force felt
 by the actin bead will progressively increase during the probe bead approach,
 eventually reaching the maximum as the probe-trap reaches its closest position
@@ -219,7 +219,7 @@ Relaxation Phase
 
 After the approach , the trap remain static for a 3 seconds relaxation phase 
 . The relaxation phase start at :math:`t_1` and
-finish at :math:`t_3` as shown on figure :num:`#figindent-time`. The duration of the relaxation phase is sufficient to allow the partial
+finish at :math:`t_3` as shown on :num:`figure #figindent-time`. The duration of the relaxation phase is sufficient to allow the partial
 relaxation of the actin cloud  but remain sufficiently short compared to
 the actin polymerisation speed hence the polymerisation is not expected to 
 change the properties of the network during indentation cycle as well as
@@ -271,7 +271,7 @@ position of bead in the trap as well as the force exerted on each bead can be
 calculated. We can then recover the distance between bead centers as a function
 of time.  The force-distance curve representing the force exerted by the
 probe bead on the actin bead as a function of the distance can be computed and is
-show in :num:`Fig #force-distance` where we can still distinguish the three
+show in :num:`figure #force-distance` where we can still distinguish the three
 phase of the indentation cycle, also marked by the color of the data. 
 
 
@@ -301,7 +301,7 @@ To check for reproducibility and non-plastic deformation of the network after
 indentation, the indentation cycle can be repeated several times at a few seconds
 interval. As the network is constantly growing during the measurement, this
 repeat also allows to check for possible change of network properties due to actin
-polymerisation. The force distance plot is shown in :num:`Figure #reproc`,:num:`#reproc-time`.
+polymerisation. The force distance plot is shown in :num:`Figure #reproc` :num:`, #reproc-time`.
 
 
 .. _reproc-time:
@@ -375,7 +375,7 @@ average force felt by the probe bead is higher than the experimental noise.
 Typically the standard deviation is 2pN. 
 
 The repartition of :math:`d_0` with the concentration of Capping Protein is
-plotted in :num:`Figure #d0-violin`.
+plotted in :num:`figure #d0-violin`.
 
  
  
@@ -467,8 +467,8 @@ optical tweezers are not able to probe the mechanics of the dense gel on the
 surface of the bead. The value of :math:`\delta`  is expected to be :math:`> 4.34 \mu{}m` as it include partially the dense actin gel.
 
 The model can be fitted independently on each experimental
-approach phase. An example of such a fit is shown in figure
-:num:`Fig #force-distance-fit` and the quality of fit can be measure by the
+approach phase. An example of such a fit is shown in
+:num:`figure #force-distance-fit` and the quality of fit can be measure by the
 coefficient :math:`R^2` which has a media value of `0.97`
 across all fits.
 
@@ -511,7 +511,7 @@ As expected we find negative values for :math:`\alpha`. Surprisingly the value
 of alpha does not vary significantly when comparing experiments with different
 amount of Capping Protein and stay close to -1, with a mean value of -1.10, and
 a standard deviation of 0.38. The distribution of the power law exponent can be
-seen on :num:`Fig #power-law-exponent`
+seen on :num:`figure #power-law-exponent`
 
 .. _power-law-exponent:
 .. figure:: /figs/alpha_violin.png
@@ -524,7 +524,7 @@ seen on :num:`Fig #power-law-exponent`
 
 
 Due to the scale invariance of the inverse power law found above,  all the
-approach phases data can be rescaled into a single master-curve (:num:`Fig #fig-rescale-power-law`). This is done
+approach phases data can be rescaled into a single master-curve (:num:`Fig #fig-rescale-powerlaw`). This is done
 by dividing the force by the maximum force :math:`F_{max}` reached during the
 approach and rescaling the distance by the minimum approach distance from which
 :math:`\delta` is subtracted. 
@@ -574,7 +574,7 @@ didn't vary with the amount of Capping Protein in solution (:num:`Fig #power-law
 The two other parameters investigated are the prefactor
 :math:`\beta`. For the same value of :math:`\alpha` and :math:`\delta`, the
 higher :math:`\beta` is the stronger the interaction between the two beads for
-the same distance |dc|. We can see on :num:`Figure #beta-violin` that the
+the same distance |dc|. We can see on :num:`figure #beta-violin` that the
 average value for the prefactor decreases with increasing Capping Protein
 concentration. 
 
@@ -806,7 +806,7 @@ closed form solution for the mesh size :math:`\xi_0` :
 
 The found mesh size is in the order of 0.3 to 0.4 µm which is consistent with previous findings 
 :`Morse1998b`. The variation of the
-mesh size can be seen on :num:`Fig #xi-violin` and does not seem to have a
+mesh size can be seen on :num:`figure #xi-violin` and does not seem to have a
 correlation with the concentration of Capping Protein. 
 
 
@@ -982,7 +982,7 @@ networks as well as the relaxation behavior found in cells.
 
 In order to determine :math:`\tau_{rep}`, the Young's modulus determined in the
 approach phase is used and the model is fitted against the relaxation data.  A
-result of such a fit can be seen on :num:`Fig #fit-3-phases`. The value of
+result of such a fit can be seen on :num:`figure #fit-3-phases`. The value of
 |tau| are highly variable and the fit can be difficult when the relaxation is
 slow or in the order of the measured noise. Variation of |tau| with the
 concentration in Capping Protein can be seen on :num:`figure #tau-violin`, and

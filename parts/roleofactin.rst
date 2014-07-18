@@ -414,7 +414,7 @@ can also entangle and allow forces to be carried across them
 
 A schematic that recapitulate the interaction of actin with other protein and
 the formation of a dendritic network at the leading edge of the cell is
-presented on :num:`Figure #actin-cycle`.
+presented on :num:`figure #actin-cycle`.
 
 
 Molecular Motor
@@ -719,7 +719,7 @@ of 3D displacement of cells. In this mode, the cell will also form protrusions
 but will not rely on adhesion to move its body. This motility rely on blebs,
 that are blister-like protrusion that appear on the cell surface. A bleb
 forms on the surface of cell when the membrane detach from the actin
-cytoskeleton underneath it, or when the cortex ruptures. The small protrusions
+cytoskeleton underneath it, or when the cortex ruptures (:num:`Fig #fig-bleb`). The small protrusions
 are formed, quickly grow as they lack the force supporting layer that the actin
 cortex provides. While growing, the bleb fills with cytosol. The actin
 cortex can rapidly reform on the bleb slowing down its growth. In some cases,

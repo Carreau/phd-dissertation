@@ -16,7 +16,7 @@ and her Postdoc Maria Almonacid at the Collège de France, I designed a way to m
 cytoplasmic activity in mouse oocyte.
 
 
-In :num:`Figure #oocytewt` a typical mouse
+In :num:`figure #oocytewt` a typical mouse
 oocyte is presented where the nucleus can be seen to be positioned at the center of the cell.
 Current questions in this system relate to the mechanical processes during meiosis such as the chromosome migration, 
 the asymmetric cell division and the positioning of organelles by the dynamic remodelling of the actin network. 
@@ -175,8 +175,7 @@ activity.
 
 Once we have define the activity of a region of the cytoplasm of the cell, we
 can repeat the measurement on different areas of the cytoplasm. This allows to
-reproduce a map of the activity in the cell as a function of the position (
-:num:`Fig #fig-activity-map`).
+reproduce a map of the activity in the cell as a function of the position (:num:`Fig #fig-activity-map`).
 
 .. _fig-activity-map:
 .. figure:: figs/CellAct-WT.png
