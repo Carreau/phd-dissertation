@@ -130,25 +130,25 @@ emanating from it :ref:`we prepare polystyrene beads <bead_preparation>` of 4.3
 µm diameter coated with a nucleation promoting factor. Theses beads are placed
 in the :ref:`ATP mix buffer <atp_mix_buffer>` in presence of 25nm of Arp2/3
 complex, 4µm of monomeric actin (20% fluorescently labeled) 12 µM profilin and
-a variable amount of Capping Protein. :ref:`Cf Material and Methods <m_et_m>`.
+a variable amount of Capping Protein. :ref:`see Material and Methods <m_et_m>`.
 These beads are referred to as actin-beads.
 
 These condition are chosen in order to grow a dense network on the surface of
 actin-bead as in :cite:`Kawska2012`. We place ourself at 25nM ATP and a varying
 amount of Capping Protein concentration in order to cover condition where the
 dense gel that forms on the actin-bead is able to accumulate sufficient stress
-to lead to symmetry breaking (CP between 15  and 35 nM , :num:`Figure #fig-phase-diagram`). We also investigate
+to lead to symmetry breaking (CP between 15  and 35 nM, see part :ref:`Bead Motility Assay <bead-motility-assay>`). We also investigate
 conditions where the amount of Capping Protein is too low (< 15nM) or too high
 (>35 nM) to permit symmetry breaking.
 
-.. _fig-phase-diagram:
-.. figure:: /figs/kawska-phase-diagram.png
-    :width: 90%
-
-    Phase diagram showing the concentrating of Arp2/3 and Capping Protein
-    necessary for symmetry breaking (inside dotted line) on 4,5 µm beads both
-    `in vitro` and `in silico`. Inverted fluorescent images and simulation
-    are represented. Adapted from :cite:`Kawska2012`
+.. .. _fig-phase-diagram:
+.. .. figure:: /figs/kawska-phase-diagram.png
+..     :width: 90%
+.. 
+..     Phase diagram showing the concentrating of Arp2/3 and Capping Protein
+..     necessary for symmetry breaking (inside dotted line) on 4,5 µm beads both
+..     `in vitro` and `in silico`. Inverted fluorescent images and simulation
+..     are represented. Adapted from :cite:`Kawska2012`
 
 
 
@@ -454,7 +454,7 @@ leads to a maximum detectable Young's modulus of :
     :label: eqa32a
 
     E_{max} &\sim \frac{F_{max}L_{0,max}}{A_0.\Delta L} \\
-            &\sim \frac{50.10^{-12} \times 1.10^{-5} }{  (\pi 2.17.10^{-6})^2 \times 1.10^{-7}              }\\ 
+            &\sim \frac{50.10^{-12} \times 1.10^{-5} }{  (\pi\times 2.17\times 10^{-6})^2 \times 1.10^{-7}              }\\ 
             & \sim 300 Pa
 
 Any material with a stiffness much higher than 300 Pa can be considered as
@@ -1175,6 +1175,8 @@ Further studies of the actin cloud on biomimetic or `in vivo` system are
 challenging, but would lead to a better understanding of the mechanics of the
 cells and its control.
 
+A Paper based on this study has been accepted for publication in Biophysical
+Journal and is added for information as appendix of this manuscript.
 
 
 

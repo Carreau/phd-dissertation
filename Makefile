@@ -102,6 +102,8 @@ latexpdf:
 	$(SPHINXBUILD) -b latex -t latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	python sphinxmanual_mod.py
 	python normalize.py
+	cp parts/figs/actin_cloud_bpj_final_submission.pdf $(BUILDDIR)/latex
+	cp parts/figs/supplemental.pdf $(BUILDDIR)/latex
 	@echo "Modified _build/latex/sphinxmanual.cls"
 	@echo "Running LaTeX files through pdflatex..."
 	make -C $(BUILDDIR)/latex all-pdf

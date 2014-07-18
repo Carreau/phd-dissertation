@@ -251,7 +251,8 @@ ability to sustain stress.
 
     Phase diagram showing symmetry breaking in bead motility assay as a
     function of concentration of Arp2/3 and Capping Protein. Symmetry breaking
-    only occurs inside the area delimited by the dashed line. Experiments are
+    only occurs inside the area delimited by the dashed line on 4.5 µm beads both
+    `in vitro` and `in silico`. Experiments are
     displayed as inverted fluorescence image. Adapted from :cite:`Kawska2012`
 
 In the rest of this chapter we use the bead motility system, but only
@@ -420,7 +421,7 @@ The tension |sigma| is linked to the energy required to expand the membrane |Hex
 .. math::
     :label: eqa4
 
-    \sigma &= \frac {\partial H.A} {\partial \Delta A} \\
+    \sigma &= \frac {\partial H} {\partial \left(\frac{\Delta A}{A}\right)} \\
 
 i.e.
 
