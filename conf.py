@@ -221,9 +221,8 @@ latex_documents = [
 
 # If true, show URL addresses after external links.
 if tags.has('latex-print'):
-    latex_show_urls = 'inline'
+    latex_show_urls = 'footnote'
     latex_show_pagerefs = True
-    latex_font_size = 12
 else:
     latex_show_urls = False
 
