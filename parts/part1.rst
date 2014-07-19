@@ -524,16 +524,6 @@ tangent along the considered polymer. With :math:`s` the curvilinear abscissae a
 and :math:`\Theta_{(x,y)}` the angle between the two tangent at two different abscissae (:num:`Fig #fig-persistence-length`):
 
 
-.. _fig-persistence-length:
-.. figure:: figs/F2_large.jpg
-    :width: 60% 
-
-    Schematic of polymers with length respectively big compared to the persistence
-    length (A), in the order of the persistence length (B) and small compared
-    to persistence length (C), :math:`s` as defined on (B) is the `curvilinear
-    abscissae`, that is to say the distance between two points of the polymer
-    measured by "following" the polymer. Adapted from :cite:`Liverpool2006`
-
 .. math::
     :label: eqa6
 
@@ -550,6 +540,17 @@ as big as 1 mm, so hundreds fold the actin persistence length.
 Still for the majority of cells, the typical size we are interested in
 is about the persistence length of an actin filament, making it neither purely
 rigid nor completely flexible.
+
+.. _fig-persistence-length:
+.. figure:: figs/F2_large.jpg
+    :width: 60%
+
+    Schematic of polymers with length respectively big compared to the persistence
+    length (A), in the order of the persistence length (B) and small compared
+    to persistence length (C), :math:`s` as defined on (B) is the `curvilinear
+    abscissae`, that is to say the distance between two points of the polymer
+    measured by "following" the polymer. Adapted from :cite:`Liverpool2006`
+
 
 For the above reasons, actin solutions are often compared to semi-flexible
 polymers, and models that predict the behavior of actin networks often take
