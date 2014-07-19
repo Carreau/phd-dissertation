@@ -52,8 +52,8 @@ shrinkage to growth is called a `rescue`.
     :width: 70%
 
     Structure of an heterodimer of tubuline and assembly into a microtubule.
-    Electron microscopy of a single microtubule filament. From `Molecular
-    Biology of the Cell`. A) Structure of heterodimer of tubuline B)
+    Electron microscopy of a single microtubule filament. From :cite:`Alberts2008`.
+    A) Structure of heterodimer of tubuline B)0
     Heterodimers can assemble forming polar filaments. C) Filaments can
     assemble into  microtubules. D,E) Electron microscopy image of
     microtubules.
@@ -536,7 +536,7 @@ head.
     terminal, is the part of the myosin that binds to the actin filaments. The
     neck region with the light chain act as a lever arm. Finally the tail,
     constituted with coiled-coil alpha-helix that aggregate to form minifilaments.
-    Adapted from Molecular Biology of the cell.
+    Adapted from :cite:`Alberts2008`.
 
 
 
@@ -705,7 +705,8 @@ from actin network contraction and reorganisation due to myosin motors (:num:`Fi
 
     Schematic of Lamellipodium base motility. The lamellipodium grows at the
     leading edge of the cell and attach to a focal point. The actin cortex
-    under tension contract and is capable to pull the rear of the cell. 
+    under tension contract and is capable to pull the rear of the cell. Adapted
+    from :cite:`Alberts2008`.
 
 
 

@@ -14,18 +14,19 @@ Contents
     parts/conclusion
     parts/extra.rst
 
-.. raw:: html
-    
-    You can Download the latest pdf version of this 
-    <a href='../latex/actingeldynamics.pdf' >document</a>
 
-.. raw: latex
-
-     == git latex ref ==
+.. only:: html
+    ----
+    You can Download the latest pdf version of this `document <../latex/actingeldynamics.pdf>`_
+    ----
 
 .. References
 .. ==========
 
 .. bibliography:: library.bib
    :encoding: latex+utf8
-   :alpha:
+
+
+This version of the manuscript is based on the source files repository version
+|githash|, available on `github <http://github.com/carreau/phd-dissertation/>`_
+, and `bitbucket <https://bitbucket.org/Carreau/dissertation>`_

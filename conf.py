@@ -42,6 +42,10 @@ author_first = u'Matthias'
 author_last= u'Bussonnier'
 author_full = u' '.join([author_first,author_last])
 
+import subprocess
+label = subprocess.check_output(["git", "rev-parse","HEAD"])
+print('git describe :',label)
+
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -218,6 +222,8 @@ latex_documents = [
 # If true, show URL addresses after external links.
 if tags.has('latex-print'):
     latex_show_urls = 'inline'
+    latex_show_pagerefs = True
+    latex_font_size = 12
 else:
     latex_show_urls = False
 
@@ -317,3 +323,4 @@ latex_elements = {'preamble': preamble,
 # If false, no module index is generated.
 #latex_domain_indices = True
 
+rst_epilog = '.. |githash| replace:: %s' % label

@@ -622,7 +622,7 @@ The shear modulus is defined for a deformation parallel to the surface on which 
 .. math::
     :label: eqa9
 
-   G &= \frac{\tau_{xy}}{\gamma_{xy}} \\
+    G &= \frac{\tau_{xy}}{\gamma_{xy}} \\
       & = \frac{   F/S }{   \Delta x / l        }
 
 .. .. _fgm:

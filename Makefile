@@ -126,10 +126,14 @@ webpdf:
 printpdf:
 	$(SPHINXBUILD) -b latex -t latex-print $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	python sphinxmanual_mod.py
+	python normalize.py
+	cp parts/figs/actin_cloud_bpj_final_submission.pdf $(BUILDDIR)/latex
+	cp parts/figs/supplemental.pdf $(BUILDDIR)/latex
 	@echo "Modified _build/latex/sphinxmanual.cls"
 	@echo "Running LaTeX files through pdflatex..."
 	make -C $(BUILDDIR)/latex all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
+	skim $(BUILDDIR)/latex/actingeldynamics.pdf
 
 # TODO: Add a ucdpdf option to format the paper for UCD.
 
