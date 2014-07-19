@@ -46,7 +46,7 @@ Composition of X-Buffer :
     - 0.1 M :math:`KCl`
     - 1 mM :math:`MgCl_2`
     - 1 mM ATP (Adenosine triphosphate)
-    - 0.1 mM :math:`CaCl2`
+    - 0.1 mM :math:`CaCl_2`
 
 
 X-Buffer with BSA
@@ -155,10 +155,10 @@ Myosin II is confirmed by motility assays. Gliding speed shows an average of 4.5
 The working buffer for Myosin contains 
 
     - 25 mM imidazole
-    - 50 mM KCl
+    - 50 mM :math:`KCl`
     - 70 mM sucrose
     - 1mM Tris
-    - 2 mM MgCl2
+    - 2 mM :math:`MgCl_2`
     - 1 mM ATP
     - 0.1 mM DTT
     - 0.02 mg/ml β-casein,
@@ -216,7 +216,7 @@ aggregates of more liposome.
 
 A bulk solution of 40 µM actin monomers — 10% fluo and 0.25% biotinylated — is
 diluted 40 times in working buffer (25 mM imidazole, 50 mM KCl, 70 mM sucrose,
-1mM Tris, 2 mM MgCl2, 1 mM ATP, 0.1 mM DTT, 0.02 mg/ml β-casein, adjusted at a
+1mM Tris, 2 mM :math:`MgCl_2`, 1 mM ATP, 0.1 mM DTT, 0.02 mg/ml β-casein, adjusted at a
 pH 7.4) and polymerized for one hour. The adjunction of 1 µm of phalloidin
 after 1 hour prevent further depolymerisation
 
