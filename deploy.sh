@@ -1,6 +1,6 @@
 #make clean
 make latex
-make pdf
+make printpdf
 make html
 make epub
 
