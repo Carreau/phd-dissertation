@@ -9,7 +9,9 @@ Appendix
 ..     Scatter matrix showing the relation between all parameter of the bead
 ..     approach experiment as scatter plot. 
 
-Preprint of paper on the actin cloud accepted for publication in biophysical journal. 
+Preprint of paper on the actin cloud accepted for publication in biophysical
+journal under the reference `2014BIOPHYSJ303916R` and entitled `Mechanical
+detection of a long range actin network emanating from a biomimetic cortex`.
 
 .. raw:: latex
 
