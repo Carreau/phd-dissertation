@@ -14,15 +14,11 @@ Contents
     parts/conclusion
     parts/extra.rst
 
-----
 
 .. only:: html
 
-
     You can Download the latest pdf version of this document `as PDF
     <../latex/actingeldynamics.pdf>`_ or `epub <../epub/actingeldynamics.epub>`_ .
-
-    ----
 
 
     
@@ -34,7 +30,6 @@ Contents
    :encoding: latex+utf8
    :style: alpha
 
-----
 
 This version of the manuscript is based on the source files repository version
 |githash|, available on `github <http://github.com/carreau/phd-dissertation/>`_
