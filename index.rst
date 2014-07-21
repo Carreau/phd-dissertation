@@ -17,6 +17,7 @@ Contents
 
 .. only:: html
 
+
     You can Download the latest pdf version of this document `as PDF
     <../latex/actingeldynamics.pdf>`_ or `epub <../epub/actingeldynamics.epub>`_ .
 

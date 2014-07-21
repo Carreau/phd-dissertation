@@ -10,8 +10,8 @@ Appendix
 ..     approach experiment as scatter plot. 
 
 
-Actin Cloud Preprint
-********************
+Mechanical detection of a long range actin network emanating from a biomimetic cortex Preprint
+**********************************************************************************************
 .. 2
 
 
