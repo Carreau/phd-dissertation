@@ -22,3 +22,23 @@ for l in lines :
 with io.open('_build/latex/actingeldynamics.tex','w') as f:
     for l in t:
         f.write(l)
+
+
+
+
+#
+with io.open('_build/latex/sphinx.sty') as f:
+    lines = f.readlines()
+
+t=[]
+for l in lines :
+    lcl = l\
+        .replace("0.126,0.263,0.361", "0.6,0.0,0.2")\
+        .replace("0.208,0.374,0.486", "0.6,0.0,0.2")\
+        .replace("0.216,0.439,0.388", "0.6,0.0,0.2")
+    t.append(lcl)
+    print(lcl)
+
+with io.open('_build/latex/sphinx.sty','w') as f:
+    for l in t:
+        f.write(l)
