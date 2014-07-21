@@ -53,7 +53,7 @@ shrinkage to growth is called a `rescue`.
 
     Structure of an heterodimer of tubuline and assembly into a microtubule.
     Electron microscopy of a single microtubule filament. From :cite:`Alberts2008`.
-    A) Structure of heterodimer of tubuline B)0
+    A) Structure of heterodimer of tubuline B)
     Heterodimers can assemble forming polar filaments. C) Filaments can
     assemble into  microtubules. D,E) Electron microscopy image of
     microtubules.
