@@ -304,18 +304,18 @@ QPD positioning and calibration of microscope
 The prepared sample is placed on the microscope and a drop of water is
 deposited on top of the upper coverslip to assure immersion of the light
 collecting objective. The collecting objective and the quadrant photodiode are
-place on top of the sample (:num:`Fig #ots-2`).
+place on top of the sample (:ref:`Optical tweezer <optical-tweezer>`).
 
 
-.. _ots-2:
-.. figure:: /figs/setup-plus-1.png
-    :alt: schematic of setup plus one
-    :width: 60%
-
-    Schematic of experimental setup. The QPD situated after the collector allows
-    to determine the displacement between the laser focus and the bead, which is used in combination with the 
-    predetermined trap stiffness to calculate the force exerted on the trapped sample. It needs to be
-    correctly positioned before each experiment.    
+.. .. _ots-2:
+.. .. figure:: /figs/setup-plus-1.png
+..     :alt: schematic of setup plus one
+..     :width: 60%
+.. 
+..     Schematic of experimental setup. The QPD situated after the collector allows
+..     to determine the displacement between the laser focus and the bead, which is used in combination with the 
+..     predetermined trap stiffness to calculate the force exerted on the trapped sample. It needs to be
+..     correctly positioned before each experiment.    
 
 The trapping laser is then aligned with the photodiode while verifying that no
 object is trapped during the process. The conjugation of the back focal plane
@@ -334,14 +334,14 @@ Initial bead trapping
 Two maximum strength trap (~50mW/trap) are created near the center of the
 microscope field of view, separated by 15 to 20 µm. The sample plane is the then moved in
 the Z-direction by displacing the 3D piezo controlled sample stage to position the traps 
-near the middle plane of the chamber. Temporarily removing the Infra Red filter (:num:`Fig #ots-2`)
+near the middle plane of the chamber. Temporarily removing the Infra Red filter 
 from the microscope allows to see the reflection of the trapping lasers on the
 upper and lower coverslip and to determine the localisation of the middle plane
 of the observation chamber.
 
 .. _fig-frontend:
 .. figure:: figs/frontend.png
-    :width: 65%
+    :width: 90%
 
     Software interface responsible for controlling the optical tweezer.  Sample
     image showing 2 polystyrene beads and a single trap (A, white cross) holding one bead.

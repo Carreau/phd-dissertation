@@ -722,8 +722,8 @@ viscosity at short time scale can be similar to elasticity :cite:`Gardel2003`.
     material we put everything in G, make it complex define the real and imaginary
     part as G' g'' 
 
-Viscoelastic
-============
+Viscoelasticity
+===============
 .. 3
 
 Typically, no material is purely elastic or purely viscous. While glaciers 
@@ -862,6 +862,8 @@ of the formed actin gels.
 .. *********************************
 .. 2
 
+.. _optical-tweezer:
+
 Optical tweezer
 ***************
 .. 2
@@ -953,11 +955,11 @@ allocated to each trap and hence the stiffness of each trap.
     of the first objective.
     Thus a change of angle of the light beam induce by the AOD 
     result in a  change of position of the trap.  The trapping light
-    is collected by a second objective, and illuminats a quadrant photodiode
+    is collected by a second objective, and illuminates a quadrant photodiode
     (QPD) conjugated to the back focal plane of the collecting objective. By
     construction QPD and AODs should be conjugated, so deviation of the light
     beam induced by one of the AODs is not supposed to induce any change of
-    position of the laser spot on the QPD. Additional dichroic mirrors allow to
+    position of the laser spot on the QPD. Additional dichroics mirrors allow to
     use bright field and epifluorescence simultaneously optical
     tweezer.
 

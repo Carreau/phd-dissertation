@@ -643,9 +643,9 @@ parameters of the doublets.
 .. math::
     :label: eqa404
 
-    \operatorname*{arg\,max}_p\left(r_{data,model(p)}\right)= \operatorname*{arg\,max}_p \left(r_{expectedSignal,model(p)}\right)
+    {arg\,max}_p\left(r_{data,model(p)}\right)= {arg\,max}_p \left(r_{expectedSignal,model(p)}\right)
 
-In which :math:`\left(\operatorname*{arg\,max}_p\right)` stands for the
+In which :math:`{arg\,max}_p` stands for the
 argument of the maximum, that is to say, the set of points of the given
 argument for which the given function reaches its maximum value. Thus searching
 for parameter values that maximize the correlation between the model and

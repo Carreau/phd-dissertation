@@ -103,6 +103,7 @@ latexpdf:
 	python sphinxmanual_mod.py
 	python normalize.py
 	cp parts/figs/actin_cloud_bpj_final_submission.pdf $(BUILDDIR)/latex
+	cp parts/figs/14_07_15CellSized_Liposome_doublet_reveal_cortical_tension_Manuscript_TB_JL.pdf $(BUILDDIR)/latex
 	cp parts/figs/supplemental.pdf $(BUILDDIR)/latex
 	@echo "Modified _build/latex/sphinxmanual.cls"
 	@echo "Running LaTeX files through pdflatex..."
@@ -128,6 +129,7 @@ printpdf:
 	python sphinxmanual_mod.py
 	python normalize.py
 	cp parts/figs/actin_cloud_bpj_final_submission.pdf $(BUILDDIR)/latex
+	cp parts/figs/14_07_15CellSized_Liposome_doublet_reveal_cortical_tension_Manuscript_TB_JL.pdf $(BUILDDIR)/latex
 	cp parts/figs/supplemental.pdf $(BUILDDIR)/latex
 	@echo "Modified _build/latex/sphinxmanual.cls"
 	@echo "Running LaTeX files through pdflatex..."
