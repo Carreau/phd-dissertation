@@ -86,7 +86,7 @@ extends the soft part of the gel? What are its precise mechanical properties?  H
 over time?  Is the actin cloud elastic or viscous?
 
 .. _fig-intensity-profile:
-.. figure:: /figs/intensity_profile_xnM_Arp_xnM_CP_xmin.png
+.. figure:: /figs/intensity_profile_xnM_Arp_xnM_CP_xmin.*
     :width: 80%
 
     A) Epifluorescence image of polystyrene bead with a growing actin gel in
@@ -234,7 +234,7 @@ in the middle part.
 
 .. _figindent-time:
 
-.. figure:: /figs/force_time.png
+.. figure:: /figs/force_time.*
     :width: 70%
     
     Upper graph : Force as a function of time on the actin-beads.  Lower graph
@@ -277,7 +277,7 @@ phase of the indentation cycle, also marked by the color of the data.
 
 
 .. _force-distance:
-.. figure:: /figs/force-distance.png
+.. figure:: /figs/force-distance.*
     :width: 80%
 
     Force exerted on the actin bead as a function of the distance between the
@@ -305,7 +305,7 @@ polymerisation. The force distance plot is shown in :num:`Figure #reproc` :num:`
 
 
 .. _reproc-time:
-.. figure:: /figs/reproc-time.png
+.. figure:: /figs/reproc-time.*
     :width: 100%
 
     Upper graph : Force exerted on actin bead as a function of time for ten
@@ -317,7 +317,7 @@ polymerisation. The force distance plot is shown in :num:`Figure #reproc` :num:`
 
 
 .. _reproc:
-.. figure:: /figs/reproc.png
+.. figure:: /figs/reproc.*
     :width: 80%
 
     Figure showing the reproducibility of indentation process on a bead with
@@ -340,7 +340,7 @@ to 30 µm/s on the same actin bead.
 
 .. _many-speed:
 
-.. figure:: /figs/many_speed.png
+.. figure:: /figs/many_speed.*
     :width: 60%
 
     Approach phase of repetitive indents at multiple speed on the same
@@ -391,7 +391,7 @@ plotted in :num:`figure #d0-violin`.
 
 
 .. _d0-violin:
-.. figure:: /figs/d0_violin.png
+.. figure:: /figs/d0_violin.*
     :width: 65%
 
     Repartition of the bead-center distance at which the actin cloud exert a
@@ -473,7 +473,7 @@ coefficient :math:`R^2` which has a media value of `0.97`
 across all fits.
 
 .. _force-distance-fit:
-.. figure:: /figs/force-distance-fit.png
+.. figure:: /figs/force-distance-fit.*
     :width: 100%
 
     Power law model fitted on the approach phase data for one experiment in the
@@ -493,7 +493,7 @@ result (:num:`Fig #force-distance-log-log`). The corrected distance is noted wit
 
 
 .. _force-distance-log-log:
-.. figure:: /figs/force-distance-fit-loglog.png
+.. figure:: /figs/force-distance-fit-loglog.*
     :width: 80%
 
     Force on the actin bead  during the approach phase as a function of bead distance
@@ -514,7 +514,7 @@ a standard deviation of 0.38. The distribution of the power law exponent can be
 seen on :num:`figure #power-law-exponent`
 
 .. _power-law-exponent:
-.. figure:: /figs/alpha_violin.png
+.. figure:: /figs/alpha_violin.*
     :width: 60%
 
     Right : Violin plot showing the repartition of power law exponents with the
@@ -530,7 +530,7 @@ approach and rescaling the distance by the minimum approach distance from which
 :math:`\delta` is subtracted. 
 
 .. _fig-rescale-powerlaw:
-.. figure:: /figs/rescaled_powerlaw.png
+.. figure:: /figs/rescaled_powerlaw.*
     :width: 70%
 
     Representation of rescale approach data on a log-log scale.  Red and green
@@ -579,7 +579,7 @@ average value for the prefactor decreases with increasing Capping Protein
 concentration. 
 
 .. _beta-violin:
-.. figure:: /figs/beta_violin.png
+.. figure:: /figs/beta_violin.*
     :width: 80% 
 
     Violin plot showing the repartition of the prefactor with the quantity of
@@ -596,7 +596,7 @@ Proteins in the medium increases. It is interesting to see that the distance off
 biomimetic actin cortices forms.  
 
 .. _delta-violin:
-.. figure:: /figs/delta_violin.png
+.. figure:: /figs/delta_violin.*
     :width: 80% 
 
     Violin plot showing the variation of the offset distance :math:`\delta`
@@ -705,7 +705,7 @@ structure than the dense dendritic network on the actin
 bead surface.
 
 .. _ev:
-.. figure:: /figs/E0_violin.png
+.. figure:: /figs/E0_violin.*
     :width: 80% 
 
     Young's Modulus prefactor as a function of Capping Protein show a decrease of
@@ -811,7 +811,7 @@ correlation with the concentration of Capping Protein.
 
 
 .. _xi-violin:
-.. figure:: /figs/xi_violin.png
+.. figure:: /figs/xi_violin.*
     :width: 80%
 
     Meshsize vs Capping plot.
@@ -829,7 +829,7 @@ distance |delta| independently for each concentration of Capping Protein.
 
 
 .. _dxcf:
-.. figure:: /figs/delta-xi-corr.png
+.. figure:: /figs/delta-xi-corr.*
     :width: 100%
 
     Correlation of the meshsize :math:`\xi_0` with the distance offset |delta|,
@@ -838,7 +838,7 @@ distance |delta| independently for each concentration of Capping Protein.
 
 
 .. _dxf:
-.. figure:: /figs/delta-xi-facets.png
+.. figure:: /figs/delta-xi-facets.*
     :width: 100%
 
     Same figure as :num:`Fig #dxcf` for each concentration of Capping Protein,
@@ -902,7 +902,7 @@ capped by the Capping Protein only when the growing extremity is already several
 micrometers from the bead surface. 
 
 .. _fig-interpretation:
-.. figure:: /figs/interp-delta.png
+.. figure:: /figs/interp-delta.*
     :width: 90%
 
     A ) Schematic of an actin cloud. Left:  The actin bead triggers actin
@@ -926,7 +926,7 @@ Capping Protein where no actin cortices form. This can be verified on
 of polymerisation time. 
 
 .. _time-delta-corr:
-.. figure:: /figs/time-delta-corr.png
+.. figure:: /figs/time-delta-corr.*
     :width: 90%
 
     Distance offset |delta| as a function of time (min) since mix of actin, ATP
@@ -989,14 +989,14 @@ concentration in Capping Protein can be seen on :num:`figure #tau-violin`, and
 one example of fit on the :num:`figure #fit-3-phases`
 
 .. _fit-3-phases:
-.. figure:: /figs/3phases.png
+.. figure:: /figs/3phases.*
     :width: 80%
 
     Force as a function of time as well as fit for the 3 phases, approach,
     relaxation and retraction.
 
 .. _tau-violin:
-.. figure:: /figs/tau_violin.png
+.. figure:: /figs/tau_violin.*
     :width: 80%
 
     Violin plot showing the repartition of |tau| as a function of capping
@@ -1036,7 +1036,7 @@ relaxing as fast. :num:`Figure #sticking-event` shows such a sticking even
 happening during an indentation cycle.
 
 .. _sticking-event:
-.. figure:: /figs/sticking-event.png
+.. figure:: /figs/sticking-event.*
     :width: 80%
 
     A sticking event at :math:`d=15\mu{}m` where the force can be seen decreasing rapidly
@@ -1077,7 +1077,7 @@ On a double logarithmic scale and at long distance :math:`F_{closing}` also seem
 follow a power law (:math:`F_{plaw}`), when no sticking events are present.
 
 .. _retract-powerlaw:
-.. figure:: /figs/retract-powerlaw.png
+.. figure:: /figs/retract-powerlaw.*
     :width: 100%
 
     Left : Retraction phase with approach phase fit damped by
@@ -1093,7 +1093,7 @@ we use a smoothing function which is a convolution between the projected bead
 area and a linear ramp function which can be seen on :num:`figure #interp`
 
 .. _interp:
-.. figure:: /figs/interpolation.png
+.. figure:: /figs/interpolation.*
     :width: 90%
 
     Interpolation function used to smooth the transition from :math:`F_{da}` to
@@ -1278,7 +1278,7 @@ Journal and is added for information as appendix of this manuscript.
 
 .. :cite:`Lenart 2014 ?? starfish (read  it first)`
 
-.. .. figure:: /figs/actin-cloud.png
+.. .. figure:: /figs/actin-cloud.*
 ..     :width: 40%
 .. 
 ..     The "actin cloud" from which polymerize actin filament branched by Arp2/3 and capped by CP
