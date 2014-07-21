@@ -54,7 +54,7 @@ Formation of liposomes doublets
 ===============================
 .. 3
 
-Liposomes are obtain by electro-formation (cf :ref:`Material and methods
+Liposomes are obtain by electro-formation (see :ref:`Material and methods
 <electroformation>`) from a mix of EPC and PEG-biotin lipids. The presence of
 streptavidin in the working buffer allow liposomes to naturally stick together
 to form doublets after 15 minutes (:num:`Fig #fig1a`).
@@ -78,7 +78,7 @@ Formation of actin cortex on doublets
 Formation of the actin network on doublets is done similar as described
 recently :cite:`Carvalho2013a`.  Briefly, actin filaments including
 biotinylated monomers are stabilized by phalloidin and linked to PEG-Biotin
-lipids (cf :ref:`materials and methods <m_et_m>`)  via streptavidin that is
+lipids (see :ref:`materials and methods <m_et_m>`)  via streptavidin that is
 present in the solution (:num:`Fig #fig1b`).  Besides linking the actin to the
 membrane, it also cross-links the filaments.  Such a network has already been
 characterized recently :cite:`Carvalho2013a`.  Note that as the actin filaments
@@ -657,8 +657,8 @@ to it and trying to recover the parameters of the `expected signal`.
 By looking at the value of the correlation between the generated data and the model
 as a function of model parameters, we can check that the correlation
 values are maximal when the model center value correspond to the `expected signal` 
-center value (Figure :num:`corr-fun-1`), and when the radius of the model liposome 
-has the same radius in the model correspond to the radius in the generated data (Figure :num:`corr-fun-2`).
+center value (Fig :num:`corr-fun-1`), and when the radius of the model liposome 
+has the same radius in the model correspond to the radius in the generated data (Fig :num:`corr-fun-2`).
 
 
 
@@ -714,7 +714,7 @@ contact point between the liposomes. Thus we decided to develop fitting routines
 3D confocal stacks. In our case we avoid the usage of
 fluorescent lipids that could artificially change the tension of the membrane.
 
-As sketched in :num:`Figure #fds`, the doublets are covered with a
+As sketched in :num:`figure #fds`, the doublets are covered with a
 thin micrometer-thick layer of fluorescent actin filaments, which we 
 image by confocal spinning disk microscopy. As the actin-layer is attached to the membrane
 and the contact angle is defined as the angle between the lipid bilayer, imaging the actin-layer corresponds
@@ -792,7 +792,7 @@ pixels.
 The size of the
 Gaussian blur can also be adjusted to be higher which will act as a regularisation
 function for the value of the correlation between the model and the acquired
-data (cf :num:`Figure #max-proj-model`), thus smoothing or eliminating local maxima, 
+data (see :num:`Fig #max-proj-model`), thus smoothing or eliminating local maxima, 
 but reducing the precision in the position of the maxima.
 
 .. _max-proj-model:
@@ -859,7 +859,7 @@ The correctness of the fit is also checked visually to prevent errors in the
 procedure.  The fit was found to be alway accurate and coherent with manual
 measurements of the contact angle.  When the red channel was also present and liposomes
 contained sulphorhodamin B, fits where additionally visually checked by using maximum
-projection of the red channel.  (Cf :num:`Fig #srhod`).
+projection of the red channel.  (see :num:`Fig #srhod`).
 
 .. _srhod:
 .. figure:: /figs/srhod_superimpose.png
