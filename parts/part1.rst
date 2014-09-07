@@ -615,7 +615,7 @@ length of the considered material.  (:num:`Figure #fym` A):
     deformation, the relative change of length is proportional to the applied
     force. Here, the material can be seen to expand/contract in the direction
     orthogonal to the direction of application of the force, in the case of an
-    incompressible material (:math:`\nu \neq 0.5`) this can be seen as the
+    incompressible material (:math:`\nu \eq 0.5`) this can be seen as the
     conservation of volume of the material.
 
 The shear modulus is defined for a deformation parallel to the surface on which it is applied :
