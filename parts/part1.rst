@@ -762,7 +762,7 @@ time as a function of its history :
 .. math::
     :label: strain
 
-    \sigma (t)  = \int_0^t E(t-\tau) \frac{du}{d\tau} d\tau
+    \sigma (t)  = \int_{-\infty}^t E(t-\tau) \frac{du}{d\tau} d\tau
 
 In which :math:`\sigma(t)` is the time dependent stress, and :math:`u(t)` is
 the known strain.
