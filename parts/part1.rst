@@ -821,7 +821,7 @@ Thus we can write :eq:`eqt` as :
 .. math::
     :label: eqa17
 
-    \sigma(t) = E^*(\omega).u(t)
+    \sigma(\omega) = E^*(\omega).u(\omega)
 
 
 In this representation of :math:`E^*(\omega)`, the real part will correspond to
