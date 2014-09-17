@@ -140,26 +140,26 @@ constant of association and dissociation differ for both kind of filaments (:num
     :width: 25%
 
     Association and dissociation rate of both ATP and ADP actin on pointed and
-    barbed end as measured in :cite:`Pollard2003`. The difference of
-    equilibrium constant between the barbed end (bottom) and pointed end (top) in the presence of ATP
-    allow filament treadmilling.
+    barbed end as measured in :cite:`Pollard1986` (scheme from :cite:`Pollard2003`).
+    The difference of equilibrium constant between the barbed end (bottom) 
+    and pointed end (top) in the presence of ATP allow filament treadmilling.
 
 
 
 
 The equations that drive the polymerisation can be written as follow
 
-.. todo::
-   Verifier le tiret de G-Actin 
-
 .. math::
     :label: roa1
 
-    \frac{dC_{barbed}}{dt} &= k_{+,{barbed}}.[GActin] - k_{-,{barbed}} \\
-    \frac{dC_{pointed}}{dt} &= k_{+,{pointed}}.[GActin] - k_{-,{pointed}} \\
+   \left. \frac{dn}{dt} \right|_{barbed}&= k_{+,{barbed}}.nGActin - k_{-,{barbed}} \\
+   \left. \frac{dn}{dt}\right|_{pointed}&= k_{+,{pointed}}.nGActin - k_{-,{pointed}} \\
 
 Where `barbed` and `pointed` designate respectively the barbed and pointed end,
-and :math:`k_+` and :math:`k_-` are the polymerisation and de-polymerisation
+$\frac{dn}{dt} \right|_{barbed|pointed}$ represent the variation of the number of actin 
+monomers in the actin filament which is due to addition or removal at the barbed
+(respectively the pointed) end.
+The association rate constant :math:`k_+` and dissociation ate constant :math:`k_-` are the polymerisation and de-polymerisation
 rate.  The concentration in barbed and pointed-end denoted by
 :math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointed ends is
 equal to the number of barbed ends, one can derive the steady state which give
