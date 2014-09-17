@@ -224,20 +224,6 @@ monomers bounds to profilin :cite:`Pruyne2002` :cite:`Pring2003a`.
 
 
 
-Actin depolymerization and severing
-"""""""""""""""""""""""""""""""""""
-.. 5
-
-Like polymerisation that can be enhanced by formins, depolymerization can also
-be speed up. ADF/Cofilin is a protein which is able to increase the rate of
-actin depolymerization. ADF/Cofilin can do so by increasing the off rate at
-the pointed end :cite:`Carlier1997`, or by actively severing the filament in
-different points, thus disassembling the formed network :cite:`McCullough2011`.
-
-It should be noted that depolymerization can not only be  enhanced at the
-pointed end, indeed formin that accelerate the polymerisation is also able to
-speed-up the detachment of actin monomers from the barbed end.
-
 Capping Protein
 """""""""""""""
 .. 5
