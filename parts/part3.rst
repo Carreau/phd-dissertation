@@ -97,30 +97,6 @@ over time?  Is the actin cloud elastic or viscous?
     Epifluorescence image of log(intensity). D,E,F) Same as A,B,C, in absence
     of Capping Protein
 
-.. .. figure:: /figs/intensity_profile_25nM_Arp_20nM_CP_09min.pdf
-..     :width: 100%
-.. 
-..     Upper Left : Epifluorescence image of polystyrene bead with a growing actin
-..     gel in presence of 25 nM of Arp2/3 and 25 nM of Capping Protein. Scale bar
-..     is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image
-..     with thickness of the gel shown with dashed line as defined in
-..     :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
-..     intensity.  Lower Left: Epifluorescence image of log(intensity).
-.. 
-.. .. figure:: /figs/intensity_profile_25nM_Arp_0nM_CP_30min.pdf
-..     :width: 100%
-.. 
-..     Upper Left : Epifluorescence image of polystyrene bead with a growing actin
-..     gel in presence of 25 nM of Arp2/3 and absence of Capping Protein. Scale bar
-..     is 5 µm.  Upper Right : Normalized intensity profile of fluorescence image
-..     with thickness of the gel shown with dashed line as defined in
-..     :cite:`Kawska2012` : Distance between maximum intensity and half-maximum
-..     intensity.  Lower Left: Epifluorescence image of log(intensity). In the
-..     absence of Capping Protein the growth of filament is not prevented away
-..     from the bead surface
-
-.. todo: scheme of experimental setup.
-
 Actin-Bead System
 *****************
 .. 2
@@ -142,15 +118,6 @@ conditions where the amount of Capping Protein is too low (< 15nM) or too high
 (>35 nM) to permit symmetry breaking.
 
 .. .. _fig-phase-diagram:
-.. .. figure:: /figs/kawska-phase-diagram.png
-..     :width: 90%
-.. 
-..     Phase diagram showing the concentrating of Arp2/3 and Capping Protein
-..     necessary for symmetry breaking (inside dotted line) on 4,5 µm beads both
-..     `in vitro` and `in silico`. Inverted fluorescent images and simulation
-..     are represented. Adapted from :cite:`Kawska2012`
-
-
 
 We select a bead diameter of 4.3 µm in order to get a characteristic symmetry
 breaking time of 20 to 40 minutes.
@@ -1177,110 +1144,3 @@ cells and its control.
 
 A Paper based on this study has been accepted for publication in Biophysical
 Journal and is added for information as appendix of this manuscript.
-
-
-
-
-
-.. .. can reorganize in parallel structure \cite{reymann_nucleation_2010}
-.. 
-.. .. network in cell anchored to cortical actin network. \cite{schuh_new_2008,
-..     chaigne_soft_2013, iwabuchi_actin_2010, lenart_contractile_2005}
-.. 
-.. 
-.. :cite:`Schuh2008` show that a sparse actin network contracted by
-.. ..           myosin that like the cortex to the spindle is necessary for its
-.. ..           migration
-.. 
-.. ..         - :cite:`Schuh2008` show that a sparse actin network contracted by
-.. ..           myosin that like the cortex to the spindle is necessary for its
-.. ..           migration.
-.. 
-.. - Organelles are supported by .. gravity thing :cite:`Feric2013`
-.. 
-.. 
-.. Rough explanation beta/delta/cp
-.. 
-.. INfinite cappingfilamanet immedaitely capped.
-.. 
-.. Important psitionning of nucleus :cite:`Huelsmann2013` mechanics link from
-.. external  environemt bundle intergrins cite{jaalouk_mechanotransduction_2009}
-.. 
-.. Actin network emanating can sutain forces up to 10 pN sufficient for draging
-.. organelss inside cell
-.. 
-.. can allow a constantly polymerizing cortical network to push throughout the
-.. inside of a cell and exert sufficient forces to move organelles and chromosomes
-.. \cite{kumaran_chromatin_2008}
-.. 
-.. 
-.. Indeed, networks observed inside cells are generally anchored to cortical actin
-.. network \cite{schuh_new_2008, chaigne_soft_2013, iwabuchi_actin_2010,
-.. lenart_contractile_2005}
-.. 
-.. 
-.. We here reproduce a system that show how from a dense branched actin network
-.. can emanate an actin cloud structure with mechanical force sufficient to move
-.. organelles. This actin-cloud by the way it is form is linked to actin cortex
-.. and provide a scafold to build larger structure linked together.
-.. 
-..  - should do microrheology
-..    - measure average properties
-..  - inquery the amount of branching. 
-..  - better understand the retraction part. 
-..  - How woudl this differ in the inside geometry.
-..    - Astonishingly it is the same -1 law that is found for flexible polymers :cite:`pincus witten`
-..  - how would this sparse actin network react in the addition of myosin ? bunddling ? firning parallel structure in lamelipodia ? 
-..  - 
-.. 
-.. Conclusion
-.. **********
-.. .. 2
-.. 
-.. The actin cortex can be reproduced `in vitro` on polystyrene beads. It is
-.. polymerized by the activation  of the Arp2/3 complex on the surface of
-.. polystyrene beads. Near the surface of the gel forms a dense dendritic actin
-.. network with elastic modulus of kPa. This gel can be seen by fluorescence when
-.. using fluorescent actin.
-.. 
-.. The transition from his dense network mimicking actin cortex to the solution
-.. medium is not sharp. On beads system there is a large transition zone of
-.. several micrometers through a soft actin structure that we call the
-.. actin-cloud.  We determined the mechanical properties of these actin clouds and
-.. determines their viscoelastic properties.  The actin cloud are very soft in
-.. comparison to the dense gel with Young's modulus several order of magnitude lower
-.. (pa). Nonetheless these actin cloud are capable of supporting force sufficient
-.. to move cells organelles, and do not deform plastically.  
-.. 
-.. The properties of these actin cloud are well explained by polymer theory of
-.. loosely entangle actin network and the predicted viscoelastic properties are in
-.. agreement with our measurement. Values founds are also in agreement with bulk
-.. measurement with measurement of properties of actin gel measurement in gels,
-.. but also suggest that lower Poisson ratio can be observed in the actin
-.. structure.
-.. 
-.. The mechanical effect of the actin cloud can thus not be ignored in cellular
-.. context. It provides the correct range of force and spawn over a sufficient
-.. distance to position organelles, and could be used to position many cellular
-.. structure. The actin cloud also provide a sparse actin structure that could be
-.. easily remodeled by other actors of the cell to form already known structures.
-.. 
-.. 
-.. .. Doublets:
-.. 
-.. Doublets
-.. ********
-.. 
-.. .. Oocytes:
-.. 
-.. Oocytes
-.. *******
-
-.. :cite:`Lenart 2014 ?? starfish (read  it first)`
-
-.. .. figure:: /figs/actin-cloud.*
-..     :width: 40%
-.. 
-..     The "actin cloud" from which polymerize actin filament branched by Arp2/3 and capped by CP
-..     — Congratulatin for your HDR – 
-    

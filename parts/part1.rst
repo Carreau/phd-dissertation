@@ -82,18 +82,18 @@ how they interact with their environment. One of the key components within most
 cells is the actin cytoskeleton, which is made up of actin monomers, a protein that is highly conserved across species and which plays
 an important role for cell mechanics, ranging from cell migration to cell differentiation
 and division. It plays hence a crucial role for the mechanical properties of
-the cell and its mechanical interaction with the environment. Under the cell membrane lies a 
+the cell and its mechanical interactions with the environment. Under the cell membrane lies a 
 thin actin network which controls the mechanical properties of the cell: 
 the actin cortex. The mechanical behavior of this actin cortex is itself driven
-by the dynamics and interaction within the actin network it is made off.
+by the dynamics and interactions within the actin network it is made off.
 Understanding this actin network is hence a key to learn how the actin
 cortex behaves, leading to a better understanding of cells and tissue. 
 
 The properties of an actin network highly depend on its structure. The
 structure itself depends on many parameters that influence how the network is
 formed.  The network structure and formation is influenced by physical and
-chemical conditions and the spatial and temporal variation of these parameters like mechanical 
-stress or ion-concentration can determine the fate of the network. Hence it is 
+chemical conditions and the spatial and temporal variations of these parameters like mechanical 
+stress or ion-concentration can determines the fate of the network. Hence it is 
 important to study these networks and their dynamic behaviour in order to grasp the
 changing structure of the cell.
 
@@ -108,7 +108,7 @@ Biomimetic systems allow to respond to most of these concerns, they provide a
 controlled environment that mimic `in-vivo` phenomena. Biochemical conditions
 can be well controlled, both in space and time hence allowing to precisely fine tune
 experimental conditions. Biomimetic systems are also particularly adapted to be combined with
-optical traps which allow us to study local mechanical properties of actin
+optical traps which allows us to study local mechanical properties of actin
 networks with high temporal resolution. The combination of both allows us to get
 insight into the variation of theses mechanical properties as a function of
 time and space with high precision. 
@@ -267,28 +267,6 @@ other study that also characterize actin network growing on bead
 changing with time.
 
  
-.. This first phase where the gel is still
-.. homogeneous around the bead has already been studied in :cite:`Pujol2012`, who
-.. measure the stiffness of the thin actin gels that form near the surface of the
-.. bead.
-
-.. We focus on fixed system where we will do further study on still
-.. polymerising system.
-
-
-.. todo:
-
-     - bead assay
-       - when it was designed
-       - mimic listeria motility 
-
-       - nucleation on the surface by Arp2/3 NPF, both mimicking the
-         nucleation at the membrane outside of bacteria (listeria) and inside
-         cell. 
-     - controlled biochemical condition 
-     - bottom up approach  
-
-
 Liposomes
 =========
 .. 3
@@ -363,13 +341,6 @@ thickness of a few nm. The classical theoretical description
 of these bilayers had been done by W. Helfrich :cite:`Helfrich` in 1973 in a
 model based on the elasticity and fluidity of lipid bilayers as well as the
 self assembly properties of  lipids.
-
-.. The membrane of living cell is a complex, being the host a large number of
-.. interacting proteins and lipids each with their own dynamics. Though at the
-.. scale of cell and liposomes it is interest to model the membrane as a 2D surface
-.. (that is to say without thickness) characterized by global mechanical properties.
-
-
 
 In the case of close lipid bilayer, the potential energy stored by the
 deformation of a lipid bilayer by unit area can be  written as 
@@ -463,52 +434,6 @@ attached to a membrane. By determining the geometrical parameters of this
 system, and in particular the evolution of the contact angle with time, we are
 able to measure the variation of tension of the acto-myosin cortex due to contraction by
 molecular motors.
-
-.. In the case of closed lipid bilayers, the mechanical property we are interested
-.. in resume to the expansion modulus :math:`K_a` and the bending modulus
-.. :math:`K_b`. Each of these value 
-.. 
-.. 
-.. The value of theses two constant will vary depending on the
-.. protein and lipid that are present in each of the two leaflet of the lipid
-.. bilayer.
-.. 
-.. 
-.. The expansion modulus 
-.. Thus the formalism of surface tension is often used  as physical models in cell
-.. and liposomes. This allow to link the difference of pressure between two side
-.. of a membrane to the membrane tension and its curvature; also known as Laplace Law : 
-.. 
-.. .. math::
-..     \Delta P = \sigma \left(\frac{1}{R_1}+\frac{1}{R_2}\right)
-.. 
-.. Where :math:`{R_1}` and :math:`{R_2}` are the principal curvatures radius which
-.. are equal in the case of sphere. This technique allow for the measure of tension on liposome or cortical tension of cell using aspiration :cite:`Chaigne2013a`, :cite:`Maitre2012`. 
-.. 
-.. .. figure:: /figs/Cell-Surface-tension.png
-..     :alt: nothing
-..     :width: 40%
-.. 
-..     Surface tension govern doublet shape,  adapted from :cite:`Maitre2012`.
-..     The equilibrium of forces on the contact line govern the angle of contact
-..     :math:`2.\theta`. :math:`\omega` correspond to the adhesion tension between
-..     the two cells, :math:`\gamma_{cm}` correspond to the cortex tension between
-..     the cell and  the medium, :math:`\gamma_{cc}` correspond to the cortex
-..     tension between the two cells. 
-.. 
-.. When more than two regions of space are in contact with each other at the same
-.. location, they form a contact line. The displacement of this contact line often
-.. lead to the change of contact area between each region which makes the
-.. reasoning on surface tension and energy difficult. Though the problem can be
-.. reinterpreted by considering that each interface exerted a force on each unit
-.. length of the contact line. The force exerted by each interface is proportional
-.. to the surface tension of the interface and tangent to it on the contact line.
-.. Most problem can thus be resolved by looking at the equilibrium of the contact
-.. line and solve the condition for which the force on it equilibrate. In such
-.. cases, the contact angle on the contact line is a key parameter in the relation
-.. between each tensions. The measure of contact angle can be use to derive the
-.. relation of cell membrane+cortex tension between cells in contact
-.. :cite:`Maitre2012`
 
 .. _viscoelastic:
 
@@ -626,11 +551,6 @@ The shear modulus is defined for a deformation parallel to the surface on which 
     G &= \frac{\tau_{xy}}{\gamma_{xy}} \\
       & = \frac{   F/S }{   \Delta x / l        }
 
-.. .. _fgm:
-.. .. figure:: /figs/shearm.png
-..     :width: 50%
-.. 
-..     Schematic of deformation for the shear modulus.
 
 In which :math:`\tau_{xy}` is the shear stress, :math:`\gamma_{xy}` is the shear strain, :math:`F` is the applied force
 on the cross section of the material :math:`S`. :math:`l` is the thickness of the material and :math:`\Delta x` is the 
@@ -699,9 +619,6 @@ In which :math:`\tau_{xy}` is the shear stress, :math:`F` is the force exerted
 on the surface :math:`S`. :math:`\eta` is the viscosity, and is expressed in
 :math:`Pa.s`, :math:`v` is the deformation rate along the direction :math:`z` .
 
-.. We will
-.. also note that viscosity is often written :math:`\mu`, and can
-.. also while dividing by the fluid density (:math:`\rho`)  then being :math:`\nu = {\eta}/{\rho}`.
 
 At room temperature water has a viscosity of around 1 mPa.s, and honey of 10 Pa.s. The consideration of viscosity in problems will
 often depend on the timescale and deformation rate. At short
@@ -709,18 +626,6 @@ timescale tissue often behaves elastic, whereas at long timescale the effect
 of viscosity will be seen :cite:`Thoumine1997`. In actin networks, the effect of
 viscosity at short time scale can be similar to elasticity :cite:`Gardel2003`. 
 
-
-.. todo:
-
-    Relatively short, compare to E/G but for speed, value of viscosity for
-    different fluid ?  Quick reynolds equation ? In the condition we are interested
-    in we are at extremely low reynolds, so no intertia involved ?
-
-.. todo:
-
-    some value for tissues. Existence of  negative PR
-    material we put everything in G, make it complex define the real and imaginary
-    part as G' g'' 
 
 Viscoelasticity
 ===============
@@ -813,8 +718,6 @@ And define the complex frequency dependent Young's modulus as :
 
     E^*(\omega) = E'(\omega) + i.E"(\omega)
 
-.. :math:`\otimes`
-
 
 Thus we can write :eq:`eqt` as : 
 
@@ -830,22 +733,6 @@ under oscillatory strain) and the imaginary part corresponds to the viscous resp
 of the system (out of phase under sinusoidal strain). The complete knowledge of
 :math:`E^*(\omega)` at all frequency completely characterizes the material.
 
-.. The generalised model can then be described using a unique parameter, we extend
-.. the shear modulus with a imaginary part (becoming :math:`G^*`), thus capturing the effect of
-.. viscosity. In addition to an imaginary part, we introduce a dependency of `G`
-.. with a pulsation (:math:`\omega`).
-.. 
-.. The real and imaginary part of :math:`G^*` are respectively called storage
-.. (:math:`G'`) and loss (:math:`G"`) modulus.  We can then write the following :
-..    
-.. .. math::
-..     G^*(\omega) = G' (\omega) + i.G"(\omega)
-.. 
-.. Where :math:`i` is the imaginary unit.  The star denoting the complex character
-.. of `G` can be dropped, as well as the explicit dependency with :math:`\omega`.
-.. The viscoelastic properties of a material are fully characterized by the full
-.. expression for the storage and loss modulus as a function of the frequencies.
-
 Models for actin networks have been extensively studied as viscoelastic material
 both theoretically :cite:`Morse1998a`, :cite:`Kruse2005` , and  experimentally
 :cite:`Mizuno2007`.  Actin networks have also been shown to exhibit linear
@@ -857,10 +744,6 @@ relation stress/strain observed in order to determine the mechanical properties
 of the formed actin gels.
 
 
-
-.. Active and Passive microrheology 
-.. *********************************
-.. 2
 
 .. _optical-tweezer:
 
@@ -899,13 +782,6 @@ A laser coupled into a microscope objective then acts as a three dimensional
 potential that traps particles similar to a tweezer. Usually the trapping in
 parallel to the direction of the laser is only about half as strong if compared to the trapping in the
 lateral direction.
-
-.. It should be noted that if trapped particles are hold strongly near the laser
-.. focus, this does prevent the laser from exerting force on surrounding
-.. particles, usually slowly attracting floating object passing in the converging
-.. beam of light toward the plane of observation. The light also having a non
-.. negligible radiation  pressure, object in the second half cone of diverging
-.. light beyond the observation plane are often repel away from the trap.
 
 .. _setup:
 .. figure:: /figs/ot1.png
@@ -999,36 +875,8 @@ can obtain mono-dispersed beads leading to reproducible and predictable trap
 stiffness. Secondly, theory can predict the shape of
 the potential felt by such a bead in a Gaussian beam :cite:`Nieminen2007`.
 
-.. .. figure:: /figs/bead_potential.png
-..     :width: 100%
-..     :alt: potential felt by a bead and force felt.
-.. 
-..     Left : scheme representing the potential felt by a bead along one axis,
-..     near the minimum of the potential it can be approximated as an harmonic
-..     potential, which correspond to a constant stiffness. Right: Deflection of
-..     the light by an off centered bead in the trap. Also proportional to the
-..     displacement of the spot on the QPD. With correct calibration of the trap
-..     the displacement is also proportional the force exerted on the bead.
-    
 The third advantage is that beads can be functionalized, allowing specific
 interaction to be controlled, both `in vitro` and `in vivo`. Of course, the
 calibration is essential for the correct measurement of mechanical property of
 different system, and the choice of the bead diameter have impact both on
 biological side and in the physics of the measurement. 
-
-.. In particular, the
-.. linear regime for the  displacement-deflection can only be seen for beads that have a
-.. diameter which is not too close from the beam waist diameter. In such case a
-.. flattening on the curve prevent precise measurement.
-
-
-.. figure: /figs/todo.png
-    :width: 80%
-    :alt: flattening of the displacement/deflection curve
-
-..    Simulation of flattening of the curve near the center of the trap by
-..    deriving the sum of two gaussians. One cannot make a linear approximation
-..    near the center.
-
-
-

@@ -124,8 +124,6 @@ Visualisation of the interface
     labeled in green. Scale bar 5µm.
 
 
-.. (ARE YOU SURE? THIS STILL SEEMS TO BE A HUGE CONCENTRATION!)
-.. Yes it is 0.9 µM, I checked with K
 
 To visualise the interface between the liposomes, and to avoid the use of fluorescent
 lipids that may affect the membrane mechanics :cite:`Sandre1999` the inside
@@ -161,10 +159,6 @@ parameters of the doublets which are :
       interface and each of the liposomes :math:`\theta_1,\theta_2`
     - The distance between the liposome centers.
 
-.. This model has a rotational symmetry along the axis connecting the
-.. center of the three liposomes. We thus only consider one of the equatorial
-.. planes when referring to the model. Unless otherwise specified, all components
-.. outside of such a plane are null (HAE? I DON'T UNDERSTAND THIS PHRASE).
 
 Experimental Observations
 *************************
@@ -407,15 +401,6 @@ results are consistent with the measure of contact angle in freely adhering cell
 doublet experiments done previously :cite:`Maitre2012`. 
 
 
-.. The interface between the two liposomes is a part of a sphere with a curvature
-.. :math:`C_i= \frac{1}{R_i}` much smaller than :math:`\frac{1}{R_1}` and
-.. :math:`\frac{1}{R_2}`. The test to determine the radius :math:`R_i` proved to be 
-.. difficult as the interface both before and
-.. after myosin injection differed by only a few pixels from a flat surface in most
-.. of the cases. Combining the small deviation of the interface from a flat surface with the small size assymtries
-.. leads to our finding that |theta1| and |theta2| remained equal within
-.. our optical resolution.
-.. (I move the two previous paragraphes to the end, since I did not understand what they did at that position. Still, I am not sure why you say that. It wold be great to bring these two statements into a bigger context.)
 
 Discussion 
 ***********
@@ -731,8 +716,6 @@ chamber and the doublet did not change during experiments.
 
 
 
-
-.. (The figures shows tha the doublet is attached to the surface. You might want to discuss this?)
 
 .. _mproj1:
 .. figure:: /figs/max_proj_340A.png

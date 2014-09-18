@@ -22,7 +22,7 @@ G-Buffer
 G-Buffer is used to conserve actin in the monomeric form. Actin is diluted in
 G-Buffer and kept on ice for at least 12 hours before further use. G-buffer is
 aliquoted and stored at -20°C. For weekly use or is thawed and conserved on ice for up to a week. G-buffer is never
-refrozen. pH is adjusted between 7 and 8.
+refrozen. pH is adjusted to 7.4.
 
 Composition of G-Buffer:
      
@@ -64,7 +64,7 @@ ATP-Mix Buffer
 .. 3
 
 ATP-Mix buffer or simply `Mix` contains the ATP necessary for actin
-polymerisation. It is aliquoted and stored at -20°C. Kept on ice for weekly use. pH is adjusted between 7.5 and 8.0.
+polymerisation. It is aliquoted and stored at -20°C. Kept on ice for weekly use. pH is adjusted between to 7.4.
 
     - 12.0 mM ATP,
     - 20,0 mM DDT
@@ -111,20 +111,6 @@ Human profilin is expressed by competent cells and purified in our laboratory as
 described in :cite:`Carvalho2013a`.  Profilin is conserved at 4°C for a few month and
 keep on ice for daily use.
     
-
-.. Wild-type human profilin in pMW expression vector is transformed into Rosetta
-.. 2(DE3) pLysS and expressed in 2 l of LB plus antibiotics overnight at 308C with
-.. 1 mM isopropyl thiogalac- topyranoside (IPTG). Cells are lysed and sonicated in
-.. 50mM Tris-Cl pH 7.5, 50 mM sucrose, 10 mM EDTA, 5 mM DTT, 1 mM
-.. phenylmethanesulfonylfluoride (PMSF), 2 M urea and complete EDTA-free protease
-.. inhibitor cocktail (Roche), then centrifuged at 100 000g for 1 h. Supernatants
-.. are collected and bound to DEAE- 52 cellulose beads for 1 h. Flow through
-.. containing profilin is dia- lyzed against 20 mM Tris-Cl pH 8.0, 20 mM KCl, 1 mM
-.. EDTA and centrifuged for 20 min at 100 000g. Supernatants are filtered through
-.. a 0.2 mm filter and purified by size exclusion over a HiPrep 16/60 Sephacryl
-.. S-200 HR column in the dialysis buffer. Profilin is collected and again
-.. purified over the Superdex 75 column in the same buffer. Profilin is stored at
-.. 4°C.
 
 Arp2/3
 ======
