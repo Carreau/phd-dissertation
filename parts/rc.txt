@@ -1,0 +1,28 @@
+Les cellules sont l'élément de base de tous les êtres
+vivants. Leurs propriétés méchanique dépendent d'une proteine clé au sein de la
+cellule: L'actine.  L'étude des structures formés par l'actine
+est nécessaire afin de comprendre leur functionnement. 
+
+Dans un premier chapitre, un reseau d'actine est formé sur un system
+biomimétique a base de bille. Ce système est conu pour reconstituer le cortex
+d'actine présent au front des cellules en migration. L'étude à l'aide de pince
+optique des environemetn de ce reseau reconstitué montre le présence d'un
+"nuage" d'actine au proprié différente du reseau vu jusqu'alors. La théorie de
+la viscoélasticité et la théorie des polimères est utilisé pour expliquer les
+propriétés méchaniques mesurés.
+
+Une publication détaillant les découvertes faites sur ce nuage d'actine à été
+acceptée pour publication dans « Biophysical Journal » sous la référence
+`2014BIOPHYSJ303916R` avec le titre `Mechanical detection of a long range actin
+network emanating from a biomimetic cortex`.
+
+Dans une seconde partie nous mesurons pour la première fois l'accroissement de
+tension d'un cortex d'acto-myosine sur une system biomimétique formé par deux
+doublets de liposomes. Nous devellopons aussi un model numérique pour
+automatiser la mesure.
+
+Dans une troisième partie, nous nous intéressons au positionnement d'organelles
+au sein d'oocytes de souris qui est fortement dépendant de la structure et de
+la dynamique du reseau d'actine. Nous develloppons une methods ide mesure sur image en microscopie à champ clair iafin de
+quantifier spatialement et temporellement l'activité au sein des cellules.
+
