@@ -5,6 +5,7 @@ Contents
 .. toctree::
     :maxdepth: 6
 
+    parts/remerciements
     parts/part1
     parts/part2
     parts/part3
