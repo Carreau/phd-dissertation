@@ -517,7 +517,7 @@ are two specific elastic moduli of interest in this
 manuscript, `Young's Modulus` and `shear modulus`. The first one describes how a material will react to compression or extension, while the
 second describes how a material resists  shearing. For isotropic and homogeneous
 materials, the Young's modulus (E) and the shear models (G) are related
-by the Poisson ratio (:math:`\nu`):
+by the Poisson's ratio (:math:`\nu`):
 
 .. math::
     :label: eqa7
@@ -584,14 +584,14 @@ Other characteristic numbers can also be defined, such as the bulk modulus. In t
 elastic materials, only two of those parameters are required to completely define
 the properties of the material. 
 
-Poisson Ratio
-=============
+Poisson's Ratio
+===============
 .. 3
 
 We have seen that the shear modulus is linked to the Young modulus using
-the Poisson ratio. It is another characteristic of a material
+the Poisson's ratio. It is another characteristic of a material
 that defines how much a material will compress/expand in the orthogonal directions to its elongation. 
-The Poisson ratio is the negative ratio of transverse to axial strain :
+The Poisson's ratio is the negative ratio of transverse to axial strain :
 
 .. math::
     :label: eqa10
@@ -607,15 +607,15 @@ axis of compression/elongation and :math:`\epsilon_{trans}` corresponds to the
 relative deformation along an axis, orthogonal to the axis of deformation.
 
 Volume conservation during compression or elongation requires
-a Poisson ratio of `0.5`. Such values have been found in bulk measurements of
-actin networks at actin concentrations of 21.5 µM in G-actin :cite:`Gardel2003`. Materials with a Poisson ratio of `0.5` are
-said to be incompressible. A Poisson ratio lower than `0.5` corresponds to materials
+a Poisson's ratio of `0.5`. Such values have been found in bulk measurements of
+actin networks at actin concentrations of 21.5 µM in G-actin :cite:`Gardel2003`. Materials with a Poisson's ratio of `0.5` are
+said to be incompressible. A Poisson's ratio lower than `0.5` corresponds to materials
 expanding less than incompressible materials, and some cells and tissues are known to
-have a Poisson ratio lower than 0.5 :cite:`Mahaffy2004`. Another critical value
+have a Poisson's ratio lower than 0.5 :cite:`Mahaffy2004`. Another critical value
 is 0, where the materials only expand or contract in the direction of the
 main stress.
 
-Materials with a Poisson ratio superior to 0.5 would show a bigger
+Materials with a Poisson's ratio superior to 0.5 would show a bigger
 deformation in the orthogonal direction than incompressible materials, leading
 to a global volume increase, if compressed. 
 
