@@ -112,7 +112,7 @@ latexpdf:
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
 
 pdf: latexpdf
-	skim $(BUILDDIR)/latex/actingeldynamics.pdf
+	open $(BUILDDIR)/latex/actingeldynamics.pdf
 
 webpdf:
 	$(SPHINXBUILD) -b latex -t latex-web $(ALLSPHINXOPTS) $(BUILDDIR)/latex
