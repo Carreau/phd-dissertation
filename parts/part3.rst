@@ -50,10 +50,11 @@ contributes to symmetry breaking.
 .. figure:: /figs/Bead-tirf-fluo-sim.png
     :width: 70%
 
-    +Upper Left : Fluorescence image of an actin bead with a growing actin
-    cortex. Escaping filaments form the actin cloud that can  hardly  be
-    seen in fluorescence. Scale bar is 2 µm. Lower Left: Total Internal Reflexion (TIRF) image
-    of actin polymerising on an actin bead. Escaping filaments can directly be observed. The gray circle represents the bead size.  Right :
+    Upper Left : Fluorescence image of an actin bead with a growing actin
+    cortex. Escaping filaments form the actin cloud that can  hardly  be seen
+    in fluorescence. Scale bar is 2 µm. Lower Left: Total Internal Reflexion
+    (TIRF) image of actin polymerising on an actin bead. Escaping filaments can
+    directly be observed. The gray circle represents the bead size.  Right :
     Representation of the actin growth simulation with delimitation between the
     entangled branched actin network and escaping filaments.  Adapted from
     :cite:`Kawska2012`.

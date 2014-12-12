@@ -36,6 +36,12 @@ help:
 clean:
 	-rm -rf $(BUILDDIR)/*
 
+bib: latex
+	rm -rf _build/doctrees/*.doctree
+	rm -rf _build/doctrees/parts/*
+	rm -rf _build/latex
+	
+
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo

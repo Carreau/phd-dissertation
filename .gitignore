@@ -1,5 +1,7 @@
 _build/*
 
+figs
+
 # Python
 *.pyc
 
