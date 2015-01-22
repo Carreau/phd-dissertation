@@ -55,7 +55,7 @@ qui à passé du temps a faire des manips, monter de l'optique, faire de la
 théorie et écrire des articles. J'ai aussi beaucoup apprécier que tu essaye de
 comprendre les "nouvelles technologies" que j'utilisai, et de te voir autant
 intéressé pour apprendre que pour enseigner. Tes futurs étudiants sont
-particulièrement chanceux.
+particulièrement chanceux. Merci pour ces 3 années et demi.
 
 Lors de mon travaille de thèse, J'ai aussi été encadré par Laurent Blanchoin
 qui s'est avéré être un très bon tuteur de thèse et d'excellent conseil,
@@ -175,6 +175,19 @@ fortuite.
 Et je garde un remerciement spécial pour Jean Boucasier, et les TGV du jeudi
 matin pour Bordeaux.
 
+Une pensé pour les acteurs, réalisateurs et équipe technique du "sociologue et
+du physicien" (que je vous invite à regardé sur Daily Motion). Ce fut un grand 
+moment de n'importe quoi que decondensé 3 ans de thèse en 5 minutes de film. 
+Merci donc à Smaïl, Émilien, Simon, Fabrice, Jben, Camille pour se moment 
+qui restera dans les archives de l'internet.
+
+
+Un grand merci aussi à ces quelques personnes à l'autre bout du monde que j'ai
+rencontrée par le biai d'internet, et grace à qui maintenant je juis post-doc.
+Merci donc à à La communeauté de SciPy et d'IPython au sens large.  Je garde
+une pensée pour John Hunter, qui fut particulièrement amical lors de ma
+première conférence et fut hapé peu de temps après par un cancer. 
+
 
 Je dois admettre que pendant ses trois années de thèse, je n'ai pas été
 particulièrement communicatif, et que je doit un grand merci à toute ma famille
@@ -187,7 +200,11 @@ voulais dire et à du bien souffrir pour corriger toute ces pages.
 
 Je tien a remercier mes grands parents paternels, que j'ai relativement peu vu
 durant mon doctorat, bien qu'il était eux aussi dans la régions parisienne.
-Merci d'organiser tout les ans les réunions ou toute le famille se retrouve. 
+Merci d'organiser tout les ans les réunions ou toute le famille se retrouve.
+
+Merci a tout mes frère, soeur (et assimilés) qui on pu venir me vooir soutenir,
+ou pas pour leur soutien.
+
 
 Et bien sur remercier mes grands parents maternels, qui depuis que je suis tout
 petit m'ont aussi soutenu dans mon envie de devenir chercheur, et continue à me
@@ -195,7 +212,12 @@ soutenir aujourd'hui. Il est vrai cependant que ma notion de chercheur à bien
 évolué en une vingtaine d'année. Ma première définition de chercheur lorsque
 j'étais encore bien plus jeune serait plus proche de l'image caricatural du
 scientifique fou dans son garage que de ce que je suis actuellement, le fait
-étant que j'ai malgré tout réussi grâce a vous. 
+étant que j'ai malgré tout réussi grâce a vous.  Merci de m'avoir soutenu
+pendant toute ces annés, et d'avoir tenté de comprendrece que je faisait,
+malgré que ce soir en anglais. Merci aussi d'avoir apris à utilisé internet,
+rien que pour me laisser des message pour me rapeller que j'étais trop absent, 
+et de ne pas me l'avoir reproché.
+
 
 Un grand merci et de grande excuse à ma mère. Je pense que le coté scientifique
 de la famille à sauté une génération, mais j'envie beaucoup ton caractère

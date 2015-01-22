@@ -28,7 +28,7 @@ import sys, os
 extensions = ['sphinx.ext.todo',
               'sphinx.ext.mathjax',
               'sphinxcontrib.bibtex',
-              'sphinx.ext.numfig',
+              'sphinx_numfig',
               ]
 
 # numfig:
