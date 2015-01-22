@@ -2,9 +2,6 @@ Remerciements
 =============
 
 
-.. Des chercheurs qui cherche, on en trouve, mais des chercheur qui trouvent, on en cherche.
-
-
 Depuis pratiquement aussi loin que je me rappelle, j'ai été guidé dans la
 direction de la recherche et de la science. Le nombre de personnes qui ont
 participé à ma réussite de ce jour sont nombreux, et vu mon parcours
@@ -183,9 +180,7 @@ qui restera dans les archives de l'internet.
 
 Un grand merci aussi à ces quelques personnes à l'autre bout du monde que j'ai
 rencontrée par le biai d'internet, et grace à qui maintenant je juis post-doc.
-Merci donc à à La communeauté de SciPy et d'IPython au sens large.  Je garde
-une pensée pour John Hunter, qui fut particulièrement amical lors de ma
-première conférence et fut hapé peu de temps après par un cancer. 
+Merci donc à à La communeauté de SciPy et d'IPython au sens large.
 
 
 Je dois admettre que pendant ses trois années de thèse, je n'ai pas été
@@ -251,4 +246,8 @@ avec ton crayon, ou reproduisait si bien les anecdotes que je te racontais.
 Dessiner fait partie de toi, continue quoi qu'il arrive !  Enfin tu as ce
 talent unique, parmi tous ceux qui font ton charme, tu sais me comprendre.
 
-Merci pour tous ces instants passés, et futurs que nous passons ensemble. 
+Merci pour tous ces instants passés, et futurs que nous passons ensemble.
+
+
+Une petite pensé pour toi qui est parti pendant ces trois années. Tu me manqueras.
+
