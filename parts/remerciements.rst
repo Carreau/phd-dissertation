@@ -171,16 +171,16 @@ fortuite.
 Et je garde un remerciement spécial pour Jean Boucasier, et les TGV du jeudi
 matin pour Bordeaux.
 
-Une pensé pour les acteurs, réalisateurs et équipe technique du "sociologue et
-du physicien" (que je vous invite à regardé sur Daily Motion). Ce fut un grand 
-moment de n'importe quoi que decondensé 3 ans de thèse en 5 minutes de film. 
-Merci donc à Smaïl, Émilien, Simon, Fabrice, Jben, Camille pour se moment 
-qui restera dans les archives de l'internet.
+Une pensée pour les acteurs, réalisateurs et équipe technique du "Sociologue et
+du Physicien" (que je vous invite à regardéer sur DailyMotion). Ce fut un grand
+moment de n'importe quoi que de condenser 3 ans de thèse en 5 minutes de film.
+Merci donc à Smaïl, Émilien, Simon, Fabrice, Jben, Kéevin et Camille pour ces
+moments qui resteront dans les archives de l'Internet.
 
 
 Un grand merci aussi à ces quelques personnes à l'autre bout du monde que j'ai
-rencontrée par le biai d'internet, et grace à qui maintenant je juis post-doc.
-Merci donc à à La communeauté de SciPy et d'IPython au sens large.
+rencontrées par le biais d'Internet, et grâce à qui maintenant je suis en post-doc.
+Merci donc à la communauté de SciPy et d'IPython au sens large.
 
 
 Je dois admettre que pendant ses trois années de thèse, je n'ai pas été
@@ -192,13 +192,11 @@ Si vous lisez ce manuscrit dans sa version finale, je dois la bien plus faible
 teneur en erreurs d'anglais à ma tante qui a tenté de comprendre ce que je
 voulais dire et a du bien souffrir pour corriger toutes ces pages. 
 
-
-
 Je tiens à remercier mes grand-parents paternels, que j'ai relativement peu vu
 durant mon doctorat, bien qu'ils étaient eux aussi dans la région parisienne.
 Merci d'organiser tous les ans les réunions où toute le famille se retrouve. 
 
-Merci a tout mes frère, soeur, et cousins qui on pu venir me voir soutenir,
+Merci a tout mes frères, soeurs, et cousins qui on pu venir me voir soutenir,
 ou pas pour leur soutien.
 
 Et bien sûr remercier mes grand-parents maternels, qui depuis que je suis tout
