@@ -196,8 +196,8 @@ Je tiens à remercier mes grand-parents paternels, que j'ai relativement peu vu
 durant mon doctorat, bien qu'ils étaient eux aussi dans la région parisienne.
 Merci d'organiser tous les ans les réunions où toute le famille se retrouve. 
 
-Merci a tout mes frères, soeurs, et cousins qui on pu venir me voir soutenir,
-ou pas pour leur soutien.
+Merci a tous mes frères, soeurs, et cousins qui ont pu venir me voir soutenir,
+ou pas, ainsi que pour leur soutien.
 
 Et bien sûr remercier mes grand-parents maternels, qui depuis que je suis tout
 petit m'ont aussi soutenu dans mon envie de devenir chercheur, et continue à me
