@@ -190,7 +190,7 @@ périodes.
 
 Si vous lisez ce manuscrit dans sa version finale, je dois la bien plus faible
 teneur en erreurs d'anglais à ma tante qui a tenté de comprendre ce que je
-voulais dire et a du bien souffrir pour corriger toutes ces pages. 
+voulais dire et a dû bien souffrir pour corriger toutes ces pages. 
 
 Je tiens à remercier mes grand-parents paternels, que j'ai relativement peu vu
 durant mon doctorat, bien qu'ils étaient eux aussi dans la région parisienne.
@@ -200,13 +200,13 @@ Merci a tous mes frères, soeurs, et cousins qui ont pu venir me voir soutenir,
 ou pas, ainsi que pour leur soutien.
 
 Et bien sûr remercier mes grand-parents maternels, qui depuis que je suis tout
-petit m'ont aussi soutenu dans mon envie de devenir chercheur, et continue à me
+petit m'ont aussi soutenu dans mon envie de devenir chercheur, et continues à me
 soutenir aujourd'hui. Il est vrai cependant que ma notion de chercheur a bien
 évolué en une vingtaine d'années. Ma première définition de chercheur lorsque
-j'étais encore bien plus jeune serait plus proche de l'image caricaturale du
+j'étais encore bien plus jeune était plus proche de l'image caricaturale du
 scientifique fou dans son garage que de ce que je suis actuellement. Le fait
 est que j'ai en grande partie réussi grâce a vous.  Merci de m'avoir soutenu
-pendant toute ces annés, et d'avoir tenté de comprendrece que je faisait,
+pendant toute ces annés, et d'avoir tenté de comprendre ce que je faisait,
 malgré que ce soir en anglais. Merci aussi d'avoir apris à utilisé internet,
 rien que pour me laisser des message pour me rapeller que j'étais trop absent,
 et de ne pas me l'avoir reproché.
