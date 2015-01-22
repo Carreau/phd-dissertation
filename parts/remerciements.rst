@@ -5,31 +5,31 @@ Remerciements
 .. Des chercheurs qui cherche, on en trouve, mais des chercheur qui trouvent, on en cherche.
 
 
-Depuis pratiquement aussi loin que je me rappelle,j'ai été guidé dans la
+Depuis pratiquement aussi loin que je me rappelle, j'ai été guidé dans la
 direction de la recherche et de la science. Le nombre de personnes qui ont
 participé à ma réussite de ce jour sont nombreux, et vu mon parcours
 relativement chaotique quant à ma discipline de prédilection ces dernières années, 
-J'aurais pu me retrouver à faire une discipline bien différente de ce que je fais maintenant.
+j'aurais pu me retrouver à faire une discipline bien différente de ce que je fais maintenant.
 
 En bonne et due forme je me dois donc de remercier les différentes parties
 responsables de mon titre de Docteur. 
 
 Je fais partie des rares élus qui eurent durant leur trois (ou plus) années de
 thèse un financement au dessus de la médiane des doctorants. Bien que ce
-financement ne permette pas de s'acheter un 120 mètre carrés dans les
+financement ne permette pas de s'acheter un 120 mètres carrés dans les
 quartiers chics de Paris, le surplus m'a permis de vivre un petit peu plus
 confortablement et avec un peu plus de liberté d'esprit pour travailler sur mon
 sujet de recherche. Je dois donc ceci en grande partie au Fond Pour la
 Recherche AXA qui sélectionne des candidats chaque année et promeut la
 recherche aussi bien en France qu'à l'international. Au-delà du geste
-financier, je remercie les employés d'AXA pour les évènements organisés et les
-complexités administratives que je leur ai apporté.
+financier, je remercie les employés d'AXA pour les événements organisés et les
+complexités administratives que je leur ai apportées.
 
 Obtenir un financement dépend non seulement du candidat, mais aussi de son
 environnement scientifique. L'Institut Curie a bien sûr été un élément crucial
 non seulement dans la sélection de mon projet de thèse, mais aussi dans
 l'encadrement au cours de ces un peu plus de trois années passées à l'UMR 168.
-Mes Directeurs et Directrice de thèse font évidement partie d'une majorité de
+Mes Directeurs et Directrice de thèse font évidement partie de la majorité de
 l'encadrement que j'ai reçu. 
 
 Je tiens donc à remercier Cécile premièrement pour m'avoir accepté dans son
@@ -48,7 +48,7 @@ quelques années, mais tu as aussi beaucoup évolué. J'ai beaucoup apprécié l
 défis intellectuels que l'on avait régulièrement afin de comprendre mon sujet
 de thèse, et je suis toujours persuadé que tu surestimes mes compétences dans
 certains domaines. J'apprécie toujours beaucoup les tournures de phrase sournoises
-que tu mets dans les lettres de recommandations et j'ai remarqué que "les
+que tu mets dans les lettres de recommandation, et j'ai remarqué que "les
 meilleurs 20% des 5 étudiants" que tu as eu dans ta carrière ça fait bien 1.
 Je pense que j'ai été très chanceux d'avoir un directeur de thèse comme toi,
 qui a passé du temps à faire des manips, monter de l'optique, faire de la
@@ -71,27 +71,26 @@ d'avoir attentivement lu mon manuscrit. J'ai beaucoup apprécié tes remarques
 et questions.
 
 Je tiens aussi à remercier Karsten Kruse pour avoir aussi accepté d'être
-rapporteur. Je pense que les gallicismse de mon manuscrit otn rendu sa lecture
+rapporteur. Je pense que les gallicismes de mon manuscrit ont rendu sa lecture
 plus difficile que pour un francophone natif. Merci aussi pour la lecture attentive
 et les améliorations recommandées pour mon manuscrit.
 
 Enfin je remercie Atef Asnacios pour avoir accepté d'être le président de mon
 jury de thèse. J'ai apprécié en particulier la petite interview surprise où
-j'ai du présenter mon travail de thèse en 3 minutes. 
+j'ai dû présenter mon travail de thèse en 3 minutes. 
 
-Enfin globalement à tous les membres du jury; je redoutais les questions qui
-ont suivi mon exposé de thèse, mais ai finalement beaucoup apprécié
+Enfin globalement à tous les membres du jury : je redoutais les questions qui
+ont suivi mon exposé de thèse, mais j'ai finalement beaucoup apprécié
 l'exercice, que j'ai ressenti plus comme une véritable discussion scientifique
 que comme un examen. Merci donc pour vos encouragements, questions et sympathie, 
-qui me semble-t-il n'est pas coutume dans toute les thèses.
+qui me semble-t-il n'est pas coutume dans toutes les thèses.
 
-
-Au-delà de mes directeurs de thèse et de mon jury, L'ensemble de l'équipe et de
+Au-delà de mes directeurs de thèse et de mon jury, l'ensemble de l'équipe et de
 l'UMR 168 m'a encadré, bien sûr les gens vont et viennent au gré des contrats et
 le temps passé avec chacun varie. Il y a bien sûr les gens avec qui j'ai
 travaillé, mais aussi ceux avec qui j'ai partagé un bureau pendant plus ou
 moins longtemps. Je ne vais pas citer chacun explicitement, mais ceux qui m'ont
-supporté se reconnaitront bien, qu'il soit Grec, Indien, Australien,
+supporté se reconnaîtront bien, qu'il soit Grec, Indien, Australien,
 Américain, Français, ou plus généralement scientifique !
 
 Quelques personnes se détachent en particulier, je pense à Julie qui avait
@@ -100,17 +99,17 @@ articles lors des "Journal Club", Fabrice qui malgré nous avoir supporté
 pendant de longs mois et vu notre état déplorable a décidé de rester faire un
 thèse et garde sa joie de vivre, John pour sa touche d'exotisme et sa bonne
 humeur, Kasia pour avoir toujours eu plus de motivation que je n'en n'aurai
-jamais et qui n'a passé qu'un trop court moment en post-doc à l'Institut Curie
+jamais et qui n'a passé qu'un trop court moment en post-doc à l'Institut Curie,
 et enfin Wylie pour son dynamisme inépuisable !
 
-J'ai aussi bien sur tissé des liens avec des personnes avec qui je n'avais pas
+J'ai aussi bien sûr tissé des liens avec des personnes avec qui je n'avais pas
 forcément de raison particulière pour collaborer mais avec qui j'ai eu de très
-bon contacts et que je garderai de bons souvenirs : Benjamin, Jonathan, Mathilde, Coline, 
+bon contacts et dont je garderai de bons souvenirs : Benjamin, Jonathan, Mathilde, Coline, 
 Mathieu, Sylvain et Simon restez comme vous êtes.
 
 Un des derniers groupes de personnes que je souhaiterai remercier, sans qui
 j'aurais eu bien du mal à faire ma thèse bien que n'ayant pas particulièrement
-eu d'impact directement sur le contenu scientifique sont le personnel
+eu d'impact directement sur le contenu scientifique est le personnel
 d'entretien et les secrétariats. Je tiens donc à remercier Brigitte pour avoir
 toujours été présente à l'accueil. Un grand merci aussi à Karen, Laurence et
 Agnès pour avoir géré les complexités administratives ainsi que gérer les crises
@@ -121,20 +120,20 @@ Au sein de mon équipe je tiens en particulier à remercier deux personnes, qui
 après 3 années passées ensemble sont aussi devenues des amis. Je parle bien sûr de
 Joël et Kevin. Joël a eu le bon goût de faire pratiquement le même parcours
 que moi mais un an à l'avance et donc d'essuyer tous les plâtres. Que ce soit
-des 6 mois de retard de salaire, à l'Univertité Paris VI qui égarerait les
-convocations du ministère de l'enseignement afin de valider l'agrégation,
-j'avais donc un expert presque pré-cognicient à portée de main pour toutes les
+des 6 mois de retard de salaire, à l'Univertité Paris VI qui égarait les
+convocations du ministère de l'enseignement afin de valider l'agrégation.
+J'avais donc un expert presque pre-cognicient à portée de main pour toutes les
 problématiques qui allaient m'attendre. On remarquera aussi que la majorité des
 problèmes étant souvent rattachée à la même source au voisinage de la
 Bibliothèque François Mitterand. Cela étant dit, Joël était aussi présent quand
 il s'agissait de Science avec un grand S aussi. L'humeur et la motivation de
 l'individu semblait être relativement bien corrélée à l'activité des protéines du
-Labo, il était relativement simple de connaître la fructualité de la semaine :
+Labo, il était relativement simple de connaître la fructuosité de la semaine :
 tel le météorologiste qui observe les grenouilles, il suffisait d'observer le
 niveau de déprime de Joël dès le Lundi matin. 
 
 Le troisième larron de notre groupe qui probablement d'après les sources
-extérieures était en permanence fourré à la cafétéria était Kévin.  Physiquement
+extérieures était en permanence fourré à la cafétéria était Kévin. Physiquement
 on pourrait comparer Joël et Kévin à Laurel et Hardy, cependant, contrairement à
 Kévin, Hardy faisait plus de 1m50 les bras levés. Portugais de base, le Kévin
 compense son manque de verticalité par sa capacité à débiter des bêtises de
@@ -145,18 +144,18 @@ m'étonne toujours, et tes compétences expérimentales restent inégalées. Je 
 que tu aurais été un très bon atout pour la Recherche, cependant le système
 semble ne pas t'apprécier. Étant donné que tu as décidé de postuler à Pôle
 Emploie le dernier de mes jours en thèse, je continuerai à m'imaginer que c'est
-me perdre qui t'as fait t'arrêter !
+me perdre qui t'a fait t'arrêter !
 
 
 Au-delà de tous mes collègues et amis qui m'ont soutenu pendant ces trois
 années, je voudrais remercier tous ceux que je connais depuis plus longtemps.
 En particulier il existe un petit groupe de huit personnes avec qui j'ai vécu
-pendant les années précédent ma thèse. Il faut croire que malgré notre QI
+pendant les années précédant ma thèse. Il faut croire que malgré notre QI
 combiné on a presque tous fait le choix de partir en thèse, comme quoi il ne
 faut pas toujours faire confiance à un groupe de scientifiques livrés à eux-mêmes.
 Je pense donc bien sûr aux gens de la LMDB (et associés) qui m'ont donné
 toutes ces compétence multi-disciplinaires que je n'aurais pas eu à l'ENS, et
-pour tous ces instant de vies passés, avant pendant et après avoir vécu sous le
+pour tous ces instants de vie passés, avant pendant et après avoir vécu sous le
 même toit. Merci donc à Félix, Émilien, Pierre, Pierre, Cécile, Jben, Elsa et
 Olivier pour, parmi tant d'autres choses: les sites de propagande soviétique, les
 oeufs en chocolat sur les oreillers, les vaches, les tomates, la conduite sur
@@ -237,7 +236,7 @@ pas très doués en communication et que si que pendant que tu attendais de mes
 nouvelles, j'attendais que tu m'en demandes. J'espère que maintenant que la
 thèse est terminée je vais être un peu plus communicatif, et que si je ne le
 suis pas tu n'hésiteras pas à me le dire ! Merci aussi à toi Paul, je sais que
-gagner un fils qui est déjà adolescent n'a pas du être une chose facile, et
+gagner un fils qui est déjà adolescent n'a pas dû être une chose facile, et
 merci de m'avoir accepté tel que je suis. J'espère que vous viendrez me voir
 continuer mes recherches à l'autre bout de la planète, et que vous passerez des
 heures à vous extasier devant la végétation et les différentes formes d'art qui
@@ -256,7 +255,7 @@ que le langage que tu utilises dans ta thèse de mathématiques appliquées est 
 de ce que moi j'utilise et fut souvent source de discorde et dispute, reste
 néanmoins que tu es quelqu'un de bien plus doué que tu ne veux le croire.  En
 plus d'être une mathématicienne, tu es aussi une dessinatrice, et je resterai
-toujours émerveillé de la façon dont tu capturais ces instants si particulier
+toujours émerveillé de la façon dont tu capturais ces instants si particuliers
 avec ton crayon, ou reproduisait si bien les anecdotes que je te racontais.
 Dessiner fait partie de toi, continue quoi qu'il arrive !  Enfin tu as ce
 talent unique, parmi tous ceux qui font ton charme, tu sais me comprendre.
