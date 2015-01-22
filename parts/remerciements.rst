@@ -197,36 +197,27 @@ Si vous lisez ce manuscrit dans sa version finale, je dois la bien plus faible
 teneur en erreurs d'anglais à ma tante qui a tenté de comprendre ce que je
 voulais dire et a du bien souffrir pour corriger toutes ces pages. 
 
-<<<<<<< HEAD
-Je tien a remercier mes grands parents paternels, que j'ai relativement peu vu
-durant mon doctorat, bien qu'il était eux aussi dans la régions parisienne.
-Merci d'organiser tout les ans les réunions ou toute le famille se retrouve.
 
-Merci a tout mes frère, soeur (et assimilés) qui on pu venir me vooir soutenir,
-ou pas pour leur soutien.
 
-=======
 Je tiens à remercier mes grand-parents paternels, que j'ai relativement peu vu
 durant mon doctorat, bien qu'ils étaient eux aussi dans la région parisienne.
 Merci d'organiser tous les ans les réunions où toute le famille se retrouve. 
->>>>>>> 71397079049aaf80231945e1c4c3e1ff67c0a4c1
+
+Merci a tout mes frère, soeur, et cousins qui on pu venir me voir soutenir,
+ou pas pour leur soutien.
 
 Et bien sûr remercier mes grand-parents maternels, qui depuis que je suis tout
 petit m'ont aussi soutenu dans mon envie de devenir chercheur, et continue à me
 soutenir aujourd'hui. Il est vrai cependant que ma notion de chercheur a bien
 évolué en une vingtaine d'années. Ma première définition de chercheur lorsque
 j'étais encore bien plus jeune serait plus proche de l'image caricaturale du
-scientifique fou dans son garage que de ce que je suis actuellement, le fait
-<<<<<<< HEAD
-étant que j'ai malgré tout réussi grâce a vous.  Merci de m'avoir soutenu
+scientifique fou dans son garage que de ce que je suis actuellement. Le fait
+est que j'ai en grande partie réussi grâce a vous.  Merci de m'avoir soutenu
 pendant toute ces annés, et d'avoir tenté de comprendrece que je faisait,
 malgré que ce soir en anglais. Merci aussi d'avoir apris à utilisé internet,
-rien que pour me laisser des message pour me rapeller que j'étais trop absent, 
+rien que pour me laisser des message pour me rapeller que j'étais trop absent,
 et de ne pas me l'avoir reproché.
 
-=======
-étant que j'ai malgré tout réussi grâce à vous. 
->>>>>>> 71397079049aaf80231945e1c4c3e1ff67c0a4c1
 
 Un grand merci et de grandes excuses à ma mère. Je pense que le coté scientifique
 de la famille a sauté une génération, mais j'envie beaucoup ton caractère
@@ -261,33 +252,3 @@ Dessiner fait partie de toi, continue quoi qu'il arrive !  Enfin tu as ce
 talent unique, parmi tous ceux qui font ton charme, tu sais me comprendre.
 
 Merci pour tous ces instants passés, et futurs que nous passons ensemble. 
-
-
-!! rapporteurs et Jury
-
-
-/ Jonathan lee-tin-wah.
-- Simon Garcia, 
-/ Julie Plastino, 
-/ Fabrice Valentino
-/ Benjamin Driquez, 
-/ John Manzi
-/ Kasia
-/ Jean Francois joanny
-/ Francois quemeneur
-/ Julie 
-- Svitlane
-- Rodrigo 
-/ Kasia
-/ Whylie,
-/ matilde Bercy
-- Papy mamy
-- papi mamie
-- Paul et catherine.
-/ Coline
-/ Brigite, Laurance Karen, Agnès.
-
-Socilogue et physicien
-Simon /smail /vincent /frot
-
-
