@@ -200,19 +200,18 @@ Merci a tous mes frères, soeurs, et cousins qui ont pu venir me voir soutenir,
 ou pas, ainsi que pour leur soutien.
 
 Et bien sûr remercier mes grand-parents maternels, qui depuis que je suis tout
-petit m'ont aussi soutenu dans mon envie de devenir chercheur, et continues à me
+petit m'ont aussi soutenu dans mon envie de devenir chercheur, et continuent à me
 soutenir aujourd'hui. Il est vrai cependant que ma notion de chercheur a bien
 évolué en une vingtaine d'années. Ma première définition de chercheur lorsque
 j'étais encore bien plus jeune était plus proche de l'image caricaturale du
 scientifique fou dans son garage que de ce que je suis actuellement. Le fait
-est que j'ai en grande partie réussi grâce a vous.  Merci de m'avoir soutenu
-pendant toute ces annés, et d'avoir tenté de comprendre ce que je faisait,
-malgré que ce soir en anglais. Merci aussi d'avoir apris à utilisé internet,
-rien que pour me laisser des message pour me rapeller que j'étais trop absent,
-et de ne pas me l'avoir reproché.
+est que j'ai en grande partie réussi grâce a vous. Merci de m'avoir soutenu
+pendant toutes ces années, et d'avoir tenté de comprendre ce que je faisais,
+bien que ce soit en anglais. Merci aussi d'avoir appris à utiliser Internet,
+rien que pour me laisser des messages pour me rappeler que j'étais trop absent,
+et de ne pas me l'avoir repproché.
 
-
-Un grand merci et de grandes excuses à ma mère. Je pense que le coté scientifique
+Un grand merci et de grandes excuses à ma mère. Je pense que le côté scientifique
 de la famille a sauté une génération, mais j'envie beaucoup ton caractère
 artistique, et j'ai beaucoup aimé voir les progressives déformations des
 métaphores que j'utilisais pour t'expliquer mon travail. Je sais que l'on était
@@ -247,5 +246,5 @@ talent unique, parmi tous ceux qui font ton charme, tu sais me comprendre.
 Merci pour tous ces instants passés, et futurs que nous passons ensemble.
 
 
-Une petite pensé pour toi qui est parti pendant ces trois années. Tu me manqueras.
+Une petite pensée pour toi qui est parti pendant ces trois années. Tu me manqueras.
 
