@@ -10,11 +10,20 @@ import re
 t =[]
 tpage = io.open('tpage.tex').read()
 for l in lines :
-    lcl=l.replace(u'chapter{P', u'chapter*{P')\
-         .replace(u'chapter{Remerciements', u'chapter*{Remerciements')\
+    lcl=l.replace(u'chapter{Prea', u'chapter*{Prea')\
+         .replace(r'\chapter{Remerciements}', r'''
+\cleardoublepage
+\chapter*{Remerciements}
+''')\
          .replace(u'chapter{Résumé', u'chapter*{Résumé')\
          .replace(u'\\renewcommand{\\releasename}{Release}', u'\\renewcommand{\\releasename}{}')\
-         .replace(u'\maketitle\n',u'\maketitle\n'+tpage)
+         .replace(u'\maketitle\n',u'\maketitle\n'+tpage)\
+         .replace(r'\tableofcontents',r'')\
+         .replace(r'\chapter*{Preamble}',r'''
+\tableofcontents
+\cleardoublepage
+\chapter*{Preamble}
+         ''')
     lcl2 = re.sub(r']}}} \(\\autopageref\*{[a-zA-Z0-9/:-]+}\)',']}}}', lcl)
     lcl3 = re.sub(r'parts/[a-zA-Z0-92]+','index-latex',lcl2)
     t.append( lcl3 )
