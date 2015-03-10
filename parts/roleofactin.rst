@@ -152,11 +152,12 @@ The equations that drive the polymerisation can be written as follow
 .. math::
     :label: roa1
 
-   \left. \frac{dn}{dt} \right|_{barbed}&= k_{+,{barbed}}.nGActin - k_{-,{barbed}} \\
-   \left. \frac{dn}{dt}\right|_{pointed}&= k_{+,{pointed}}.nGActin - k_{-,{pointed}} \\
+    \left. \frac{dn}{dt} \right|_{barbed}&= k_{+,{barbed}}.nGActin - k_{-,{barbed}} \\
+    \left. \frac{dn}{dt}\right|_{pointed}&= k_{+,{pointed}}.nGActin - k_{-,{pointed}} \\
+
 
 Where `barbed` and `pointed` designate respectively the barbed and pointed end,
-$\frac{dn}{dt} \right|_{barbed|pointed}$ represent the variation of the number of actin 
+:math:`\frac{dn}{dt} \right|_{barbed|pointed}` represent the variation of the number of actin 
 monomers in the actin filament which is due to addition or removal at the barbed
 (respectively the pointed) end.
 The association rate constant :math:`k_+` and dissociation ate constant :math:`k_-` are the polymerisation and de-polymerisation
