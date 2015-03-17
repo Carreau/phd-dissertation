@@ -208,7 +208,7 @@ controlled in bead motility assays. In the right condition, though,
 :cite:`Kawska2012` the dense actin gel formed on the bead surface can
 accumulate the stress induced by the inner layer polymerisation, until symmetry
 breaking occurs. The gel ruptures on one side of the bead, leading to
-the formation of a comet on the opposite side (:num:`Fig #fig-bead-motility`).
+the formation of a comet on the opposite side (:num:`Figure #fig-bead-motility`).
 
 .. _fig-bead-motility:
 .. figure:: /figs/Plastino-Sykes-2005.png 
@@ -317,8 +317,8 @@ leads to a favorable rupture of the actin cortex during the increase of tension,
 implying a symmetry breaking, as in the bead motility system.  In the case of strong
 attachment, the liposome actin-cortex will accumulate tension until it has
 enough force to crush the supporting lipid layer, thus collapsing the liposome
-:cite:`Carvalho2013`,(:num:`Fig #fig-peeling-scheme`). This system also allows the observation
-over time, giving extra insight into the dynamics of the actin network (:num:`Fig #fig-peeling-3d`).
+:cite:`Carvalho2013`,(:num:`Figure #fig-peeling-scheme`). This system also allows the observation
+over time, giving extra insight into the dynamics of the actin network (:num:`Figure #fig-peeling-3d`).
 
 
 
@@ -464,7 +464,7 @@ filaments. The stiffness of filaments can be measured by a characteristic number
 called the persistence length (:math:`l_p`). More precisely, the
 persistence length characterizes the average loss of correlation between the
 tangents along the considered polymer. With :math:`s` the curvilinear abscissae along the polymer, 
-and :math:`\Theta_{(x,y)}` the angle between the two tangents at two different abscissae (:num:`Fig #fig-persistence-length`):
+and :math:`\Theta_{(x,y)}` the angle between the two tangents at two different abscissae (:num:`Figure #fig-persistence-length`):
 
 
 .. math::
@@ -511,7 +511,7 @@ Elastic Modulus
 .. 3
 
 The elastic moduli are probably the easiest to understand. They are
- characteristic of how a material will deform non-permanently under an applied
+characteristic of how a material will deform non-permanently under an applied
 force. The stiffer something is, the higher its elastic moduli will be. There
 are two specific elastic moduli of interest in this
 manuscript, `Young's Modulus` and `shear modulus`. The first one describes how a material will react to compression or extension, while the
@@ -577,7 +577,7 @@ The shear modulus is defined for a deformation, parallel to the surface on which
 
 In which :math:`\tau_{xy}` is the shear stress, :math:`\gamma_{xy}` is the shear strain, :math:`F` is the applied force
 on the cross section of the material :math:`S`. :math:`l` is the thickness of the material and :math:`\Delta x` is the 
-transverse displacement (:num:`Fig #fym` B).
+transverse displacement (:num:`Figure #fym` B).
 
 
 Other characteristic numbers can also be defined, such as the bulk modulus. In the case of isotropic
@@ -661,7 +661,7 @@ solid, but can also flow. Of course, ice in its solid form is not the only
 material which is both solid and viscous. In order to describe such
 behaviour, one can use the theory of viscoelastic materials.  A number of models have
 been and are still developed to describe viscoelastic behavior. The
-Kelvin-Voigt and Maxwell models are two of the simpler ones (:num:`Fig #fig-mkv`). A thought
+Kelvin-Voigt and Maxwell models are two of the simpler ones (:num:`Figure #fig-mkv`). A thought
 experiment, conducted to understand each of these models, consists of putting a spring and a dash pot
 in parallel or series. Such model systems exhibit viscoelastic behavior. 
 
@@ -792,14 +792,14 @@ that, despite having no mass, photons carry momentum and that, as for any massiv
 object, changing the trajectory requires a force.  According to Newton's third
 law, when applying a force via a photon on an object, the object will in turn
 exert the opposite force on the photon, thus changing its trajectory. If a photon changes its trajectory in a material, the material has to apply a
-force on it(:num:`Fig #setup`), meaning that the photon also applies a force on the
+force on it(:num:`Figure #setup`), meaning that the photon also applies a force on the
 material. In particular, the higher the refractive index of a material, the
 more light beams are deviated, and hence the more photons apply forces on
 material.
 
 More specifically, it can be shown that objects with a higher refractive
 index than the surrounding medium, are attracted towards higher light intensities
-(:num:`Fig #setup`).  In particular, laser beams with a Gaussian intensity
+(:num:`Figure #setup`).  In particular, laser beams with a Gaussian intensity
 profile, will lead to the object being attracted towards their center. 
 
 In addition to the lateral trapping, the laser focus leads to
