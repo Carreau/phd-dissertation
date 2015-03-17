@@ -14,7 +14,7 @@
             if i < lim-1 : 
                 result +=', '
         if lpers > lim :
-            result +='et al.'
+            result +=' et al.'
         return result+' '
 
 # pybtex/style/labels/alpha.py

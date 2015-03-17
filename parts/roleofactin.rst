@@ -157,7 +157,7 @@ The equations that drive the polymerisation can be written as follow
 
 
 Where `barbed` and `pointed` designate respectively the barbed and pointed end,
-:math:`\frac{dn}{dt} \right|_{barbed|pointed}` represent the variation of the number of actin 
+:math:`\left.\frac{dn}{dt} \right|_{barbed|pointed}` represent the variation of the number of actin 
 monomers in the actin filament which is due to addition or removal at the barbed
 (respectively the pointed) end.
 The association rate constant :math:`k_+` and dissociation ate constant :math:`k_-` are the polymerisation and de-polymerisation

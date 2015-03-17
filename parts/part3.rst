@@ -40,7 +40,7 @@ to form a biomimetic actin cortex has already been widely studied. In
 on beads and simulations investigate the effect of cross-linking and
 Capping Protein on the formed actin gel. It can be observed both experimentally and in
 simulation that a filaments network escapes from what is defined as the actin
-cortex (:num:`Fig #fig-bead-tirf`). The effect of these long filaments is not taken into account in the
+cortex (:num:`Figure #fig-bead-tirf`). The effect of these long filaments is not taken into account in the
 `in-silico` system, where the analysis is restricted to filaments shorter than 10
 µm. The effect of dense entangled actin networks generated from
 randomly placed primers on the bead surface only participates in the tension increase and
@@ -61,7 +61,7 @@ contributes to symmetry breaking.
 
 
 The limit of the dense network, visible in epifluorescence, is defined in
-:cite:`Kawska2012` by the position of the half-maximum fluorescent intensity (:num:`Fig #fig-intensity-profile`).
+:cite:`Kawska2012` by the position of the half-maximum fluorescent intensity (:num:`Figure #fig-intensity-profile`).
 The networks properties are measured by :cite:`Pujol2012` using
 magnetic beads and phalloidin-stabilized actin. Though, they do not
 investigate the sparse and softer actin networks that originate from the visible
@@ -149,13 +149,13 @@ Experimental description
 In order to probe the actin network, we trapped an actin-bead with a growing actin-network
 and a probe-bead using time-shared :ref:`optical trap <time_shared_ot>`,  and
 measured the forces on the actin-bead, using a QPD placed in the back focal plane of
-the condenser (:ref:`material and methods <m_et_m>` .
+the condenser (:ref:`material and methods <m_et_m>`).
 
 Moreover, all force
 recordings used for analysis were made on the static bead, in our case the actin bead, to avoid systematic errors of force measurements on the moving trap.
 
 
-The indentation is a three step process (:num:`Fig #figindent-time`):
+The indentation is a three step process (:num:`Figure #figindent-time`):
 
     - An approach phase at constant velocity 10µm/sec unless specified otherwise
     - A 3 second relaxation phase during which both traps remain static
@@ -191,7 +191,7 @@ change the network properties during indentation cycle and repetitive indentatio
 While the actin network relaxes, the forces between the two beads will slowly
 decrease, thus leading to the beads getting closer to their trap center and
 to each other. There is a slight decrease in distance during the relaxation phase, compared to the distance between beads. The force decrease as well as
-the minimal change in distance between the two beads can be seen observed? on :num:`Fig #figindent-time`
+the minimal change in distance between the two beads can be observed on :num:`Figure #figindent-time`
 in the middle part.
 
 .. _figindent-time:
@@ -241,14 +241,14 @@ phases of the indentation cycle, also marked by the color used for the data.
     :width: 80%
 
     Force exerted on the actin-bead as a function of the distance between the
-    two bead centers. Colors and data are the same as in :num:`Fig #figindent-time`. 
+    two bead centers. Colors and data are the same as in :num:`Figure #figindent-time`. 
     The probe-bead starts from the far right, and gets closer
     while the force increases (green upper part of the curve), reaches a
     maximum, and enters the relaxation phase (orange part), where the force
     between both probe-beads and actin-bead decreases, while the distance  also
     slightly decreases. During the retraction part (blue), the force rapidly
     decreases and  reaches negative values as   the bead returns to its initial
-    position. The observed data is a subsample of 1 in? every 1000 points of acquired
+    position. The observed data is a subsample of 1 in every 1000 points of acquired
     data. Shaded regions represent areas where the two polystyrene beads should 
     interpenetrate.
 
@@ -260,7 +260,7 @@ Repetitive indent
 The indentation cycle can be repeated several times every few seconds, to check for reproducibility and non-plastic deformation of the network after
 indentation. As the network is constantly growing during the measurement, this
 repeat also allows to check for possible changes of the network properties, due to actin
-polymerisation. The force-distance plot is shown in :num:`Figure #reproc` :num:`, #reproc-time`.
+polymerisation. The force-distance plot is shown in :num:`figure #reproc` :num:`, #reproc-time`.
 
 
 .. _reproc-time:
@@ -280,7 +280,7 @@ polymerisation. The force-distance plot is shown in :num:`Figure #reproc` :num:`
     :width: 80%
 
     Figure showing the indentation process reproducibility on a bead with
-    25nM Arp2/3 and 10nM CP Subset of data from :num:`Fig #reproc-time` highlighted
+    25nM Arp2/3 and 10nM CP Subset of data from :num:`Figure #reproc-time` highlighted
     with different colors to represent the evolution of the indentation curve
     over time.  Time is relative to the first indentation. Shaded areas represent
     zones where the two beads should  interpenetrates.
@@ -292,7 +292,7 @@ Effect of approach speed
 :cite:`Gardel2003` suggests that, for frequencies higher than 0.1 Hz, the force due to
 the actin network viscous behavior can be in the same order as the one due to the elastic
 component . In order to test whether such a relaxation effect is important, we measured the effect of the
-approach speed on the force measurements. :num:`Fig #many-speed` presents the
+approach speed on the force measurements. :num:`Figure #many-speed` presents the
 indentation speed affecting the measurement by varying the approach speed from 10
 to 30 µm/s on the same actin-bead.
 
@@ -439,7 +439,7 @@ across all fits.
 
 The approach phase data can be corrected for the distance offset :math:`\delta`
 and plot in a log-log scale allowing for a better appreciation of the fit
-result (:num:`Fig #force-distance-log-log`). The corrected distance is noted with  `c` indices :math:`d_c = d-
+result (:num:`Figure #force-distance-log-log`). The corrected distance is noted with  `c` indices :math:`d_c = d-
 \delta`. In the model the force tends to infinity at :math:`d_c = 0`.
 
 
@@ -452,7 +452,7 @@ result (:num:`Fig #force-distance-log-log`). The corrected distance is noted wit
     Force on the actin bead  during the approach phase as a function of bead distance
     minus distance offset :math:`\delta` plotted on a log-log scale. Black line
     represents the power law model with the offset distance correction. Same
-    data as :num:`Fig #force-distance` but showing only the approach phase. 
+    data as :num:`Figure #force-distance` but showing only the approach phase. 
 
 
 In our experiments, the polystyrene beads have an average diameter of 4.34 µm,
@@ -476,7 +476,7 @@ seen on :num:`figure #power-law-exponent`
 
 
 Due to the scale invariance of the inverse power law found above,  all the
-approach phases data can be rescaled into a single master-curve (:num:`Fig #fig-rescale-powerlaw`). This is achieved
+approach phases data can be rescaled into a single master-curve (:num:`Figure #fig-rescale-powerlaw`). This is achieved
 by dividing the force by the maximum force :math:`F_{max}` reached during the
 approach, and rescaling the distance by the minimum approach distance from which
 :math:`\delta` is subtracted. 
@@ -517,7 +517,7 @@ not break symmetry either. We then investigated the variation of each fit parame
 
 
 We have already,  seen  that the power law exponent factor |alpha|
-didn't vary with the amount of Capping Protein in solution (:num:`Fig #power-law-exponent`). 
+didn't vary with the amount of Capping Protein in solution (:num:`Figure #power-law-exponent`). 
 The two other investigated parameters are the prefactor
 :math:`\beta` and distance offset :math:`\delta` . For the same value of :math:`\alpha` and :math:`\delta`, the
 higher :math:`\beta` is, the stronger the interaction between the two beads for
@@ -535,7 +535,7 @@ concentration.
     for the same corrected distance between bead centers. 
 
 The last parameter of our model is :math:`\delta`, the distance at which the force
-diverges.   It can be seen in :num:`Figure #delta-violin` that with the exception
+diverges.   It can be seen in :num:`figure #delta-violin` that with the exception
 of zero Capping Protein, the distance at which the model diverges gets
 closer to the polystyrene bead diameter, as the concentration of Capping
 Proteins in the medium increases. It is interesting to note that the distance offset
@@ -629,7 +629,7 @@ properties of the actin cloud between the actin bead surface and the
 probe-bead surface and does not reflect the variation of the uncompressed actin cloud mechanical
 properties with position.
 Physically :math:`E_0` corresponds to the Young's modulus as a corrected distance of :math:`d_c = 1 \mu{}m` 
-(See :num:`Fig #ev`)
+(See :num:`Figure #ev`)
 The geometry of the
 system and the fluorescence signal suggest a decrease of the actin cloud density according to the distance from the actin-bead center. All values
 reported later represent an estimation of the effective Young’s modulus elasticity. The value of this effective Young's modulus is 3 orders of magnitude
@@ -760,7 +760,7 @@ correlation with the Capping Protein concentration.
 
     Meshsize vs Capping plot.
 
-We explored the correlation between the mesh size and |delta| by plotting  the mesh size against the distance offset |delta| (:num:`Fig #dxcf`).
+We explored the correlation between the mesh size and |delta| by plotting  the mesh size against the distance offset |delta| (:num:`Figure #dxcf`).
 :num:`Figure #dxf` shows the relation between the mesh size and the offset
 distance |delta| regardless of each Capping Protein concentration.
 
@@ -778,7 +778,7 @@ distance |delta| regardless of each Capping Protein concentration.
 .. figure:: /figs/delta-xi-facets.*
     :width: 100%
 
-    Same figure as :num:`Fig #dxcf` for each concentration of Capping Protein,
+    Same figure as :num: #dxcf` for each concentration of Capping Protein,
     with linear regression and confidence intervals at 95%.
 
 From :eq:`eqa` and :eq:`eqb` by identifying the prefactor, it is also possible
@@ -811,7 +811,7 @@ on the actin bead surface. This stiff gel
 cannot be indented by the optical tweezer. Beyond this dense gel, a soft
 actin cloud with an effective elastic modulus of 1 Pa and below is
 present and extends on distances several times bigger than the thickness
-of the reconstituted actin cortex (:num:`Fig #fig-interpretation`). The
+of the reconstituted actin cortex (:num:`Figure #fig-interpretation`). The
 structure of this actin cloud is expected to be quite different from the
 dendritic gel and to be mostly constituted of loosely entangled actin filaments. 
 
@@ -875,8 +875,8 @@ Relaxation phase
 
 The approach phase of the indentation cycle has been modelled with a purely
 elastic mode. However, the force-distance plot shows a significant dissipation
-marked by an hysteresis :num:`Fig #force-distance`. The repetitive indent cycle, giving the same
-force-distance curves (:num:`Fig #reproc`), allows to exclude a plastic deformation. 
+marked by an hysteresis :num:`Figure #force-distance`. The repetitive indent cycle, giving the same
+force-distance curves (:num:`Figure #reproc`), allows to exclude a plastic deformation. 
 We can hence reject the hypothesis of ruptures of the
 actin meshwork or breakage near the entanglement points.
 
@@ -953,7 +953,7 @@ coefficient per unit length. :math:`\gamma` depends on the solvent viscosity
 :math:`\eta_s`, the mesh-size :math:`\xi_0` and the filament diameter
 :math:`d_f` (:math:`~7nm` for actin).  We use :math:`\eta_s=10^{-3} Pa\times s`
 for water and a mesh size in the order of 400nm as determined from the approach phase
-(:num:`Fig #tau-violin`). Using |tau| given by the fit, this leads to filaments
+(:num:`Figure #tau-violin`). Using |tau| given by the fit, this leads to filaments
 length ranging from 3 to 8 µm, which is consistent with TIRF experiments and simulation as done in :cite:`Kawska2012`.
 
 
@@ -1001,7 +1001,7 @@ network behind the bead :math:`F_{closing}`.
     F_{ret}(d) &= F_{da}(d) + F_{closing}(d)\\
     F_{ret}(d) &= \chi(t_2-t_1).\beta(d-\delta)^\alpha+ F_{closing}(d)
 
-:math:`F_{closing}` is computed using the fit parameter |alpha|, |beta|, |delta| and :math:`\tau_{rep}` (:num:`Fig #retract-powerlaw`).
+:math:`F_{closing}` is computed using the fit parameter |alpha|, |beta|, |delta| and :math:`\tau_{rep}` (:num:`Figure #retract-powerlaw`).
 
 On a double logarithmic scale and at long distance :math:`F_{closing}` also seems to
 follow a power law (:math:`F_{plaw}`), when no sticking events are present.
