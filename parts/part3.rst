@@ -778,7 +778,7 @@ distance |delta| regardless of each Capping Protein concentration.
 .. figure:: /figs/delta-xi-facets.*
     :width: 100%
 
-    Same figure as :num: #dxcf` for each concentration of Capping Protein,
+    Same figure as :num:`#dxcf` for each concentration of Capping Protein,
     with linear regression and confidence intervals at 95%.
 
 From :eq:`eqa` and :eq:`eqb` by identifying the prefactor, it is also possible
