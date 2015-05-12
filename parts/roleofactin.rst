@@ -152,20 +152,22 @@ The equations that drive the polymerisation can be written as follow
 .. math::
     :label: roa1
 
-    \left. \frac{dn}{dt} \right|_{barbed}&= k_{+,{barbed}}.nGActin - k_{-,{barbed}} \\
-    \left. \frac{dn}{dt}\right|_{pointed}&= k_{+,{pointed}}.nGActin - k_{-,{pointed}} \\
+    \left. \frac{dC}{dt} \right|_{barbed} &= k_{+,{barbed}}.[GActin] - k_{-,{barbed}} \\
+    \left. \frac{dC}{dt} \right|_{pointed}&= k_{+,{pointed}}.[GActin]- k_{-,{pointed}} \\
 
 
 Where `barbed` and `pointed` designate respectively the barbed and pointed end,
-:math:`\left.\frac{dn}{dt} \right|_{barbed|pointed}` represent the variation of the number of actin 
-monomers in the actin filament which is due to addition or removal at the barbed
-(respectively the pointed) end.
-The association rate constant :math:`k_+` and dissociation ate constant :math:`k_-` are the polymerisation and de-polymerisation
-rate.  The concentration in barbed and pointed-end denoted by
-:math:`C_{{barbed}/{pointed}}`. By assuming that the number of pointed ends is
-equal to the number of barbed ends, one can derive the steady state which give
-rise to the critical monomer concentration below which an actin filament cannot
-grow: :math:`[GActin]_c`.
+:math:`\left.\frac{dC}{dt} \right|_{barbed|pointed}` represent the variation of
+the concentration of actin monomers  which is due to addition or removal at the
+barbed (respectively the pointed) end of actin filaments.  The association
+rate constant :math:`k_+` and dissociation rate constant :math:`k_-` are the
+polymerisation and de-polymerisation rate.  The concentration in barbed and
+pointed-end denoted by :math:`C_{{barbed}/{pointed}}` , :math:`[GActin]` is the
+concentration of action monomers in solution. By assuming that the
+concentration of pointed ends is equal to the concentration of barbed ends (no
+capped or branch filaments), one can derive the steady state which give rise to
+the critical monomer concentration below which an actin filament cannot grow:
+:math:`[GActin]_c`.
 
 The rate constants of elongation of actin have been determined and depend on
 whether the monomer is bound to ADP or ATP :cite:`Pollard1986`. We should
